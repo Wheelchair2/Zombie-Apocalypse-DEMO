@@ -1,0 +1,17 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 9999,
+		"buildingCost": 40,
+        "wonderCost": 50,
+		"techs": [
+			{
+				"name": "DEMO VERSION",
+				"row": 5,
+				"quote": "",
+				"uniques": ["Comment [This mod is still work in progress. If you have suggestions, visit the 'Zombie Apocalypse Ruleset' thread in the Unciv discord server. Have a nice day!]"]
+			}
+		]
+	}
+]

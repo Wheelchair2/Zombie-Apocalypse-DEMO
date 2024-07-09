@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Cultured",
+        "friendBonusUniques": [
+            "[+3 Culture]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture]",
+        ],
+        "color": [139, 96, 255]
+    },
+]

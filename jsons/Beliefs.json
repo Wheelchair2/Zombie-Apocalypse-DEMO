@@ -1,0 +1,29 @@
+
+[
+    {
+        "name": "Ancestor Worship",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Palace]"]
+    },
+///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
+    {
+        "name": "Swords into Ploughshares",
+        "type": "Follower",
+        "uniques": ["[+15]% growth [in this city] <when not at war>"]
+    },
+///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+
+    {
+        "name": "Ceremonial Burial",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] for each global city following this religion"]
+    },
+    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+
+    {
+        "name": "Defender of the Faith",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+        // ToDo: Should only be friendly territory of cities that follow this religion
+    },
+]
