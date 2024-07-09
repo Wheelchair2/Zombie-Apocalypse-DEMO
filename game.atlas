@@ -137,478 +137,478 @@ TileSets/FantasyHex/Tiles/Abandoned Site2 2nd
   orig: 32, 30
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Ancient Ruins
+  rotate: false
+  xy: 1296, 96
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Blank 2nd Story Indoor
   rotate: false
-  xy: 1296, 86
+  xy: 1336, 86
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Blank Indoor
   rotate: false
-  xy: 1336, 91
+  xy: 1376, 91
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Broken House
   rotate: false
-  xy: 1376, 91
+  xy: 1416, 91
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Broken House 2nd
   rotate: false
-  xy: 1416, 86
+  xy: 1456, 86
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Broken Kitchen
   rotate: false
-  xy: 1456, 91
+  xy: 1496, 91
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Broken Kitchen 2nd
   rotate: false
-  xy: 1496, 86
+  xy: 1536, 86
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Broken Living Room
   rotate: false
-  xy: 1536, 91
+  xy: 1576, 91
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Broken Living Room 2nd
   rotate: false
-  xy: 1576, 86
+  xy: 1616, 86
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Broken Restaurant
   rotate: false
-  xy: 1616, 91
+  xy: 1656, 91
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Broken Restaurant 2nd
   rotate: false
-  xy: 1656, 86
+  xy: 1696, 86
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Concrete
   rotate: false
-  xy: 1696, 96
+  xy: 1736, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Convenience Store
   rotate: false
-  xy: 1736, 91
+  xy: 1776, 91
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Corn
   rotate: false
-  xy: 1776, 96
+  xy: 1816, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Corn Field
   rotate: false
-  xy: 1816, 94
+  xy: 1856, 94
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 1856, 96
+  xy: 1896, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DesertHill
   rotate: false
-  xy: 1896, 96
+  xy: 1936, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Facility
   rotate: false
-  xy: 1936, 91
+  xy: 1976, 91
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fort
   rotate: false
-  xy: 1976, 91
+  xy: 868, 11
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 868, 16
+  xy: 908, 56
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandHill
   rotate: false
-  xy: 908, 54
+  xy: 908, 18
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandTall Grass
   rotate: false
-  xy: 908, 16
+  xy: 1736, 58
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandTall Grass+Corn
   rotate: false
-  xy: 1696, 58
+  xy: 1776, 53
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hill+Indoor
   rotate: false
-  xy: 1736, 45
+  xy: 1816, 50
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/House
   rotate: false
-  xy: 1776, 55
+  xy: 1856, 53
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/House2
   rotate: false
-  xy: 1816, 53
+  xy: 1896, 55
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/House2nd
   rotate: false
-  xy: 1856, 50
+  xy: 1936, 50
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/House2nd2
   rotate: false
-  xy: 1896, 50
+  xy: 1976, 45
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Improved Fountain
   rotate: false
-  xy: 1936, 51
+  xy: 1296, 56
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Improved Fountain 2nd
   rotate: false
-  xy: 1976, 50
+  xy: 1256, 53
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kitchen
   rotate: false
-  xy: 948, 4
+  xy: 1336, 45
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kitchen 2nd
   rotate: false
-  xy: 948, 46
+  xy: 1376, 45
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Living Room
   rotate: false
-  xy: 988, 4
+  xy: 1416, 50
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Living Room 2nd
   rotate: false
-  xy: 1776, 9
+  xy: 1416, 4
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Metals
   rotate: false
-  xy: 1816, 17
+  xy: 1456, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain
   rotate: false
-  xy: 1256, 43
+  xy: 1896, 4
   size: 32, 43
   orig: 32, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain2
   rotate: false
-  xy: 1296, 35
+  xy: 1496, 40
   size: 32, 43
   orig: 32, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain3
   rotate: false
-  xy: 1336, 40
+  xy: 1536, 35
   size: 32, 43
   orig: 32, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mud 2nd
   rotate: false
-  xy: 1336, 4
+  xy: 1456, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Old Indoor
   rotate: false
-  xy: 1376, 50
+  xy: 1576, 50
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains
   rotate: false
-  xy: 1416, 50
+  xy: 1496, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsHill
   rotate: false
-  xy: 1456, 55
+  xy: 1936, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsHill2
   rotate: false
-  xy: 1376, 14
+  xy: 1856, 17
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsMud
   rotate: false
-  xy: 1416, 14
+  xy: 1616, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsTall Grass
   rotate: false
-  xy: 1456, 17
+  xy: 1656, 53
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsTall Grass+Corn
   rotate: false
-  xy: 1496, 48
+  xy: 1696, 48
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Police Station
   rotate: false
-  xy: 1536, 50
+  xy: 1976, 4
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Restaurant
   rotate: false
-  xy: 1576, 45
+  xy: 948, 4
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Restaurant 2nd
   rotate: false
-  xy: 1856, 4
+  xy: 1576, 4
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rocks
   rotate: false
-  xy: 1616, 55
+  xy: 1616, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rocks 2nd
   rotate: false
-  xy: 1656, 50
+  xy: 1656, 17
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rocks 2nd+Metals
   rotate: false
-  xy: 1896, 14
+  xy: 1696, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rocks+Metals
   rotate: false
-  xy: 1936, 15
+  xy: 1736, 22
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rubble
   rotate: false
-  xy: 1976, 10
+  xy: 1776, 13
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rubble2
   rotate: false
-  xy: 1496, 10
+  xy: 1816, 12
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ruins
-  rotate: false
-  xy: 1536, 14
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 1576, 9
+  xy: 1296, 20
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/SnowHill
   rotate: false
-  xy: 1616, 17
+  xy: 1336, 7
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Street
   rotate: false
-  xy: 1656, 14
+  xy: 1376, 9
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Street2
   rotate: false
-  xy: 1696, 22
+  xy: 948, 56
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Street3
   rotate: false
-  xy: 1736, 9
+  xy: 1056, 58
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/StreetHill
   rotate: false
-  xy: 988, 52
+  xy: 1096, 53
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/StreetHill2
   rotate: false
-  xy: 1028, 52
+  xy: 1136, 54
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/StreetHill3
   rotate: false
-  xy: 1028, 14
+  xy: 1176, 54
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/StreetHill4
   rotate: false
-  xy: 1068, 53
+  xy: 1216, 54
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trash
   rotate: false
-  xy: 1068, 12
+  xy: 988, 49
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trash 2nd
   rotate: false
-  xy: 1108, 45
+  xy: 1136, 8
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra
   rotate: false
-  xy: 1148, 56
+  xy: 1176, 18
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TundraHill
   rotate: false
-  xy: 1188, 56
+  xy: 1216, 18
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
