@@ -1,17 +1,303 @@
 [
 	{
 		"columnNumber": 0,
+		"era": "Chapter 1 - Search",
+		"techCost": 5,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "DEMO VERSION",
+				"row": 3,
+				"quote": "",
+				"uniques": ["Comment [This mod is still work in progress. If you have suggestions, visit the 'Zombie Apocalypse Ruleset' thread in the Unciv discord server. Have a nice day!]"]
+			},
+			{
+				"name": "Search For Home",
+				"row": 5,
+				"quote": "",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Chapter 1 - Search",
+		"techCost": 12,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "Houses",
+				"row": 3,
+				"prerequisites": ["Search For Home"],
+				"quote": "",
+			},
+			{
+				"name": "Wilderness Survival",
+				"row": 7,
+				"prerequisites": ["Search For Home"],
+				"quote": "",
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Chapter 1 - Search",
+		"techCost": 20,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "Search",
+				"row": 2,
+				"prerequisites": ["Houses"],
+				"quote": "",
+			},
+			{
+				"name": "Extract",
+				"row": 3,
+				"prerequisites": ["Houses"],
+				"quote": "",
+			},
+			{
+				"name": "Crafting",
+				"row": 5,
+				"prerequisites": ["Search For Home"],
+				"quote": "",
+			},
+			{
+				"name": "Planting",
+				"prerequisites": ["Wilderness Survival"],
+				"row": 7,
+				"quote": "",
+			},
+			{
+				"name": "Forage",
+				"row": 8,
+				"prerequisites": ["Wilderness Survival"],
+				"quote": "",
+			},
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Chapter 1 - Search",
+		"techCost": 40,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "Rifle",
+				"row": 4,
+				"prerequisites": ["Crafting"],
+				"quote": "",
+			},
+			{
+				"name": "Handgun",
+				"row": 6,
+				"prerequisites": ["Crafting"],
+				"quote": "",
+			},
+			{
+				"name": "Hunting",
+				"row": 8,
+				"prerequisites": ["Forage"],
+				"quote": "",
+			},
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Chapter 2 - Retaliation",
+		"techCost": 40,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "Vehicle",
+				"row": 1,
+				"prerequisites": ["Search"],
+				"quote": "",
+			},
+			{
+				"name": "Recyling",
+				"row": 2,
+				"prerequisites": ["Search"],
+				"quote": "",
+			},
+			{
+				"name": "Shotgun",
+				"row": 5,
+				"prerequisites": ["Handgun"],
+				"quote": "",
+			},
+			{
+				"name": "Metal Casting",
+				"row": 7,
+				"prerequisites": ["Planting", "Hunting"],
+				"quote": "",
+			},
+			{
+				"name": "Desalination",
+				"row": 9,
+				"prerequisites": ["Hunting"],
+				"quote": "",
+			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Chapter 2 - Retaliation",
+		"techCost": 40,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "Apartment",
+				"row": 3,
+				"prerequisites": ["Extract"],
+				"quote": "",
+			},
+			{
+				"name": "Combat Vehicle",
+				"row": 6,
+				"prerequisites": ["Handgun"],
+				"quote": "",
+			},
+			{
+				"name": "Electric Generator",
+				"row": 8,
+				"prerequisites": ["Desalination"],
+				"quote": "",
+			},
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Chapter 2 - Retaliation",
+		"techCost": 40,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "Filler 1",
+				"row": 2,
+				"prerequisites": ["Recyling", "Apartment"],
+				"quote": "",
+			},
+			{
+				"name": "Automatic Rifle",
+				"row": 4,
+				"prerequisites": ["Rifle"],
+				"quote": "",
+			},
+			{
+				"name": "Armor Gear",
+				"row": 7,
+				"prerequisites": ["Metal Casting"],
+				"quote": "",
+			},
+			{
+				"name": "Medicine",
+				"row": 9,
+				"prerequisites": ["Desalination"],
+				"quote": "",
+			},
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Chapter 3 - Recovery",
+		"techCost": 40,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "Oil",
+				"row": 1,
+				"prerequisites": ["Vehicle"],
+				"quote": "",
+			},
+			{
+				"name": "Filler 2",
+				"row": 5,
+				"prerequisites": ["Shotgun", "Combat Vehicle"],
+				"quote": "",
+			},
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Chapter 3 - Recovery",
+		"techCost": 40,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "Filler 3",
+				"row": 2,
+				"prerequisites": ["Filler 1"],
+				"quote": "",
+			},
+			{
+				"name": "Sniping Rifle",
+				"row": 4,
+				"prerequisites": ["Automatic Rifle"],
+				"quote": "",
+			},
+			{
+				"name": "Metallurgy",
+				"row": 7,
+				"prerequisites": ["Armor Gear", "Electric Generator"],
+				"quote": "",
+			},
+			{
+				"name": "Filler 4",
+				"row": 9,
+				"prerequisites": ["Medicine", "Electric Generator"],
+				"quote": "",
+			},
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Chapter 3 - Recovery",
+		"techCost": 40,
+		"buildingCost": 40,
+        "wonderCost": 185,
+		"techs": [
+			{
+				"name": "Speed Boats",
+				"row": 1,
+				"prerequisites": ["Oil"],
+				"quote": "",
+			},
+			{
+				"name": "Drones",
+				"row": 5,
+				"prerequisites": ["Filler 2"],
+				"quote": "",
+			},
+			{
+				"name": "Filler 5",
+				"row": 6,
+				"prerequisites": ["Filler 2"],
+				"quote": "",
+			},
+		]
+	},
+]
+
+[
+	{
+		"columnNumber": 0,
 		"era": "Ancient era",
 		"techCost": 9999,
 		"buildingCost": 40,
         "wonderCost": 50,
 		"techs": [
-			{
-				"name": "DEMO VERSION",
-				"row": 5,
-				"quote": "",
-				"uniques": ["Comment [This mod is still work in progress. If you have suggestions, visit the 'Zombie Apocalypse Ruleset' thread in the Unciv discord server. Have a nice day!]"]
-			}
+			
 		]
 	}
 ]
