@@ -288,16 +288,3 @@
 		]
 	},
 ]
-
-[
-	{
-		"columnNumber": 0,
-		"era": "Ancient era",
-		"techCost": 9999,
-		"buildingCost": 40,
-        "wonderCost": 50,
-		"techs": [
-			
-		]
-	}
-]
