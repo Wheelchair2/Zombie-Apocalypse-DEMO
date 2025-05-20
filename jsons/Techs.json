@@ -1,290 +1,287 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Chapter 1 - Search",
-		"techCost": 5,
-		"buildingCost": 40,
-        "wonderCost": 185,
+		"era": "Times of Survival",
+		"techCost": 10,
+		"buildingCost": 20,
+		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "DEMO VERSION",
+				"name": "INDEV",
 				"row": 3,
 				"quote": "",
-				"uniques": ["Comment [This mod is still work in progress. If you have suggestions, visit the 'Zombie Apocalypse Ruleset' thread in the Unciv discord server. Have a nice day!]"]
+				"uniques": ["Comment [INFDEV WHEN? NOTCH?]"]
 			},
 			{
-				"name": "Search For Home",
+				"name": "Humanity's Journey",
 				"row": 5,
-				"quote": "",
-				"uniques": ["Starting tech"]
+				"quote": "'This is not a monument to loss. This is an ode to resilience that can only be seen in the wake of catastrophe.' ― Riley Black On Dinosaur's extinction.",
+				"uniques": ["Starting tech","Comment [So nice having a 6000 year continuous development of human civilization, would be a shame if something happens to it.]"]
 			}
 		]
 	},
 	{
 		"columnNumber": 1,
-		"era": "Chapter 1 - Search",
-		"techCost": 12,
-		"buildingCost": 40,
-        "wonderCost": 185,
+		"era": "Times of Survival",
+		"techCost": 10,
+		"buildingCost": 20,
+		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Houses",
-				"row": 3,
-				"prerequisites": ["Search For Home"],
-				"quote": "",
+				"name": "Urban Survivor",
+				"row": 4,
+				"prerequisites": ["Humanity's Journey"],
+				"quote": ""
 			},
 			{
-				"name": "Wilderness Survival",
+				"name": "Rural Survivor",
 				"row": 7,
-				"prerequisites": ["Search For Home"],
-				"quote": "",
-			}
+				"prerequisites": ["Humanity's Journey"],
+				"quote": ""
+			},
+			{
+				"name": "Military Survivor",
+				"row": 10,
+				"prerequisites": ["Humanity's Journey"],
+				"quote": ""
+			},
 		]
 	},
 	{
 		"columnNumber": 2,
-		"era": "Chapter 1 - Search",
+		"era": "Times of Survival",
 		"techCost": 20,
-		"buildingCost": 40,
-        "wonderCost": 185,
+		"buildingCost": 30,
+		"wonderCost": 200,
 		"techs": [
 			{
-				"name": "Search",
-				"row": 2,
-				"prerequisites": ["Houses"],
-				"quote": "",
-			},
-			{
-				"name": "Extract",
+				"name": "Scavenging Vehicle",
 				"row": 3,
-				"prerequisites": ["Houses"],
-				"quote": "",
+				"prerequisites": ["Urban Survivor"],
+				"quote": ""
 			},
 			{
-				"name": "Crafting",
+				"name": "Scavenging Building",
 				"row": 5,
-				"prerequisites": ["Search For Home"],
-				"quote": "",
+				"prerequisites": ["Urban Survivor"],
+				"quote": ""
 			},
 			{
-				"name": "Planting",
-				"prerequisites": ["Wilderness Survival"],
+				"name": "Foraging",
 				"row": 7,
-				"quote": "",
+				"prerequisites": ["Rural Survivor"],
+				"quote": ""
 			},
 			{
-				"name": "Forage",
-				"row": 8,
-				"prerequisites": ["Wilderness Survival"],
-				"quote": "",
+				"name": "Total Mobilization",
+				"prerequisites": ["Military Survivor"],
+				"row": 10,
+				"quote": ""
 			},
 		]
 	},
 	{
 		"columnNumber": 3,
-		"era": "Chapter 1 - Search",
-		"techCost": 40,
-		"buildingCost": 40,
-        "wonderCost": 185,
+		"era": "Times of Survival",
+		"techCost": 20,
+		"buildingCost": 30,
+		"wonderCost": 200,
 		"techs": [
 			{
-				"name": "Rifle",
+				"name": "Search Party",
 				"row": 4,
-				"prerequisites": ["Crafting"],
-				"quote": "",
+				"prerequisites": ["Scavenging Vehicle","Scavenging Building"],
+				"quote": ""
 			},
 			{
-				"name": "Handgun",
+				"name": "Fishing",
 				"row": 6,
-				"prerequisites": ["Crafting"],
-				"quote": "",
+				"prerequisites": ["Foraging"],
+				"quote": ""
 			},
 			{
-				"name": "Hunting",
+				"name": "Hunting Party",
 				"row": 8,
-				"prerequisites": ["Forage"],
-				"quote": "",
+				"prerequisites": ["Total Mobilization","Foraging"],
+				"quote": ""
+			},
+			{
+				"name": "Militia Organization",
+				"row": 10,
+				"prerequisites": ["Total Mobilization"],
+				"quote": ""
 			},
 		]
 	},
 	{
 		"columnNumber": 4,
-		"era": "Chapter 2 - Retaliation",
+		"era": "Times of Survival",
 		"techCost": 40,
-		"buildingCost": 40,
-        "wonderCost": 185,
+		"buildingCost": 50,
+		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Vehicle",
-				"row": 1,
-				"prerequisites": ["Search"],
-				"quote": "",
+				"name": "Basic Structure",
+				"row": 4,
+				"prerequisites": ["Search Party"],
+				"quote": ""
 			},
 			{
-				"name": "Recyling",
-				"row": 2,
-				"prerequisites": ["Search"],
-				"quote": "",
-			},
-			{
-				"name": "Shotgun",
-				"row": 5,
-				"prerequisites": ["Handgun"],
-				"quote": "",
-			},
-			{
-				"name": "Metal Casting",
+				"name": "Emergency Agriculture",
 				"row": 7,
-				"prerequisites": ["Planting", "Hunting"],
-				"quote": "",
+				"prerequisites": ["Fishing","Hunting Party"],
+				"quote": ""
 			},
 			{
-				"name": "Desalination",
+				"name": "Makeshift Weapons",
 				"row": 9,
-				"prerequisites": ["Hunting"],
-				"quote": "",
+				"prerequisites": ["Militia Organization"],
+				"quote": ""
+			},
+			{
+				"name": "Scent Research",
+				"row": 11,
+				"prerequisites": ["Militia Organization"],
+				"quote": ""
 			},
 		]
 	},
 	{
 		"columnNumber": 5,
-		"era": "Chapter 2 - Retaliation",
-		"techCost": 40,
-		"buildingCost": 40,
-        "wonderCost": 185,
+		"era": "Times of Strive",
+		"techCost": 50,
+		"buildingCost": 55,
+		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Apartment",
-				"row": 3,
-				"prerequisites": ["Extract"],
-				"quote": "",
+				"name": "Back to the Job",
+				"row": 4,
+				"prerequisites": ["Basic Structure"],
+				"quote": ""
 			},
 			{
-				"name": "Combat Vehicle",
-				"row": 6,
-				"prerequisites": ["Handgun"],
-				"quote": "",
+				"name": "Food Preseravtion",
+				"row": 7,
+				"prerequisites": ["Emergency Agriculture"],
+				"quote": ""
 			},
 			{
-				"name": "Electric Generator",
-				"row": 8,
-				"prerequisites": ["Desalination"],
-				"quote": "",
+				"name": "Basic Army",
+				"row": 9,
+				"prerequisites": ["Militia Organization"],
+				"quote": ""
+			},
+			{
+				"name": "Scent Research",
+				"row": 11,
+				"prerequisites": ["Militia Organization"],
+				"quote": ""
 			},
 		]
 	},
 	{
 		"columnNumber": 6,
-		"era": "Chapter 2 - Retaliation",
-		"techCost": 40,
-		"buildingCost": 40,
-        "wonderCost": 185,
+		"era": "Times of Strive",
+		"techCost": 70,
+		"buildingCost": 55,
+		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Filler 1",
-				"row": 2,
-				"prerequisites": ["Recyling", "Apartment"],
-				"quote": "",
+				"name": "Welding",
+				"row": 3,
+				"prerequisites": ["Back to the Job"],
+				"quote": ""
 			},
 			{
-				"name": "Automatic Rifle",
-				"row": 4,
-				"prerequisites": ["Rifle"],
-				"quote": "",
+				"name": "Carpentry",
+				"row": 5,
+				"prerequisites": ["Back to the Job"],
+				"quote": ""
 			},
 			{
-				"name": "Armor Gear",
+				"name": "River Patrol",
 				"row": 7,
-				"prerequisites": ["Metal Casting"],
-				"quote": "",
+				"prerequisites": ["Food Preseravtion"],
+				"quote": ""
 			},
 			{
-				"name": "Medicine",
-				"row": 9,
-				"prerequisites": ["Desalination"],
-				"quote": "",
+				"name": "Pike and Shot",
+				"row": 8,
+				"prerequisites": ["Basic Army"],
+				"quote": ""
+			},
+			{
+				"name": "Target Priority",
+				"row": 11,
+				"prerequisites": ["Scent Research"],
+				"quote": ""
 			},
 		]
 	},
 	{
 		"columnNumber": 7,
-		"era": "Chapter 3 - Recovery",
-		"techCost": 40,
-		"buildingCost": 40,
-        "wonderCost": 185,
+		"era": "Times of Strive",
+		"techCost": 90,
+		"buildingCost": 70,
+		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Oil",
-				"row": 1,
-				"prerequisites": ["Vehicle"],
-				"quote": "",
+				"name": "Wiring",
+				"row": 4,
+				"prerequisites": ["Welding","Carpentry"],
+				"quote": ""
 			},
 			{
-				"name": "Filler 2",
-				"row": 5,
-				"prerequisites": ["Shotgun", "Combat Vehicle"],
-				"quote": "",
+				"name": "Cement",
+				"row": 6,
+				"prerequisites": ["Welding","Carpentry"],
+				"quote": ""
+			},
+			{
+				"name": "Signaling",
+				"row": 8,
+				"prerequisites": ["Pike and Shot","River Patrol"],
+				"quote": ""
+			},
+			{
+				"name": "Trapping",
+				"row": 10,
+				"prerequisites": ["Target Priority"],
+				"quote": ""
 			},
 		]
 	},
 	{
 		"columnNumber": 8,
-		"era": "Chapter 3 - Recovery",
-		"techCost": 40,
-		"buildingCost": 40,
-        "wonderCost": 185,
+		"era": "Times of Strive",
+		"techCost": 90,
+		"buildingCost": 70,
+		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Filler 3",
-				"row": 2,
-				"prerequisites": ["Filler 1"],
-				"quote": "",
-			},
-			{
-				"name": "Sniping Rifle",
+				"name": "Chemistry",
 				"row": 4,
-				"prerequisites": ["Automatic Rifle"],
-				"quote": "",
+				"prerequisites": ["Wiring"],
+				"quote": ""
 			},
 			{
-				"name": "Metallurgy",
-				"row": 7,
-				"prerequisites": ["Armor Gear", "Electric Generator"],
-				"quote": "",
-			},
-			{
-				"name": "Filler 4",
-				"row": 9,
-				"prerequisites": ["Medicine", "Electric Generator"],
-				"quote": "",
-			},
-		]
-	},
-	{
-		"columnNumber": 9,
-		"era": "Chapter 3 - Recovery",
-		"techCost": 40,
-		"buildingCost": 40,
-        "wonderCost": 185,
-		"techs": [
-			{
-				"name": "Speed Boats",
-				"row": 1,
-				"prerequisites": ["Oil"],
-				"quote": "",
-			},
-			{
-				"name": "Drones",
-				"row": 5,
-				"prerequisites": ["Filler 2"],
-				"quote": "",
-			},
-			{
-				"name": "Filler 5",
+				"name": "Permanent Structure",
 				"row": 6,
-				"prerequisites": ["Filler 2"],
-				"quote": "",
+				"prerequisites": ["Cement"],
+				"quote": ""
+			},
+			{
+				"name": "Radio",
+				"row": 8,
+				"prerequisites": ["Wiring","Signaling"],
+				"quote": ""
+			},
+			{
+				"name": "Vehicle Modification",
+				"row": 10,
+				"prerequisites": ["Wiring","Target Priority"],
+				"quote": ""
 			},
 		]
-	},
+	}
 ]

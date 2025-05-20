@@ -2,44 +2,175 @@
 
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
-	/* Ancient Era */
-	{
-		"name": "Worker",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 70
-	},
+	///Civilian
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
-		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+		"movement": 2,
+		"uniques": [
+			"[+3] Movement <before turn number [2]>",
+			"[+3] Sight <before turn number [2]>",
+			"Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Scout",
+		"name": "Worker",
+		"unitType": "Civilian",
+		"cost": 50,
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles"
+		],
+		"requiredTech": "Back to the Job",
+		"hurryCostModifier": 20
+	},
+	///Military
+	{
+		"name": "Police Patrol",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 13,
+		"uniques": [
+			"Unbuildable",
+			"[+1] Sight",
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Firearms'",
+			"Can pass through impassable tiles",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Logistical"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Armed Civilian",
+		"unitType": "Close Combat",
+		"movement": 2,
+		"strength": 14,
+		"uniques": [
+			"Unbuildable",
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Firearms'",
+			"Can build [Small Outpost] improvements at a [-20]% rate",
+			"[+25]% Strength <when defending>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Logistical"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mechanized Infantry",
+		"unitType": "Assult",
+		"movement": 3,
+		"strength": 20,
+		"uniques": [
+			"Unbuildable",
+			"'Motorized'",
+			"'Dense Formation'",
+			"'Firearms'",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Logistical"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mortar Squad",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 24,
+		"uniques": [
+			"Unbuildable",
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Firearms'",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Logistical"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Coastal Guard",
+		"unitType": "Close Combat",
+		"movement": 2,
+		"strength": 13,
+		"uniques": [
+			"Unbuildable",
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Firearms'",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Logistical","Marine Training"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Emergency Militia",
+		"unitType": "Close Combat",
+		"movement": 2,
+		"strength": 8,
+		"uniques": [
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Edged Weapons'",
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech":"Total Mobilization",
+		"attackSound": "metalhit",
+		"hurryCostModifier":0
+	},
+	{
+		"name": "Search Squad",
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
-		"cost": 25,
-		"promotions": ["Ignore terrain cost"],
-		"uniques": ["Can pass through impassable tiles"],
-		"attackSound": "nonmetalhit"
+		"uniques": [
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Edged Weapons'",
+			"[+100]% Strength <when defending>",
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech":"Search Party",
+		"attackSound": "metalhit",
+		"hurryCostModifier":0
+	},
+	///Zeds
+	{
+		"name": "Common Infected",
+		"unitType": "Close Combat",
+		"uniqueTo":"Barbarian",
+		"movement": 2,
+		"strength": 10,
+		"uniques": [
+			"Unbuildable",
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Claws'"
+		],
+		"promotions": ["ZEDS Virus"],
+		"attackSound": "shot"
 	},
 	{
-		"name": "Warrior",
-		"unitType": "Sword",
+		"name": "Special Infected",
+		"unitType": "Ranged Combat",
+		"uniqueTo":"Barbarian",
 		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"attackSound": "nonmetalhit",
-		"uniques": ["Can pass through impassable tiles"],
-        "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
-		]
+		"strength": 12,
+		"rangedStrength":16,
+		"uniques": [
+			"Unbuildable",
+			"'Infantry'",
+			"'Skrimisher'",
+			"'Claws'"
+		],
+		"promotions": ["ZEDS Virus"],
+		"attackSound": "shot"
 	},
 	/* Great people */
 
@@ -87,13 +218,13 @@
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
 	{
-		"name": "Great General",
+		"name": "Great Tactician",
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
@@ -113,7 +244,7 @@
             "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
             "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
@@ -123,49 +254,8 @@
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
-	},
-
-	/* Spaceship Parts */
-
-	// Must be transported to the Capital for launch.
-	// Can be destroyed by any hostile military unit walking in their tile.
-	{
-		"name": "SS Booster",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		//"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased",  "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Cockpit",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		//"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased",  "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Engine",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		//"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased",  "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Stasis Chamber",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		//"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased",  "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
 	}
 ]

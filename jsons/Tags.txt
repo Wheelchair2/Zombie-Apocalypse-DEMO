@@ -1,0 +1,22 @@
+Tags:
+Building{
+'Housing'
+'Infrastructure'
+'Static Defense'
+'Event'
+}
+Improvement{
+
+}
+Resource{
+
+}
+Unit{
+'Infantry'
+'Motorized'
+'Skrimisher'
+'Dense Formation'
+'Firearms'
+'Edged Weapons'
+'Claws'
+}

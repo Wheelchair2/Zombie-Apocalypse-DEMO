@@ -1,3 +1,17 @@
 {
     "isBaseRuleset": true,
+    "topics": [
+        "unciv-mod",
+        "unciv-mod-rulesets"
+    ],
+    "constants": {
+        "maxXPfromBarbarians": 2147483647,
+        "maxLakeSize": 8,
+        "minimalCityDistance": 2,
+        "riverCountMultiplier": 0.05,
+        "minRiverLength": 3,
+        "maxRiverLength": 64,
+        "religionLimitBase": 10,
+        "religionLimitMultiplier": 1
+    }
 }

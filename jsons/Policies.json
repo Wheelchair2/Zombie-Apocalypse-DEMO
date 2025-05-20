@@ -1,32 +1,97 @@
 [
     {
-        "name": "Tradition",
-        "era": "Chapter 1 - Search",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 0,
-            "Domination": 0,
-            "Scientific": 10
-        },
+        "name": "Escape and Hide",
+        "era": "Times of Survival",
         "uniques": [
-            "[+3 Culture] [in capital]",
-            "[-25]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
             {
-                "name": "Aristocracy",
+                "name": "Retreat from the Horde",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Regrouping",
+                "uniques": [
+                ],
+                "requires": [
+                    "Retreat from the Horde"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Forage from the Wild",
+                "uniques": [
+                ],
+                "requires": [
+                    "Regrouping"
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Strike from the Dark",
+                "uniques": [
+                ],
+                "requires": [
+                    "Regrouping"
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Escape and Hide Complete",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Stand the Storm",
+        "era": "Times of Survival",
+        "uniques": [
+        ],
+        "policies": [
+            {
+                "name": "Maintain the Morale",
+                "uniques": [
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Tradition Complete",
+                "name": "Trap Engineering",
                 "uniques": [
-                    "[+15]% growth [in all cities]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "New Tactics",
+                "uniques": [
+                ],
+                "requires": [
+                    "Maintain the Morale","Trap Engineering"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Revenge to the Damned",
+                "uniques": [
+                ],
+                "requires": [
+                    "New Tactics"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Stand the Storm Complete",
+                "uniques": [
                 ]
             }
         ]
