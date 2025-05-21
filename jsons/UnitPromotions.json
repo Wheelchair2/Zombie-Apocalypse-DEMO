@@ -2,14 +2,42 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Close Combat","Ranged Combat","Scout","Mounted","Assult","Siege","Close Combat Ship","Ranged Combat Ship","Fighter","Bomber","Helicopter"],
+		"unitTypes": ["Close Combat","Ranged Combat","Scout","Mounted","Assault","Siege","Close Combat Ship","Ranged Combat Ship","Fighter","Bomber","Helicopter"],
         "row": 0,
         "column": 0
     },
 	{
-		"name": "Logistical",
+		"name": "Hardened",
+		"uniques": [
+			"[+5]% XP gained from combat",
+			"[+5]% Strength"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"column": 7,
+		"row": 0
+	},
+	{
+		"name": "Ammo User",
 		"uniques": [
 			"Instantly consumes [1] [Ammunition] <upon damaging a [Military] unit>"
+		]
+	},
+	{
+		"name": "Fuels User",
+		"uniques": [
+			"Consumes [1] [Fuels] <every [3] turns>"
 		]
 	},
 	{
@@ -27,7 +55,8 @@
 			"Heals [50] damage if it kills a unit",
 			"No damage penalty for wounded units",
 			"No movement cost to pillage",
-			"Free [Common Infected] appears <upon defeating a [Land] unit>"
+			"Free [Common Infected] appears <with [75]% chance> <before turn number [3]> <hidden from users>",
+			"Free [Common Infected] appears <with [75]% chance> <upon defeating a [Land] unit>"
 		]
 	}
 ]

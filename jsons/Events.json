@@ -1,0 +1,42 @@
+[
+    ///Tech Events
+    {
+        "name": "Our Escape",
+        "text": "What, and who have you brought into the refuge?",
+        "choices": [
+            {
+                "text": "We came from the overruned cities.",
+                "uniques": [
+                    "Only available <after discovering [Urban Survivor]>",
+                    "Instantly provides [15] [Medical Supply]",
+                    "Instantly provides [10] [Ammunition]",
+                    "Instantly provides [5] [Fuels]",
+                    "[2] free [Armed Civilian] units appear"
+                ]
+            },
+            {
+                "text": "I heard them there city folks all turned into the damn zeds!",
+                "uniques": [
+                    "Only available <after discovering [Rural Survivor]>",
+                    "Instantly provides [10] [Medical Supply]",
+                    "Instantly provides [10] [Ammunition]",
+                    "Instantly provides [15] [Fuels]",
+                    "Gain a free [Shelter] [in capital]",
+                    "Gain a free [Camp Fire] [in capital]",
+                    "Free [Armed Civilian] appears"
+                ]
+            },
+            {
+                "text": "We are seperated from the HQ! Looks like we are going to make our stand!",
+                "uniques": [
+                    "Only available <after discovering [Military Survivor]>",
+                    "Instantly provides [5] [Medical Supply]",
+                    "Instantly provides [10] [Ammunition]",
+                    "Instantly provides [5] [Fuels]",
+                    "Free [Mechanized Infantry] appears",
+                    "Free [Mortar Squad] appears"
+                ]
+            }
+        ]
+    }
+]

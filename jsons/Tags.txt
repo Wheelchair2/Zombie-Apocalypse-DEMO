@@ -1,9 +1,14 @@
 Tags:
 Building{
+    
 'Housing'
 'Infrastructure'
+'Industry'
+
 'Static Defense'
+
 'Event'
+'Institution'
 }
 Improvement{
 

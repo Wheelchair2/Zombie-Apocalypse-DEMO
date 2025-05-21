@@ -2,7 +2,7 @@
 	{
 		"name": "Power Fantasy",
 		"baseHappiness": 12,
-		"extraHappinessPerLuxury": -4,
+		"extraHappinessPerLuxury": 5,
 		"researchCostModifier": 0.5,
 		"unitCostModifier": 0.25,
 		"unitSupplyBase": 20,
@@ -10,8 +10,8 @@
 		"buildingCostModifier": 0.25,
 		"policyCostModifier": 0.1,
 		"unhappinessModifier": 0.33,
-		"barbarianBonus": 1,
-		"barbarianSpawnDelay": 5,
+		"barbarianBonus":0.75,
+		"barbarianSpawnDelay": 2,
 		"playerBonusStartingUnits": [
 		], // Note that the units from Eras.json are added to this pool. This should only contain bonus starting units.
 		"aiDifficultyLevel":"Playing Fair",
@@ -33,7 +33,7 @@
 	{
 		"name": "Plot Armour",
 		"baseHappiness": 12,
-		"extraHappinessPerLuxury": -4,
+		"extraHappinessPerLuxury": 5,
 		"researchCostModifier": 0.8,
 		"unitCostModifier": 0.5,
 		"unitSupplyBase": 10,
@@ -41,8 +41,8 @@
 		"buildingCostModifier": 0.5,
 		"policyCostModifier": 0.4,
 		"unhappinessModifier": 0.4,
-		"barbarianBonus": 0.75,
-		"barbarianSpawnDelay": 5,
+		"barbarianBonus": 0.5,
+		"barbarianSpawnDelay": 2,
 		"playerBonusStartingUnits": [], // Note that the units from Eras.json are added to this pool. This should only contain bonus starting units.
 		"aiDifficultyLevel":"Playing Fair",
 		"aiCityGrowthModifier": 1.4, // that is to say it'll take them 1.6 times as long to grow the city
@@ -63,7 +63,7 @@
 	{
 		"name": "Starting Off",
 		"baseHappiness": 12,
-		"extraHappinessPerLuxury": -4,
+		"extraHappinessPerLuxury": 4,
 		"researchCostModifier": 0.95,
 		"unitCostModifier": 0.67,
 		"unitSupplyBase": 7,
@@ -71,8 +71,8 @@
 		"buildingCostModifier": 0.67,
 		"policyCostModifier": 0.67,
 		"unhappinessModifier": 0.6,
-		"barbarianBonus": 0.5,
-		"barbarianSpawnDelay": 5,
+		"barbarianBonus": 0.33,
+		"barbarianSpawnDelay":0,
 		"playerBonusStartingUnits": [],
 		"aiDifficultyLevel":"Playing Fair",
 		"aiCityGrowthModifier": 1.3,
@@ -93,7 +93,7 @@
 	{
 		"name": "Casual",
 		"baseHappiness": 10,
-		"extraHappinessPerLuxury": -4,
+		"extraHappinessPerLuxury": 3,
 		"researchCostModifier": 1,
 		"unitCostModifier": 0.85,
 		"unitSupplyBase": 7,
@@ -101,8 +101,8 @@
 		"buildingCostModifier": 0.85,
 		"policyCostModifier": 0.85,
 		"unhappinessModifier": 0.75,
-		"barbarianBonus": 0.4,
-		"barbarianSpawnDelay": 3,
+		"barbarianBonus": 0.25,
+		"barbarianSpawnDelay":0,
 		"playerBonusStartingUnits": [],
 		"aiDifficultyLevel":"Playing Fair",
 		"aiCityGrowthModifier": 1.1,
@@ -123,7 +123,7 @@
 	{
 		"name": "Playing Fair",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": -4,
+		"extraHappinessPerLuxury": 2,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 5,
@@ -131,8 +131,7 @@
 		"buildingCostModifier": 1,
 		"policyCostModifier": 1,
 		"unhappinessModifier": 1,
-		"barbarianBonus": 0.33,
-		"barbarianSpawnDelay": 1,
+		"barbarianSpawnDelay":0,
 		"playerBonusStartingUnits": [],
 		"aiDifficultyLevel":"Playing Fair",
 		"aiCityGrowthModifier": 1,
@@ -153,7 +152,7 @@
 	{
 		"name": "Battle of Wit and Strength",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": -4,
+		"extraHappinessPerLuxury": 2,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 5,
@@ -161,8 +160,8 @@
 		"buildingCostModifier": 1,
 		"policyCostModifier": 1,
 		"unhappinessModifier": 1,
-		"barbarianBonus": 0.25,
-		"barbarianSpawnDelay": 0,
+		"barbarianBonus": 0,
+		"barbarianSpawnDelay":0,
 		"playerBonusStartingUnits": [],
 		"aiDifficultyLevel":"Battle of Wit and Strength",
 		"aiCityGrowthModifier": 0.9,
@@ -172,9 +171,6 @@
 		"aiBuildingMaintenanceModifier": 0.85,
 		"aiUnitMaintenanceModifier": 0.8,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": [
-			"Pottery"
-		],
 		"aiMajorCivBonusStartingUnits": [
 			"Era Starting Unit"
 		],
@@ -187,7 +183,7 @@
 	{
 		"name": "Disadvantaged",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": -4,
+		"extraHappinessPerLuxury": 2,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 5,
@@ -195,8 +191,8 @@
 		"buildingCostModifier": 1,
 		"policyCostModifier": 1,
 		"unhappinessModifier": 1,
-		"barbarianBonus": 0.2,
-		"barbarianSpawnDelay": 0,
+		"barbarianBonus": 0,
+		"barbarianSpawnDelay":0,
 		"playerBonusStartingUnits": [],
 		"aiDifficultyLevel":"Disadvantaged",
 		"aiCityGrowthModifier": 0.85,
@@ -206,10 +202,6 @@
 		"aiBuildingMaintenanceModifier": 0.8,
 		"aiUnitMaintenanceModifier": 0.75,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": [
-			"Pottery",
-			"Animal Husbandry"
-		],
 		"aiMajorCivBonusStartingUnits": [
 			"Era Starting Unit"
 		],
@@ -222,7 +214,7 @@
 	{
 		"name": "Hardcore",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": -4,
+		"extraHappinessPerLuxury": 2,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 5,
@@ -230,8 +222,8 @@
 		"buildingCostModifier": 1,
 		"policyCostModifier": 1,
 		"unhappinessModifier": 1,
-		"barbarianBonus": 0.1,
-		"barbarianSpawnDelay": 0,
+		"barbarianBonus": 0,
+		"barbarianSpawnDelay":0,
 		"playerBonusStartingUnits": [],
 		"aiDifficultyLevel":"Hardcore",
 		"aiCityGrowthModifier": 0.75,
@@ -241,11 +233,6 @@
 		"aiBuildingMaintenanceModifier": 0.65,
 		"aiUnitMaintenanceModifier": 0.65,
 		"aiUnitSupplyModifier": 0.4,
-		"aiFreeTechs": [
-			"Pottery",
-			"Animal Husbandry",
-			"Copper Working"
-		],
 		"aiMajorCivBonusStartingUnits": [
 			"Worker",
 			"Era Starting Unit",
@@ -260,7 +247,7 @@
 	{
 		"name": "Doomed to Fail",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": -4,
+		"extraHappinessPerLuxury": 2,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 5,
@@ -269,7 +256,7 @@
 		"policyCostModifier": 1,
 		"unhappinessModifier": 1,
 		"barbarianBonus": 0,
-		"barbarianSpawnDelay": 0,
+		"barbarianSpawnDelay":0,
 		"playerBonusStartingUnits": [],
 		"aiDifficultyLevel":"Doomed to Fail",
 		"aiCityGrowthModifier": 0.6,
@@ -279,12 +266,6 @@
 		"aiBuildingMaintenanceModifier": 0.5,
 		"aiUnitMaintenanceModifier": 0.5,
 		"aiUnitSupplyModifier": 0.5,
-		"aiFreeTechs": [
-			"Pottery",
-			"Animal Husbandry",
-			"Copper Working",
-			"The Wheel"
-		],
 		"aiMajorCivBonusStartingUnits": [
 			"Settler",
 			"Worker",

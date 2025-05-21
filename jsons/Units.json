@@ -13,7 +13,8 @@
 			"[+3] Sight <before turn number [2]>",
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
+			"Requires at least [2] population",
+			"Uncapturable"
 		],
 		"hurryCostModifier": 20
 	},
@@ -43,7 +44,7 @@
 			"Can pass through impassable tiles",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Logistical"],
+		"promotions": ["Ammo User"],
 		"attackSound": "shot"
 	},
 	{
@@ -56,16 +57,16 @@
 			"'Infantry'",
 			"'Dense Formation'",
 			"'Firearms'",
-			"Can build [Small Outpost] improvements at a [-20]% rate",
+			"Can build [Small Outpost] improvements on tiles",
 			"[+25]% Strength <when defending>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Logistical"],
+		"promotions": ["Ammo User"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Mechanized Infantry",
-		"unitType": "Assult",
+		"unitType": "Assault",
 		"movement": 3,
 		"strength": 20,
 		"uniques": [
@@ -75,7 +76,7 @@
 			"'Firearms'",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Logistical"],
+		"promotions": ["Ammo User","Fuels User"],
 		"attackSound": "shot"
 	},
 	{
@@ -91,7 +92,7 @@
 			"'Firearms'",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Logistical"],
+		"promotions": ["Ammo User"],
 		"attackSound": "shot"
 	},
 	{
@@ -106,7 +107,7 @@
 			"'Firearms'",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Logistical","Marine Training"],
+		"promotions": ["Ammo User","Marine Training"],
 		"attackSound": "shot"
 	},
 	{
@@ -123,6 +124,23 @@
 		"requiredTech":"Total Mobilization",
 		"attackSound": "metalhit",
 		"hurryCostModifier":0
+	},
+	{
+		"name": "HEMA Disciple",
+		"uniqueTo":"Zeds Cutting Club",
+		"unitType": "Close Combat",
+		"movement": 2,
+		"strength": 10,
+		"uniques": [
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Edged Weapons'",
+			"[+25]% Strength <when defending>",
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech":"Total Mobilization",
+		"promotions": [],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Search Squad",
@@ -144,33 +162,31 @@
 	{
 		"name": "Common Infected",
 		"unitType": "Close Combat",
-		"uniqueTo":"Barbarian",
+		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 10,
 		"uniques": [
-			"Unbuildable",
 			"'Infantry'",
 			"'Dense Formation'",
 			"'Claws'"
 		],
 		"promotions": ["ZEDS Virus"],
-		"attackSound": "shot"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Special Infected",
 		"unitType": "Ranged Combat",
-		"uniqueTo":"Barbarian",
+		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 12,
 		"rangedStrength":16,
 		"uniques": [
-			"Unbuildable",
 			"'Infantry'",
 			"'Skrimisher'",
 			"'Claws'"
 		],
 		"promotions": ["ZEDS Virus"],
-		"attackSound": "shot"
+		"attackSound": "nonmetalhit"
 	},
 	/* Great people */
 

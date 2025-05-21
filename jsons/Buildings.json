@@ -9,12 +9,17 @@
 		"culture": 2,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		
+		"uniques": ["Provides [1] [Housing]",
+					"Indicates the capital city"]
 	},
+	///Line 0
 	{
 		"name": "Shelter",
 		"uniques": [
 			"'Housing'",
+			"[+5]% growth [in this city]",
+			"Provides [2] [Housing]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Humanity's Journey",
@@ -42,10 +47,97 @@
 		"requiredTech": "Humanity's Journey",
 		"hurryCostModifier": 0
 	},
+	///Line 1
 	{
 		"name": "First Scavenge",
 		"uniques": [
 			"'Event'",
+			"[+1 Production, +1 Gold] from ['Structure'] tiles [in this city] <for [10] turns>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Urban Survivor",
+		"hurryCostModifier": 0
+	},
+	{
+		"name": "First Foraging",
+		"uniques": [
+			"'Event'",
+			"[+1 Food] from [Plain] tiles [in all cities] <for [10] turns>",
+			"[+1 Food] from [Tall Grass] tiles [in all cities] <for [10] turns>",
+			"[+1 Food] from [Forest] tiles [in all cities] <for [10] turns>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Rural Survivor",
+		"hurryCostModifier": 0
+	},
+	{
+		"name": "First Census",
+		"happiness":2,
+		"uniques": [
+			"'Event'",
+			"[+33]% Production when constructing ['Event'] buildings [in all cities]",
+			"Provides [1] [Housing]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Military Survivor",
+		"hurryCostModifier": 0
+	},
+	///Line 2
+	{
+		"name": "Car Graveyard",
+		"production":1,
+		"uniques": [
+			"'Industry'",
+			"Provides [1] [Fuels] <for [10] turns>",
+			"[+2 Production] from [Parking Lot] tiles [in this city]"
+		],
+		"requiredTech": "Scavenging Vehicle",
+		"hurryCostModifier": 25
+	},
+	{
+		"name": "Scrap Workshop",
+		"production":1,
+		"uniques": [
+			"'Industry'",
+			"Creates a [Scrap Yard] improvement on a specific tile"
+		],
+		"requiredTech": "Scavenging Building",
+		"hurryCostModifier": 25
+	},
+	{
+		"name": "Settlement Patrol",
+		"cityStrength":5,
+		"uniques": [
+			"'Static Defense'",
+			"[-1] population [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Militia Organization",
+		"hurryCostModifier": 25
+	},
+	///Civ Specific non-replacement
+	{
+		"name": "Rationing System",
+		"uniqueTo":"Government Force",
+		"percentStatBonus": {
+			"food": -10
+		},
+		"uniques": [
+			"'Institution'",
+			"Provides [1] [Trust in Government]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Humanity's Journey",
+		"hurryCostModifier": 0
+	}
+	{
+		"name": "Dave's Farm",
+		"uniqueTo":"Neo Confederacy",
+		"cost":1,
+		"isNationalWonder":true,
+		"uniques": [
+			"Provides [1] [Housing]",
+			"Creates a [Dave's Little Farm] improvement on a specific tile",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Humanity's Journey",

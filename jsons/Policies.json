@@ -2,7 +2,7 @@
     {
         "name": "Escape and Hide",
         "era": "Times of Survival",
-        "uniques": [
+        "uniques": ["Only available <before adopting [Stand the Storm]>"
         ],
         "policies": [
             {
@@ -52,7 +52,7 @@
     {
         "name": "Stand the Storm",
         "era": "Times of Survival",
-        "uniques": [
+        "uniques": ["Only available <before adopting [Escape and Hide]>"
         ],
         "policies": [
             {

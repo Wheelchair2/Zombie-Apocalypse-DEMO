@@ -3,189 +3,304 @@
 	{
 		"name": "Suburb",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains"],
+		"terrainsCanBeFoundOn": [
+			"Plains",
+			"Grassland"
+		],
 		"production": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"prodcution": 1},
+		"improvementStats": {
+			"prodcution": 1
+		},
 		"uniques": [
-					"Generated with weight [20] <in [{Featureless} {Plains}] tiles>",
-					"Guaranteed with Strategic Balance resource option",
-					]
+			"Structure",
+			"Generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+			"Generated with weight [20] <in [{Featureless} {Grassland}] tiles>",
+			"Guaranteed with Strategic Balance resource option",
+		]
 	},
 	{
 		"name": "Apartment",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["House","Broken House"],
+		"terrainsCanBeFoundOn": [
+			"House",
+			"Broken House"
+		],
 		"production": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"prodcution": 1},
+		"improvementStats": {
+			"prodcution": 1
+		},
 		"uniques": [
-					"Generated with weight [20] <in [{Featureless} {House}] tiles>",
-					"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
-					]
+			"Structure",
+			"Generated with weight [20] <in [{Featureless} {House}] tiles>",
+			"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
+		]
 	},
 	{
 		"name": "Parking Lot",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Street"],
+		"terrainsCanBeFoundOn": [
+			"Street"
+		],
 		"improvement": "Scrap Yard",
-		"improvementStats": {"production": 1},
+		"improvementStats": {
+			"production": 1
+		},
 		"uniques": [
-					"Generated on every [18] tiles <in [{Featureless} {Street}] tiles>",
-					"Generated on every [22] tiles <in [{Featureless} {Street}] tiles> <in [Hill] Regions>",
-					"Generated on every [14] tiles <in [House] tiles>",
-					"Generated on every [14] tiles <in [House] tiles> <in [Hill] Regions>",
-					"Generated on every [10] tiles <in [Broken House] tiles>",
-					"Generated on every [10] tiles <in [Broken House] tiles> <in [Hill] Regions>",
-					"Generated on every [8] tiles <in [Facility] tiles>"
-					]
+			"Structure",
+			"Generated on every [18] tiles <in [{Featureless} {Street}] tiles>",
+			"Generated on every [22] tiles <in [{Featureless} {Street}] tiles> <in [Hill] Regions>",
+			"Generated on every [14] tiles <in [House] tiles>",
+			"Generated on every [14] tiles <in [House] tiles> <in [Hill] Regions>",
+			"Generated on every [10] tiles <in [Broken House] tiles>",
+			"Generated on every [10] tiles <in [Broken House] tiles> <in [Hill] Regions>",
+			"Generated on every [8] tiles <in [Facility] tiles>"
+		]
 	},
 	{
 		"name": "Supermarket",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Facility"],
+		"terrainsCanBeFoundOn": [
+			"Facility"
+		],
 		"production": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"prodcution": 1},
+		"improvementStats": {
+			"prodcution": 1
+		},
 		"uniques": [
-					"Generated with weight [40] <in [{Featureless} {Facility}] tiles>",
-					"Deposits in [Facility] tiles always provide [0] resources"
-					]
+			"Structure",
+			"Generated with weight [40] <in [{Featureless} {Facility}] tiles>",
+			"Deposits in [Facility] tiles always provide [0] resources"
+		]
 	},
 	{
 		"name": "Restaurant",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["House","Broken House","Street"],
+		"terrainsCanBeFoundOn": [
+			"House",
+			"Broken House",
+			"Street"
+		],
 		"production": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"prodcution": 1},
+		"improvementStats": {
+			"prodcution": 1
+		},
 		"uniques": [
-					"Generated with weight [10] <in [{Featureless} {Street}] tiles>",
-					"Generated with weight [8] <in [{Featureless} {House}] tiles>",
-					"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
-					"Guaranteed with Strategic Balance resource option",
-					"Deposits in [House] tiles always provide [0] resources",
-					"Deposits in [Broken House] tiles always provide [0] resources"
-					]
+			"Structure",
+			"Generated with weight [10] <in [{Featureless} {Street}] tiles>",
+			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
+			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
+			"Guaranteed with Strategic Balance resource option",
+			"Deposits in [House] tiles always provide [0] resources",
+			"Deposits in [Broken House] tiles always provide [0] resources"
+		]
 	},
 	{
 		"name": "Ruined Factory",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Street", "Facility", "House", "Broken House","Hill"],
+		"terrainsCanBeFoundOn": [
+			"Street",
+			"Facility",
+			"House",
+			"Broken House"
+		],
 		"improvement": "Scrap Yard",
-		"improvementStats": {"production": 2},
+		"improvementStats": {
+			"production": 2
+		},
 		"uniques": [
-					"Generated on every [18] tiles <in [{Featureless} {Street}] tiles>",
-					"Generated on every [22] tiles <in [{Featureless} {Street}] tiles> <in [Hill] Regions>",
-					"Generated on every [14] tiles <in [House] tiles>",
-					"Generated on every [14] tiles <in [House] tiles> <in [Hill] Regions>",
-					"Generated on every [10] tiles <in [Broken House] tiles>",
-					"Generated on every [10] tiles <in [Broken House] tiles> <in [Hill] Regions>",
-					"Generated on every [8] tiles <in [Facility] tiles>"
-					]
+			"Structure",
+			"Cannot be traded",
+			"Generated on every [30] tiles <in [{Featureless} {Street}] tiles>",
+			"Generated on every [14] tiles <in [House] tiles>",
+			"Generated on every [8] tiles <in [Facility] tiles>"
+		]
 	},
 	{
 		"name": "Police Station",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Facility"],
+		"terrainsCanBeFoundOn": [
+			"Facility"
+		],
 		"production": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"prodcution": 1},
+		"improvementStats": {
+			"prodcution": 1
+		},
 		"uniques": [
-					"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
-					"Deposits in [Facility] tiles always provide [0] resources"
-					]
+			"Structure",
+			"Cannot be traded",
+			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
+			"Deposits in [All] tiles always provide [0] resources"
+		]
 	},
 	{
 		"name": "Military Safezone Ruin",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Facility"],
+		"terrainsCanBeFoundOn": [
+			"Street",
+			"Facility",
+			"House",
+			"Broken House"
+		],
 		"production": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"prodcution": 1},
+		"improvementStats": {
+			"prodcution": 1
+		},
 		"uniques": [
-					"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
-					]
+			"Structure",
+			"Cannot be traded",
+			"Generated with weight [5] <in [Street] tiles>",
+			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
+			"Deposits in [All] tiles always provide [0] resources"
+		]
 	},
-		{
+	{
 		"name": "Clinic",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["House","Broken House"],
+		"terrainsCanBeFoundOn": [
+			"House",
+			"Broken House"
+		],
 		"production": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"prodcution": 1},
+		"improvementStats": {
+			"prodcution": 1
+		},
 		"uniques": [
-					"Generated with weight [20] <in [{Featureless} {House}] tiles>",
-					"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
-					"Guaranteed with Strategic Balance resource option",
-					]
+			"Structure",
+			"Cannot be traded",
+			"Generated with weight [20] <in [{Featureless} {House}] tiles>",
+			"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
+			"Guaranteed with Strategic Balance resource option",
+			"Deposits in [All] tiles always provide [0] resources"
+		]
 	},
 	{
 		"name": "Hospital",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Facility"],
+		"terrainsCanBeFoundOn": [
+			"Facility"
+		],
 		"production": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"prodcution": 1},
+		"improvementStats": {
+			"prodcution": 1
+		},
 		"uniques": [
-					"Generated with weight [40] <in [{Featureless} {Facility}] tiles>",
-					]
+			"Structure",
+			"Cannot be traded",
+			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
+			"Deposits in [All] tiles always provide [0] resources"
+		]
 	},
 	{
 		"name": "Cold Storage",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Facility"],
+		"terrainsCanBeFoundOn": [
+			"Facility"
+		],
 		"production": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"food": 2},
+		"improvementStats": {
+			"food": 2
+		},
 		"uniques": [
-					"Generated with weight [40] <in [{Featureless} {Facility}] tiles>",
-					]
+			"Structure",
+			"Cannot be traded",
+			"Generated with weight [5] <in [{Featureless} {Facility}] tiles>",
+			"Deposits in [All] tiles always provide [0] resources"
+		]
 	},
 	{
 		"name": "Bar",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["House","Broken House"],
+		"terrainsCanBeFoundOn": [
+			"House",
+			"Broken House"
+		],
 		"gold": 1,
 		"improvement": "Small Outpost",
-		"improvementStats": {"food": 2},
+		"improvementStats": {
+			"food": 2
+		},
 		"uniques": [
-					"Generated with weight [8] <in [{Featureless} {House}] tiles>",
-					"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
-					]
+			"Structure",
+			"Cannot be traded",
+			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
+			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
+			"Deposits in [All] tiles always provide [0] resources"
+		]
 	},
 	{
 		"name": "Ammunition",
 		"resourceType": "Strategic",
-		"uniques":["Stockpiled"]
+		"uniques": [
+			"Stockpiled"
+		]
 	},
 	{
 		"name": "Medical Supply",
 		"resourceType": "Strategic",
-		"uniques":["Stockpiled"]
+		"uniques": [
+			"Stockpiled"
+		]
 	},
 	{
 		"name": "Fuels",
 		"resourceType": "Strategic",
-		"uniques":["Stockpiled"]
+		"uniques": [
+			"Stockpiled"
+		]
 	},
 	{
-		"name": "Housing",
+		"name": "Scraps",
 		"resourceType": "Strategic",
-		"uniques":["City-level resource"]
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Refined Metals",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Machine Parts",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
 	},
 	{
 		"name": "High Quality Food",
 		"resourceType": "Luxury",
-		"uniques":["Can only be created by Mercantile City-States"]
+		"uniques": [
+			"Can only be created by Mercantile City-States"
+		]
 	},
 	{
 		"name": "Alcohol Drink",
 		"resourceType": "Luxury"
 	},
 	{
+		"name": "Housing",
+		"resourceType": "Strategic",
+		"uniques": [
+			"City-level resource"
+		]
+	},
+	{
 		"name": "Trust in Government",
 		"resourceType": "Strategic",
-		"uniques": ["Cannot be traded"]
+		"uniques": [
+			"Cannot be traded"
+		]
 	}
 ]
