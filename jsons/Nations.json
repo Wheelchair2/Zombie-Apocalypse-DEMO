@@ -3,121 +3,172 @@
     //Not "Excluded from map editor" as it serves as placeholder for "Any Civ" starting locations
 	{
 		"name": "Spectator",
-		"outerColor": [255,255,255],
-//		"innerColor": [255,255,255]
+		"outerColor": [255,255,255]
 	},
-
+	//Nations
 	{
-		//nations
-		"name": "Kotama",
-		"leaderName": "Nebuchadnezzar II",
-		"adjective": ["Babylonian"],
-		"startBias": ["Avoid [Tundra]"],
+		
+		"name": "Government Force",
+		"leaderName": "Senator Armstrong",
+		"adjective": ["Senatorian"],
+		"startBias": [""],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
-		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
+		"startIntroPart1": "The Matial Law has been decleared in awake of a zombie virus, you have to enforce it, and deal whatever the hell it has turned the world into.",
+		"startIntroPart2": "The People needs you.",
 
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Are you real or a phantom?",
+		"declaringWar": "Dont mess with the senator!",
+		"attacked": "You are attcking the official force of the USA, this will not go under record.",
+		"defeated": "Impossible!",
+		"introduction": "Dear Citizen, the Government is here to help! But the damn zombies are doing loads of work so we need your help too. We should band up and beat those suckers up!",
 
 		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
+		"hateHello": "You cant hurt me, Son",
 
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"tradeRequest": "If you help the Government at the right time, maybe you can get a medal after this mess.",
 
 		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
-		"favoredReligion": "Islam",
-		"uniqueName": "Ingenuity",
-		"uniques": ["Reveals the entire map"],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Evangelical Christianity",
+		"uniqueName": "The Hopeful Residue",
+		"uniques": [
+			"Reveals the entire map",
+			"Starts with [Military Survivor]",
+			"Starts with [Rural Survivor]",
+			"Starts with [Urban Survivor]",
+			"Comment [People trusts you, Senator. But [Trust in Government] is a pricy thing to uphold. You will need to spend your resource wisely to keep the everyone happy... Or else people might devolve into something even more aggressive than zombies.]"
+		],
+		"cities": ["Headquarter","Outpost Alfa","Outpost Bravo","Outpost Charlie","Outpost Delta","Outpost Echo","Outpost Foxtrot","Outpost Golf","Outpost Hotel","Outpost India","Outpost Juliett","Outpost Kilo"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
-		//nations
-		"name": "Maki",
-		"leaderName": "Maki 1",
-		"adjective": ["Babylonian"],
-		"startBias": ["Avoid [Tundra]"],
+		"name": "Zeds Cutting Club",
+		"leaderName": "Master Barrett",
+		"adjective": ["HEMAers"],
+		"startBias": [""],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
-		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
+		"startIntroPart1": "You've been dreaming of choping zombie's head in ye olde way, and here comes the chance... Just dont get bitten okay?",
+		"startIntroPart2": "Thats a rookie mistake. We have Quarter Staves.",
 
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Are you real or a phantom?",
+		"declaringWar": "Our Arms are not for show!",
+		"attacked": "You want your head to be taken as a trophy?",
+		"defeated": "It might've been a mistake to bring a sword to a gun fight.",
+		"introduction": "Greetings. We here are fighters who are familiar with the ways of hand to hand combat and other non-modern fighting styles. And we kill'em zeds good.",
 
 		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
+		"hateHello": "We dont know much about trigger discipline, so you are playing with fire here.",
 
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"tradeRequest": "We want some cutting edge stuff.",
 
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
-		"favoredReligion": "Islam",
-		"uniqueName": "Ingenuity",
-		"uniques": ["."],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+		"outerColor": [255, 104, 66],
+		"innerColor": [191, 185, 184],
+		"favoredReligion": "Catholic Christianity",
+		"uniqueName": "Old School Fighter",
+		"uniques": ["Reveals the entire map","Starts with [Urban Survivor]"],
+		"cities": ["Oathsworn","Camp Augustus","Camp Bruno","Camp Camelot","Camp Deez","Camp Elegace","Camp Florence","Camp George","Camp Hasting","Camp Invicible"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
-		//nations
-		"name": "Hare",
-		"leaderName": "Haare",
-		"adjective": ["Babylonian"],
-		"startBias": ["Avoid [Tundra]"],
+		"name": "State Worker's Union",
+		"leaderName": "Chairman Charles",
+		"adjective": ["Revolutionaries"],
+		"startBias": [""],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
-		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
+		"startIntroPart1": "The economy recession is bad enough, and then there are infected cannibalists... or just call them zombies eating dubes everywhere. Oh boy did you had enough.",
+		"startIntroPart2": "Defend yourself! Proletariats!",
 
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Are you real or a phantom?",
+		"declaringWar": "You and your little reactionary force are going to get the hell out.",
+		"attacked": "You want to suffer the same fate as the capitalist rulers?",
+		"defeated": "Revolution never dies easily.",
+		"introduction": "Greetings from the socialist settlements. We welcome all allies in this trying time. As for hostiles? We are not afraid.",
 
 		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
+		"hateHello": "You have a face just as wackable as that one landlord.",
 
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"tradeRequest": "Alright, lets make sure this benefits us both.",
 
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
-		"favoredReligion": "Islam",
-		"uniqueName": "Ingenuity",
-		"uniques": ["."],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+		"outerColor": [255, 28, 28],
+		"innerColor": [255, 230, 0],
+		"favoredReligion": "Lutheran Christianity",
+		"uniqueName": "Everyman Has Their Moment",
+		"uniques": ["Reveals the entire map","Starts with [Urban Survivor]"],
+		"cities": ["Head Commune","Commune Alpha","Commune Beta","Commune Carpenter","Commune Delta","Commune Engles","Commune Freedom","Commune Guvara","Commune Harry"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
-		"name": "Moore",
-		"adjective": ["Moore"],
-		"cityStateType": "Cultured",
+		"name": "Neo Confederacy",
+		"leaderName": "President Dave",
+		"adjective": ["Farmers"],
+		"startBias": [""],
+		"preferredVictoryType": "Domination",
 
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
+		"startIntroPart1": "You know em zombie movie? Well thems the zombie tryna eat ya cows, they could've eat ya wife and they eat ya daogs. So you gather ya neighbours up and kick their asses. You need to figure out what in tarnation has da world's become.",
+		"startIntroPart2": "I knew them feds was trying to hide somethin.",
+
+		"declaringWar": "Enough of ya slandering moron!",
+		"attacked": "Wha? You dont want to get alone?",
+		"defeated": "Pal, if you have such power, you should've get them feds early so the damn world cant get into this state!",
+		"introduction": "Dont get us wrong, We dont do human slavery here. We just like our identity.",
+
+		"neutralHello": "Howdy.",
+		"hateHello": "Get off my lawn.",
+
+		"tradeRequest": "Heard you got somethin good.",
+
+		"outerColor": [0, 67, 148],
+		"innerColor": [255, 0, 0],
+		"favoredReligion": "Evangelical Christianity",
+		"uniqueName": "Living Off the Land.",
+		"uniques": ["Reveals the entire map","Starts with [Rural Survivor]"],
+		"cities": ["Dave's House","Hank's Place","Julian's Place","Jack's Pub","Ana's Hut","Jimmy's Barn","John's Church","George's Garden","Betty's Place","Kent's Camp"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
+	{
+		"name": "The Middleman Club",
+		"adjective": ["Clubguy's"],
+		"cityStateType": "Trader",
+		"declaringWar": "You are a warmonger!",
+		"attacked": "Stop!",
+		"defeated": "You've ruined your place in this state.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [198,255,192],
-		"cities": ["Jerusalem"]
+		"cities": ["Hangout"]
 	},
-
-
-
+	{
+		"name": "New Chaoshan",
+		"adjective": ["Hua Ren de"],
+		"cityStateType": "Trader",
+		"declaringWar": "You are a warmonger!",
+		"attacked": "Stop!",
+		"defeated": "The PLA will not forgive you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [198,255,192],
+		"cities": ["New Chaoshan"]
+	},
+	{
+		"name": "Kleines Deutschland",
+		"adjective": ["Deutsche"],
+		"cityStateType": "Trader",
+		"declaringWar": "You are a warmonger!",
+		"attacked": "Stop!",
+		"defeated": "You will suffer the same fate as germany in WWII!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [198,255,192],
+		"cities": ["Kleines Deutschland"]
+	},
+	{
+		"name": "Pequeño México",
+		"adjective": ["Mexicano"],
+		"cityStateType": "Trader",
+		"declaringWar": "You are a warmonger!",
+		"attacked": "Stop!",
+		"defeated": "¡Maldito seas!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [198,255,192],
+		"cities": ["Pequeño México"]
+	},
 	//Barbarian
 	{
 		"name": "Barbarians",

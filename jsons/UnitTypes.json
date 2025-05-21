@@ -4,19 +4,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Sword",
+        "name": "Close Combat",
         "movementType": "Land"
     },
     {
-        "name": "Gunpowder",
-        "movementType": "Land"
-    },
-    {
-        "name": "Archery",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged Gunpowder",
+        "name": "Ranged Combat",
         "movementType": "Land"
     },
     {
@@ -28,7 +20,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Armored",
+        "name": "Assult",
         "movementType": "Land"
     },
     {
@@ -40,36 +32,22 @@
         "movementType": "Water"
     },
     {
-        "name": "Melee Water",
+        "name": "Close Combat Ship",
         "movementType": "Water"
     },
     {
-        "name": "Ranged Water",
-        "movementType": "Water"
-    },
-    {
-        "name": "Submarine",
-        "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
-    },
-    {
-        "name": "Aircraft Carrier",
+        "name": "Ranged Combat Ship",
         "movementType": "Water"
     },
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+        "uniques": ["[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
     },
     {
         "name": "Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Atomic Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": []
     },
     {
         "name": "Missile",

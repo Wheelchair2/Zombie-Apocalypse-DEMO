@@ -1,16 +1,54 @@
 [
-	// Ancient Era
-
 	// Always available
 	{
-		"name": "Palace",
+		"name": "Operation Base",
 		"isNationalWonder": true,
 		"production": 3,
-		"science": 3,
+		"science": 2,
 		"gold": 3,
-		"culture": 1,
+		"culture": 2,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
+	{
+		"name": "Shelter",
+		"uniques": [
+			"'Housing'",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Humanity's Journey",
+		"hurryCostModifier": 0
+	},
+	{
+		"name": "Camp Fire",
+		"food":1,
+		"culture":1,
+		"uniques": [
+			"'Infrastructure'",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Humanity's Journey",
+		"hurryCostModifier": 0
+	},
+	{
+		"name": "Junk Walls",
+		"cityStrength":1,
+		"cityHealth":10,
+		"uniques": [
+			"'Static Defense'",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Humanity's Journey",
+		"hurryCostModifier": 0
+	},
+	{
+		"name": "First Scavenge",
+		"uniques": [
+			"'Event'",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Humanity's Journey",
+		"hurryCostModifier": 0
+	}
 ]
