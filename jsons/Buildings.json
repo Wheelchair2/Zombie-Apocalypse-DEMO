@@ -62,7 +62,7 @@
 		"name": "First Foraging",
 		"uniques": [
 			"'Event'",
-			"[+1 Food] from [Plain] tiles [in all cities] <for [10] turns>",
+			"[+1 Food] from [Plains] tiles [in all cities] <for [10] turns>",
 			"[+1 Food] from [Tall Grass] tiles [in all cities] <for [10] turns>",
 			"[+1 Food] from [Forest] tiles [in all cities] <for [10] turns>",
 			"Destroyed when the city is captured"
@@ -99,7 +99,7 @@
 		"production":1,
 		"uniques": [
 			"'Industry'",
-			"Creates a [Scrap Yard] improvement on a specific tile"
+			"Creates a [Scrapyard] improvement on a specific tile"
 		],
 		"requiredTech": "Scavenging Building",
 		"hurryCostModifier": 25
@@ -129,7 +129,7 @@
 		],
 		"requiredTech": "Humanity's Journey",
 		"hurryCostModifier": 0
-	}
+	},
 	{
 		"name": "Dave's Farm",
 		"uniqueTo":"Neo Confederacy",

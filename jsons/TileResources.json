@@ -13,7 +13,7 @@
 			"prodcution": 1
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Generated with weight [20] <in [{Featureless} {Plains}] tiles>",
 			"Generated with weight [20] <in [{Featureless} {Grassland}] tiles>",
 			"Guaranteed with Strategic Balance resource option",
@@ -32,7 +32,7 @@
 			"prodcution": 1
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Generated with weight [20] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
 		]
@@ -43,12 +43,12 @@
 		"terrainsCanBeFoundOn": [
 			"Street"
 		],
-		"improvement": "Scrap Yard",
+		"improvement": "Scrapyard",
 		"improvementStats": {
 			"production": 1
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Generated on every [18] tiles <in [{Featureless} {Street}] tiles>",
 			"Generated on every [22] tiles <in [{Featureless} {Street}] tiles> <in [Hill] Regions>",
 			"Generated on every [14] tiles <in [House] tiles>",
@@ -70,7 +70,7 @@
 			"prodcution": 1
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Generated with weight [40] <in [{Featureless} {Facility}] tiles>",
 			"Deposits in [Facility] tiles always provide [0] resources"
 		]
@@ -89,7 +89,7 @@
 			"prodcution": 1
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Generated with weight [10] <in [{Featureless} {Street}] tiles>",
 			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
@@ -107,12 +107,12 @@
 			"House",
 			"Broken House"
 		],
-		"improvement": "Scrap Yard",
+		"improvement": "Scrapyard",
 		"improvementStats": {
 			"production": 2
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Cannot be traded",
 			"Generated on every [30] tiles <in [{Featureless} {Street}] tiles>",
 			"Generated on every [14] tiles <in [House] tiles>",
@@ -131,7 +131,7 @@
 			"prodcution": 1
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Cannot be traded",
 			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
 			"Deposits in [All] tiles always provide [0] resources"
@@ -152,7 +152,7 @@
 			"prodcution": 1
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Cannot be traded",
 			"Generated with weight [5] <in [Street] tiles>",
 			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
@@ -172,7 +172,7 @@
 			"prodcution": 1
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Cannot be traded",
 			"Generated with weight [20] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
@@ -192,7 +192,7 @@
 			"prodcution": 1
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Cannot be traded",
 			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
 			"Deposits in [All] tiles always provide [0] resources"
@@ -210,7 +210,7 @@
 			"food": 2
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Cannot be traded",
 			"Generated with weight [5] <in [{Featureless} {Facility}] tiles>",
 			"Deposits in [All] tiles always provide [0] resources"
@@ -229,7 +229,7 @@
 			"food": 2
 		},
 		"uniques": [
-			"Structure",
+			"'Structure'",
 			"Cannot be traded",
 			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",

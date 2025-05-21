@@ -65,6 +65,23 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Armed Farmer",
+		"unitType": "Close Combat",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength":15,
+		"uniques": [
+			"Unbuildable",
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Firearms'",
+			"Can build [Small Outpost] improvements on tiles",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ammo User"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Mechanized Infantry",
 		"unitType": "Assault",
 		"movement": 3,
