@@ -1,6 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
+
         "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
@@ -8,6 +9,7 @@
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
         "[-1] Sight <for [Embarked] units>",
+        ///Unit Mechanics
         "Instantly provides [50] [Ammunition] <before turn number [2]>"
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",
