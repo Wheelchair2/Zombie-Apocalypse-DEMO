@@ -55,11 +55,12 @@
 	{
 		"name": "Restaurant",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["House","Broken House"],
+		"terrainsCanBeFoundOn": ["House","Broken House","Street"],
 		"production": 1,
 		"improvement": "Small Outpost",
 		"improvementStats": {"prodcution": 1},
 		"uniques": [
+					"Generated with weight [10] <in [{Featureless} {Street}] tiles>",
 					"Generated with weight [8] <in [{Featureless} {House}] tiles>",
 					"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
 					"Guaranteed with Strategic Balance resource option",
@@ -72,7 +73,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Street", "Facility", "House", "Broken House","Hill"],
 		"improvement": "Scrap Yard",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 2},
 		"uniques": [
 					"Generated on every [18] tiles <in [{Featureless} {Street}] tiles>",
 					"Generated on every [22] tiles <in [{Featureless} {Street}] tiles> <in [Hill] Regions>",
@@ -80,7 +81,7 @@
 					"Generated on every [14] tiles <in [House] tiles> <in [Hill] Regions>",
 					"Generated on every [10] tiles <in [Broken House] tiles>",
 					"Generated on every [10] tiles <in [Broken House] tiles> <in [Hill] Regions>",
-					"Generated on every [8] tiles <in [Facility] tiles>",
+					"Generated on every [8] tiles <in [Facility] tiles>"
 					]
 	},
 	{
