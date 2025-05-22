@@ -292,7 +292,7 @@
 			"Stockpiled"
 		]
 	},
-		{
+	{
 		"name": "Ammunition",
 		"resourceType": "Strategic",
 		"uniques": [
