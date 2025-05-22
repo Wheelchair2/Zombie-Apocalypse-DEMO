@@ -8,6 +8,7 @@
 		],
 		"turnsToBuild": 4,
 		"uniques": [
+			"'Makeshift'",
 			"Can only be built to improve a resource",
 			"Provides [1] [Medical Supply] <in [Clinic] tiles> <for [25] turns>",
 			"Provides [3] [Medical Supply] <in [Hospital] tiles> <for [25] turns>",
@@ -29,6 +30,7 @@
 		],
 		"turnsToBuild": 4,
 		"uniques": [
+			"'Makeshift'",
 			"Provides [1] [Housing]",
 			"Gives a defensive bonus of [17]%",
 			"Pillaging this improvement yields approximately [+15 Gold]"
@@ -45,6 +47,7 @@
 		],
 		"turnsToBuild": 4,
 		"uniques": [
+			"'Makeshift'",
 			"[+1 Production] <for [15] turns>",
 			"Provides [1] [Scraps]",
 			"Pillaging this improvement yields approximately [+20 Gold]"
@@ -60,8 +63,9 @@
 		],
 		"turnsToBuild": 3,
 		"uniques": [
+			"'Makeshift'",
 			"[+1 Food] <for [10] turns>",
-			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] <every [2] turns> <after discovering [Foraging]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
 		"shortcutKey": "F"
@@ -91,7 +95,6 @@
 			"[+2 Food] <every [3] turns> <on [Standard] game speed> <for [non-[AI player]] Civilizations>",
 			"[+3 Food] <every [5] turns> <on [Epic] game speed> <for [non-[AI player]] Civilizations>",
 			"[+4 Food] <every [8] turns> <on [Marathon] game speed> <for [non-[AI player]] Civilizations>",
-
 			"[+1 Food] <for [AI player] Civilizations>",
 			"Can also be built on tiles adjacent to fresh water",
 			"Pillaging this improvement yields approximately [+18 Gold]"
@@ -130,6 +133,17 @@
 		"shortcutKey": "F"
 	},
 	// Military improvement
+	{
+		"name": "Wooden Spikes",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 3,
+		"uniques": [
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Can be built outside your borders"
+		]
+	},
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": [

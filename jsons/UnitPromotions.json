@@ -37,7 +37,7 @@
 	{
 		"name": "Fuels User",
 		"uniques": [
-			"Consumes [1] [Fuels] <every [3] turns>"
+			"Consumes [1] [Fuels] <upon ending a turn in a [non-[City center]] tile>"
 		]
 	},
 	{

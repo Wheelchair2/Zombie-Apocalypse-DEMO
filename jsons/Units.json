@@ -19,12 +19,43 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Armed Settler",
+		"unitType": "Close Combat",
+		"cost": 106,
+		"strength": 13,
+		"movement": 2,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [5] population",
+			"Uncapturable"
+		],
+		"requiredTech":"Basic Army",
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"cost": 50,
 		"movement": 2,
 		"uniques": [
-			"Can build [Land] improvements on tiles"
+			"Can build ['Makeshift'] improvements on tiles",
+			"Uncapturable"
+		],
+		"requiredTech": "Urban Survivor",
+		"obsoleteTech": "Back to the Job",
+		"upgradesTo": "Professional Worker",
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Professional Worker",
+		"unitType": "Civilian",
+		"cost": 75,
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"[-50]% construction time for [All Road] improvements",
+			"Uncapturable"
 		],
 		"requiredTech": "Back to the Job",
 		"hurryCostModifier": 20
@@ -136,6 +167,7 @@
 			"'Infantry'",
 			"'Dense Formation'",
 			"'Edged Weapons'",
+			"[+25]% Strength <when defending>",
 			"Never appears as a Barbarian unit"
 		],
 		"requiredTech":"Total Mobilization",
@@ -145,6 +177,7 @@
 	{
 		"name": "HEMA Disciple",
 		"uniqueTo":"Zeds Cutting Club",
+		"replaces":"Emergency Militia",
 		"unitType": "Close Combat",
 		"movement": 2,
 		"strength": 10,
@@ -152,7 +185,7 @@
 			"'Infantry'",
 			"'Dense Formation'",
 			"'Edged Weapons'",
-			"[+25]% Strength <when defending>",
+			"[+33]% Strength <when defending>",
 			"Never appears as a Barbarian unit"
 		],
 		"requiredTech":"Total Mobilization",
@@ -169,10 +202,33 @@
 			"'Dense Formation'",
 			"'Edged Weapons'",
 			"[+100]% Strength <when defending>",
+			"Gain [1]-[3] [Gold] <upon ending a turn in a [Broken House] tile>",
+			"Gain [1]-[3] [Gold] <upon ending a turn in a [House] tile>",
+			"Gain [1]-[5] [Gold] <upon ending a turn in a [Facility] tile>",
+			"Gain [1]-[1] [Gold] <upon ending a turn in a [Street] tile>",
 			"Never appears as a Barbarian unit"
 		],
 		"requiredTech":"Search Party",
 		"attackSound": "metalhit",
+		"hurryCostModifier":0
+	},
+	{
+		"name": "Hunters",
+		"unitType": "Ranged Combat",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 10,
+		"range":1,
+		"uniques": [
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Edged Weapons'",
+			"Gain [1]-[5] [Food] <upon ending a turn in a [Forest] tile>",
+			"Gain [1]-[3] [Food] <upon ending a turn in a [Tall Grass] tile>",
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech":"Hunting Party",
+		"attackSound": "arrow",
 		"hurryCostModifier":0
 	},
 	///Zeds

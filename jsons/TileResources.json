@@ -236,27 +236,8 @@
 			"Deposits in [All] tiles always provide [0] resources"
 		]
 	},
-	{
-		"name": "Ammunition",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Medical Supply",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Fuels",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Stockpiled"
-		]
-	},
+
+	///Materials
 	{
 		"name": "Scraps",
 		"resourceType": "Strategic",
@@ -279,6 +260,60 @@
 		]
 	},
 	{
+		"name": "Gunpowder",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Seeds",
+		"resourceType": "Strategic"
+	},
+	///Products
+	{
+		"name": "Makeshift Weapons",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Small Firearms",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Heavy Firearms",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+		{
+		"name": "Ammunition",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Medical Supply",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Fuels",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
 		"name": "High Quality Food",
 		"resourceType": "Luxury",
 		"uniques": [
@@ -289,6 +324,7 @@
 		"name": "Alcohol Drink",
 		"resourceType": "Luxury"
 	},
+	///City
 	{
 		"name": "Housing",
 		"resourceType": "Strategic",

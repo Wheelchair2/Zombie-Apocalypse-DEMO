@@ -130,6 +130,7 @@
 				"name": "Emergency Agriculture",
 				"row": 7,
 				"prerequisites": ["Fishing","Hunting Party"],
+				"uniques":["Only available <when above [3] [Seeds]>"],
 				"quote": ""
 			},
 			{
@@ -216,7 +217,7 @@
 		"columnNumber": 7,
 		"era": "Times of Strive",
 		"techCost": 90,
-		"buildingCost": 70,
+		"buildingCost": 55,
 		"wonderCost": 350,
 		"techs": [
 			{
@@ -274,6 +275,39 @@
 				"name": "Vehicle Modification",
 				"row": 10,
 				"prerequisites": ["Wiring","Target Priority"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Times of Reclaimation",
+		"techCost": 90,
+		"buildingCost": 70,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Water Pump",
+				"row": 4,
+				"prerequisites": ["Chemistry","Permanent Structure"],
+				"quote": ""
+			},
+			{
+				"name": "Makeshift Vehicle",
+				"row": 6,
+				"prerequisites": ["Chemistry","Radio","Vehicle Modification"],
+				"quote": ""
+			},
+			{
+				"name": "Construction Vehicle",
+				"row": 8,
+				"prerequisites": ["Permanent Structure","Vehicle Modification"],
+				"quote": ""
+			},
+			{
+				"name": "Vehicle Patrol",
+				"row": 10,
+				"prerequisites": ["Vehicle Modification"],
 				"quote": ""
 			},
 		]

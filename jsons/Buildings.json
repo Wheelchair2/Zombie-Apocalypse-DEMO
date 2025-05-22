@@ -9,7 +9,6 @@
 		"culture": 2,
 		"cityStrength": 2,
 		"cost": 1,
-		
 		"uniques": ["Provides [1] [Housing]",
 					"Indicates the capital city"]
 	},
@@ -75,6 +74,7 @@
 		"happiness":2,
 		"uniques": [
 			"'Event'",
+			"'Institution'",
 			"[+33]% Production when constructing ['Event'] buildings [in all cities]",
 			"Provides [1] [Housing]",
 			"Destroyed when the city is captured"
@@ -105,6 +105,17 @@
 		"hurryCostModifier": 25
 	},
 	{
+		"name": "Seed Collection",
+		"science":1,
+		"uniques": [
+			"'Infrastructure'",
+			"Provides [1] [Seeds]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Foraging",
+		"hurryCostModifier": 0
+	},
+	{
 		"name": "Settlement Patrol",
 		"cityStrength":5,
 		"uniques": [
@@ -116,6 +127,20 @@
 		"hurryCostModifier": 25
 	},
 	///Civ Specific non-replacement
+	{
+		"name": "Public Ownership",
+		"uniqueTo":"State Workers Union",
+		"percentStatBonus": {
+			"food": 5,
+			"production": 5
+		},
+		"uniques": [
+			"'Institution'",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Humanity's Journey",
+		"hurryCostModifier": 0
+	},
 	{
 		"name": "Rationing System",
 		"uniqueTo":"Government Force",
