@@ -1,11 +1,26 @@
 [
 	{
 		"name": "Heal Instantly",
-		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Close Combat","Ranged Combat","Scout","Mounted","Assault","Siege","Close Combat Ship","Ranged Combat Ship","Fighter","Bomber","Helicopter"],
-        "row": 0,
-        "column": 0
-    },
+		"uniques": [
+			"[This Unit] heals [50] HP",
+			"Doing so will consume this opportunity to choose a Promotion"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat",
+			"Scout",
+			"Mounted",
+			"Assault",
+			"Siege",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"row": 0,
+		"column": 0
+	},
 	{
 		"name": "Stewardship",
 		"uniques": [
@@ -76,8 +91,8 @@
 		"prerequisites": [
 			"Centralised Command"
 		],
-		"column": 2,
-		"row": 1
+		"column": 1,
+		"row": 2
 	},
 	{
 		"name": "Planned Offense",
@@ -133,7 +148,7 @@
 		"column": 3,
 		"row": 1
 	},
-		{
+	{
 		"name": "Initiative in Hand",
 		"uniques": [
 			"[+1] Movement <when fighting in [Foreign Land] tiles>"
@@ -154,8 +169,8 @@
 		"prerequisites": [
 			"Dispersed Command"
 		],
-		"column": 2,
-		"row": 3
+		"column": 3,
+		"row": 2
 	},
 	{
 		"name": "First Strike",
@@ -178,8 +193,8 @@
 		"prerequisites": [
 			"Dispersed Command"
 		],
-		"column": 2,
-		"row": 4
+		"column": 4,
+		"row": 2
 	},
 	{
 		"name": "Survival Doctrine",
@@ -201,7 +216,6 @@
 			"Helicopter"
 		],
 		"prerequisites": [
-			"Stewardship",
 			"Hardened"
 		],
 		"column": 5,
