@@ -17,6 +17,7 @@
 			"Generated with weight [20] <in [{Featureless} {Plains}] tiles>",
 			"Generated with weight [20] <in [{Featureless} {Grassland}] tiles>",
 			"Guaranteed with Strategic Balance resource option",
+			"Deposits in [Facility] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -35,6 +36,7 @@
 			"'Structure'",
 			"Generated with weight [20] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
+			"Deposits in [Facility] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -55,7 +57,8 @@
 			"Generated on every [14] tiles <in [House] tiles> <in [Hill] Regions>",
 			"Generated on every [10] tiles <in [Broken House] tiles>",
 			"Generated on every [10] tiles <in [Broken House] tiles> <in [Hill] Regions>",
-			"Generated on every [8] tiles <in [Facility] tiles>"
+			"Generated on every [8] tiles <in [Facility] tiles>",
+			"Deposits in [Facility] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -72,7 +75,7 @@
 		"uniques": [
 			"'Structure'",
 			"Generated with weight [40] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [Facility] tiles always provide [0] resources"
+			"Deposits in [Facility] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -94,8 +97,7 @@
 			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
 			"Guaranteed with Strategic Balance resource option",
-			"Deposits in [House] tiles always provide [0] resources",
-			"Deposits in [Broken House] tiles always provide [0] resources"
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -134,7 +136,7 @@
 			"'Structure'",
 			"Cannot be traded",
 			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [All] tiles always provide [0] resources"
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -156,7 +158,7 @@
 			"Cannot be traded",
 			"Generated with weight [5] <in [Street] tiles>",
 			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [All] tiles always provide [0] resources"
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -177,7 +179,7 @@
 			"Generated with weight [20] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
 			"Guaranteed with Strategic Balance resource option",
-			"Deposits in [All] tiles always provide [0] resources"
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -195,7 +197,7 @@
 			"'Structure'",
 			"Cannot be traded",
 			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [All] tiles always provide [0] resources"
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -213,7 +215,7 @@
 			"'Structure'",
 			"Cannot be traded",
 			"Generated with weight [5] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [All] tiles always provide [0] resources"
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 	{
@@ -233,7 +235,7 @@
 			"Cannot be traded",
 			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
-			"Deposits in [All] tiles always provide [0] resources"
+			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 

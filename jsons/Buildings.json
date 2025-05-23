@@ -164,7 +164,22 @@
 		"hurryCostModifier": 25
 	},
 	{
+		"name": "Barrack",
+		"culture":1,
+		"cityHealth":5,
+		"uniques": [
+			"'Military Building'",
+			"[+10]% Production when constructing ['Infantry'] units [in this city]",
+			"New [Military] units start with [10] XP [in this city]",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Militia Organization",
+		"hurryCostModifier": 25
+	},
+	{
 		"name": "Settlement Patrol",
+		"happiness":1,
 		"cityStrength":5,
 		"uniques": [
 			"'Static Defense'",
@@ -201,7 +216,7 @@
 			"Destroyed when the city is captured",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
-		"requiredTech": "Emergency Agriculture",
+		"requiredTech": "Agriculture",
 		"hurryCostModifier": 25
 	},
 	{

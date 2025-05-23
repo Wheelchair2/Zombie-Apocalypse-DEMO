@@ -127,9 +127,8 @@
 				"quote": ""
 			},
 			{
-				"name": "Emergency Agriculture",
+				"name": "Agriculture",
 				"row": 7,
-				"prerequisites": ["Fishing","Hunting Party"],
 				"uniques":["Only available <when above [3] [Seeds]>"],
 				"quote": ""
 			},
@@ -163,7 +162,7 @@
 			{
 				"name": "Food Preseravtion",
 				"row": 7,
-				"prerequisites": ["Emergency Agriculture"],
+				"prerequisites": ["Agriculture"],
 				"quote": ""
 			},
 			{
@@ -241,7 +240,7 @@
 			{
 				"name": "Trapping",
 				"row": 10,
-				"prerequisites": ["Target Priority"],
+				"prerequisites": ["Scent Research"],
 				"quote": ""
 			},
 		]

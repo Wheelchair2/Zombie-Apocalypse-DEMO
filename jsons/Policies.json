@@ -2,12 +2,15 @@
     {
         "name": "Escape and Hide",
         "era": "Times of Survival",
-        "uniques": ["Only available <before adopting [Stand the Storm]>"
+        "uniques": ["Only available <before adopting [Stand the Storm]>",
+                    "[Armed Civilian] units gain the [Defense Doctrine] promotion",
+                    "[Armed Farmer] units gain the [Accuracy Doctrine] promotion"
         ],
         "policies": [
             {
                 "name": "Retreat from the Horde",
-                "uniques": [
+                "uniques": ["Notified of new Barbarian encampments",
+                            "[+10] HP when healing <for [10] turns>"
                 ],
                 "row": 1,
                 "column": 3
@@ -15,6 +18,8 @@
             {
                 "name": "Regrouping",
                 "uniques": [
+                    "[+10]% growth [in all cities]",
+                    "[+25]% Production when constructing ['Static Defense'] buildings [in all cities]"
                 ],
                 "requires": [
                     "Retreat from the Horde"
@@ -25,6 +30,8 @@
             {
                 "name": "Forage from the Wild",
                 "uniques": [
+                    "[+1 Food] from [improved] tiles [in all cities] <for [15] turns>",
+                    "Provides [1] [Seeds]"
                 ],
                 "requires": [
                     "Regrouping"
@@ -35,6 +42,9 @@
             {
                 "name": "Strike from the Dark",
                 "uniques": [
+                    "[25]% Strength for cities",
+                    "New [Ranged Combat] units start with [10] XP [in all cities]",
+                    
                 ],
                 "requires": [
                     "Regrouping"
@@ -45,6 +55,8 @@
             {
                 "name": "Escape and Hide Complete",
                 "uniques": [
+                    "[+1 Happiness] from all ['Static Defense'] buildings",
+                    "Gain an extra spy"
                 ]
             }
         ]
@@ -52,12 +64,16 @@
     {
         "name": "Stand the Storm",
         "era": "Times of Survival",
-        "uniques": ["Only available <before adopting [Escape and Hide]>"
+        "uniques": ["Only available <before adopting [Escape and Hide]>",
+                    "[Armed Civilian] units gain the [CQB Doctrine] promotion",
+                    "[Armed Farmer] units gain the [Initiative in Hand] promotion"
         ],
         "policies": [
             {
                 "name": "Maintain the Morale",
                 "uniques": [
+                    "[+3 Happiness] from all [Operation Base] buildings",
+                    "[+33]% Production when constructing ['Institution'] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -65,6 +81,8 @@
             {
                 "name": "Trap Engineering",
                 "uniques": [
+                    "Enemy [Barbarian] units must spend [1] extra movement points when inside your territory",
+                    "[Armed Civilian] units gain the [Area Denial] promotion"
                 ],
                 "row": 1,
                 "column": 5
@@ -72,6 +90,8 @@
             {
                 "name": "New Tactics",
                 "uniques": [
+                    "[-5]% XP required for promotions",
+                    "Provides [1] [Ammunition]"
                 ],
                 "requires": [
                     "Maintain the Morale","Trap Engineering"
@@ -82,6 +102,8 @@
             {
                 "name": "Revenge to the Damned",
                 "uniques": [
+                    "Free [Great Tactician] appears",
+                    "[+10]% Strength <vs [Barbarian] units>"
                 ],
                 "requires": [
                     "New Tactics"
@@ -92,6 +114,8 @@
             {
                 "name": "Stand the Storm Complete",
                 "uniques": [
+                    "[+1 Production] from all ['Infrastructure'] buildings",
+                    
                 ]
             }
         ]
