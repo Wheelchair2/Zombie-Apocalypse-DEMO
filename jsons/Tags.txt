@@ -19,7 +19,7 @@ Resource{
 Unit{
 'Infantry'
 'Motorized'
-'Skrimisher'
+'Skirmisher'
 'Dense Formation'
 'Firearms'
 'Edged Weapons'

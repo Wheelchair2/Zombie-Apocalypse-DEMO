@@ -1,4 +1,16 @@
 [
+    {
+        "name": "Enact Decision",
+        "text": "We can do a lot of things... If the zombies aint eating us already.",
+        "choices": [
+            {
+                "text": "Nothing special to do as of now",
+                "uniques": [
+                    "Comment [Yep.]"
+                ]
+            }
+        ]
+    }
     ///Tech Events
     {
         "name": "Our Escape",
@@ -35,6 +47,35 @@
                     "Instantly provides [5] [Fuels]",
                     "Free [Mechanized Infantry] appears",
                     "Free [Mortar Squad] appears"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Search for the Generator",
+        "text": "What Plan do you have to get hand on a generator?",
+        "choices": [
+            {
+                "text": "We need to initiate an expedition!",
+                "uniques": [
+                    "Only available <without [Ruined Factory]>",
+                    "Instantly consumes [2] [Fuels]",
+                    "Instantly consumes [5] [Medical Supply]",
+                    "Instantly consumes [10] [Ammunition]",
+                    "Instantly provides [1] [Generator] <with [25]% chance>",
+                    "Instantly provides [1] [Generator] <with [1]% chance>",
+                    "Instantly provides [4] [Scraps] <with [10]% chance>",
+                    "Instantly provides [2] [Refined Metals] <with [10]% chance>"
+                ]
+            },
+            {
+                "text": "There are ruined industrial area in our control, I think we can just dig up some there.",
+                "uniques": [
+                    "Only available <with [Ruined Factory]>",
+                    "Instantly provides [1] [Generator] <with [33]% chance>",
+                    "Instantly provides [1] [Generator] <with [5]% chance>",
+                    "Instantly provides [6] [Scraps] <with [25]% chance>",
+                    "Instantly provides [3] [Refined Metals] <with [25]% chance>"
                 ]
             }
         ]

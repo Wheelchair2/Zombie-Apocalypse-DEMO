@@ -221,7 +221,7 @@
 		"range":1,
 		"uniques": [
 			"'Infantry'",
-			"'Dense Formation'",
+			"'Skirmisher'",
 			"'Edged Weapons'",
 			"Gain [1]-[5] [Food] <upon ending a turn in a [Forest] tile>",
 			"Gain [1]-[3] [Food] <upon ending a turn in a [Tall Grass] tile>",
@@ -255,7 +255,7 @@
 		"rangedStrength":16,
 		"uniques": [
 			"'Infantry'",
-			"'Skrimisher'",
+			"'Skirmisher'",
 			"'Claws'"
 		],
 		"promotions": ["ZEDS Virus"],

@@ -12,6 +12,15 @@
 		"uniques": ["Provides [1] [Housing]",
 					"Indicates the capital city"]
 	},
+	{
+		"name": "Enact Decision",
+		"cost": 0,
+		"uniques": [
+			"Only available <in [Capital] cities>",
+			"Triggers a [Enact Decision] event"
+		],
+		"requiredTech":"Makeshift Weapons"
+	},
 	///Line 0
 	{
 		"name": "Shelter",
@@ -19,6 +28,22 @@
 			"'Housing'",
 			"[+5]% growth [in this city]",
 			"Provides [2] [Housing]",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Humanity's Journey",
+		"hurryCostModifier": 0
+	},
+	{
+		"name": "Commune",
+		"uniqueTo":"State Worker's Union",
+		"replaces":"Shelter",
+		"production":1,
+		"uniques": [
+			"'Housing'",
+			"[+5]% growth [in this city]",
+			"Provides [3] [Housing]",
+			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Humanity's Journey",
@@ -30,6 +55,7 @@
 		"culture":1,
 		"uniques": [
 			"'Infrastructure'",
+			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Humanity's Journey",
@@ -41,6 +67,7 @@
 		"cityHealth":10,
 		"uniques": [
 			"'Static Defense'",
+			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Humanity's Journey",
@@ -49,9 +76,11 @@
 	///Line 1
 	{
 		"name": "First Scavenge",
+		"isNationalWonder":true,
 		"uniques": [
 			"'Event'",
 			"[+1 Production, +1 Gold] from ['Structure'] tiles [in this city] <for [10] turns>",
+			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Urban Survivor",
@@ -59,11 +88,13 @@
 	},
 	{
 		"name": "First Foraging",
+		"isNationalWonder":true,
 		"uniques": [
 			"'Event'",
 			"[+1 Food] from [Plains] tiles [in all cities] <for [10] turns>",
 			"[+1 Food] from [Tall Grass] tiles [in all cities] <for [10] turns>",
 			"[+1 Food] from [Forest] tiles [in all cities] <for [10] turns>",
+			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Rural Survivor",
@@ -71,12 +102,14 @@
 	},
 	{
 		"name": "First Census",
+		"isNationalWonder":true,
 		"happiness":2,
 		"uniques": [
 			"'Event'",
 			"'Institution'",
 			"[+33]% Production when constructing ['Event'] buildings [in all cities]",
 			"Provides [1] [Housing]",
+			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Military Survivor",
@@ -89,7 +122,8 @@
 		"uniques": [
 			"'Industry'",
 			"Provides [1] [Fuels] <for [10] turns>",
-			"[+2 Production] from [Parking Lot] tiles [in this city]"
+			"[+2 Production] from [Parking Lot] tiles [in this city]",
+			"Cannot be purchased <if [Market] is not constructed>"
 		],
 		"requiredTech": "Scavenging Vehicle",
 		"hurryCostModifier": 25
@@ -99,10 +133,23 @@
 		"production":1,
 		"uniques": [
 			"'Industry'",
-			"Creates a [Scrapyard] improvement on a specific tile"
+			"Creates a [Scrapyard] improvement on a specific tile",
+			"Cannot be purchased <if [Market] is not constructed>"
 		],
 		"requiredTech": "Scavenging Building",
 		"hurryCostModifier": 25
+	},
+	{
+		"name": "Search for the Generator",
+		"uniques": [
+			"'Event'",
+			"Only available <without [Generator]>",
+			"Triggers a [The Search for the Generator] event",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Search Party",
+		"hurryCostModifier": 0
 	},
 	{
 		"name": "Seed Collection",
@@ -110,10 +157,11 @@
 		"uniques": [
 			"'Infrastructure'",
 			"Provides [1] [Seeds]",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Cannot be purchased <if [Market] is not constructed>"
 		],
 		"requiredTech": "Foraging",
-		"hurryCostModifier": 0
+		"hurryCostModifier": 25
 	},
 	{
 		"name": "Settlement Patrol",
@@ -121,22 +169,105 @@
 		"uniques": [
 			"'Static Defense'",
 			"[-1] population [in this city]",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Cannot be purchased <if [Market] is not constructed>"
 		],
 		"requiredTech": "Militia Organization",
+		"hurryCostModifier": 25
+	},
+	///Line 4
+	{
+		"name": "Market",
+		"gold":1,
+		"culture":1,
+		"uniques": [
+			"'Infrastructure'",
+			"Only available <in cities with at least [5] [Population]>",
+			"Comment [Enable you to purchase buildings.]",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Basic Structure",
+		"hurryCostModifier": 25
+	},
+	{
+		"name": "Irrigation System",
+		"percentStatBonus":{
+			"food":10
+		},
+		"uniques": [
+			"'Infrastructure'",
+			"[+1 Food] from [Farm] tiles [in this city]",
+			"Destroyed when the city is captured",
+			"Cannot be purchased <if [Market] is not constructed>"
+		],
+		"requiredTech": "Emergency Agriculture",
+		"hurryCostModifier": 25
+	},
+	{
+		"name": "Weapon Workshop",
+		"production":1,
+		"cityStrength":3,
+		"uniques": [
+			"'Infrastructure'",
+			"Provides [1] [Makeshift Weapons]",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Makeshift Weapons",
+		"hurryCostModifier": 25
+	},
+	{
+		"name": "Wooden Barricade",
+		"cityStrength":2,
+		"cityHealth":20,
+		"uniques": [
+			"'Static Defense'",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requireBuilding":"Junk Walls",
+		"requiredTech": "Makeshift Weapons",
+		"hurryCostModifier": 0
+	},
+	///Line 6
+	{
+		"name": "Smeltry",
+		"production":1,
+		"gold":1,
+		"uniques": [
+			"'Industry'",
+			"Provides [1] [Refined Metals] <when above [1] [Scraps]>",
+			"Consumes [2] [Scraps] <when above [1] [Scraps]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Welding",
+		"hurryCostModifier": 25
+	},
+	{
+		"name": "Carpentry House",
+		"production":2,
+		"gold":1,
+		"uniques": [
+			"'Industry'",
+			"[+15]% Production when constructing [All] buildings [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Carpentry",
 		"hurryCostModifier": 25
 	},
 	///Civ Specific non-replacement
 	{
 		"name": "Public Ownership",
-		"uniqueTo":"State Workers Union",
+		"uniqueTo":"State Worker's Union",
 		"percentStatBonus": {
 			"food": 5,
 			"production": 5
 		},
 		"uniques": [
 			"'Institution'",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Cannot be purchased"
 		],
 		"requiredTech": "Humanity's Journey",
 		"hurryCostModifier": 0
@@ -150,7 +281,8 @@
 		"uniques": [
 			"'Institution'",
 			"Provides [1] [Trust in Government]",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Cannot be purchased"
 		],
 		"requiredTech": "Humanity's Journey",
 		"hurryCostModifier": 0

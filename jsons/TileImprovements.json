@@ -140,9 +140,26 @@
 		],
 		"turnsToBuild": 3,
 		"uniques": [
+			"'Traps'",
 			"Adjacent enemy units ending their turn take [10] damage",
 			"Can be built outside your borders"
 		]
+	},
+	{
+		"name": "Trench",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill"
+		],
+		"turnsToBuild": 2,
+		"uniques": [
+			"Can be built outside your borders",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Gives a defensive bonus of [15]%"
+		],
+		"shortcutKey": "O"
 	},
 	{
 		"name": "Fort",
@@ -154,7 +171,7 @@
 			"House",
 			"Broken House"
 		],
-		"turnsToBuild": 6,
+		"turnsToBuild": 5,
 		"uniques": [
 			"Can be built outside your borders",
 			"Gives a defensive bonus of [33]%"

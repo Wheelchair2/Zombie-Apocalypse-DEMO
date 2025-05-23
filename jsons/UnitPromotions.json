@@ -7,6 +7,258 @@
         "column": 0
     },
 	{
+		"name": "Stewardship",
+		"uniques": [
+			"[+5]% XP gained from combat",
+			"[+1] Movement <when fighting in [Friendly Land] tiles>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"column": 3,
+		"row": 0
+	},
+	{
+		"name": "Centralised Command",
+		"uniques": [
+			"[+10]% XP gained from combat",
+			"Great General provides double combat bonus",
+			"[+33]% Damage when intercepting <for [Air] units>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Stewardship"
+		],
+		"column": 1,
+		"row": 1
+	},
+	{
+		"name": "Defense In Depth",
+		"uniques": [
+			"[+25]% Strength <when defending> <vs [{Barbarian} {Close Combat}] units>",
+			"[+25]% Strength <when defending> <when fighting in [Open terrain] tiles>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Centralised Command"
+		],
+		"column": 2,
+		"row": 1
+	},
+	{
+		"name": "Planned Offense",
+		"uniques": [
+			"[+25]% Strength <when attacking> <vs [{Barbarian} {Close Combat}] units>",
+			"[+25]% Strength <when attacking> <when fighting in [Rough terrain] tiles>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Centralised Command"
+		],
+		"column": 2,
+		"row": 2
+	},
+	{
+		"name": "Dispersed Command",
+		"uniques": [
+			"[+5]% XP gained from combat",
+			"[+10]% Strength <when attacking> <vs [Barbarian] units>",
+			"[+10]% Strength <when attacking> <when fighting in [Rough terrain] tiles>",
+			"[+5]% Strength <when defending> <vs [Barbarian] units>",
+			"[+5]% Strength <when defending> <when fighting in [Rough terrain] tiles>",
+			"Damage taken from interception reduced by [33]%"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Stewardship"
+		],
+		"column": 3,
+		"row": 1
+	},
+		{
+		"name": "Initiative in Hand",
+		"uniques": [
+			"[+1] Movement <when fighting in [Foreign Land] tiles>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Dispersed Command"
+		],
+		"column": 2,
+		"row": 3
+	},
+	{
+		"name": "First Strike",
+		"uniques": [
+			"[+50]% Strength <when attacking> <vs [non-[Wounded]] units>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Dispersed Command"
+		],
+		"column": 2,
+		"row": 4
+	},
+	{
+		"name": "Survival Doctrine",
+		"uniques": [
+			"[+10]% Strength <when defending> <vs [Barbarian] units>",
+			"[+10]% Strength <when defending> <vs [Ranged Combat] units>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Stewardship",
+			"Hardened"
+		],
+		"column": 5,
+		"row": 1
+	},
+	{
+		"name": "Self-sufficiency",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"[+5] HP when healing"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Survival Doctrine"
+		],
+		"column": 5,
+		"row": 2
+	},
+	{
+		"name": "Ammo Conservasion",
+		"uniques": [
+			"[1] XP gained from combat",
+			"Earn [25]% of killed [Ammo User] unit's [Strength] as [Ammunition]",
+			"Comment [Decrease the [Ammo User]'s Consumed Ammo]"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Self-sufficiency"
+		],
+		"column": 5,
+		"row": 3
+	},
+	{
 		"name": "Hardened",
 		"uniques": [
 			"[+5]% XP gained from combat",
@@ -25,13 +277,488 @@
 			"Bomber",
 			"Helicopter"
 		],
-		"column": 7,
+		"column": 6,
 		"row": 0
+	},
+	{
+		"name": "Veteran",
+		"uniques": [
+			"[+25]% Strength"
+		],
+		"unitTypes": [
+			"Siege",
+			"Scout",
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Ranged Combat",
+			"Close Combat Ship",
+			"Ranged Combat Ship",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		],
+		"prerequisites": [
+			"Ammo Conservasion",
+			"Shield Wall",
+			"Fort Builder",
+			"Area Denial",
+			"Sharpshooting"
+		],
+		"column": 6,
+		"row": 4
+	},
+	{
+		"name": "Melee Doctrine",
+		"uniques": [
+			"[+10]% Strength <vs [Close Combat] units>",
+			"[+5]% Strength <when defending> <vs [Close Combat] units>"
+		],
+		"unitTypes": [
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Close Combat Ship"
+		],
+		"prerequisites": [
+			"Hardened"
+		],
+		"column": 6,
+		"row": 1
+	},
+	{
+		"name": "Swift Formation",
+		"uniques": [
+			"[+5]% Strength",
+			"[+10]% Strength <vs ['Dense Formation'] units>"
+		],
+		"unitTypes": [
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Close Combat Ship"
+		],
+		"prerequisites": [
+			"Melee Doctrine"
+		],
+		"column": 6,
+		"row": 2
+	},
+	{
+		"name": "Shield Wall",
+		"uniques": [
+			"[+15]% Strength <when defending> <vs [Barbarian] units>",
+			"[+15]% Strength <when defending> <vs [Mounted] units>",
+			"[+25]% Strength <when defending> <vs [Ranged Combat] units>"
+		],
+		"unitTypes": [
+			"Assault",
+			"Mounted",
+			"Close Combat",
+			"Close Combat Ship"
+		],
+		"prerequisites": [
+			"Swift Formation"
+		],
+		"column": 6,
+		"row": 3
+	},
+	{
+		"name": "Defense Doctrine",
+		"uniques": [
+			"[+10]% Strength <when defending>",
+			"[+10]% Strength when stacked with [Civilian]"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat"
+		],
+		"prerequisites": [
+			"Hardened"
+		],
+		"column": 7,
+		"row": 1
+	},
+	{
+		"name": "Reinforced Position",
+		"uniques": [
+			"[+10]% Strength <when defending> <vs [Ranged Combat] units>",
+			"[+5]% Strength <when defending> <vs ['Skirmisher']>"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat"
+		],
+		"prerequisites": [
+			"Defense Doctrine"
+		],
+		"column": 7,
+		"row": 2
+	},
+	{
+		"name": "Fort Builder",
+		"uniques": [
+			"[+33]% Strength <when fighting in [Fort] tiles>",
+			"Can build [Fort] improvements at a [+33]% rate"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat"
+		],
+		"prerequisites": [
+			"Reinforced Position"
+		],
+		"column": 7,
+		"row": 3
+	},
+	{
+		"name": "CQB Doctrine",
+		"uniques": [
+			"[+10]% Strength <when fighting in ['Destroyed'] tiles>",
+			"[+5]% Strength <when defending>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Close Combat",
+			"Ranged Combat"
+		],
+		"prerequisites": [
+			"Hardened"
+		],
+		"column": 8,
+		"row": 1
+	},
+	{
+		"name": "Tactical Squads",
+		"uniques": [
+			"[2] XP gained from combat",
+			"[+10]% Strength <when attacking> <when fighting in [Rough terrain] tiles>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Close Combat",
+			"Ranged Combat"
+		],
+		"prerequisites": [
+			"CQB Doctrine"
+		],
+		"column": 8,
+		"row": 2
+	},
+	{
+		"name": "Area Denial",
+		"uniques": [
+			"Can build ['Traps'] improvements on tiles",
+			"[+15]% Strength <when fighting in ['Destroyed'] tiles>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Close Combat",
+			"Ranged Combat"
+		],
+		"prerequisites": [
+			"Tactical Squads"
+		],
+		"column": 8,
+		"row": 3
+	},
+	{
+		"name": "Accuracy Doctrine",
+		"uniques": [
+			"[+5]% XP gained from combat",
+			"[+10]% Strength <vs ['Skirmisher'] units> <when attacking>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Ranged Combat",
+			"Ranged Combat Ship"
+		],
+		"prerequisites": [
+			"Hardened"
+		],
+		"column": 9,
+		"row": 1
+	},
+	{
+		"name": "Aquiring Targets",
+		"uniques": [
+			"[+1] Sight",
+			"[+15]% Strength <vs ['Skirmisher'] units> <when attacking>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Ranged Combat",
+			"Ranged Combat Ship"
+		],
+		"prerequisites": [
+			"Accuracy Doctrine"
+		],
+		"column": 9,
+		"row": 2
+	},
+	{
+		"name": "Sharpshooting",
+		"uniques": [
+			"[+1] Range",
+			"[+5]% Strength"
+		],
+		"unitTypes": [
+			"Scout",
+			"Ranged Combat",
+			"Ranged Combat Ship"
+		],
+		"prerequisites": [
+			"Aquiring Targets"
+		],
+		"column": 9,
+		"row": 3
+	},
+	{
+		"name": "Mobility Doctrine",
+		"uniques": [
+			"[+10]% Strength <vs [Barbarian] units>",
+			"[+10]% Strength <vs [Ranged Combat] units>"
+		],
+		"unitTypes": [
+			"Mounted",
+			"Assault"
+		],
+		"prerequisites": [
+			"Hardened"
+		],
+		"column": 10,
+		"row": 1
+	},
+	{
+		"name": "Run and Gun",
+		"uniques": [
+			"[+1] Movement",
+			"[+10]% Strength <vs [Close Combat] units>"
+		],
+		"unitTypes": [
+			"Mounted",
+			"Assault"
+		],
+		"prerequisites": [
+			"Mobility Doctrine"
+		],
+		"column": 10,
+		"row": 2
+	},
+	{
+		"name": "Constant Harassment",
+		"uniques": [
+			"[-5]% Strength for enemy [Barbarian] units in adjacent [All] tiles",
+			"[-5]% Strength for enemy [Military] units in adjacent [Open terrain] tiles"
+		],
+		"unitTypes": [
+			"Mounted",
+			"Assault"
+		],
+		"prerequisites": [
+			"Run and Gun"
+		],
+		"column": 10,
+		"row": 3
+	},
+	{
+		"name": "Melee Arms",
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat",
+			"Scout",
+			"Mounted",
+			"Assault",
+			"Siege",
+			"Close Combat Ship",
+			"Ranged Combat Ship"
+		],
+		"uniques": [
+			"This Promotion is free <if [Weapon Workshop] is constructed>"
+		],
+		"column": 11,
+		"row": 0
+	},
+	{
+		"name": "Shovel",
+		"prerequisites": [
+			"Melee Arms"
+		],
+		"uniques": [
+			"[+5]% Strength <vs [Close Combat] units>",
+			"Can build [Trench] improvements on tiles"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat"
+		],
+		"column": 11,
+		"row": 1
+	},
+	{
+		"name": "Pike",
+		"prerequisites": [
+			"Melee Arms"
+		],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles>",
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <vs [Mounted] units>"
+		],
+		"unitTypes": [
+			"Close Combat"
+		],
+		"column": 11,
+		"row": 2
+	},
+	{
+		"name": "Halberd",
+		"prerequisites": [
+			"Melee Arms"
+		],
+		"uniques": [
+			"[+25]% Strength <when attacking>"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat",
+			"Scout"
+		],
+		"column": 11,
+		"row": 3
+	},
+	{
+		"name": "Javalin",
+		"prerequisites": [
+			"Melee Arms"
+		],
+		"uniques": [
+			"[+15]% Strength <vs [non-[Wounded]] units> <when attacking>",
+			"[+20]% Strength <vs ['Dense Formation'] units> <when attacking>"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Assault"
+		],
+		"column": 11,
+		"row": 4
+	},
+	{
+		"name": "Scrap Armor",
+		"prerequisites": [
+			"Melee Arms"
+		],
+		"uniques": [
+			"Instantly consumes [1] [Scraps]",
+			"[+5]% Strength <when defending> <vs [Close Combat] units>",
+			"[+15]% Strength <vs [Barbarian] units>"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat",
+			"Scout",
+			"Mounted",
+			"Assault"
+		],
+		"column": 12,
+		"row": 1
+	},
+	{
+		"name": "Plate Armor",
+		"prerequisites": [
+			"Melee Arms"
+		],
+		"uniques": [
+			"Instantly consumes [1] [Refined Metals]",
+			"[+10]% Strength <when defending> <vs [Close Combat] units>",
+			"[+20]% Strength <vs [Barbarian] units>"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat",
+			"Scout",
+			"Mounted",
+			"Assault"
+		],
+		"column": 12,
+		"row": 2
+	},
+	{
+		"name": "Archery Weapons",
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat",
+			"Scout",
+			"Mounted",
+			"Assault",
+			"Siege",
+			"Close Combat Ship",
+			"Ranged Combat Ship"
+		],
+		"uniques": [
+			"This Promotion is free <if [Weapon Workshop] is constructed>"
+		],
+		"column": 13,
+		"row": 0
+	},
+	{
+		"name": "Short Bow",
+		"prerequisites": [
+			"Archery Weapons"
+		],
+		"uniques": [
+			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
+			"[+10]% Strength <vs ['Dense Formation'] units>"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat",
+			"Ranged Combat Ship",
+			"Scout"
+		],
+		"column": 13,
+		"row": 1
+	},
+	{
+		"name": "Crossbow",
+		"prerequisites": [
+			"Archery Weapons"
+		],
+		"uniques": [
+			"[+7]% Strength",
+			"[+18]% Strength <vs [Close Combat] units>"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat",
+			"Ranged Combat Ship",
+			"Scout"
+		],
+		"column": 13,
+		"row": 2
+	},
+	{
+		"name": "Composite Bow",
+		"prerequisites": [
+			"Archery Weapons"
+		],
+		"uniques": [
+			"Instantly consumes [1] [Refined Metals]",
+			"[+20]% Strength"
+		],
+		"unitTypes": [
+			"Close Combat",
+			"Ranged Combat",
+			"Ranged Combat Ship",
+			"Scout"
+		],
+		"column": 13,
+		"row": 3
 	},
 	{
 		"name": "Ammo User",
 		"uniques": [
-			"Instantly consumes [1] [Ammunition] <upon damaging a [Military] unit>"
+			"Instantly consumes [1] [Ammunition] <upon damaging a [Military] unit> <for units without [Ammo Conservasion]>",
+			"Instantly consumes [1] [Ammunition] <every [2] turns> <upon damaging a [Military] unit> <for units with [Ammo Conservasion]>"
 		]
 	},
 	{

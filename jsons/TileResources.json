@@ -270,6 +270,7 @@
 		"name": "Seeds",
 		"resourceType": "Strategic"
 	},
+
 	///Products
 	{
 		"name": "Makeshift Weapons",
@@ -330,6 +331,13 @@
 		"resourceType": "Strategic",
 		"uniques": [
 			"City-level resource"
+		]
+	},
+	{
+		"name": "Generator",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
 		]
 	},
 	{
