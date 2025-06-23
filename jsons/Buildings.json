@@ -140,6 +140,21 @@
 		"hurryCostModifier": 25
 	},
 	{
+		"name": "Medieval Weapon Workshop",
+		"uniqueTo":"Zeds Cutting Club",
+		"replaces":"Weapon Workshop",
+		"production":1,
+		"cityStrength":3,
+		"uniques": [
+			"'Industry'",
+			"Provides [1] [Makeshift Weapons]",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Scavenging Building",
+		"hurryCostModifier": 25
+	},
+	{
 		"name": "Search for the Generator",
 		"uniques": [
 			"'Event'",

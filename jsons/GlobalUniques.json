@@ -15,8 +15,6 @@
         "Triggers a [Our Escape] event <before turn number [2]> <upon turn start>",
         ///City Mechanics
         "[-100]% Unhappiness from [Population] [in all cities]",
-        "[-50]% growth [in all cities] <when below [0] [Housing]>",
-        "Nullifies Growth [in all cities] <when below [-1] [Housing]>",
         ///Government Force
         "[+10]% Strength <when above [3] [Trust in Government]> <for [Government Force] Civilizations>",
         "[-33]% [Happiness] [in all cities] <when below [0] [Trust in Government]>"
