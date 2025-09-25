@@ -129,6 +129,7 @@
 			{
 				"name": "Agriculture",
 				"row": 7,
+				"prerequisites": ["Hunting","Fishing"],
 				"uniques":["Only available <when above [3] [Seeds]>"],
 				"quote": ""
 			},

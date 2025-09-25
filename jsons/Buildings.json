@@ -19,7 +19,7 @@
 			"Only available <in [Capital] cities>",
 			"Triggers a [Enact Decision] event"
 		],
-		"requiredTech":"Makeshift Weapons"
+		"requiredTech":"Military Survivor"
 	},
 	///Line 0
 	{
@@ -130,7 +130,7 @@
 	},
 	{
 		"name": "Scrap Workshop",
-		"production":1,
+		"production":2,
 		"uniques": [
 			"'Industry'",
 			"Creates a [Scrapyard] improvement on a specific tile",
@@ -154,18 +154,7 @@
 		"requiredTech": "Scavenging Building",
 		"hurryCostModifier": 25
 	},
-	{
-		"name": "Search for the Generator",
-		"uniques": [
-			"'Event'",
-			"Only available <without [Generator]>",
-			"Triggers a [The Search for the Generator] event",
-			"Cannot be purchased <if [Market] is not constructed>",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Search Party",
-		"hurryCostModifier": 0
-	},
+
 	{
 		"name": "Seed Collection",
 		"science":1,

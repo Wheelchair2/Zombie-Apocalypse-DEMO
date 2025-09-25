@@ -115,7 +115,7 @@
 	{
 		"name": "Mechanized Infantry",
 		"unitType": "Assault",
-		"movement": 3,
+		"movement": 4,
 		"strength": 20,
 		"uniques": [
 			"Unbuildable",
@@ -257,6 +257,34 @@
 			"'Infantry'",
 			"'Skirmisher'",
 			"'Claws'"
+		],
+		"promotions": ["ZEDS Virus"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Infected Horde",
+		"unitType": "Close Combat",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"uniques": [
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Claws'"
+		],
+		"promotions": ["ZEDS Virus"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "The Brute",
+		"unitType": "Ranged Combat",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 35,
+		"uniques": [
+			"'Infantry'",
+			"'Skirmisher'",
+			"'Smash'"
 		],
 		"promotions": ["ZEDS Virus"],
 		"attackSound": "nonmetalhit"

@@ -12,7 +12,7 @@
   },
   {
     "name": "Clear Barbarian Camp",
-    "description": "We feel threatened by a Barbarian Camp near our city. Please take care of it.",
+    "description": "We feel threatened by a Zombie Horde near our city. Please take care of it.",
     "type": "Global",
     "influence": 50,
     "minimumCivs": 1,
@@ -26,7 +26,7 @@
   },
   {
     "name": "Connect Resource",
-    "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
+    "description": "In order to make our friendship stronger, connect [tileResource] to your trade network, we havent had those for a long while",
       "weightForCityStateType": {
           "Maritime": 2,
           "Mercantile": 3
@@ -34,21 +34,21 @@
   },
   {
     "name": "Construct Wonder",
-    "description": "We recommend you to start building [wonder] to show the whole world your civilization strength.",
+    "description": "We recommend you to start building [wonder]. For the sake of our survival.",
       "weightForCityStateType": {
           "Cultured": 3
       }
   },
   {
     "name": "Acquire Great Person",
-    "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
+    "description": "Do you have a [greatPerson]? I hope this guy havent turned into zombie yet.",
       "weightForCityStateType": {
           "Cultured": 3
       }
   },
   {
     "name": "Conquer City State",
-    "description": "It's time to erase the City-State of [cityState] from the map. You will be greatly rewarded for conquering them!",
+    "description": "It's time to erase the City-State of [cityState] from the map. They definitely lead a horde into one of our camp.",
     "influence": 80,
       "weightForCityStateType": {
           "Hostile": 2,
@@ -67,7 +67,7 @@
   },
   {
     "name": "Find Natural Wonder",
-    "description": "Send your best explorers on a quest to discover Natural Wonders. Nobody knows the location of [naturalWonder] yet.",
+    "description": "Send your best explorers on a quest to discover pre-apocalypse wonder. Nobody knows the location of [naturalWonder] yet.",
       "weightForCityStateType": {
           "Hostile": 0.3,
           "Militaristic": 0.5
@@ -76,7 +76,7 @@
   /* G&K */
   {
     "name": "Give Gold",
-    "description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Gold, it's only a matter of time before we collapse.",
+    "description": "We are suffering great poverty after being robbed by [civName], and unless we receive at least some sustainance, it's only a matter of time before we collapse.",
     "influence": 20,
     "duration": 30,
       "weightForCityStateType": {
@@ -102,7 +102,7 @@
   },
   {
     "name": "Contest Culture",
-    "description": "The civilization with the largest Culture growth will gain a reward.",
+    "description": "Lets see whose ideal can recover the hope of our state.",
     "type": "Global",
     "duration": 30,
     "minimumCivs": 3,
@@ -116,7 +116,7 @@
   },
   {
     "name": "Contest Faith",
-    "description": "The civilization with the largest Faith growth will gain a reward.",
+    "description": "Lets see whose ideal can recover the hope of our state.",
     "type": "Global",
     "duration": 30,
     "minimumCivs": 3,
@@ -130,7 +130,7 @@
   },
   {
     "name": "Contest Technologies",
-    "description": "The civilization with the largest number of new Technologies researched will gain a reward.",
+    "description": "If only things could return to the past...",
     "type": "Global",
     "duration": 30,
     "minimumCivs": 3,
@@ -140,7 +140,7 @@
   },
   {
     "name": "Invest",
-    "description": "Our people are rejoicing thanks to a tourism boom. For a certain amount of time, any Gold donation will yield [50]% extra Influence.",
+    "description": "Our people are rejoicing thanks to a festival. For a certain amount of time, any Gold donation will yield [50]% extra Influence.",
     "type": "Global",
     "influence": 0,
     "duration": 30,

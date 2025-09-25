@@ -116,6 +116,7 @@
 		"uniques": [
 			"'Structure'",
 			"Cannot be traded",
+			"Not shown on world screen",
 			"Generated on every [30] tiles <in [{Featureless} {Street}] tiles>",
 			"Generated on every [14] tiles <in [House] tiles>",
 			"Generated on every [8] tiles <in [Facility] tiles>"
@@ -156,6 +157,7 @@
 		"uniques": [
 			"'Structure'",
 			"Cannot be traded",
+			"Not shown on world screen",
 			"Generated with weight [5] <in [Street] tiles>",
 			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
 			"Deposits in [All] tiles always provide [1] resources"
@@ -176,6 +178,7 @@
 		"uniques": [
 			"'Structure'",
 			"Cannot be traded",
+			"Not shown on world screen",
 			"Generated with weight [20] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
 			"Guaranteed with Strategic Balance resource option",
@@ -196,6 +199,7 @@
 		"uniques": [
 			"'Structure'",
 			"Cannot be traded",
+			"Not shown on world screen",
 			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
 			"Deposits in [All] tiles always provide [1] resources"
 		]
@@ -214,6 +218,7 @@
 		"uniques": [
 			"'Structure'",
 			"Cannot be traded",
+			"Not shown on world screen",
 			"Generated with weight [5] <in [{Featureless} {Facility}] tiles>",
 			"Deposits in [All] tiles always provide [1] resources"
 		]
@@ -233,6 +238,7 @@
 		"uniques": [
 			"'Structure'",
 			"Cannot be traded",
+			"Not shown on world screen",
 			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
 			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
 			"Deposits in [All] tiles always provide [1] resources"
@@ -244,6 +250,7 @@
 		"name": "Scraps",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
 			"Stockpiled"
 		]
 	},
@@ -251,6 +258,7 @@
 		"name": "Refined Metals",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
 			"Stockpiled"
 		]
 	},
@@ -258,6 +266,7 @@
 		"name": "Machine Parts",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
 			"Stockpiled"
 		]
 	},
@@ -265,6 +274,7 @@
 		"name": "Gunpowder",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
 			"Stockpiled"
 		]
 	},
@@ -278,6 +288,7 @@
 		"name": "Makeshift Weapons",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
 			"Stockpiled"
 		]
 	},
@@ -285,6 +296,7 @@
 		"name": "Small Firearms",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
 			"Stockpiled"
 		]
 	},
@@ -292,6 +304,7 @@
 		"name": "Heavy Firearms",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
 			"Stockpiled"
 		]
 	},
@@ -346,6 +359,7 @@
 		"name": "Trust in Government",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen <for [non-[Government Force]] civilizations>",
 			"Cannot be traded"
 		]
 	}

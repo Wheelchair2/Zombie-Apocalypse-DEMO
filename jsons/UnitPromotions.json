@@ -175,7 +175,7 @@
 	{
 		"name": "First Strike",
 		"uniques": [
-			"[+50]% Strength <when attacking> <vs [non-[Wounded]] units>"
+			"[+33]% Strength <when attacking> <vs [non-[Wounded]] units>"
 		],
 		"unitTypes": [
 			"Siege",

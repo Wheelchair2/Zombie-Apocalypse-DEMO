@@ -8,13 +8,20 @@
                 "uniques": [
                     "Comment [Yep.]"
                 ]
+            },
+            {
+                "text": "Initiate the search for generator",
+                "uniques": [
+                    "Only available <after discovering [Search Party]> <without [Generator]>",
+                    "Triggers a [The Search for the Generator] event"
+                ]
             }
         ]
     }
     ///Tech Events
     {
         "name": "Our Escape",
-        "text": "What, and who have you brought into the refuge?",
+        "text": "We were not nobodies, we could use our skills to survive.",
         "choices": [
             {
                 "text": "We came from the overruned cities.",
@@ -53,7 +60,7 @@
     },
     {
         "name": "The Search for the Generator",
-        "text": "What Plan do you have to get hand on a generator?",
+        "text": "What Plan do you have to get your hand on a generator?",
         "choices": [
             {
                 "text": "We need to initiate an expedition!",
