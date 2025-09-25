@@ -287,6 +287,7 @@
 			"'Smash'"
 		],
 		"promotions": ["ZEDS Virus"],
+		"requiredTech":"Pike and Shot",
 		"attackSound": "nonmetalhit"
 	},
 	/* Great people */
