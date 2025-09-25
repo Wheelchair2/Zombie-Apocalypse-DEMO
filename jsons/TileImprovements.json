@@ -62,10 +62,15 @@
 			"Forest",
 			"Tall Grass"
 		],
+		"food":1,
 		"turnsToBuild": 3,
 		"uniques": [
 			"'Makeshift'",
-			"[+1 Food] <for [10] turns>",
+			"Comment [Harvest 1 extra [Food] in Summer]",
+			"[+1 Food] <when above [0] [Summer1]> <hidden from users>",
+			"[+1 Food] <when above [0] [Summer2]> <hidden from users>",
+			"[+1 Food] <when above [0] [Summer3]> <hidden from users>",
+			"[+1 Food] <when above [0] [Summer4]> <hidden from users>",
 			"[+1 Food] <every [2] turns> <after discovering [Foraging]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
@@ -92,10 +97,11 @@
 		],
 		"turnsToBuild": 7,
 		"uniques": [
-			"[+1 Food] <on [Quick] game speed> <for [non-[AI player]] Civilizations>",
-			"[+2 Food] <every [3] turns> <on [Standard] game speed> <for [non-[AI player]] Civilizations>",
-			"[+3 Food] <every [5] turns> <on [Epic] game speed> <for [non-[AI player]] Civilizations>",
-			"[+4 Food] <every [8] turns> <on [Marathon] game speed> <for [non-[AI player]] Civilizations>",
+			"Comment [Harvest 5 [Food]s in Autumn.]",
+			"[+5 Food] <when above [0] [Autumn1]> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+5 Food] <when above [0] [Autumn2]> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+5 Food] <when above [0] [Autumn3]> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+5 Food] <when above [0] [Autumn4]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+1 Food] <for [AI player] Civilizations>",
 			"Can also be built on tiles adjacent to fresh water",
 			"Pillaging this improvement yields approximately [+18 Gold]"
@@ -111,14 +117,19 @@
 			"Grassland",
 			"Hill"
 		],
-		"food": 3,
 		"production": 1,
 		"gold": 1,
 		"uniques": [
 			"Irremovable",
+			"Comment [Harvest 7 [Food]s in Autumn.]",
+			"[+7 Food] <when above [0] [Autumn1]> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+7 Food] <when above [0] [Autumn2]> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+7 Food] <when above [0] [Autumn3]> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+7 Food] <when above [0] [Autumn4]> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+3 Food] <for [AI player] Civilizations>",
 			"Removes removable features when built",
 			"Great Improvement",
-			"Comment [You know that Dave had a Amish Cousin whose farm he used to work in? He's learned a thing or two from that place, and used them to be self-sufficient.]"
+			"Comment [You know that Dave had a Amish Cousin whose farm he used to work in? He's learned a thing or two from that place, and that happens to be extreme handy.]"
 		]
 	},
 	// Resource-specific
