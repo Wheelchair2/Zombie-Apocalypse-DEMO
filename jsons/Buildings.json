@@ -17,9 +17,19 @@
 		"cost": 0,
 		"uniques": [
 			"Only available <in [Capital] cities>",
-			"Triggers a [Enact Decision] event"
+			"Triggers a [Enact Decision] event",
+			"Remove [Enact Decision] [in this city]"
 		],
 		"requiredTech":"Military Survivor"
+	},
+	{
+		"name": "Check Calendar",
+		"cost": 0,
+		"uniques": [
+			"Triggers a [Present Current Time] event",
+			"Remove [Check Calendar] [in this city]"
+		],
+		"requiredTech":"Humanity's Journey"
 	},
 	///Line 0
 	{

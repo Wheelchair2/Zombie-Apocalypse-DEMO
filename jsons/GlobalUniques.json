@@ -16,7 +16,7 @@
         "[-100]% Unhappiness from [Population] [in all cities]",
         ///Government Force
         "[+10]% Strength <when above [3] [Trust in Government]> <for [Government Force] Civilizations>",
-        "[-33]% [Happiness] [in all cities] <when below [0] [Trust in Government]>"
+        "[-33]% [Happiness] [in all cities] <when below [0] [Trust in Government]>",
 
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",
@@ -31,5 +31,94 @@
 
         // "[+20]% [Production] [in cities connected via railroad]"
         // something something unit supply
+        
+        "Instantly provides [1] [Spring1] <upon entering the [Information Era]>",
+        // Spring1
+        "Instantly provides [1] [Spring2] <when above [0] [Spring1]> <on [Standard] game speed> <upon turn end>",
+        "Instantly provides [1] [Spring2] <when above [0] [Spring1]> <on [Epic] game speed> <upon turn end>",
+        "Instantly provides [1] [Spring2] <when above [0] [Spring1]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Summer1] <when above [0] [Spring1]> <on [Quick] game speed> <upon turn end>",
+        "Instantly consumes [1] [Spring1] <when above [0] [Spring1]> <upon turn end>",
+
+        // Spring2
+        "Instantly provides [1] [Spring3] <when above [0] [Spring2]> <on [Epic] game speed> <upon turn end>",
+        "Instantly provides [1] [Spring3] <when above [0] [Spring2]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Summer1] <when above [0] [Spring2]> <on [Standard] game speed> <upon turn end>",
+        "Instantly consumes [1] [Spring2] <when above [0] [Spring2]> <upon turn end>",
+
+        // Spring3
+        "Instantly provides [1] [Spring4] <when above [0] [Spring3]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Summer1] <when above [0] [Spring3]> <on [Epic] game speed> <upon turn end>",
+        "Instantly consumes [1] [Spring3] <when above [0] [Spring3]> <upon turn end>",
+
+        // Spring4
+        "Instantly provides [1] [Summer1] <when above [0] [Spring4]> <upon turn end>",
+        "Instantly consumes [1] [Spring4] <when above [0] [Spring4]> <upon turn end>",
+
+        // Summer1
+        "Instantly provides [1] [Summer2] <when above [0] [Summer1]> <on [Standard] game speed> <upon turn end>",
+        "Instantly provides [1] [Summer2] <when above [0] [Summer1]> <on [Epic] game speed> <upon turn end>",
+        "Instantly provides [1] [Summer2] <when above [0] [Summer1]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Autumn1] <when above [0] [Summer1]> <on [Quick] game speed> <upon turn end>",
+        "Instantly consumes [1] [Summer1] <when above [0] [Summer1]> <upon turn end>",
+
+        // Summer2
+        "Instantly provides [1] [Summer3] <when above [0] [Summer2]> <on [Epic] game speed> <upon turn end>",
+        "Instantly provides [1] [Summer3] <when above [0] [Summer2]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Autumn1] <when above [0] [Summer2]> <on [Standard] game speed> <upon turn end>",
+        "Instantly consumes [1] [Summer2] <when above [0] [Summer2]> <upon turn end>",
+
+        // Summer3
+        "Instantly provides [1] [Summer4] <when above [0] [Summer3]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Autumn1] <when above [0] [Summer3]> <on [Epic] game speed> <upon turn end>",
+        "Instantly consumes [1] [Summer3] <when above [0] [Summer3]> <upon turn end>",
+
+        // Summer4
+        "Instantly provides [1] [Autumn1] <when above [0] [Summer4]> <upon turn end>",
+        "Instantly consumes [1] [Summer4] <when above [0] [Summer4]> <upon turn end>",
+
+        // Autumn1
+        "Instantly provides [1] [Autumn2] <when above [0] [Autumn1]> <on [Standard] game speed> <upon turn end>",
+        "Instantly provides [1] [Autumn2] <when above [0] [Autumn1]> <on [Epic] game speed> <upon turn end>",
+        "Instantly provides [1] [Autumn2] <when above [0] [Autumn1]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Winter1] <when above [0] [Autumn1]> <on [Quick] game speed> <upon turn end>",
+        "Instantly consumes [1] [Autumn1] <when above [0] [Autumn1]> <upon turn end>",
+
+        // Autumn2
+        "Instantly provides [1] [Autumn3] <when above [0] [Autumn2]> <on [Epic] game speed> <upon turn end>",
+        "Instantly provides [1] [Autumn3] <when above [0] [Autumn2]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Winter1] <when above [0] [Autumn2]> <on [Standard] game speed> <upon turn end>",
+        "Instantly consumes [1] [Autumn2] <when above [0] [Autumn2]> <upon turn end>",
+
+        // Autumn3
+        "Instantly provides [1] [Autumn4] <when above [0] [Autumn3]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Winter1] <when above [0] [Autumn3]> <on [Epic] game speed> <upon turn end>",
+        "Instantly consumes [1] [Autumn3] <when above [0] [Autumn3]> <upon turn end>",
+
+        // Autumn4
+        "Instantly provides [1] [Winter1] <when above [0] [Autumn4]> <upon turn end>",
+        "Instantly consumes [1] [Autumn4] <when above [0] [Autumn4]> <upon turn end>",
+
+        // Winter1
+        "Instantly provides [1] [Winter2] <when above [0] [Winter1]> <on [Standard] game speed> <upon turn end>",
+        "Instantly provides [1] [Winter2] <when above [0] [Winter1]> <on [Epic] game speed> <upon turn end>",
+        "Instantly provides [1] [Winter2] <when above [0] [Winter1]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Spring1] <when above [0] [Winter1]> <on [Quick] game speed> <upon turn end>",
+        "Instantly consumes [1] [Winter1] <when above [0] [Winter1]> <upon turn end>",
+
+        // Winter2
+        "Instantly provides [1] [Winter3] <when above [0] [Winter2]> <on [Epic] game speed> <upon turn end>",
+        "Instantly provides [1] [Winter3] <when above [0] [Winter2]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Spring1] <when above [0] [Winter2]> <on [Standard] game speed> <upon turn end>",
+        "Instantly consumes [1] [Winter2] <when above [0] [Winter2]> <upon turn end>",
+
+        // Winter3
+        "Instantly provides [1] [Winter4] <when above [0] [Winter3]> <on [Marathon] game speed> <upon turn end>",
+        "Instantly provides [1] [Spring1] <when above [0] [Winter3]> <on [Epic] game speed> <upon turn end>",
+        "Instantly consumes [1] [Winter3] <when above [0] [Winter3]> <upon turn end>",
+
+        // Winter4
+        "Instantly provides [1] [Spring1] <when above [0] [Winter4]> <upon turn end>",
+        "Instantly consumes [1] [Winter4] <when above [0] [Winter4]> <upon turn end>"
     ]
 }

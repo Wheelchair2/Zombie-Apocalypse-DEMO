@@ -381,7 +381,7 @@
 		"name": "Defense Doctrine",
 		"uniques": [
 			"[+10]% Strength <when defending>",
-			"[+10]% Strength when stacked with [Civilian]"
+			"[+10]% Strength <when stacked with a [Civilian] unit>"
 		],
 		"unitTypes": [
 			"Close Combat",

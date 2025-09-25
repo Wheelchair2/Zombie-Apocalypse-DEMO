@@ -35,6 +35,7 @@
 			"Gives a defensive bonus of [17]%",
 			"Pillaging this improvement yields approximately [+15 Gold]"
 		],
+		"techRequired":"Search Party"
 		"shortcutKey": "M" 
 	},
 	{
@@ -135,14 +136,14 @@
 	},
 	// Military improvement
 	{
-		"name": "Wooden Spikes",
+		"name": "Traps",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
 		"turnsToBuild": 3,
 		"uniques": [
 			"'Traps'",
-			"Adjacent enemy units ending their turn take [10] damage",
+			"Adjacent enemy units ending their turn take [5] damage",
 			"Can be built outside your borders"
 		]
 	},
@@ -157,9 +158,9 @@
 		"turnsToBuild": 2,
 		"uniques": [
 			"Can be built outside your borders",
-			"Adjacent enemy units ending their turn take [5] damage",
 			"Gives a defensive bonus of [15]%"
 		],
+		"techRequired": "Militia Organization",
 		"shortcutKey": "O"
 	},
 	{
@@ -177,7 +178,7 @@
 			"Can be built outside your borders",
 			"Gives a defensive bonus of [33]%"
 		],
-		"techRequired": "Basic Structure",
+		"techRequired": "Cement",
 		"shortcutKey": "O"
 	},
 	// Transportation

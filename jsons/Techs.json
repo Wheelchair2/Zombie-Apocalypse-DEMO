@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Times of Survival",
+		"era": "Information Era",
 		"techCost": 10,
 		"buildingCost": 20,
 		"wonderCost": 100,
@@ -129,7 +129,7 @@
 			{
 				"name": "Agriculture",
 				"row": 7,
-				"prerequisites": ["Hunting","Fishing"],
+				"prerequisites": ["Hunting Party","Fishing"],
 				"uniques":["Only available <when above [3] [Seeds]>"],
 				"quote": ""
 			},

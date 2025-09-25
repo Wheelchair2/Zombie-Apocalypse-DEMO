@@ -86,5 +86,128 @@
                 ]
             }
         ]
+    },
+        {
+        "name": "Present Current Time",
+        "text": "Behold! The options below doesnt do anything, they just display what status you are in.",
+        "choices": [
+            {
+                "text": "Spring",
+                "uniques": [
+                    "Only available <when above [0] [Spring1]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Spring",
+                "uniques": [
+                    "Only available <when above [0] [Spring2]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Spring",
+                "uniques": [
+                    "Only available <when above [0] [Spring3]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Spring",
+                "uniques": [
+                    "Only available <when above [0] [Spring4]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Summer",
+                "uniques": [
+                    "Only available <when above [0] [Summer1]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Summer",
+                "uniques": [
+                    "Only available <when above [0] [Summer2]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Summer",
+                "uniques": [
+                    "Only available <when above [0] [Summer3]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Summer",
+                "uniques": [
+                    "Only available <when above [0] [Summer4]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Autumn",
+                "uniques": [
+                    "Only available <when above [0] [Autumn1]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Autumn",
+                "uniques": [
+                    "Only available <when above [0] [Autumn2]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Autumn",
+                "uniques": [
+                    "Only available <when above [0] [Autumn3]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Autumn",
+                "uniques": [
+                    "Only available <when above [0] [Autumn4]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Winter",
+                "uniques": [
+                    "Only available <when above [0] [Winter1]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Winter",
+                "uniques": [
+                    "Only available <when above [0] [Winter2]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Winter",
+                "uniques": [
+                    "Only available <when above [0] [Winter3]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Winter",
+                "uniques": [
+                    "Only available <when above [0] [Winter4]>",
+                    "Triggers a [Present Current Time] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "Remember to check if the things you are doing makes sense in the correspounding season",
+                "uniques": ["Comment [Haverst in Autumn... Yep.]"
+                ]
+            }
+        ]
     }
 ]

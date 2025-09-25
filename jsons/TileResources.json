@@ -359,7 +359,152 @@
 		"name": "Trust in Government",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Not shown on world screen <for [non-[Government Force]] civilizations>",
+			"Not shown on world screen <for [non-[Government Force]] Civilizations>",
+			"Cannot be traded"
+		]
+	},
+	///Season
+	{
+		"name": "Spring1",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Spring2",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Spring3",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Spring4",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Summer1",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Summer2",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Summer3",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Summer4",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Autumn1",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Autumn2",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Autumn3",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Autumn4",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Winter1",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Winter2",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Winter3",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Winter4",
+		"resourceType": "Strategic",
+		"uniques": [
+			
+		"Stockpiled",
 			"Cannot be traded"
 		]
 	}
