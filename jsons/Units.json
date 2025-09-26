@@ -231,6 +231,24 @@
 		"attackSound": "arrow",
 		"hurryCostModifier":0
 	},
+	{
+		"name": "Pike and shot Militia",
+		"unitType": "Close Combat",
+		"movement": 2,
+		"strength": 15,
+		"uniques": [
+			"Costs [5] [Makeshift Weapons]",
+			"'Infantry'",
+			"'Dense Formation'",
+			"'Edged Weapons'",
+			"[+25]% Strength <when defending>",
+			"[+15]% Strength <vs ['Claw'] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech":"Pike and Shot",
+		"attackSound": "metalhit",
+		"hurryCostModifier":0
+	},
 	///Zeds
 	{
 		"name": "Common Infected",

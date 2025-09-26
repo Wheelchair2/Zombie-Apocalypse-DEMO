@@ -1,17 +1,6 @@
 [
-	// Always available
-	{
-		"name": "Operation Base",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 2,
-		"gold": 3,
-		"culture": 2,
-		"cityStrength": 2,
-		"cost": 1,
-		"uniques": ["Provides [1] [Housing]",
-					"Indicates the capital city"]
-	},
+	// Actions
+
 	{
 		"name": "Enact Decision",
 		"cost": 0,
@@ -328,5 +317,18 @@
 		],
 		"requiredTech": "Humanity's Journey",
 		"hurryCostModifier": 0
-	}
+	},
+	///Special
+	{
+		"name": "Operation Base",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 2,
+		"gold": 3,
+		"culture": 2,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Provides [1] [Housing]",
+					"Indicates the capital city"]
+	},
 ]
