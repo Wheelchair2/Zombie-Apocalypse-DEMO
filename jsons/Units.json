@@ -65,7 +65,7 @@
 		"name": "Police Patrol",
 		"unitType": "Scout",
 		"movement": 2,
-		"strength": 13,
+		"strength": 19,
 		"uniques": [
 			"Unbuildable",
 			"[+1] Sight",
@@ -82,7 +82,7 @@
 		"name": "Armed Civilian",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 14,
+		"strength": 17,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
@@ -99,8 +99,8 @@
 		"name": "Armed Farmer",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 12,
-		"rangedStrength":15,
+		"strength": 14,
+		"rangedStrength":19,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
@@ -116,7 +116,7 @@
 		"name": "Mechanized Infantry",
 		"unitType": "Assault",
 		"movement": 4,
-		"strength": 20,
+		"strength": 25,
 		"uniques": [
 			"Unbuildable",
 			"'Motorized'",
@@ -131,23 +131,24 @@
 		"name": "Mortar Squad",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 15,
-		"rangedStrength": 24,
+		"strength": 16,
+		"rangedStrength": 32,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
 			"'Dense Formation'",
 			"'Firearms'",
+			"[-25]% Strength <vs ['Skirmisher'] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ammo User"],
-		"attackSound": "shot"
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Coastal Guard",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 13,
+		"strength": 17,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
@@ -158,6 +159,7 @@
 		"promotions": ["Ammo User","Marine Training"],
 		"attackSound": "shot"
 	},
+	///Line 2
 	{
 		"name": "Emergency Militia",
 		"unitType": "Close Combat",
