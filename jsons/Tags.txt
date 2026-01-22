@@ -1,22 +1,29 @@
 Tags:
 Building{
-    
-'Housing'
-'Infrastructure'
-'Industry'
-
-'Static Defense'
+'Housing',
+'Agriculture',
+'Industry',
+'Infrastructure',
+'Commercial',
+'Research',
+'Cultural',
+'Religious',
+'Institution',
+'Static Defense',
+'Military Building'
 
 'Event'
-'Institution'
 }
-Improvement{
+Improvement
+{
 
 }
-Resource{
+Resource
+{
 
 }
-Unit{
+Unit
+{
 'Infantry'
 'Motorized'
 'Skirmisher'

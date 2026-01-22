@@ -1,7 +1,4 @@
 [
-
-	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
-
 	///Civilian
 	{
 		"name": "Settler",
@@ -50,7 +47,7 @@
 	{
 		"name": "Professional Worker",
 		"unitType": "Civilian",
-		"cost": 75,
+		"cost": 85,
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",

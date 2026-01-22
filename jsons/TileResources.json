@@ -62,6 +62,27 @@
 		]
 	},
 	{
+		"name": "Gas Station",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [
+			"Street"
+		],
+		"improvement": "Scrapyard",
+		"improvementStats": {
+			"production": 1
+		},
+		"uniques": [
+			"'Structure'",
+			"Generated on every [18] tiles <in [{Featureless} {Street}] tiles>",
+			"Generated on every [22] tiles <in [{Featureless} {Street}] tiles> <in [Hill] Regions>",
+			"Generated on every [14] tiles <in [House] tiles>",
+			"Generated on every [14] tiles <in [House] tiles> <in [Hill] Regions>",
+			"Generated on every [10] tiles <in [Broken House] tiles>",
+			"Generated on every [10] tiles <in [Broken House] tiles> <in [Hill] Regions>",
+			"Deposits in [Facility] tiles always provide [1] resources"
+		]
+	},
+	{
 		"name": "Supermarket",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
@@ -76,28 +97,6 @@
 			"'Structure'",
 			"Generated with weight [40] <in [{Featureless} {Facility}] tiles>",
 			"Deposits in [Facility] tiles always provide [1] resources"
-		]
-	},
-	{
-		"name": "Restaurant",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": [
-			"House",
-			"Broken House",
-			"Street"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"prodcution": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Generated with weight [10] <in [{Featureless} {Street}] tiles>",
-			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
-			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
-			"Guaranteed with Strategic Balance resource option",
-			"Deposits in [All] tiles always provide [1] resources"
 		]
 	},
 	{
