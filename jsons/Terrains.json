@@ -82,25 +82,7 @@
 				"link": "Technology/Fertilizer"
 			}
 		]
-	},
-	{
-		"name": "Mountain", ///Highrise
-		"type": "Land",
-		"impassable": true,
-		"defenceBonus": 0.25,
-		"RGB": [
-			102,
-			102,
-			102
-		],
-		"uniques": [
-			"Rough terrain",
-			"Has an elevation of [3] for visibility calculations",
-			"Occurs in chains at high elevations",
-			"Always Fertility [+4] for Map Generation",
-			"Considered [Desirable] when determining start locations"
-		]
-	},
+	}
 ///Artificial Base Terrain
 	{
 		"name": "Street",
@@ -134,7 +116,24 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
-
+	{
+		"name": "Mountain", ///Highrise
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [
+			102,
+			102,
+			102
+		],
+		"uniques": [
+			"Rough terrain",
+			"Has an elevation of [3] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Always Fertility [+4] for Map Generation",
+			"Considered [Desirable] when determining start locations"
+		]
+	},
 	// Natural Terrain features
 	{
 		"name": "Hill",
