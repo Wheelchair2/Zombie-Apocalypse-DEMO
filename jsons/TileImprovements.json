@@ -6,7 +6,7 @@
 			"Broken House",
 			"Facility"
 		],
-		"turnsToBuild": 4,
+		"turnsToBuild": 6,
 		"uniques": [
 			"'Makeshift'",
 			"Can only be built to improve a resource",
@@ -46,7 +46,7 @@
 			"Broken House",
 			"Facility"
 		],
-		"turnsToBuild": 4,
+		"turnsToBuild": 6,
 		"uniques": [
 			"'Makeshift'",
 			"[+1 Production] <for [15] turns>",
@@ -63,7 +63,7 @@
 			"Tall Grass"
 		],
 		"food":1,
-		"turnsToBuild": 3,
+		"turnsToBuild": 6,
 		"uniques": [
 			"'Makeshift'",
 			"Comment [Harvest 1 extra [Food] in Summer]",
@@ -82,7 +82,7 @@
 			"Forest"
 		],
 		"production": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 8,
 		"uniques": [
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -95,7 +95,7 @@
 			"Grassland",
 			"Desert"
 		],
-		"turnsToBuild": 7,
+		"turnsToBuild": 8,
 		"uniques": [
 			"Comment [Harvest 5 [Food]s in Autumn.]",
 			"[+5 Food] <when above [0] [Autumn1]> <for [non-[AI player]] Civilizations> <hidden from users>",

@@ -177,7 +177,7 @@
 			"Vegetation",
 			"[+3] to Fertility for Map Generation",
 			"Every [10] tiles with this terrain will receive a major deposit of a strategic resource."
-		],
+		]
 	},
 	{
 		"name": "Tall Grass",
@@ -203,6 +203,20 @@
 		]
 	},
 	{
+		"name": "Farmland",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 1,
+		"occursOn": [
+			"Plains"
+		],
+		"uniques": [
+			"[50]% Chance to be destroyed by nukes",
+			"[+3] to Fertility for Map Generation",
+			"Considered [Food] when determining start locations"
+		]
+	},
+	{
 		"name": "Forest",
 		"type": "TerrainFeature",
 		"food":1,
@@ -225,7 +239,6 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Considered [Food] when determining start locations <in [Forest] Regions>",
-			
 			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -235,23 +248,6 @@
 			}
 		]
 	},
-	{
-		"name": "Marsh",
-		"type": "TerrainFeature",
-		"food": -1,
-		"movementCost": 3,
-		"unbuildable": true,
-		"defenceBonus": -0.15,
-		"occursOn": [
-			"Plains"
-		],
-		"uniques": [
-			"Rare feature",
-			"[-2] to Fertility for Map Generation",
-			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
-		],
-	},
-
 ///Artificial Feature
 	{
 		"name": "Debris",
@@ -284,7 +280,7 @@
 			"Rare feature",
 			"[-2] to Fertility for Map Generation",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
-		],
+		]
 	},
 	{
 		"name": "Construction Site",
@@ -296,10 +292,9 @@
 		],
 		"uniques": [
 			"'Destroyed'",
-			"Rare feature",
 			"[+5] to Fertility for Map Generation",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
-		],
+		]
 	},
 	{
 		"name": "Park",
@@ -311,10 +306,9 @@
 		],
 		"uniques": [
 			"'Destroyed'",
-			"Rare feature",
-			"[-1] to Fertility for Map Generation",
+			"[+3] to Fertility for Map Generation",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
-		],
+		]
 	},
 	{
 		"name": "Abandoned Market",
@@ -330,7 +324,7 @@
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
 			"[+3] to Fertility for Map Generation",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
-		],
+		]
 	},
 
 	{
@@ -357,7 +351,7 @@
 			"Always Fertility [2] for Map Generation",
 			"Considered [Desirable] when determining start locations",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
-		],
+		]
 	},
 	{
 		"name": "House",
@@ -471,32 +465,12 @@
 				"link": "Terrain/Lakes"
 			},
 			{
-				"text": "Oasis",
-				"link": "Terrain/Oasis"
-			},
-			{
 				"text": "Farm",
 				"link": "Improvement/Farm"
 			},
 			{
 				"text": "Road",
 				"link": "Improvement/Road"
-			},
-			{
-				"text": "Engineering",
-				"link": "Technology/Engineering"
-			},
-			{
-				"text": "Civil Service",
-				"link": "Technology/Civil Service"
-			},
-			{
-				"text": "Fertilizer",
-				"link": "Technology/Fertilizer"
-			},
-			{
-				"text": "Amphibious",
-				"link": "Promotion/Amphibious"
 			}
 		]
 	}
