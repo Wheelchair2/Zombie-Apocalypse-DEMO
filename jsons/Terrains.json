@@ -10,9 +10,7 @@
 			216
 		],
 		"uniques": [
-			"[+2] to Fertility for Map Generation",
-			"Considered [Desirable] when determining start locations <on water maps>",
-			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Considered [Desirable] when determining start locations <on water maps>"
 		]
 	},
 	{
@@ -42,57 +40,6 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 			//"Becomes [Street] when adjacent to [Mountain]",
 			//"Becomes [Street] when adjacent to [House]",
-		]
-	},
-	{
-		"name": "Grassland",
-		"type": "Land",
-		"food":1,
-		"movementCost": 1,
-		"RGB": [
-			153,
-			180,
-			51
-		],
-		"uniques": [
-			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
-			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
-			"[+4] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Plains] tiles, with priority [5]",
-			"A Region can not contain more [Plains] tiles than [Street] tiles",
-			"Considered [Desirable] when determining start locations",
-			
-			"Considered [Food] when determining start locations <in [Desert] Regions>",
-			"Considered [Food] when determining start locations <in [Hill] Regions>",
-			"Considered [Food] when determining start locations <in [Plains] Regions>",
-			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-			//"Becomes [Street] when adjacent to [Mountain]",
-			//"Becomes [Street] when adjacent to [House]",
-		]
-	},
-	{
-		"name": "Desert",
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [
-			230,
-			172,
-			0
-		],
-		"uniques": [
-			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
-			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
-			"[+1] to Fertility for Map Generation",
-			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
-			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
-			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -137,7 +84,7 @@
 		]
 	},
 	{
-		"name": "Mountain",
+		"name": "Mountain", ///Highrise
 		"type": "Land",
 		"impassable": true,
 		"defenceBonus": 0.25,
@@ -154,6 +101,40 @@
 			"Considered [Desirable] when determining start locations"
 		]
 	},
+///Artificial Base Terrain
+	{
+		"name": "Street",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [
+			0,
+			163,
+			0
+		],
+		"uniques": [
+			"'Destroyed'",
+			"Occurs at temperature between [-0.6] and [0.1] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [1]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [1]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Street] tiles, with priority [7]",
+			"A Region can not contain more [Grassland] tiles than [Street] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations <in [Broken House] Regions>",
+			"Considered [Food] when determining start locations <in [House] Regions>",
+			"Considered [Food] when determining start locations <in [Hill] Regions>",
+			"Considered [Food] when determining start locations <in [Grassland] Regions>",
+			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+
 	// Natural Terrain features
 	{
 		"name": "Hill",
@@ -168,9 +149,7 @@
 		],
 		"occursOn": [
 			"Street",
-			"Plains",
-			"Grassland",
-			"Desert"
+			"Plains"
 		],
 		"uniques": [
 			"Rough terrain",
@@ -208,7 +187,6 @@
 		"movementCost": 2,
 		"defenceBonus": 0.25,
 		"occursOn": [
-			"Grassland",
 			"Plains"
 		],
 		"uniques": [
@@ -233,7 +211,6 @@
 		"movementCost": 2,
 		"defenceBonus": 0.25,
 		"occursOn": [
-			"Grassland",
 			"Plains",
 			"Hill"
 		],
@@ -267,94 +244,13 @@
 		"unbuildable": true,
 		"defenceBonus": -0.15,
 		"occursOn": [
-			"Grassland"
+			"Plains"
 		],
 		"uniques": [
 			"Rare feature",
 			"[-2] to Fertility for Map Generation",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
-	},
-	{
-		"name": "Oasis",
-		"type": "TerrainFeature",
-		"food": 2,
-		"gold": 1,
-		"movementCost": 1,
-		"unbuildable": true,
-		"defenceBonus": -0.1,
-		"occursOn": [
-			"Desert"
-		],
-		"uniques": [
-			"Fresh water",
-			"Rare feature",
-			"Only [All Road] improvements may be built on this tile",
-			"Always Fertility [4] for Map Generation",
-			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
-		],
-		"civilopediaText": [
-			{
-				"text": "Oases provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Lakes)."
-			},
-			{
-				"text": "Rivers",
-				"link": "Terrain/River"
-			},
-			{
-				"text": "Lakes",
-				"link": "Terrain/Lakes"
-			},
-			{
-				"text": "Farm",
-				"link": "Improvement/Farm"
-			}
-		]
-	},
-		{
-		"name": "Atoll",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"occursOn": [
-			"Coast"
-		],
-		"uniques": [
-			"Rare feature"
-		]
-	},
-///Artificial Base Terrain
-	{
-		"name": "Street",
-		"type": "Land",
-		"production": 1,
-		"movementCost": 1,
-		"RGB": [
-			0,
-			163,
-			0
-		],
-		"uniques": [
-			"'Destroyed'",
-			"Occurs at temperature between [-0.6] and [0.1] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
-			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [1]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [1]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
-			"[+3] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Street] tiles, with priority [7]",
-			"A Region can not contain more [Grassland] tiles than [Street] tiles",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations <in [Broken House] Regions>",
-			"Considered [Food] when determining start locations <in [House] Regions>",
-			"Considered [Food] when determining start locations <in [Hill] Regions>",
-			"Considered [Food] when determining start locations <in [Grassland] Regions>",
-			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
 	},
 
 ///Artificial Feature
@@ -365,8 +261,6 @@
 		"occursOn": [
 			"Street",
 			"Plains",
-			"Grassland",
-			"Desert",
 			"Hill",
 			"Mud"
 		],
@@ -376,10 +270,10 @@
 			"Vegetation",
 			"[+6] to Fertility for Map Generation",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource.","Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
-		],
+		]
 	},
 	{
-		"name": "Abandoned Fountain",
+		"name": "Town Square",
 		"type": "TerrainFeature",
 		"movementCost": 2,
 		"occursOn": [
@@ -394,7 +288,7 @@
 		],
 	},
 	{
-		"name": "Abandoned Site",
+		"name": "Construction Site",
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"occursOn": [
@@ -409,7 +303,7 @@
 		],
 	},
 	{
-		"name": "Abandoned Garden",
+		"name": "Park",
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"occursOn": [
@@ -439,22 +333,7 @@
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 	},
-	{
-		"name": "Rubble",
-		"type": "TerrainFeature",
-		"movementCost": 2,
-		"occursOn": [
-			"Desert",
-			"Hill"
-		],
-		"uniques": [
-			"'Destroyed'",
-			"Rough terrain",
-			"Vegetation",
-			"[+4] to Fertility for Map Generation",
-			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource.","Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
-		],
-	},
+
 	{
 		"name": "Facility",
 		"type": "TerrainFeature",
@@ -496,7 +375,6 @@
 			"'Destroyed'",
 			"Rough terrain",
 			"Vegetation",
-			
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"Always Fertility [10] for Map Generation",
@@ -530,7 +408,6 @@
 			"'Destroyed'",
 			"Rough terrain",
 			"Vegetation",
-			
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"Always Fertility [9] for Map Generation",
@@ -554,14 +431,12 @@
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
 		"occursOn": [
-			"Grassland",
+			
 			"Plains",
-			"Desert",
 			"House",
 			"Broken House",
 			"Hill",
-			"Marsh",
-			"Oasis"
+			"Marsh"
 		],
 		"defenceBonus": -0.15
 	},

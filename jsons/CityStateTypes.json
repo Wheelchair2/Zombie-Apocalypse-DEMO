@@ -1,6 +1,36 @@
 [
     {
-        "name": "Trader",
+        "name": "Survivor Camp",
+        "friendBonusUniques": [
+            "[+3 Culture]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture]",
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Bunker",
+        "friendBonusUniques": [
+            "[+3 Culture]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture]",
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Farming Village",
+        "friendBonusUniques": [
+            "[+3 Culture]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture]",
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Trade Center",
         "friendBonusUniques": [
             "[+3 Culture]"
         ],
