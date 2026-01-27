@@ -127,9 +127,9 @@
 		"hurryCostModifier": 25
 	},
 	{
-		"name": "Medieval Weapon Workshop",
+		"name": "Blacksmith's Quarter",
 		"uniqueTo":"Zeds Cutting Club",
-		"replaces":"Weapon Workshop",
+		"replaces":"Chop Shop",
 		"production":1,
 		"cityStrength":3,
 		"uniques": [
@@ -153,6 +153,31 @@
 		],
 		"requiredTech": "Foraging",
 		"hurryCostModifier": 25
+	},
+	///Line 3
+	{
+		"name": "Fishing Port",
+		"food": 2,
+		"gold": 1,
+		"uniques": [
+			"'Agriculture'",
+			"Creates a [Fishing Boats] improvement on a specific tile",
+			"Comment [When will we be able to get those big fish?]",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Fishing",
+		"hurryCostModifier": 5
+	},
+	{
+		"name": "Road Network",
+		"maintenance": 2,
+		"production": 1,
+		"gold": 1,
+		"uniques": [
+			"'Infrastructure'",
+			"[+25]% Yield from every ['Makeshift']"
+		],
+		"requiredTech": "Trade Network"
 	},
 	{
 		"name": "Barrack",
@@ -195,20 +220,18 @@
 	},
 	///Line 4
 	{
-		"name": "Market",
-		"gold":1,
-		"culture":1,
+		"name": "Wooden Shack",
 		"uniques": [
-			"'Infrastructure'",
-			"Only available <in cities with at least [5] [Population]>",
-			"Comment [Enable you to purchase buildings.]",
+			"'Housing'",
+			"[+5]% growth [in this city]",
+			"Provides [3] [Housing]",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Basic Structure",
 		"hurryCostModifier": 25
 	},
-	{
+		{
 		"name": "Irrigation System",
 		"percentStatBonus":{
 			"food":10
@@ -219,13 +242,29 @@
 			"Destroyed when the city is captured",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
-		"requiredTech": "Agriculture",
+		"requiredTech": "Back to the Job",
 		"hurryCostModifier": 25
 	},
 	{
-		"name": "Weapon Workshop",
+		"name": "Market",
+		"percentStatBonus": {"gold": 25},
+		"culture":1,
+		"uniques": [
+			"'Infrastructure'",
+			"Only available <in cities with at least [5] [Population]>",
+			"Comment [Enable you to purchase buildings.]",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Back to the Job",
+		"hurryCostModifier": 25
+	},
+	
+	{
+		"name": "Chop Shop",
+		"maintenance": 1,
 		"production":1,
-		"cityStrength":3,
+		"cityStrength":2,
 		"uniques": [
 			"'Infrastructure'",
 			"Provides [1] [Makeshift Weapons]",
@@ -244,11 +283,12 @@
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
-		"requireBuilding":"Junk Walls",
+		"requiredBuilding":"Junk Walls",
 		"requiredTech": "Makeshift Weapons",
 		"hurryCostModifier": 0
 	},
 	///Line 6
+
 	{
 		"name": "Smeltry",
 		"production":1,

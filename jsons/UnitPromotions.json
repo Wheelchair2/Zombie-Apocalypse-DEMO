@@ -588,7 +588,7 @@
 			"Ranged Combat Ship"
 		],
 		"uniques": [
-			"This Promotion is free <if [Weapon Workshop] is constructed>"
+			"This Promotion is free <if [Chop Shop] is constructed>"
 		],
 		"column": 11,
 		"row": 0
@@ -709,7 +709,7 @@
 			"Ranged Combat Ship"
 		],
 		"uniques": [
-			"This Promotion is free <if [Weapon Workshop] is constructed>"
+			"This Promotion is free <if [Chop Shop] is constructed>"
 		],
 		"column": 13,
 		"row": 0
