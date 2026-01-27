@@ -13,7 +13,7 @@
 			"Provides [1] [Medical Supply] <in [Clinic] tiles> <for [25] turns>",
 			"Provides [3] [Medical Supply] <in [Hospital] tiles> <for [25] turns>",
 			"Provides [3] [Ammunition] <in [Police Station] tiles> <for [25] turns>",
-			"Provides [6] [Ammunition] <in [Military Safezone Ruin] tiles> <for [25] turns>",
+			"Provides [6] [Ammunition] <in [Military Site] tiles> <for [25] turns>",
 			"Provides [1] [Alcohol Drink] <in [Bar] tiles> <for [50] turns>",
 			"Provides [1] [High Quality Food] <in [Cold Storage] tiles> <for [50] turns>",
 			"Pillaging this improvement yields approximately [+30 Gold]"
@@ -92,7 +92,6 @@
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
-			"Grassland",
 			"Desert"
 		],
 		"turnsToBuild": 8,
@@ -114,7 +113,6 @@
 		"uniqueTo":"Neo Confederacy",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
-			"Grassland",
 			"Hill"
 		],
 		"production": 1,
@@ -162,7 +160,6 @@
 		"name": "Trench",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
-			"Grassland",
 			"Desert",
 			"Hill"
 		],
@@ -178,8 +175,6 @@
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
-			"Grassland",
-			"Desert",
 			"Hill",
 			"House",
 			"Broken House"

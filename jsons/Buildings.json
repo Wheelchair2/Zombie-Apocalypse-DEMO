@@ -59,18 +59,7 @@
 		"requiredTech": "Humanity's Journey",
 		"hurryCostModifier": 0
 	},
-	{
-		"name": "Junk Walls",
-		"cityStrength":1,
-		"cityHealth":10,
-		"uniques": [
-			"'Static Defense'",
-			"Cannot be purchased <if [Market] is not constructed>",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Humanity's Journey",
-		"hurryCostModifier": 0
-	},
+
 	///Line 1
 	{
 		"name": "First Scavenge",
@@ -191,6 +180,18 @@
 		],
 		"requiredTech": "Militia Organization",
 		"hurryCostModifier": 25
+	},
+		{
+		"name": "Junk Walls",
+		"cityStrength":1,
+		"cityHealth":10,
+		"uniques": [
+			"'Static Defense'",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Humanity's Journey",
+		"hurryCostModifier": 0
 	},
 	///Line 4
 	{
