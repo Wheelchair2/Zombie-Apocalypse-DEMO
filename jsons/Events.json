@@ -17,43 +17,63 @@
                 ]
             }
         ]
-    }
+    },
     ///Tech Events
     {
         "name": "Our Escape",
-        "text": "We were not nobodies, we could use our skills to survive.",
+        "text": "A type of prion virus called 'Zed' has spread like wild fire across the states. It turns people into zombies. We are not sure if the countless media repersentation of this enemy counts as prophercy or not. But the government has collapsed immedately under the pressure of this virus. Aside from this cookie cutter zombie lore, do you have any idea who you are?",
         "choices": [
             {
-                "text": "We came from the overruned cities.",
+                "text": "Ex-Citizens, nothin special.",
                 "uniques": [
                     "Only available <after discovering [Urban Survivor]>",
                     "Instantly provides [15] [Medical Supply]",
-                    "Instantly provides [5] [Ammunition]",
+                    "Instantly provides [10] [Ammunition]",
                     "Instantly provides [5] [Fuels]",
-                    "[2] free [Armed Civilian] units appear"
+                    "[2] free [Armed Civilian] units appear",
+                    "Triggers a [Our Escape 2] event <hidden from users>"
                 ]
             },
             {
-                "text": "I heard them there city folks all turned into the damn zeds!",
+                "text": "I grew up in the barn, shut up.",
                 "uniques": [
                     "Only available <after discovering [Rural Survivor]>",
                     "Instantly provides [5] [Medical Supply]",
-                    "Instantly provides [20] [Ammunition]",
+                    "Instantly provides [10] [Ammunition]",
                     "Instantly provides [15] [Fuels]",
                     "Gain a free [Shelter] [in capital]",
                     "Gain a free [Camp Fire] [in capital]",
-                    "Free [Armed Farmer] appears"
+                    "Free [Armed Farmer] appears",
+                    "Triggers a [Our Escape 2] event <hidden from users>"
                 ]
             },
             {
-                "text": "We are seperated from the HQ! Looks like we are going to make our stand!",
+                "text": "This is the US army. Punk.",
                 "uniques": [
                     "Only available <after discovering [Military Survivor]>",
-                    "Instantly provides [5] [Medical Supply]",
-                    "Instantly provides [5] [Ammunition]",
-                    "Instantly provides [5] [Fuels]",
+                    "Instantly provides [10] [Medical Supply]",
+                    "Instantly provides [35] [Ammunition]",
+                    "Instantly provides [20] [Fuels]",
                     "Free [Mechanized Infantry] appears",
-                    "Free [Mortar Squad] appears"
+                    "Triggers a [Our Escape 2] event <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Our Escape 2",
+        "text": "That doesnt matter too much I guess, but I have to tell you something really quick. The zombies mutates. They grow faster stronger weirder and you have to keep up. Every year have 4 seasons and if you build a [Farm] right how its going to only bear fruit in autumn. Your only source of population growth will be the vagrants early on. Proper population growth asks for proper source of food and medical infrastructure. Good luck.",
+        "choices": [
+            {
+                "text": "It is weird you talk this much about common phenomeon, but thanks for the reminder.",
+                "uniques": [
+                    "Comment [Thank you for playing.]",
+                    "Instantly provides [5] [Medical Supply] <hidden from users>"
+                ]
+            },
+            {
+                "text": "Shut the fuck up.",
+                "uniques": [
                 ]
             }
         ]

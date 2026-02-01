@@ -30,7 +30,6 @@
 			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
 			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
 			"[+5] to Fertility for Map Generation",
-			"A Region is formed with at least [40]% [Grassland] tiles, with priority [6]",
 			"A Region can not contain more [Plains] tiles than [Street] tiles",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations <in [Desert] Regions>",

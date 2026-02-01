@@ -32,7 +32,7 @@
 		"uniques": [
 			"'Makeshift'",
 			"Provides [1] [Housing]",
-			"Gives a defensive bonus of [17]%",
+			"Gives a defensive bonus of [15]%",
 			"Pillaging this improvement yields approximately [+15 Gold]"
 		],
 		"techRequired":"Search Party",
