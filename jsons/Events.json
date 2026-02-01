@@ -85,7 +85,7 @@
             {
                 "text": "We need to initiate an expedition!",
                 "uniques": [
-                    "Only available <without [Ruined Factory]>",
+                    "Only available <without [Factory]>",
                     "Instantly consumes [2] [Fuels]",
                     "Instantly consumes [5] [Medical Supply]",
                     "Instantly consumes [10] [Ammunition]",
@@ -98,7 +98,7 @@
             {
                 "text": "There are ruined industrial area in our control, I think we can just dig up some there.",
                 "uniques": [
-                    "Only available <with [Ruined Factory]>",
+                    "Only available <with [Factory]>",
                     "Instantly provides [1] [Generator] <with [33]% chance>",
                     "Instantly provides [1] [Generator] <with [5]% chance>",
                     "Instantly provides [6] [Scraps] <with [25]% chance>",

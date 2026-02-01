@@ -30,9 +30,9 @@
 			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
 			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
 			"[+5] to Fertility for Map Generation",
+			"A Region is formed with at least [50]% [Plains] tiles, with priority [3]",
 			"A Region can not contain more [Plains] tiles than [Street] tiles",
 			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations <in [Desert] Regions>",
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Plains] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
@@ -105,12 +105,10 @@
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
 			"[+3] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Street] tiles, with priority [7]",
-			"A Region can not contain more [Grassland] tiles than [Street] tiles",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations <in [Broken House] Regions>",
 			"Considered [Food] when determining start locations <in [House] Regions>",
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
-			"Considered [Food] when determining start locations <in [Grassland] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -355,7 +353,7 @@
 	{
 		"name": "House",
 		"type": "TerrainFeature",
-		"food": 2,
+		"gold": 2,
 		"movementCost": 2,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
@@ -388,7 +386,7 @@
 	{
 		"name": "Broken House",
 		"type": "TerrainFeature",
-		"food": 1,
+		"gold": 1,
 		"movementCost": 2,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
@@ -406,8 +404,8 @@
 			"A Region is formed with at least [80]% [Broken House] tiles, with priority [5]",
 			"A Region is formed with at least [75]% [Broken House] tiles and [House] tiles, with priority [5]",
 			"A Region can not contain more [House] tiles than [Broken House] tiles",
-			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
-			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations",
 			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
@@ -423,12 +421,10 @@
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
 		"occursOn": [
-			
 			"Plains",
 			"House",
 			"Broken House",
-			"Hill",
-			"Marsh"
+			"Hill"
 		],
 		"defenceBonus": -0.15
 	},

@@ -91,8 +91,7 @@
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Desert"
+			"Plains"
 		],
 		"turnsToBuild": 8,
 		"uniques": [
@@ -160,7 +159,6 @@
 		"name": "Trench",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
-			"Desert",
 			"Hill"
 		],
 		"turnsToBuild": 2,
@@ -270,7 +268,16 @@
 		"shortcutKey": "X"
 	},
 	{
-		"name": "Remove Marsh",
+		"name": "Remove Mud",
+		"turnsToBuild": 6,
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Tallgrass",
 		"turnsToBuild": 6,
 		"uniques": [
 			"Can be built outside your borders",

@@ -128,7 +128,7 @@
 	{
 		"name": "The Middleman Club",
 		"adjective": ["Clubguy's"],
-		"cityStateType": "Trader",
+		"cityStateType": "Trade Center",
 		"declaringWar": "You are a warmonger!",
 		"attacked": "Stop!",
 		"defeated": "You've ruined your place in this state.",
@@ -139,7 +139,7 @@
 	{
 		"name": "New Chaoshan",
 		"adjective": ["Hua Ren de"],
-		"cityStateType": "Trader",
+		"cityStateType": "Survivor Camp",
 		"declaringWar": "You are a warmonger!",
 		"attacked": "Stop!",
 		"defeated": "The PLA will not forgive you!",
@@ -150,7 +150,7 @@
 	{
 		"name": "Kleines Deutschland",
 		"adjective": ["Deutsche"],
-		"cityStateType": "Trader",
+		"cityStateType": "Farming Village",
 		"declaringWar": "You are a warmonger!",
 		"attacked": "Stop!",
 		"defeated": "You will suffer the same fate as germany in WWII!",
@@ -161,7 +161,7 @@
 	{
 		"name": "Pequeño México",
 		"adjective": ["Mexicano"],
-		"cityStateType": "Trader",
+		"cityStateType": "Survivor Camp",
 		"declaringWar": "You are a warmonger!",
 		"attacked": "Stop!",
 		"defeated": "¡Maldito seas!",

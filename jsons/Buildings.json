@@ -141,7 +141,6 @@
 		"requiredTech": "Scavenging Building",
 		"hurryCostModifier": 25
 	},
-
 	{
 		"name": "Seed Collection",
 		"science":1,
@@ -156,6 +155,17 @@
 	},
 	///Line 3
 	{
+		"name": "Road Network",
+		"maintenance": 2,
+		"production": 1,
+		"gold": 1,
+		"uniques": [
+			"'Infrastructure'",
+			"[+25]% Yield from every ['Makeshift']"
+		],
+		"requiredTech": "Search Party"
+	},
+	{
 		"name": "Fishing Port",
 		"food": 2,
 		"gold": 1,
@@ -167,17 +177,6 @@
 		],
 		"requiredTech": "Fishing",
 		"hurryCostModifier": 5
-	},
-	{
-		"name": "Road Network",
-		"maintenance": 2,
-		"production": 1,
-		"gold": 1,
-		"uniques": [
-			"'Infrastructure'",
-			"[+25]% Yield from every ['Makeshift']"
-		],
-		"requiredTech": "Trade Network"
 	},
 	{
 		"name": "Barrack",
