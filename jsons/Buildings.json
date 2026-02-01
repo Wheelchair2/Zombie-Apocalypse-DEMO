@@ -52,7 +52,7 @@
 		"food":1,
 		"culture":1,
 		"uniques": [
-			"'Infrastructure'",
+			"'Cultural'",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
@@ -66,7 +66,7 @@
 		"isNationalWonder":true,
 		"uniques": [
 			"'Event'",
-			"[+1 Production, +1 Gold] from ['Structure'] tiles [in this city] <for [10] turns>",
+			"[+1 Production, +1 Gold] from ['Structure'] tiles [in this city] <for [20] turns>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
@@ -78,9 +78,9 @@
 		"isNationalWonder":true,
 		"uniques": [
 			"'Event'",
-			"[+1 Food] from [Plains] tiles [in all cities] <for [10] turns>",
-			"[+1 Food] from [Tall Grass] tiles [in all cities] <for [10] turns>",
-			"[+1 Food] from [Forest] tiles [in all cities] <for [10] turns>",
+			"[+1 Food] from [Plains] tiles [in all cities] <for [20] turns>",
+			"[+1 Food] from [Tall Grass] tiles [in all cities] <for [20] turns>",
+			"[+1 Food] from [Forest] tiles [in all cities] <for [20] turns>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
@@ -108,7 +108,7 @@
 		"production":1,
 		"uniques": [
 			"'Industry'",
-			"Provides [1] [Fuels] <for [10] turns>",
+			"Provides [2] [Fuels] <for [4] turns>",
 			"[+2 Production] from [Parking Lot] tiles [in this city]",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
@@ -127,7 +127,7 @@
 		"hurryCostModifier": 25
 	},
 	{
-		"name": "Blacksmith's Quarter",
+		"name": "Swordsmith's Quarter",
 		"uniqueTo":"Zeds Cutting Club",
 		"replaces":"Chop Shop",
 		"production":1,
@@ -146,7 +146,7 @@
 		"name": "Seed Collection",
 		"science":1,
 		"uniques": [
-			"'Infrastructure'",
+			"'Research'",
 			"Provides [1] [Seeds]",
 			"Destroyed when the city is captured",
 			"Cannot be purchased <if [Market] is not constructed>"
