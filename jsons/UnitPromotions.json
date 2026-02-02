@@ -772,13 +772,13 @@
 		"name": "Ammo User",
 		"uniques": [
 			"Instantly consumes [1] [Ammunition] <upon damaging a [Military] unit> <for units without [Ammo Conservasion]>",
-			"Instantly consumes [1] [Ammunition] <every [2] turns> <upon damaging a [Military] unit> <for units with [Ammo Conservasion]>"
+			"Instantly consumes [1] [Ammunition] <with [75]% chance> <upon damaging a [Military] unit> <for units with [Ammo Conservasion]>"
 		]
 	},
 	{
 		"name": "Fuels User",
 		"uniques": [
-			"Consumes [1] [Fuels] <upon ending a turn in a [non-[City center]] tile>"
+			"Instantly consumes [1] [Fuels] <upon ending a turn in a [non-[City center]] tile>"
 		]
 	},
 	{
@@ -790,13 +790,16 @@
 			"[+100]% Strength <when defending> <when [Embarked]>"
 		]
 	},
+	///Virus
 	{
 		"name": "ZEDS Virus",
 		"uniques": [
 			"Heals [50] damage if it kills a unit",
 			"No damage penalty for wounded units",
 			"No movement cost to pillage",
-			"Free [Common Infected] appears <with [75]% chance> <before turn number [3]> <hidden from users>",
+			"Free [Common Infected] appears <with [90]% chance> <before turn number [2]> <hidden from users>",
+			"Free [Common Infected] appears <with [33]% chance> <after turn number [3]> <before turn number [4]> <hidden from users>",
+			"Free [Common Infected] appears <with [15]% chance> <before turn number [6]> <hidden from users>",
 			"Free [Common Infected] appears <with [75]% chance> <upon defeating a [Land] unit>"
 		]
 	}

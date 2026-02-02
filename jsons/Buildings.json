@@ -94,7 +94,6 @@
 		"uniques": [
 			"'Event'",
 			"'Institution'",
-			"[+33]% Production when constructing ['Event'] buildings [in all cities]",
 			"Provides [1] [Housing]",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
@@ -370,4 +369,15 @@
 		"uniques": ["Provides [1] [Housing]",
 					"Indicates the capital city"]
 	},
+	{
+		"name": "Birthrate Crisis",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Nullifies Growth [in all cities]",
+			"Cannot build [Settler] units"
+		]
+	}
 ]

@@ -14,6 +14,7 @@
         "Triggers a [Our Escape] event <before turn number [2]> <upon turn start>",
         ///City Mechanics
         "[-100]% Unhappiness from [Population] [in all cities]",
+        "Gain a free [Birthrate Crisis] [in capital] <for [1] turns>",
         ///Government Force
         "[+10]% Strength <when above [3] [Trust in Government]> <for [Government Force] Civilizations>",
         "[-33]% [Happiness] [in all cities] <when below [0] [Trust in Government]>",
