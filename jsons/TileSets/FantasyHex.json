@@ -8,23 +8,11 @@
 		"Street+Hill+House": ["Street", "StreetHill", "House2nd"],
 		"Street+Hill+Broken House": ["Street", "StreetHill", "Broken House 2nd"],
 		
-		"Grassland+House": ["Grassland", "House"],
-		"Grassland+Hill+House": ["Grassland", "GrasslandHill", "House2nd"],
 		"Plains+House": ["Plains", "House"],
 		"Plains+Hill+House": ["Plains", "PlainsHill", "House2nd"],
-		"Tundra+House": ["Tundra", "House"],
-		"Tundra+Hill+House": ["Tundra", "TundraHill", "House2nd"],
-		"Desert+Hill+House": ["Desert", "DesertHill", "House2nd"],
-		"Desert+House": ["Desert", "House"],
 		
-		"Grassland+Broken House": ["Grassland", "Broken House"],
-		"Grassland+Hill+Broken House": ["Grassland", "GrasslandHill", "Broken House 2nd"],
 		"Plains+Broken House": ["Plains", "Broken House"],
 		"Plains+Hill+Broken House": ["Plains", "PlainsHill", "Broken House 2nd"],
-		"Tundra+Broken": ["Tundra", "Broken House"],
-		"Tundra+Hill+Broken House": ["Tundra", "TundraHill", "Broken House 2nd"],
-		"Desert+Hill+Broken House": ["Desert", "DesertHill", "Broken House 2nd"],
-		"Desert+Broken House": ["Desert", "Broken House"],
 		
 		"Street+Hill+Abandoned Fountain": ["Grassland", "StreetHill", "Abandoned Fountain 2nd"],
 		"Street+Hill+Abandoned Market": ["Grassland", "StreetHill", "Abandoned Market 2nd"],
@@ -33,31 +21,15 @@
 		
 		
 		//Features
-		"Grassland+Hill": ["Grassland", "GrasslandHill"],
 		"Plains+Hill": ["Plains", "PlainsHill"],
-		"Tundra+Hill": ["Tundra", "TundraHill"],
-		"Snow+Hill": ["Snow", "SnowHill"],
-		"Desert+Hill": ["Desert", "DesertHill"],
 		"Street+Hill": ["Grassland", "StreetHill"],
 		
 		//Rocks
-		"Grassland+Hill+Debris": ["Grassland", "GrasslandHill", "Rocks 2nd"],
 		"Plains+Hill+Debris": ["Plains", "PlainsHill", "Rocks 2nd"],
-		"Tundra+Hill+Debris": ["Tundra", "TundraHill", "Rocks 2nd"],
-		"Snow+Hill+Debris": ["Snow", "SnowHill", "Rocks 2nd"],
-		"Desert+Hill+Debris": ["Desert", "DesertHill", "Rocks 2nd"],
 		
-		"Grassland+Hill+Debris+Metals": ["Grassland", "GrasslandHill", "Rocks 2nd+Metals"],
 		"Plains+Hill+Debris+Metals": ["Plains", "PlainsHill", "Rocks 2nd+Metals"],
-		"Tundra+Hill+Debris+Metals": ["Tundra", "TundraHill", "Rocks 2nd+Metals"],
-		"Snow+Hill+Debris+Metals": ["Snow", "SnowHill", "Rocks 2nd+Metals"],
-		"Desert+Hill+Debris+Metals": ["Desert", "DesertHill", "Rocks 2nd+Metals"],
 		
-		"Grassland+Debris+Metals": ["Grassland", "Rocks+Metals"],
 		"Plains+Debris+Metals": ["Plains", "Rocks+Metals"],
-		"Tundra+Debris+Metals": ["Tundra", "Rocks+Metals"],
-		"Snow+Debris+Metals": ["Snow", "Rocks+Metals"],
-		"Desert+Debris+Metals": ["Desert", "Rocks+Metals"],
 		
 		"Street+Debris+Metals": ["Street", "Rocks+Metals"],
 		
@@ -67,25 +39,15 @@
 		"Plains+Mud+Debris+Metals": ["Plains", "PlainsMud", "Rocks+Metals"],
 		//Rocks end
 		
-		"Desert+Hill+Rubble": ["Desert", "DesertHill", "Rubble"],
-		
-		"Grassland+Hill+Forest": ["Grassland", "GrasslandHill", "Forest"],
 		"Plains+Hill+Forest": ["Plains", "PlainsHill", "Forest"],
-		"Tundra+Hill+Forest": ["Tundra", "TundraHill", "Forest"],
-		"Snow+Hill+Forest": ["Snow", "SnowHill", "Forest"],
-		"Desert+Hill+Forest": ["Desert", "DesertHill", "Forest"],
 		"Plains+Mud+Forest": ["Plains", "PlainsMud", "Forest"],
 		"Plains+Hill+Mud+Forest": ["Plains", "PlainsHill", "Mud 2nd", "Forest"],
 		
-		"Grassland+Hill+Forest+Deer": ["Grassland", "GrasslandHill", "Forest", "Deer"],
 		"Plains+Hill+Forest+Deer": ["Plains", "PlainsHill", "Forest", "Deer"],
-		"Tundra+Hill+Forest+Deer": ["Tundra", "TundraHill", "Forest", "Deer"],
 		
 		"Plains+Hill+Mud": ["Plains", "PlainsHill", "Mud 2nd"],
 		"Plains+Mud": ["Plains", "PlainsMud"],
 		
-		"Grassland+Tall Grass": ["Grassland", "GrasslandTall Grass"],
-		"Grassland+Tall Grass+Corn": ["Grassland", "GrasslandTall Grass+Corn"],
 		"Plains+Tall Grass": ["Plains", "PlainsTall Grass"],
 		"Plains+Tall Grass+Corn": ["Plains", "PlainsTall Grass+Corn"],
 		

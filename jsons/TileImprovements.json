@@ -91,15 +91,23 @@
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [
-			"Plains"
+			"Plains",
+			"Farmland"
 		],
 		"turnsToBuild": 8,
 		"uniques": [
-			"Comment [Harvest 5 [Food]s in Autumn.]",
+			"Comment [Harvest 5 [Food]s in Autumn. Increased to 7 if it is built on [Farmland]]",
+
 			"[+5 Food] <when above [0] [Autumn1]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+5 Food] <when above [0] [Autumn2]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+5 Food] <when above [0] [Autumn3]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+5 Food] <when above [0] [Autumn4]> <for [non-[AI player]] Civilizations> <hidden from users>",
+
+			"[+7 Food] <when above [0] [Autumn1]> <in [Farmland] tiles> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+7 Food] <when above [0] [Autumn2]> <in [Farmland] tiles> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+7 Food] <when above [0] [Autumn3]> <in [Farmland] tiles> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+7 Food] <when above [0] [Autumn4]> <in [Farmland] tiles> <for [non-[AI player]] Civilizations> <hidden from users>",
+
 			"[+1 Food] <for [AI player] Civilizations>",
 			"Can also be built on tiles adjacent to fresh water",
 			"Pillaging this improvement yields approximately [+18 Gold]"

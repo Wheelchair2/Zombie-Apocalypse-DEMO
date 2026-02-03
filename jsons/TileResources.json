@@ -70,23 +70,6 @@
 		]
 	},
 	{
-		"name": "Barn",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": [
-			"Plains"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"production": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Generated with weight [40] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [Facility] tiles always provide [1] resources"
-		]
-	},
-	{
 		"name": "Clinic",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [

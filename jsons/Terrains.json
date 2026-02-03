@@ -32,6 +32,7 @@
 			"[+5] to Fertility for Map Generation",
 			"A Region is formed with at least [50]% [Plains] tiles, with priority [3]",
 			"A Region can not contain more [Plains] tiles than [Street] tiles",
+			"Becomes [Farmland] when adjacent to [Barn] <within [2] tiles of a [Barn]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Plains] Regions>",
@@ -192,9 +193,8 @@
 			"[+3] to Fertility for Map Generation",
 			"A Region is formed with at least [60]% [Tall Grass] tiles, with priority [3]",
 			"A Region is formed with at least [50]% [Tall Grass] tiles and [Forest] tiles, with priority [3]",
-			"Considered [Food] when determining start locations",
-			"Considered [Food] when determining start locations <in [Tall Grass] Regions>",
 			
+			"Considered [Food] when determining start locations",
 			"A Region can not contain more [Forest] tiles than [Tall Grass] tiles",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -208,6 +208,21 @@
 			"Plains"
 		],
 		"uniques": [
+			"[50]% Chance to be destroyed by nukes",
+			"[+3] to Fertility for Map Generation",
+			"Considered [Food] when determining start locations"
+		]
+	},
+	{
+		"name": "Barn",
+		"type": "TerrainFeature",
+		"food": 3,
+		"movementCost": 1,
+		"occursOn": [
+			"Plains"
+		],
+		"uniques": [
+			"Rare feature",
 			"[50]% Chance to be destroyed by nukes",
 			"[+3] to Fertility for Map Generation",
 			"Considered [Food] when determining start locations"
@@ -327,8 +342,7 @@
 	{
 		"name": "Facility",
 		"type": "TerrainFeature",
-		"food": 1,
-		"production": 1,
+		"production": 2,
 		"movementCost": 2,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
