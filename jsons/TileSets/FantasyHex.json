@@ -1,5 +1,5 @@
 {
-	"useColorAsBaseTerrain": "false",
+	"useColorAsBaseTerrain": false,
 		"ruleVariants": {
 		
 		//Special Indoor tiles
@@ -14,15 +14,15 @@
 		"Plains+Broken House": ["Plains", "Broken House"],
 		"Plains+Hill+Broken House": ["Plains", "PlainsHill", "Broken House 2nd"],
 		
-		"Street+Hill+Abandoned Fountain": ["Grassland", "StreetHill", "Abandoned Fountain 2nd"],
-		"Street+Hill+Abandoned Market": ["Grassland", "StreetHill", "Abandoned Market 2nd"],
-		"Street+Hill+Abandoned Site": ["Grassland", "StreetHill", "Abandoned Site 2nd"],
-		"Street+Hill+Abandoned Garden": ["Grassland", "StreetHill", "Abandoned Garden 2nd"],
+		"Street+Hill+Town Square": ["Street", "StreetHill", "Fountain"],
+		"Street+Hill+Abandoned Market": ["Street", "StreetHill", "Stalls"],
+		"Street+Hill+Construction Site": ["Street", "StreetHill", "Construction"],
+		"Street+Hill+Park": ["Street", "StreetHill", "Park"],
 		
 		
 		//Features
 		"Plains+Hill": ["Plains", "PlainsHill"],
-		"Street+Hill": ["Grassland", "StreetHill"],
+		"Street+Hill": ["Street", "StreetHill"],
 		
 		//Rocks
 		"Plains+Hill+Debris": ["Plains", "PlainsHill", "Rocks 2nd"],
@@ -51,18 +51,18 @@
 		"Plains+Tall Grass": ["Plains", "PlainsTall Grass"],
 		"Plains+Tall Grass+Corn": ["Plains", "PlainsTall Grass+Corn"],
 		
-		"Street+Broken House+Kitchen": ["Street","Broken House", "Broken Kitchen"],
-		"Street+Hill+Broken House+Kitchen": ["Street", "StreetHill", "Broken House 2nd", "Broken Kitchen 2nd"],
-		"Street+Hill+House+Kitchen": ["Street", "StreetHill", "House2nd", "Kitchen 2nd"],
-		"Street+Broken House+Living Room": ["Street","Broken House", "Broken Living Room"],
-		"Street+Hill+Broken House+Living Room": ["Street", "StreetHill", "Broken House 2nd", "Broken Living Room 2nd"],
-		"Street+Hill+House+Living Room": ["Street", "StreetHill", "House2nd", "Living Room 2nd"],
+		"Street+Broken House+Bar": ["Street","Broken House", "Bar"],
+		"Street+Hill+Broken House+Bar": ["Street", "StreetHill", "Broken Indoor 2F", "Bar"],
+		"Street+Hill+House+Kitchen": ["Street", "StreetHill", "House2nd", "Restaurant"],
+		"Street+Broken House+Living Room": ["Street","Broken House", "Apartment"],
+		"Street+Hill+Broken House+Apartment": ["Street", "StreetHill", "Broken Indoor 2F", "Apartment"],
+		"Street+Hill+House+Living Room": ["Street", "StreetHill", "House2F", "Apartment"],
 		"Street+Broken House+Restaurant": ["Street","Broken House", "Broken Restaurant"],
-		"Street+Hill+Broken House+Restaurant": ["Street", "StreetHill", "Broken House 2nd", "Broken Restaurant 2nd"],
-		"Street+Hill+House+Restaurant": ["Street","House2nd", "Restaurant 2nd"],
+		"Street+Hill+Broken House+Restaurant": ["Street", "StreetHill", "Broken House 2nd", "Broken Restaurant"],
+		"Street+Hill+House+Restaurant": ["Street","House2nd", "Restaurant"],
 		
 		"Street+Facility+Police Station": ["Street", "Police Station"],
-		"Street+Facility+Convenience Store": ["Street", "Convenience Store"],
+		"Street+Facility+Supermarket": ["Street", "Supermarket"],
 		
 		"Street+Hill+House+Trash": ["Street", "StreetHill", "House2nd", "Trash 2nd"],
 		"Street+Hill+Broken House+Trash": ["Street", "StreetHill", "Broken House 2nd", "Trash 2nd"],

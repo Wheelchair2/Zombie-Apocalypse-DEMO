@@ -117,7 +117,7 @@
 	{
 		"name": "Mountain", ///Highrise
 		"type": "Land",
-		"impassable": true,
+		"movementCost": 2,
 		"defenceBonus": 0.25,
 		"RGB": [
 			102,
