@@ -286,7 +286,11 @@
 	},
 	{
 		"name": "Seeds",
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Stockpiled"
+		]
 	},
 
 	///Products
@@ -330,6 +334,13 @@
 	},
 	{
 		"name": "Fuels",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Electronics",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Stockpiled"

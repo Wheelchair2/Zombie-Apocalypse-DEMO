@@ -1,7 +1,7 @@
 [
     {
         "name": "Enact Decision",
-        "text": "We can do a lot of things... If the zombies aint eating us already.",
+        "text": "",
         "choices": [
             {
                 "text": "Nothing special to do as of now",
@@ -17,97 +17,8 @@
                 ]
             }
         ]
-    },
-    ///Tech Events
+    },        
     {
-        "name": "Our Escape",
-        "text": "A type of prion virus called 'Zed' has spread like wild fire across the states. It turns people into zombies. We are not sure if the countless media repersentation of this enemy counts as prophercy or not. But the government has collapsed immedately under the pressure of this virus. Aside from this cookie cutter zombie lore, do you have any idea who you are?",
-        "choices": [
-            {
-                "text": "Ex-Citizens, nothin special.",
-                "uniques": [
-                    "Only available <after discovering [Urban Survivor]>",
-                    "Instantly provides [15] [Medical Supply]",
-                    "Instantly provides [10] [Ammunition]",
-                    "Instantly provides [5] [Fuels]",
-                    "[2] free [Armed Civilian] units appear",
-                    "Triggers a [Our Escape 2] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "I grew up in the barn, shut up.",
-                "uniques": [
-                    "Only available <after discovering [Rural Survivor]>",
-                    "Instantly provides [5] [Medical Supply]",
-                    "Instantly provides [10] [Ammunition]",
-                    "Instantly provides [15] [Fuels]",
-                    "Gain a free [Shelter] [in capital]",
-                    "Gain a free [Camp Fire] [in capital]",
-                    "Free [Armed Farmer] appears",
-                    "Triggers a [Our Escape 2] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "This is the US army. Punk.",
-                "uniques": [
-                    "Only available <after discovering [Military Survivor]>",
-                    "Instantly provides [10] [Medical Supply]",
-                    "Instantly provides [35] [Ammunition]",
-                    "Instantly provides [20] [Fuels]",
-                    "Free [Mechanized Infantry] appears",
-                    "Triggers a [Our Escape 2] event <hidden from users>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Our Escape 2",
-        "text": "That doesnt matter too much I guess, but I have to tell you something really quick. The zombies mutates. They grow faster stronger weirder and you have to keep up. Every year have 4 seasons and if you build a [Farm] right how its going to only bear fruit in autumn. Your only source of population growth will be the vagrants early on. Proper population growth asks for proper source of food and medical infrastructure. Good luck.",
-        "choices": [
-            {
-                "text": "It is weird you talk this much about common phenomeon, but thanks for the reminder.",
-                "uniques": [
-                    "Comment [Thank you for playing.]",
-                    "Instantly provides [5] [Medical Supply] <hidden from users>"
-                ]
-            },
-            {
-                "text": "Shut the fuck up.",
-                "uniques": [
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Search for the Generator",
-        "text": "What Plan do you have to get your hand on a generator?",
-        "choices": [
-            {
-                "text": "We need to initiate an expedition!",
-                "uniques": [
-                    "Only available <without [Factory]>",
-                    "Instantly consumes [2] [Fuels]",
-                    "Instantly consumes [5] [Medical Supply]",
-                    "Instantly consumes [10] [Ammunition]",
-                    "Instantly provides [1] [Generator] <with [25]% chance>",
-                    "Instantly provides [1] [Generator] <with [5]% chance>",
-                    "Instantly provides [4] [Scraps] <with [10]% chance>",
-                    "Instantly provides [2] [Refined Metals] <with [10]% chance>"
-                ]
-            },
-            {
-                "text": "There are ruined industrial area in our control, I think we can just dig up some there.",
-                "uniques": [
-                    "Only available <with [Factory]>",
-                    "Instantly provides [1] [Generator] <with [33]% chance>",
-                    "Instantly provides [1] [Generator] <with [5]% chance>",
-                    "Instantly provides [6] [Scraps] <with [25]% chance>",
-                    "Instantly provides [3] [Refined Metals] <with [25]% chance>"
-                ]
-            }
-        ]
-    },
-        {
         "name": "Present Current Time",
         "text": "Behold! The options below doesnt do anything, they just display what status you are in.",
         "choices": [
@@ -224,10 +135,130 @@
                 ]
             },
             {
-                "text": "Remember to check if the things you are doing makes sense in the correspounding season",
-                "uniques": ["Comment [Haverst in Autumn... Yep.]"
+                "text": "Close Tab",
+                "uniques": [
                 ]
             }
         ]
-    }
+    },
+    ///Starting Event
+    {
+        "name": "Our Escape",
+        "text": "A type of prion virus called 'Zed' has spread like wild fire across the states. It turns people into zombies. We are not sure if the countless media repersentation of this enemy counts as prophecy or not. But the government has collapsed immedately under the pressure of this virus. Aside from this cookie cutter zombie lore, do you have any idea who you are?",
+        "choices": [
+            {
+                "text": "Ex-City Dwellers, nothin special.",
+                "uniques": [
+                    "Only available <after discovering [Urban Survivor]>",
+                    "Instantly provides [20] [Medical Supply]",
+                    "Instantly provides [10] [Ammunition]",
+                    "Instantly provides [10] [Fuels]",
+                    "[2] free [Armed Civilian] units appear",
+                    "Triggers a [Our Escape 2] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "I grew up in the barn, shut up.",
+                "uniques": [
+                    "Only available <after discovering [Rural Survivor]>",
+                    "Instantly provides [10] [Medical Supply]",
+                    "Instantly provides [20] [Ammunition]",
+                    "Instantly provides [15] [Fuels]",
+                    "Gain a free [Shelter] [in capital]",
+                    "Gain a free [Camp Fire] [in capital]",
+                    "Free [Armed Farmer] appears",
+                    "Triggers a [Our Escape 2] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "This is the US army. Punk. We have not collapsed yet.",
+                "uniques": [
+                    "Only available <after discovering [Military Survivor]>",
+                    "Instantly provides [10] [Medical Supply]",
+                    "Instantly provides [35] [Ammunition]",
+                    "Instantly provides [20] [Fuels]",
+                    "Free [Mechanized Infantry] appears",
+                    "Triggers a [Our Escape 2] event <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Our Escape 2",
+        "text": "That doesnt matter too much I guess, but I have to tell you something really quick. The zombies mutates. They grow faster stronger weirder and you have to keep up. Every year have 4 seasons and if you build a [Farm] right how its going to only bear fruit in autumn. Your only source of population growth will be the vagrants early on. Proper population growth asks for proper source of food and medical infrastructure. Good luck.",
+        "choices": [
+            {
+                "text": "It is weird you talk this much about common phenomeon, but thanks for the reminder.",
+                "uniques": [
+                    "Comment [Thank you for playing.]",
+                    "Instantly provides [5] [Medical Supply] <hidden from users>"
+                ]
+            },
+            {
+                "text": "Shut the fuck up.",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Refugees?",
+        "text": "This might be the first time ever we see a uninfected horde. According to their leader, these people came from a small town attacked by the zombies. They've been stalking us for some times and we seems to be civilized enough.",
+        "choices": [
+            {
+                "text": "More people more strength.",
+                "uniques": [
+                    "Comment [Accept all of their people to live in our settlement. Including the ill and the elderly.]",
+                    "[+4] population [in capital]",
+                    "Triggers a [Sick Refugees] event <with [25]% chance> <hidden from users>",
+                    "Triggers a [Infected Refugees] event <with [25]% chance> <hidden from users>"
+                ]
+            },
+            {
+                "text": "No way we are letting this many people in.",
+                "uniques": [
+                    "Comment [Accept selected few people to live in our settlement.]",
+                    "[+2] population [in capital]"
+                ]
+            },
+            {
+                "text": "Rob them.",
+                "uniques": [
+                    "[2] [Armed Civilian] units rebels <hidden from users>",
+                    "Instantly provides [5] [Fuels]",
+                    "Gain [200] [Gold]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Search for the Generator",
+        "text": "What Plan do you have to get your hand on a generator?",
+        "choices": [
+            {
+                "text": "We need to initiate an expedition!",
+                "uniques": [
+                    "Only available <without [Factory]>",
+                    "Instantly consumes [2] [Fuels]",
+                    "Instantly consumes [5] [Medical Supply]",
+                    "Instantly consumes [10] [Ammunition]",
+                    "Instantly provides [1] [Generator] <with [25]% chance>",
+                    "Instantly provides [1] [Generator] <with [5]% chance>",
+                    "Instantly provides [4] [Scraps] <with [10]% chance>",
+                    "Instantly provides [2] [Refined Metals] <with [10]% chance>"
+                ]
+            },
+            {
+                "text": "There are ruined industrial area in our control, I think we can just dig up some there.",
+                "uniques": [
+                    "Only available <with [Factory]>",
+                    "Instantly provides [1] [Generator] <with [33]% chance>",
+                    "Instantly provides [1] [Generator] <with [5]% chance>",
+                    "Instantly provides [6] [Scraps] <with [25]% chance>",
+                    "Instantly provides [3] [Refined Metals] <with [25]% chance>"
+                ]
+            }
+        ]
+    },
+
 ]

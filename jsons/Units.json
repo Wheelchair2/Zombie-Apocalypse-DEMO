@@ -6,13 +6,13 @@
 		"cost": 106,
 		"movement": 2,
 		"uniques": [
-			"[+3] Movement <before turn number [2]>",
-			"[+3] Sight <before turn number [2]>",
+			"[This Unit] upgrades for free <before turn number [2]>",
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population",
 			"Uncapturable"
 		],
+		"upgradesTo":"Armed Settler",
 		"hurryCostModifier": 20
 	},
 	{
@@ -23,6 +23,8 @@
 		"movement": 2,
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
+			"[+3] Movement <before turn number [2]>",
+			"[+3] Sight <before turn number [2]>",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [5] population",
 			"Uncapturable"
@@ -59,27 +61,28 @@
 	},
 	///Military
 	{
-		"name": "Police Patrol",
-		"unitType": "Scout",
+		"name": "Ranger Squad",
+		"unitType": "Ranged Combat",
 		"movement": 2,
-		"strength": 19,
+		"strength": 15,
+		"rangedStrength":24,
 		"uniques": [
 			"Unbuildable",
 			"[+1] Sight",
 			"'Infantry'",
-			"'Dense Formation'",
+			"'Skirmisher'",
 			"'Firearms'",
-			"Can pass through impassable tiles",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ammo User"],
 		"attackSound": "shot"
 	},
+
 	{
 		"name": "Armed Civilian",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 17,
+		"strength": 24,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
@@ -94,10 +97,10 @@
 	},
 	{
 		"name": "Armed Farmer",
-		"unitType": "Close Combat",
+		"unitType": "Ranged Combat",
 		"movement": 2,
-		"strength": 14,
-		"rangedStrength":19,
+		"strength": 18,
+		"rangedStrength":23,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
@@ -110,10 +113,27 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Police Patrol",
+		"unitType": "Ranged Combat",
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength":23,
+		"uniques": [
+			"Unbuildable",
+			"[+1] Sight",
+			"'Infantry'",
+			"'Skirmisher'",
+			"'Firearms'",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ammo User"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Mechanized Infantry",
 		"unitType": "Assault",
 		"movement": 4,
-		"strength": 25,
+		"strength": 30,
 		"uniques": [
 			"Unbuildable",
 			"'Motorized'",
@@ -128,7 +148,7 @@
 		"name": "Mortar Squad",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 16,
+		"strength": 20,
 		"rangedStrength": 32,
 		"uniques": [
 			"Unbuildable",
@@ -145,7 +165,7 @@
 		"name": "Coastal Guard",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 17,
+		"strength": 28,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",

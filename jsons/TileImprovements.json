@@ -339,7 +339,7 @@
 	//Civilization unique improvements
 	// Unbuildable improvements
 	{
-		"name": "Ancient ruins",
+		"name": "Survivor Holdout",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
