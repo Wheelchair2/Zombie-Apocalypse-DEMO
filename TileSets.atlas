@@ -6,553 +6,560 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 FantasyHex/Road
   rotate: false
-  xy: 4, 86
+  xy: 4, 91
   size: 60, 32
   orig: 60, 32
   offset: 0, 0
   index: -1
-FantasyHex/Tiles/Ancient ruins
-  rotate: false
-  xy: 4, 50
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 FantasyHex/Tiles/Apartment
   rotate: false
-  xy: 4, 4
+  xy: 4, 45
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Apartment 3
   rotate: false
-  xy: 112, 85
+  xy: 72, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Apartment 4
   rotate: false
-  xy: 152, 80
+  xy: 112, 85
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Apartment2
   rotate: false
-  xy: 72, 85
+  xy: 4, 4
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Bar
   rotate: false
-  xy: 192, 80
+  xy: 152, 85
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Bar2
   rotate: false
-  xy: 232, 85
+  xy: 192, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Bar3
   rotate: false
-  xy: 272, 85
+  xy: 232, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Bar4
   rotate: false
-  xy: 312, 80
+  xy: 272, 85
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Blank Indoor
   rotate: false
-  xy: 352, 85
+  xy: 312, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Blank Indoor 2F
   rotate: false
-  xy: 392, 80
+  xy: 352, 85
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Broken Indoor
   rotate: false
-  xy: 432, 85
+  xy: 392, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Broken Indoor 2F
   rotate: false
-  xy: 472, 80
+  xy: 432, 85
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Broken Restaurant
   rotate: false
-  xy: 512, 85
+  xy: 472, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Broken Restaurant2
   rotate: false
-  xy: 552, 80
+  xy: 512, 85
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Concrete
   rotate: false
-  xy: 592, 90
+  xy: 552, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Construction
   rotate: false
-  xy: 632, 86
+  xy: 592, 91
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Construction2
   rotate: false
-  xy: 672, 86
+  xy: 632, 91
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Construction3
   rotate: false
-  xy: 712, 88
+  xy: 672, 93
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Construction4
   rotate: false
-  xy: 752, 86
+  xy: 712, 91
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Desert
   rotate: false
-  xy: 792, 90
+  xy: 752, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/DesertHill
   rotate: false
-  xy: 832, 90
+  xy: 792, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Facility
   rotate: false
-  xy: 872, 85
+  xy: 832, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Farmland
   rotate: false
-  xy: 912, 88
+  xy: 872, 93
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Farmland2
   rotate: false
-  xy: 952, 90
+  xy: 912, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Fixed Fountain
   rotate: false
-  xy: 992, 85
+  xy: 952, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Fixed Fountain2
   rotate: false
-  xy: 1032, 86
+  xy: 992, 91
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Fort
   rotate: false
-  xy: 1072, 85
+  xy: 1032, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Fountain
   rotate: false
-  xy: 1112, 88
+  xy: 1072, 93
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Fountain2
   rotate: false
-  xy: 1152, 86
+  xy: 1112, 91
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Garden
   rotate: false
-  xy: 1192, 84
+  xy: 1152, 89
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Garden2
   rotate: false
-  xy: 1232, 86
+  xy: 1192, 91
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 1272, 90
+  xy: 1232, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/GrasslandHill
   rotate: false
-  xy: 1312, 88
+  xy: 1272, 93
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/GrasslandTall Grass
   rotate: false
-  xy: 1352, 88
+  xy: 1312, 93
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/GrasslandTall Grass+Corn
   rotate: false
-  xy: 1392, 88
+  xy: 1352, 93
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Hill+Indoor
   rotate: false
-  xy: 1432, 80
+  xy: 1392, 85
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/House
   rotate: false
-  xy: 1472, 85
+  xy: 1432, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/House2
   rotate: false
-  xy: 1512, 85
+  xy: 1472, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/House2F
   rotate: false
-  xy: 1552, 80
+  xy: 1512, 85
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/House2F2
   rotate: false
-  xy: 1592, 80
+  xy: 1552, 85
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Metals
   rotate: false
-  xy: 1632, 90
+  xy: 1592, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Metals2
   rotate: false
-  xy: 1672, 90
+  xy: 1632, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Metals3
   rotate: false
-  xy: 1712, 90
+  xy: 1672, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Mountain
   rotate: false
-  xy: 1752, 75
+  xy: 1712, 80
   size: 32, 43
   orig: 32, 43
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Mountain2
   rotate: false
-  xy: 1792, 75
+  xy: 1752, 80
   size: 32, 43
   orig: 32, 43
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Mountain3
   rotate: false
-  xy: 1832, 75
+  xy: 1792, 80
   size: 32, 43
   orig: 32, 43
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Mud 2nd
   rotate: false
-  xy: 1872, 90
+  xy: 1832, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Old Indoor
   rotate: false
-  xy: 1912, 85
+  xy: 1872, 90
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
+FantasyHex/Tiles/Parking Lot
+  rotate: false
+  xy: 1912, 85
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
 FantasyHex/Tiles/Plains
   rotate: false
-  xy: 1952, 90
+  xy: 1952, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/PlainsHill
   rotate: false
-  xy: 1992, 90
+  xy: 1992, 95
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/PlainsHill2
   rotate: false
-  xy: 1872, 54
+  xy: 1832, 59
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/PlainsMud
   rotate: false
-  xy: 1912, 49
+  xy: 1872, 54
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/PlainsTall Grass
   rotate: false
-  xy: 1952, 52
+  xy: 1912, 47
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/PlainsTall Grass+Corn
   rotate: false
-  xy: 1992, 52
+  xy: 1952, 57
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Police Station
   rotate: false
-  xy: 592, 49
+  xy: 1992, 54
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Restaurant
   rotate: false
-  xy: 632, 45
+  xy: 552, 54
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Restaurant2
   rotate: false
-  xy: 672, 40
+  xy: 592, 45
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Rocks
   rotate: false
-  xy: 712, 52
+  xy: 632, 55
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Rocks2
   rotate: false
-  xy: 752, 50
+  xy: 672, 57
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Rubble
   rotate: false
-  xy: 792, 50
+  xy: 712, 51
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Rubble2
   rotate: false
-  xy: 832, 52
+  xy: 752, 57
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Snow
   rotate: false
-  xy: 872, 49
+  xy: 792, 59
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/SnowHill
   rotate: false
-  xy: 912, 50
+  xy: 832, 52
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Stalls
   rotate: false
-  xy: 952, 52
+  xy: 872, 55
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Stalls2
   rotate: false
-  xy: 992, 44
+  xy: 912, 54
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Street
   rotate: false
-  xy: 1032, 50
+  xy: 952, 54
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Street2
   rotate: false
-  xy: 1072, 49
+  xy: 992, 55
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Street3
   rotate: false
-  xy: 1112, 52
+  xy: 1032, 54
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/StreetHill
   rotate: false
-  xy: 1152, 48
+  xy: 1072, 55
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/StreetHill2
   rotate: false
-  xy: 1192, 46
+  xy: 1112, 53
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/StreetHill3
   rotate: false
-  xy: 1232, 48
+  xy: 1152, 51
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/StreetHill4
   rotate: false
-  xy: 1272, 52
+  xy: 1192, 53
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Supermarket
   rotate: false
-  xy: 1312, 47
+  xy: 1232, 54
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
+FantasyHex/Tiles/Survivor Holdout
+  rotate: false
+  xy: 1272, 57
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 FantasyHex/Tiles/Trash
   rotate: false
-  xy: 1352, 47
+  xy: 1312, 52
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Trash 2nd
   rotate: false
-  xy: 1392, 42
+  xy: 1352, 47
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/Tundra
   rotate: false
-  xy: 1432, 44
+  xy: 1392, 49
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 FantasyHex/Tiles/TundraHill
   rotate: false
-  xy: 1472, 49
+  xy: 1432, 54
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
