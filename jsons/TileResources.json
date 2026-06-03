@@ -156,7 +156,7 @@
 		"gold": 1,
 		"improvement": "Small Outpost",
 		"improvementStats": {
-			"Science": 1
+			"science": 1
 		},
 		"uniques": [
 			"'Structure'",
