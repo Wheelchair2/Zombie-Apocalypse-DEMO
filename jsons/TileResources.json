@@ -295,7 +295,7 @@
 
 	///Products
 	{
-		"name": "Makeshift Weapons",
+		"name": "Improvised Weapons",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",

@@ -12,7 +12,7 @@
             {
                 "text": "Initiate the search for generator",
                 "uniques": [
-                    "Only available <after discovering [Search Party]> <without [Generator]>",
+                    "Only available <after discovering [Scavenge Expertise]> <without [Generator]>",
                     "Triggers a [The Search for the Generator] event"
                 ]
             }

@@ -13,5 +13,7 @@
         "maxRiverLength": 64,
         "religionLimitBase": 10,
         "religionLimitMultiplier": 1
-    }
+    },
+    "unitset": "fantasyHex",
+    "tileset": "fantasyHex"
 }

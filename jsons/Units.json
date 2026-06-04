@@ -29,7 +29,7 @@
 			"Requires at least [5] population",
 			"Uncapturable"
 		],
-		"requiredTech":"Basic Army",
+		"requiredTech":"The First Founding",
 		"hurryCostModifier": 20
 	},
 	{
@@ -42,7 +42,7 @@
 			"Uncapturable"
 		],
 		"requiredTech": "Urban Survivor",
-		"obsoleteTech": "Back to the Job",
+		"obsoleteTech": "Reconstruction",
 		"upgradesTo": "Professional Worker",
 		"hurryCostModifier": 20
 	},
@@ -56,7 +56,7 @@
 			"[-50]% construction time for [All Road] improvements",
 			"Uncapturable"
 		],
-		"requiredTech": "Back to the Job",
+		"requiredTech": "Reconstruction",
 		"hurryCostModifier": 20
 	},
 	///Military
@@ -227,7 +227,7 @@
 			"Gain [1]-[2] [Gold] <upon ending a turn in a [Street] tile>",
 			"Never appears as a Barbarian unit"
 		],
-		"requiredTech":"Search Party",
+		"requiredTech":"Scavenge Expertise",
 		"attackSound": "metalhit",
 		"hurryCostModifier":0
 	},
@@ -256,7 +256,7 @@
 		"movement": 2,
 		"strength": 15,
 		"uniques": [
-			"Costs [5] [Makeshift Weapons]",
+			"Costs [5] [Improvised Weapons]",
 			"'Infantry'",
 			"'Dense Formation'",
 			"'Edged Weapons'",
