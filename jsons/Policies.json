@@ -2,16 +2,19 @@
     {
         "name": "Escape and Hide",
         "era": "Times of Survival",
-        "uniques": ["Only available <before adopting [Stand the Storm]>",
-                    "[Armed Civilian] units gain the [Defense Doctrine] promotion",
-                    "[Armed Farmer] units gain the [Accuracy Doctrine] promotion"
+        "uniques": [
+            "Only available <before adopting [Stand the Storm]>",
+            "[Armed Civilian] units gain the [Defense Doctrine] promotion",
+            "[Armed Farmer] units gain the [Accuracy Doctrine] promotion"
         ],
         "policies": [
             {
                 "name": "Retreat from the Horde",
-                "uniques": ["Notified of new Barbarian encampments",
-                            "[+10] HP when healing <for [10] turns>"
+                "uniques": [
+                    "Notified of new Barbarian encampments",
+                    "[+5] HP when healing"
                 ],
+                "requires": [],
                 "row": 1,
                 "column": 3
             },
@@ -43,8 +46,7 @@
                 "name": "Strike from the Dark",
                 "uniques": [
                     "[25]% Strength for cities",
-                    "New [Ranged Combat] units start with [10] XP [in all cities]",
-                    
+                    "New [Ranged Combat] units start with [10] XP [in all cities]"
                 ],
                 "requires": [
                     "Regrouping"
@@ -64,9 +66,10 @@
     {
         "name": "Stand the Storm",
         "era": "Times of Survival",
-        "uniques": ["Only available <before adopting [Escape and Hide]>",
-                    "[Armed Civilian] units gain the [CQB Doctrine] promotion",
-                    "[Armed Farmer] units gain the [Initiative in Hand] promotion"
+        "uniques": [
+            "Only available <before adopting [Escape and Hide]>",
+            "[Armed Civilian] units gain the [CQB Doctrine] promotion",
+            "[Armed Farmer] units gain the [Initiative in Hand] promotion"
         ],
         "policies": [
             {
@@ -75,6 +78,7 @@
                     "[+3 Happiness] from all [Operation Base] buildings",
                     "[+33]% Production when constructing ['Institution'] buildings [in all cities]"
                 ],
+                "requires": [],
                 "row": 1,
                 "column": 1
             },
@@ -84,6 +88,7 @@
                     "Enemy [Barbarian] units must spend [1] extra movement points when inside your territory",
                     "[Armed Civilian] units gain the [Area Denial] promotion"
                 ],
+                "requires": [],
                 "row": 1,
                 "column": 5
             },
@@ -94,7 +99,8 @@
                     "Provides [1] [Ammunition]"
                 ],
                 "requires": [
-                    "Maintain the Morale","Trap Engineering"
+                    "Maintain the Morale",
+                    "Trap Engineering"
                 ],
                 "row": 2,
                 "column": 3
@@ -114,10 +120,702 @@
             {
                 "name": "Stand the Storm Complete",
                 "uniques": [
-                    "[+1 Production] from all ['Infrastructure'] buildings",
-                    
+                    "[+1 Production] from all ['Infrastructure'] buildings"
                 ]
             }
         ]
     },
+    {
+        "name": "Anarchist Commune",
+        "era": "Times of Survival",
+        "uniques": [
+            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Parliaments]>",
+            "Only available <before adopting [Military Dictatorship]>",
+            "Only available <before adopting [Theocracy]>",
+            "Only available <before adopting [Monarchy]>",
+            "Only available <before adopting [An-cap]>",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Abolish all Private Properties",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Self-Sufficiency",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Reinforced Militia Group",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Decentralisation",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Anti-Hierarchy",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Anarchist Commune Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Worker's Concil",
+        "era": "Times of Survival",
+        "uniques": [
+            "Only available <before adopting [Anarchist Commune]>",
+            "Only available <before adopting [Parliaments]>",
+            "Only available <before adopting [Military Dictatorship]>",
+            "Only available <before adopting [Theocracy]>",
+            "Only available <before adopting [Monarchy]>",
+            "Only available <before adopting [An-cap]>",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Enforce Public Ownership",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Size the Means of Production",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Commissars",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Development Plans",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Revolution Overdrive",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Worker's Concil Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Parliaments",
+        "era": "Times of Survival",
+        "uniques": [
+            "Only available <before adopting [Anarchist Commune]>",
+            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Military Dictatorship]>",
+            "Only available <before adopting [Theocracy]>",
+            "Only available <before adopting [Monarchy]>",
+            "Only available <before adopting [An-cap]>",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Revitalised Democracy",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "National Guards",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Freedom and Suffrage",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Human Rights",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Order Restored",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Parliaments Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Military Dictatorship",
+        "era": "Times of Survival",
+        "uniques": [
+            "Only available <before adopting [Anarchist Commune]>",
+            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Parliaments]>",
+            "Only available <before adopting [Theocracy]>",
+            "Only available <before adopting [Monarchy]>",
+            "Only available <before adopting [An-cap]>",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Nothing Against the Unity",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Army with a State",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "For the Humanity",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "For the Leader",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Cleansing the Corruption",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Military Dictatorship Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Theocracy",
+        "era": "Times of Survival",
+        "uniques": [
+            "Only available <before adopting [Anarchist Commune]>",
+            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Parliaments]>",
+            "Only available <before adopting [Military Dictatorship]>",
+            "Only available <before adopting [Monarchy]>",
+            "Only available <before adopting [An-cap]>",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Newest Testament",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Missionary Works",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Crusade against the unholy",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Benevolence for the chosen",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Church Authority",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Theocracy Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Monarchy",
+        "era": "Times of Survival",
+        "uniques": [
+            "Only available <before adopting [Anarchist Commune]>",
+            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Parliaments]>",
+            "Only available <before adopting [Military Dictatorship]>",
+            "Only available <before adopting [Theocracy]>",
+            "Only available <before adopting [An-cap]>",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Long Live the King",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Land Distribution",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "War-forged Nobilities",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Royal Guards",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Lines of Heritage",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Monarchy Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "An-cap",
+        "era": "Times of Survival",
+        "uniques": [
+            "Only available <before adopting [Anarchist Commune]>",
+            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Parliaments]>",
+            "Only available <before adopting [Military Dictatorship]>",
+            "Only available <before adopting [Theocracy]>",
+            "Only available <before adopting [Monarchy]>",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Monopoly Over Essentials",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Obligarchy",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Laissez-faire",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Privatised Security",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Maximum Work Hours",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "An-cap Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Adaptation",
+        "era": "Times of Survival",
+        "uniques": [
+            "",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Town Expansion",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Agricultural Focus",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "New Traditions",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Building the New World",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Adaptation Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Reconstruction",
+        "era": "Times of Survival",
+        "uniques": [
+            "",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Return Trips",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Fight for the deceased",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Modern Convenience",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Everything will be Fine",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Reconstruction Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Multilateralism",
+        "era": "Times of Survival",
+        "uniques": [
+            "",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Understanding and Acceptance",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Interstate Support",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Exchange of Knowledge",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "New Blood",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Multilateralism Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Isolationism",
+        "era": "Times of Survival",
+        "uniques": [
+            "",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Against the Depraved",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "State Purity",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Internal Monopoly",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Impeccable Defence",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Isolationism Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Purification",
+        "era": "Times of Survival",
+        "uniques": [
+            "",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "Sharpen the Blade",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Disinfectantcy",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Ashes to Ashes",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Secret Police",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Hostile Takeover",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Purification Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Reclaimism",
+        "era": "Times of Survival",
+        "uniques": [
+            "",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "The Grand Reclamation",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Down with the Rotten",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Restore Industry",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Restore Agriculture",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Restore the Peace",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Reclaimism Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Greater Goods",
+        "era": "Times of Survival",
+        "uniques": [
+            "",
+            ""
+        ],
+        "policies": [
+            {
+                "name": "New Federation",
+                "uniques": [],
+                "requires": [],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Gather the Force",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Gather the Will",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "First Conference",
+                "uniques": [],
+                "requires": [],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Independence Day",
+                "uniques": [],
+                "requires": [],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Greater Goods Complete",
+                "uniques": []
+            }
+        ]
+    }
 ]
