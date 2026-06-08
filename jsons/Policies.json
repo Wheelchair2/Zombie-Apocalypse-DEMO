@@ -141,35 +141,34 @@
             {
                 "name": "Abolish all Private Properties",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Self-Sufficiency",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Abolish all Private Properties"],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "Reinforced Militia Group",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Abolish all Private Properties"],
                 "row": 2,
                 "column": 5
             },
             {
                 "name": "Decentralisation",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Abolish all Private Properties"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Anti-Hierarchy",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Self-Sufficiency","Reinforced Militia Group","Decentralisation"],
                 "row": 3,
                 "column": 3
             },
@@ -195,7 +194,6 @@
             {
                 "name": "Enforce Public Ownership",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 1
             },
@@ -216,14 +214,14 @@
             {
                 "name": "Development Plans",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Enforce Public Ownership","Size the Means of Production","Commissars"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Revolution Overdrive",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Development Plans"],
                 "row": 3,
                 "column": 3
             },
@@ -249,7 +247,6 @@
             {
                 "name": "Revitalised Democracy",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
@@ -263,21 +260,21 @@
             {
                 "name": "Freedom and Suffrage",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Revitalised Democracy"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Human Rights",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Freedom and Suffrage",],
                 "row": 3,
                 "column": 1
             },
             {
                 "name": "Order Restored",
                 "uniques": [],
-                "requires": [],
+                "requires": ["National Guards",],
                 "row": 3,
                 "column": 5
             },
@@ -303,35 +300,34 @@
             {
                 "name": "Nothing Against the Unity",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Army with a State",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Nothing Against the Unity",],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "For the Humanity",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Nothing Against the Unity",],
                 "row": 2,
                 "column": 5
             },
             {
                 "name": "For the Leader",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Army with a State",],
                 "row": 3,
                 "column": 1
             },
             {
                 "name": "Cleansing the Corruption",
                 "uniques": [],
-                "requires": [],
+                "requires": ["For the Humanity",],
                 "row": 3,
                 "column": 5
             },
@@ -357,35 +353,34 @@
             {
                 "name": "Newest Testament",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Missionary Works",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Newest Testament",],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Crusade against the unholy",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Newest Testament",],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "Benevolence for the chosen",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Newest Testament",],
                 "row": 2,
                 "column": 5
             },
             {
                 "name": "Church Authority",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Missionary Works","Crusade against the unholy","Benevolence for the chosen",],
                 "row": 3,
                 "column": 3
             },
@@ -411,35 +406,34 @@
             {
                 "name": "Long Live the King",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Land Distribution",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Long Live the King",],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "War-forged Nobilities",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Land Distribution",],
                 "row": 3,
                 "column": 1
             },
             {
                 "name": "Royal Guards",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Land Distribution",],
                 "row": 3,
                 "column": 3
             },
             {
                 "name": "Lines of Heritage",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Land Distribution",],
                 "row": 3,
                 "column": 5
             },
@@ -465,7 +459,6 @@
             {
                 "name": "Monopoly Over Essentials",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 1
             },
@@ -479,21 +472,21 @@
             {
                 "name": "Laissez-faire",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Monopoly Over Essentials","Obligarchy",],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Privatised Security",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Laissez-faire",],
                 "row": 3,
                 "column": 3
             },
             {
                 "name": "Maximum Work Hours",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Laissez-faire",],
                 "row": 3,
                 "column": 5
             },
@@ -507,35 +500,33 @@
         "name": "Adaptation",
         "era": "Times of Survival",
         "uniques": [
-            "",
-            ""
+            "Only available <before adopting [Reconstruction]>"
         ],
         "policies": [
             {
                 "name": "Town Expansion",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Agricultural Focus",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Town Expansion"],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "New Traditions",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Town Expansion",],
                 "row": 2,
                 "column": 5
             },
             {
                 "name": "Building the New World",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Agricultural Focus","New Traditions"],
                 "row": 3,
                 "column": 3
             },
@@ -549,35 +540,33 @@
         "name": "Reconstruction",
         "era": "Times of Survival",
         "uniques": [
-            "",
-            ""
+            "Only available <before adopting [Adaptation]>"
         ],
         "policies": [
             {
                 "name": "Return Trips",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Fight for the deceased",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Return Trips"],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "Modern Convenience",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Return Trips"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Everything will be Fine",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Fight for the deceased","Modern Convenience",],
                 "row": 3,
                 "column": 5
             },
@@ -591,35 +580,33 @@
         "name": "Multilateralism",
         "era": "Times of Survival",
         "uniques": [
-            "",
-            ""
+            "Only available <before adopting [Isolationism]>"
         ],
         "policies": [
             {
                 "name": "Understanding and Acceptance",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Interstate Support",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Understanding and Acceptance",],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Exchange of Knowledge",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Interstate Support",],
                 "row": 3,
                 "column": 1
             },
             {
                 "name": "New Blood",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Interstate Support",],
                 "row": 3,
                 "column": 5
             },
@@ -633,35 +620,31 @@
         "name": "Isolationism",
         "era": "Times of Survival",
         "uniques": [
-            "",
-            ""
+            "Only available <before adopting [Multilateralism]>"
         ],
         "policies": [
             {
                 "name": "Against the Depraved",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "State Purity",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Internal Monopoly",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 5
             },
             {
                 "name": "Impeccable Defence",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Against the Depraved","State Purity","Internal Monopoly",],
                 "row": 3,
                 "column": 3
             },
@@ -675,42 +658,41 @@
         "name": "Purification",
         "era": "Times of Survival",
         "uniques": [
-            "",
-            ""
+            "Only available <before adopting [Reclamism]>",
+            "Only available <before adopting [Greater Goods]>"
         ],
         "policies": [
             {
                 "name": "Sharpen the Blade",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Disinfectantcy",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Sharpen the Blade",],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "Ashes to Ashes",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Sharpen the Blade",],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Secret Police",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Sharpen the Blade",],
                 "row": 2,
                 "column": 5
             },
             {
                 "name": "Hostile Takeover",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Disinfectantcy","Ashes to Ashes","Secret Police",],
                 "row": 3,
                 "column": 3
             },
@@ -721,50 +703,49 @@
         ]
     },
     {
-        "name": "Reclaimism",
+        "name": "Reclamism",
         "era": "Times of Survival",
         "uniques": [
-            "",
-            ""
+            "Only available <before adopting [Purification]>",
+            "Only available <before adopting [Greater Goods]>"
         ],
         "policies": [
             {
                 "name": "The Grand Reclamation",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 5
             },
             {
                 "name": "Down with the Rotten",
                 "uniques": [],
-                "requires": [],
+                "requires": ["The Grand Reclamation",],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Restore Industry",
                 "uniques": [],
-                "requires": [],
+                "requires": ["The Grand Reclamation",],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "Restore Agriculture",
                 "uniques": [],
-                "requires": [],
+                "requires": ["The Grand Reclamation",],
                 "row": 2,
                 "column": 5
             },
             {
                 "name": "Restore the Peace",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Restore Industry","Restore Agriculture",],
                 "row": 3,
                 "column": 1
             },
             {
-                "name": "Reclaimism Complete",
+                "name": "Reclamism Complete",
                 "uniques": []
             }
         ]
@@ -773,42 +754,41 @@
         "name": "Greater Goods",
         "era": "Times of Survival",
         "uniques": [
-            "",
-            ""
+            "Only available <before adopting [Purification]>",
+            "Only available <before adopting [Reclamism]>"
         ],
         "policies": [
             {
                 "name": "New Federation",
                 "uniques": [],
-                "requires": [],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "Gather the Force",
                 "uniques": [],
-                "requires": [],
+                "requires": ["New Federation",],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Gather the Will",
                 "uniques": [],
-                "requires": [],
+                "requires": ["New Federation",],
                 "row": 2,
                 "column": 5
             },
             {
                 "name": "First Conference",
                 "uniques": [],
-                "requires": [],
+                "requires": ["New Federation",],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "Independence Day",
                 "uniques": [],
-                "requires": [],
+                "requires": ["Gather the Force","Gather the Will",],
                 "row": 3,
                 "column": 5
             },
