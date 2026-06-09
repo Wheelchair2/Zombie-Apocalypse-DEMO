@@ -797,9 +797,6 @@
 			"Heals [50] damage if it kills a unit",
 			"No damage penalty for wounded units",
 			"No movement cost to pillage",
-			"Free [Common Infected] appears <with [90]% chance> <before turn number [2]> <hidden from users>",
-			"Free [Common Infected] appears <with [33]% chance> <after turn number [3]> <before turn number [4]> <hidden from users>",
-			"Free [Common Infected] appears <with [15]% chance> <before turn number [6]> <hidden from users>",
 			"Free [Common Infected] appears <with [75]% chance> <upon defeating a [Land] unit>"
 		]
 	}

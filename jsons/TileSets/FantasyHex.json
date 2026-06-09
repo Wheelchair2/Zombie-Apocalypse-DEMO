@@ -1,7 +1,6 @@
 {
 	"useColorAsBaseTerrain": false,
 		"ruleVariants": {
-		
 		"Street+House": ["Street", "House"],
 
 		"Street+Broken House": ["Street", "Broken Indoor"],
