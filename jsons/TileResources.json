@@ -20,7 +20,7 @@
 		]
 	},
 	{
-		"name": "Water",
+		"name": "Water Source",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
 			"Lakes",
