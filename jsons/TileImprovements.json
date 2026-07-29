@@ -2,9 +2,9 @@
 	{
 		"name": "Small Outpost",
 		"terrainsCanBeBuiltOn": [
-			"House",
-			"Broken House",
-			"Facility"
+			"Single Story Building",
+			"Multi Story Building",
+			"Highrise"
 		],
 		"turnsToBuild": 6,
 		"uniques": [
@@ -24,9 +24,9 @@
 	{
 		"name": "Safehouse",
 		"terrainsCanBeBuiltOn": [
-			"House",
-			"Broken House",
-			"Facility"
+			"Single Story Building",
+			"Multi Story Building",
+			"Highrise"
 		],
 		"turnsToBuild": 4,
 		"uniques": [
@@ -42,9 +42,8 @@
 		"name": "Scrapyard",
 		"terrainsCanBeBuiltOn": [
 			"Street",
-			"House",
-			"Broken House",
-			"Facility"
+			"Single Story Building",
+			"Multi Story Building"
 		],
 		"turnsToBuild": 6,
 		"uniques": [
@@ -56,11 +55,10 @@
 		"shortcutKey": "M"
 	},
 	{
-		"name": "Foraging Hut",
+		"name": "Camp",
 		"terrainsCanBeBuiltOn": [
-			"Mud",
-			"Forest",
-			"Tall Grass"
+			"Plains",
+			"Forest"
 		],
 		"food":1,
 		"turnsToBuild": 6,
@@ -91,8 +89,7 @@
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Farmland"
+			"Plains"
 		],
 		"turnsToBuild": 8,
 		"uniques": [
@@ -150,6 +147,18 @@
 		"techRequired": "Fishing",
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Work Boats",
+		"terrainsCanBeBuiltOn": [
+			"Coast"
+		],
+		"food": 1,
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"techRequired": "Fishing",
+		"shortcutKey": "F"
+	},
 	// Military improvement
 	{
 		"name": "Traps",
@@ -182,8 +191,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Plains",
 			"Hill",
-			"House",
-			"Broken House"
+			"Single Story Building"
 		],
 		"turnsToBuild": 5,
 		"uniques": [
@@ -243,8 +251,8 @@
 	// Any improvement that starts with 'Remove ' is automatically changed into
 	// the improvement that removes the terrainfeature after it.
 	{
-		"name": "Remove House",
-		"turnsToBuild": 4,
+		"name": "Remove Forest",
+		"turnsToBuild": 7,
 		"uniques": [
 			"Can be built outside your borders",
 			"Excluded from map editor"
@@ -257,8 +265,31 @@
 		]
 	},
 	{
-		"name": "Remove Broken House",
+		"name": "Remove Single Story Building",
 		"turnsToBuild": 7,
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "X",
+		"civilopediaText": [
+			{
+				"text": "Provides a one-time Production bonus depending on distance to the closest city once finished"
+			}
+		]
+	},
+	{
+		"name": "Remove Multi Story Building",
+		"turnsToBuild": 10,
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Warehouse",
+		"turnsToBuild": 10,
 		"uniques": [
 			"Can be built outside your borders",
 			"Excluded from map editor"
@@ -269,24 +300,6 @@
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
 		// Has no tech requirements as it can always be built
-		"uniques": [
-			"Can be built outside your borders",
-			"Excluded from map editor"
-		],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Mud",
-		"turnsToBuild": 6,
-		"uniques": [
-			"Can be built outside your borders",
-			"Excluded from map editor"
-		],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Tallgrass",
-		"turnsToBuild": 6,
 		"uniques": [
 			"Can be built outside your borders",
 			"Excluded from map editor"

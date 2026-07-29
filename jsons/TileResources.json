@@ -47,7 +47,7 @@
 			"Multi Story Building",
 			"Warehouse",
 			"Highrise",
-			"Forests"
+			"Forest"
 		], 
 		"production": 1,
 		"improvedBy": [
@@ -142,7 +142,7 @@
 		"name": "Medicines",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
-			"Forests",
+			"Forest",
 			"Single Story Building",
 			"Highrise"
 		], 
