@@ -93,7 +93,7 @@
 		],
 		"turnsToBuild": 8,
 		"uniques": [
-			"Comment [Harvest 5 [Food]s in Autumn. Increased to 7 if it is built on [Farmland]]",
+			"Comment [Harvest 5 [Food]s in Autumn]",
 
 			"[+5 Food] <when above [0] [Autumn1]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+5 Food] <when above [0] [Autumn2]> <for [non-[AI player]] Civilizations> <hidden from users>",
