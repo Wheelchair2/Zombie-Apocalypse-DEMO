@@ -10,12 +10,6 @@
 		"uniques": [
 			"'Makeshift'",
 			"Can only be built to improve a resource",
-			"Provides [1] [Medical Supply] <in [Clinic] tiles> <for [25] turns>",
-			"Provides [3] [Medical Supply] <in [Hospital] tiles> <for [25] turns>",
-			"Provides [3] [Ammunition] <in [Police Station] tiles> <for [25] turns>",
-			"Provides [6] [Ammunition] <in [Military Site] tiles> <for [25] turns>",
-			"Provides [1] [Alcohol Drink] <in [Bar] tiles> <for [50] turns>",
-			"Provides [1] [High Quality Food] <in [Cold Storage] tiles> <for [50] turns>",
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"techRequired":"Humanity's Journey",
@@ -48,7 +42,6 @@
 		"turnsToBuild": 6,
 		"uniques": [
 			"'Makeshift'",
-			"[+1 Production] <for [15] turns>",
 			"Provides [1] [Scraps]",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -99,11 +92,6 @@
 			"[+5 Food] <when above [0] [Autumn2]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+5 Food] <when above [0] [Autumn3]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+5 Food] <when above [0] [Autumn4]> <for [non-[AI player]] Civilizations> <hidden from users>",
-
-			"[+7 Food] <when above [0] [Autumn1]> <in [Farmland] tiles> <for [non-[AI player]] Civilizations> <hidden from users>",
-			"[+7 Food] <when above [0] [Autumn2]> <in [Farmland] tiles> <for [non-[AI player]] Civilizations> <hidden from users>",
-			"[+7 Food] <when above [0] [Autumn3]> <in [Farmland] tiles> <for [non-[AI player]] Civilizations> <hidden from users>",
-			"[+7 Food] <when above [0] [Autumn4]> <in [Farmland] tiles> <for [non-[AI player]] Civilizations> <hidden from users>",
 
 			"[+1 Food] <for [AI player] Civilizations>",
 			"Can also be built on tiles adjacent to fresh water",

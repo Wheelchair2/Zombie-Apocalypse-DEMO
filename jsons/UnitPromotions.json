@@ -1160,7 +1160,6 @@
 		"name": "Land Mine",
 		"prerequisites": ["Explosives"],
 		"uniques": [
-			"Can build ['Land Mines'] improvements on tiles",
 			"[+10]% Strength <when defending>"
 		],
 		"unitTypes": [
