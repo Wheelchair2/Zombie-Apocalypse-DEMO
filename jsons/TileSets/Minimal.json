@@ -1,0 +1,20 @@
+{
+	"useColorAsBaseTerrain": true,
+	"ruleVariants": {
+		"Plains+Hill": ["Plains", "Hill"],
+		"Plains+Forest": ["Plains", "Forest"],
+		"Plains+Single Story Building": ["Plains", "Single Story Building"],
+		"Plains+Warehouse": ["Plains", "Warehouse"],
+		"Plains+Hill+Forest": ["Plains", "Hill", "Forest"],
+		"Plains+Hill+Single Story Building": ["Plains", "Hill", "Single Story Building"],
+		"Plains+Hill+Warehouse": ["Plains", "Hill", "Warehouse"],
+
+		"Street+Hill": ["Street", "Hill"],
+		"Street+Single Story Building": ["Street", "Single Story Building"],
+		"Street+Multi Story Building": ["Street", "Multi Story Building"],
+		"Street+Warehouse": ["Street", "Warehouse"],
+		"Street+Hill+Single Story Building": ["Street", "Hill", "Single Story Building"],
+		"Street+Hill+Multi Story Building": ["Street", "Hill", "Multi Story Building"],
+		"Street+Hill+Warehouse": ["Street", "Hill", "Warehouse"]
+	}
+}

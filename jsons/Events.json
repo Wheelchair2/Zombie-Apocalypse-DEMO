@@ -1,7 +1,7 @@
 [
     {
         "name": "Enact Decision",
-        "text": "We can do a lot of things... If the zombies aint eating us already.",
+        "text": "",
         "choices": [
             {
                 "text": "Nothing special to do as of now",
@@ -12,48 +12,220 @@
             {
                 "text": "Initiate the search for generator",
                 "uniques": [
-                    "Only available <after discovering [Search Party]> <without [Generator]>",
+                    "Only available <after discovering [Scavenge Expertise]> <without [Generator]>",
                     "Triggers a [The Search for the Generator] event"
                 ]
             }
         ]
-    }
-    ///Tech Events
+    },
     {
-        "name": "Our Escape",
-        "text": "We were not nobodies, we could use our skills to survive.",
+        "name": "Present Current Time",
+        "text": "Behold! The options below doesnt do anything, they just display what status you are in.",
         "choices": [
             {
-                "text": "We came from the overruned cities.",
+                "text": "Spring",
                 "uniques": [
-                    "Only available <after discovering [Urban Survivor]>",
-                    "Instantly provides [15] [Medical Supply]",
-                    "Instantly provides [5] [Ammunition]",
-                    "Instantly provides [5] [Fuels]",
-                    "[2] free [Armed Civilian] units appear"
+                    "Only available <when above [0] [Spring1]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
                 ]
             },
             {
-                "text": "I heard them there city folks all turned into the damn zeds!",
+                "text": "Spring",
+                "uniques": [
+                    "Only available <when above [0] [Spring2]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Spring",
+                "uniques": [
+                    "Only available <when above [0] [Spring3]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Spring",
+                "uniques": [
+                    "Only available <when above [0] [Spring4]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Summer",
+                "uniques": [
+                    "Only available <when above [0] [Summer1]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Summer",
+                "uniques": [
+                    "Only available <when above [0] [Summer2]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Summer",
+                "uniques": [
+                    "Only available <when above [0] [Summer3]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Summer",
+                "uniques": [
+                    "Only available <when above [0] [Summer4]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Autumn",
+                "uniques": [
+                    "Only available <when above [0] [Autumn1]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Autumn",
+                "uniques": [
+                    "Only available <when above [0] [Autumn2]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Autumn",
+                "uniques": [
+                    "Only available <when above [0] [Autumn3]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Autumn",
+                "uniques": [
+                    "Only available <when above [0] [Autumn4]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Winter",
+                "uniques": [
+                    "Only available <when above [0] [Winter1]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Winter",
+                "uniques": [
+                    "Only available <when above [0] [Winter2]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Winter",
+                "uniques": [
+                    "Only available <when above [0] [Winter3]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Winter",
+                "uniques": [
+                    "Only available <when above [0] [Winter4]>",
+                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Close Tab",
+                "uniques": []
+            }
+        ]
+    },
+    ///Starting Event
+    {
+        "name": "Our Escape",
+        "text": "A type of prion virus called 'Zed' has spread like wild fire across the states. It turns people into zombies. We are not sure if the countless media repersentation of this enemy counts as prophecy or not. But the government has collapsed immedately under the pressure of this virus. Aside from this cookie cutter zombie lore, do you have any idea who you are?",
+        "choices": [
+            {
+                "text": "Ex-City Dwellers, nothin special.",
+                "uniques": [
+                    "Only available <after discovering [Urban Survivor]>",
+                    "Instantly provides [20] [Medical Supply]",
+                    "Instantly provides [10] [Ammunition]",
+                    "Instantly provides [10] [Fuels]",
+                    "[2] free [Armed Civilian] units appear",
+                    "Triggers a [Our Escape 2] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "I grew up in the barn, shut up.",
                 "uniques": [
                     "Only available <after discovering [Rural Survivor]>",
-                    "Instantly provides [5] [Medical Supply]",
+                    "Instantly provides [10] [Medical Supply]",
                     "Instantly provides [20] [Ammunition]",
                     "Instantly provides [15] [Fuels]",
                     "Gain a free [Shelter] [in capital]",
                     "Gain a free [Camp Fire] [in capital]",
-                    "Free [Armed Farmer] appears"
+                    "Free [Armed Farmer] appears",
+                    "Triggers a [Our Escape 2] event <hidden from users>"
                 ]
             },
             {
-                "text": "We are seperated from the HQ! Looks like we are going to make our stand!",
+                "text": "This is the US army. Punk. We have not collapsed yet.",
                 "uniques": [
                     "Only available <after discovering [Military Survivor]>",
-                    "Instantly provides [5] [Medical Supply]",
-                    "Instantly provides [5] [Ammunition]",
-                    "Instantly provides [5] [Fuels]",
+                    "Instantly provides [10] [Medical Supply]",
+                    "Instantly provides [35] [Ammunition]",
+                    "Instantly provides [20] [Fuels]",
                     "Free [Mechanized Infantry] appears",
-                    "Free [Mortar Squad] appears"
+                    "Triggers a [Our Escape 2] event <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Our Escape 2",
+        "text": "That doesnt matter too much I guess, but I have to tell you something really quick. The zombies mutates. They grow faster stronger weirder and you have to keep up. Every year have 4 seasons and if you build a [Farm] right how its going to only bear fruit in autumn. Your only source of population growth will be the vagrants early on. Proper population growth asks for proper source of food and medical infrastructure. Good luck.",
+        "choices": [
+            {
+                "text": "It is weird you talk this much about common phenomeon, but thanks for the reminder.",
+                "uniques": [
+                    "Comment [Thank you for playing.]",
+                    "Instantly provides [5] [Medical Supply] <hidden from users>"
+                ]
+            },
+            {
+                "text": "Shut the fuck up.",
+                "uniques": []
+            }
+        ]
+    },
+    ///Progression Event
+    {
+        "name": "Refugees?",
+        "text": "This might be the first time ever we see a uninfected horde. According to their leader, these people came from a small town attacked by the zombies. They've been stalking us for some times and we seems to be civilized enough.",
+        "choices": [
+            {
+                "text": "More people more strength.",
+                "uniques": [
+                    "Comment [Accept all of their people to live in our settlement. Including the ill and the elderly.]",
+                    "[+4] population [in capital]",
+                    "Triggers a [Sick Refugees] event <with [25]% chance> <hidden from users>",
+                    "Triggers a [Infected Refugees] event <with [25]% chance> <hidden from users>"
+                ]
+            },
+            {
+                "text": "No way we are letting this many people in.",
+                "uniques": [
+                    "Comment [Accept selected few people to live in our settlement.]",
+                    "[+2] population [in capital]"
+                ]
+            },
+            {
+                "text": "Rob them.",
+                "uniques": [
+                    "[1] [Armed Civilian]s rebel <hidden from users>",
+                    "Instantly provides [5] [Fuels]",
+                    "Gain [200] [Gold]"
                 ]
             }
         ]
@@ -65,12 +237,12 @@
             {
                 "text": "We need to initiate an expedition!",
                 "uniques": [
-                    "Only available <without [Ruined Factory]>",
+                    "Only available <when number of [Owned [Warehouse] Tiles] is less than [1]>",
                     "Instantly consumes [2] [Fuels]",
                     "Instantly consumes [5] [Medical Supply]",
                     "Instantly consumes [10] [Ammunition]",
                     "Instantly provides [1] [Generator] <with [25]% chance>",
-                    "Instantly provides [1] [Generator] <with [1]% chance>",
+                    "Instantly provides [1] [Generator] <with [5]% chance>",
                     "Instantly provides [4] [Scraps] <with [10]% chance>",
                     "Instantly provides [2] [Refined Metals] <with [10]% chance>"
                 ]
@@ -78,7 +250,7 @@
             {
                 "text": "There are ruined industrial area in our control, I think we can just dig up some there.",
                 "uniques": [
-                    "Only available <with [Ruined Factory]>",
+                    "Only available <when number of [Owned [Warehouse] Tiles] is more than [0]>",
                     "Instantly provides [1] [Generator] <with [33]% chance>",
                     "Instantly provides [1] [Generator] <with [5]% chance>",
                     "Instantly provides [6] [Scraps] <with [25]% chance>",
@@ -87,127 +259,166 @@
             }
         ]
     },
-        {
-        "name": "Present Current Time",
-        "text": "Behold! The options below doesnt do anything, they just display what status you are in.",
+    {
+        "name": "Search for Survivors",
+        "text": "",
         "choices": [
             {
-                "text": "Spring",
+                "text": "We need to conduct a far and wide search.",
                 "uniques": [
-                    "Only available <when above [0] [Spring1]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
+                    "Gain [-200] [Gold] <(modified by game speed)>",
+                    "[+4] population [in capital]",
+                    "Triggers a [Sick Refugees] event <with [25]% chance> <hidden from users>",
+                    "Triggers a [Infected Refugees] event <with [15]% chance> <hidden from users>"
                 ]
             },
             {
-                "text": "Spring",
+                "text": "We are only able to afford little resources.",
                 "uniques": [
-                    "Only available <when above [0] [Spring2]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
+                    "Gain [-100] [Gold] <(modified by game speed)>",
+                    "[+2] population [in capital]",
+                    "Triggers a [Sick Refugees] event <with [15]% chance> <hidden from users>",
+                    "Triggers a [Infected Refugees] event <with [10]% chance> <hidden from users>"
+                ]
+            },
+        ]
+    },
+    ///Negative Event
+    {
+        "name": "Sick Refugees",
+        "text": "Turns out there are other infections we need to worry about.",
+        "choices": [
+            {
+                "text": "We must contain the flu.",
+                "uniques": [
+                    "[-1] population [in capital]",
+                    "[-10]% [Happiness] <for [6] turns> <on [Quick] game speed> <hidden from users>",
+                    "[-10]% [Happiness] <for [8] turns> <on [Standard] game speed> <hidden from users>",
+                    "[-10]% [Happiness] <for [10] turns> <on [Epic] game speed> <hidden from users>",
+                    "[-10]% [Happiness] <for [16] turns> <on [Marathon] game speed> <hidden from users>"
                 ]
             },
             {
-                "text": "Spring",
+                "text": "We must cure the flu.",
                 "uniques": [
-                    "Only available <when above [0] [Spring3]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Spring",
-                "uniques": [
-                    "Only available <when above [0] [Spring4]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Summer",
-                "uniques": [
-                    "Only available <when above [0] [Summer1]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Summer",
-                "uniques": [
-                    "Only available <when above [0] [Summer2]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Summer",
-                "uniques": [
-                    "Only available <when above [0] [Summer3]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Summer",
-                "uniques": [
-                    "Only available <when above [0] [Summer4]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Autumn",
-                "uniques": [
-                    "Only available <when above [0] [Autumn1]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Autumn",
-                "uniques": [
-                    "Only available <when above [0] [Autumn2]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Autumn",
-                "uniques": [
-                    "Only available <when above [0] [Autumn3]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Autumn",
-                "uniques": [
-                    "Only available <when above [0] [Autumn4]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Winter",
-                "uniques": [
-                    "Only available <when above [0] [Winter1]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Winter",
-                "uniques": [
-                    "Only available <when above [0] [Winter2]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Winter",
-                "uniques": [
-                    "Only available <when above [0] [Winter3]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Winter",
-                "uniques": [
-                    "Only available <when above [0] [Winter4]>",
-                    "Triggers a [Present Current Time] event <hidden from users>"
-                ]
-            },
-            {
-                "text": "Remember to check if the things you are doing makes sense in the correspounding season",
-                "uniques": ["Comment [Haverst in Autumn... Yep.]"
+                    "Instantly consumes [15] [Medical Supply]"
                 ]
             }
         ]
-    }
+    },
+    {
+        "name": "Infected Refugees",
+        "text": "So cliche, yet so deadly. Its a hidden fucking zombie bite.",
+        "choices": [
+            {
+                "text": "We must... Kill.",
+                "uniques": [
+                    "[-1] population [in capital]",
+                    "A [Common Infected] rebels <hidden from users>"
+                ]
+            }
+        ]
+    },
+    ///Random Event
+    {
+        "name": "Military Survivors: Stories of the Camp",
+        "text": "Our men had to raise both of their hands for this one, those camo suits are overreacting a lot. They say they've seen the worst of the Apocalypse and they are still not willing to trust anyone. Still rambling about muscle zombies and tounges...",
+        "choices": [
+            {
+                "text": "We could just leave them alone",
+                "uniques": []
+            },
+            {
+                "text": "Your men will not survive if you dont go with us!",
+                "uniques": [
+                    "Gain [-100] [Gold] <(modified by game speed)>",
+                    "[1] free [Ranger Squad] units appear <with [50]% chance>",
+                    "Instantly provides [10] [Ammunition] <with [50]% chance>"
+                ]
+            },
+            {
+                "text": "Regroup!",
+                "uniques": [
+                    "Only available <for [Government Force] Civilizations>",
+                    "[1] free [Ranger Squad] units appear",
+                    "Instantly provides [10] [Ammunition]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lone Survivors: Left for Dead",
+        "text": "We've discovered 4 survivors who said they came all the way from other states! That must be a long journey.",
+        "choices": [
+            {
+                "text": "Reality is stranger than fiction.",
+                "uniques": [
+                    "Gain [50] [Culture] <(modified by game speed)>",
+                    "Gain [50] [Science] <(modified by game speed)>"
+                ]
+            },
+            {
+                "text": "Join for Life?",
+                "uniques": [
+                    "Gain [-100] [Gold] <(modified by game speed)>",
+                    "[1] free [Armed Civilian] units appear <with [50]% chance>",
+                    "Instantly provides [10] [Fuels] <with [50]% chance>"
+                ]
+            },
+            {
+                "text": "We are all badasses.",
+                "uniques": [
+                    "Only available <for [Zeds Cutting Club] Civilizations>",
+                    "[1] free [Armed Civilian] units appear",
+                    "Instantly provides [10] [Fuels]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Discarded Weapons",
+        "text": "Lots of smoke, no people, just crate of weapon lying around.",
+        "choices": [
+            {
+                "text": "Too good to be true.",
+                "uniques": []
+            },
+            {
+                "text": "Gotta have the guns for the fun",
+                "uniques": [
+                    "Instantly provides [5] [Small Firearms] <with [50]% chance>",
+                    "Instantly provides [1] [Heavy Firearms] <with [50]% chance>",
+                    "[This Unit] takes [100] damage <with [10]% chance>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rural Survivors: Anger Issues",
+        "text": "Do we really have time for baseless accusations? They say we, the so called 'city folk' made the virus.",
+        "choices": [
+            {
+                "text": "Unreasonable men in a world that has gone mad.",
+                "uniques": [
+                    "Gain [33] [Culture] <(modified by game speed)>"
+                ]
+            },
+            {
+                "text": "Calm down there buddy.",
+                "uniques": [
+                    "Gain [-100] [Gold] <(modified by game speed)>",
+                    "[1] free [Armed Farmer] units appear <with [50]% chance>",
+                    "Instantly provides [10] [Medical Supply] <with [50]% chance>"
+                ]
+            },
+            {
+                "text": "Everybodys down on luck pal.",
+                "uniques": [
+                    "Only available <for [Neo Confederacy] Civilizations>",
+                    "[1] free [Armed Farmer] units appear",
+                    "Instantly provides [10] [Medical Supply]"
+                ]
+            }
+        ]
+    },
 ]

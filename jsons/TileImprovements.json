@@ -2,20 +2,14 @@
 	{
 		"name": "Small Outpost",
 		"terrainsCanBeBuiltOn": [
-			"House",
-			"Broken House",
-			"Facility"
+			"Single Story Building",
+			"Multi Story Building",
+			"Highrise"
 		],
-		"turnsToBuild": 4,
+		"turnsToBuild": 6,
 		"uniques": [
 			"'Makeshift'",
 			"Can only be built to improve a resource",
-			"Provides [1] [Medical Supply] <in [Clinic] tiles> <for [25] turns>",
-			"Provides [3] [Medical Supply] <in [Hospital] tiles> <for [25] turns>",
-			"Provides [3] [Ammunition] <in [Police Station] tiles> <for [25] turns>",
-			"Provides [6] [Ammunition] <in [Military Safezone Ruin] tiles> <for [25] turns>",
-			"Provides [1] [Alcohol Drink] <in [Bar] tiles> <for [50] turns>",
-			"Provides [1] [High Quality Food] <in [Cold Storage] tiles> <for [50] turns>",
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"techRequired":"Humanity's Journey",
@@ -24,46 +18,43 @@
 	{
 		"name": "Safehouse",
 		"terrainsCanBeBuiltOn": [
-			"House",
-			"Broken House",
-			"Facility"
+			"Single Story Building",
+			"Multi Story Building",
+			"Highrise"
 		],
 		"turnsToBuild": 4,
 		"uniques": [
 			"'Makeshift'",
 			"Provides [1] [Housing]",
-			"Gives a defensive bonus of [17]%",
+			"Gives a defensive bonus of [15]%",
 			"Pillaging this improvement yields approximately [+15 Gold]"
 		],
-		"techRequired":"Search Party"
+		"techRequired":"Scavenge Expertise",
 		"shortcutKey": "M" 
 	},
 	{
 		"name": "Scrapyard",
 		"terrainsCanBeBuiltOn": [
 			"Street",
-			"House",
-			"Broken House",
-			"Facility"
+			"Single Story Building",
+			"Multi Story Building"
 		],
-		"turnsToBuild": 4,
+		"turnsToBuild": 6,
 		"uniques": [
 			"'Makeshift'",
-			"[+1 Production] <for [15] turns>",
 			"Provides [1] [Scraps]",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "M"
 	},
 	{
-		"name": "Foraging Hut",
+		"name": "Camp",
 		"terrainsCanBeBuiltOn": [
-			"Mud",
-			"Forest",
-			"Tall Grass"
+			"Plains",
+			"Forest"
 		],
 		"food":1,
-		"turnsToBuild": 3,
+		"turnsToBuild": 6,
 		"uniques": [
 			"'Makeshift'",
 			"Comment [Harvest 1 extra [Food] in Summer]",
@@ -82,7 +73,7 @@
 			"Forest"
 		],
 		"production": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 8,
 		"uniques": [
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -91,17 +82,17 @@
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert"
+			"Plains"
 		],
-		"turnsToBuild": 7,
+		"turnsToBuild": 8,
 		"uniques": [
-			"Comment [Harvest 5 [Food]s in Autumn.]",
+			"Comment [Harvest 5 [Food]s in Autumn]",
+
 			"[+5 Food] <when above [0] [Autumn1]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+5 Food] <when above [0] [Autumn2]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+5 Food] <when above [0] [Autumn3]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+5 Food] <when above [0] [Autumn4]> <for [non-[AI player]] Civilizations> <hidden from users>",
+
 			"[+1 Food] <for [AI player] Civilizations>",
 			"Can also be built on tiles adjacent to fresh water",
 			"Pillaging this improvement yields approximately [+18 Gold]"
@@ -114,7 +105,6 @@
 		"uniqueTo":"Neo Confederacy",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
-			"Grassland",
 			"Hill"
 		],
 		"production": 1,
@@ -145,6 +135,18 @@
 		"techRequired": "Fishing",
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Work Boats",
+		"terrainsCanBeBuiltOn": [
+			"Coast"
+		],
+		"food": 1,
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"techRequired": "Fishing",
+		"shortcutKey": "F"
+	},
 	// Military improvement
 	{
 		"name": "Traps",
@@ -162,8 +164,6 @@
 		"name": "Trench",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
-			"Grassland",
-			"Desert",
 			"Hill"
 		],
 		"turnsToBuild": 2,
@@ -178,18 +178,15 @@
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
-			"Grassland",
-			"Desert",
 			"Hill",
-			"House",
-			"Broken House"
+			"Single Story Building"
 		],
 		"turnsToBuild": 5,
 		"uniques": [
 			"Can be built outside your borders",
 			"Gives a defensive bonus of [33]%"
 		],
-		"techRequired": "Cement",
+		"techRequired": "Concrete",
 		"shortcutKey": "O"
 	},
 	// Transportation
@@ -227,7 +224,7 @@
 			"Can be built outside your borders",
 			"Costs [1] [Gold] per turn"
 		],
-		"techRequired": "Permanent Structure",
+		"techRequired": "Architecture",
 		"shortcutKey": "R",
 		"civilopediaText": [
 			{
@@ -242,8 +239,8 @@
 	// Any improvement that starts with 'Remove ' is automatically changed into
 	// the improvement that removes the terrainfeature after it.
 	{
-		"name": "Remove House",
-		"turnsToBuild": 4,
+		"name": "Remove Forest",
+		"turnsToBuild": 7,
 		"uniques": [
 			"Can be built outside your borders",
 			"Excluded from map editor"
@@ -256,8 +253,31 @@
 		]
 	},
 	{
-		"name": "Remove Broken House",
+		"name": "Remove Single Story Building",
 		"turnsToBuild": 7,
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "X",
+		"civilopediaText": [
+			{
+				"text": "Provides a one-time Production bonus depending on distance to the closest city once finished"
+			}
+		]
+	},
+	{
+		"name": "Remove Multi Story Building",
+		"turnsToBuild": 10,
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor"
+		],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Warehouse",
+		"turnsToBuild": 10,
 		"uniques": [
 			"Can be built outside your borders",
 			"Excluded from map editor"
@@ -268,15 +288,6 @@
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
 		// Has no tech requirements as it can always be built
-		"uniques": [
-			"Can be built outside your borders",
-			"Excluded from map editor"
-		],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Marsh",
-		"turnsToBuild": 6,
 		"uniques": [
 			"Can be built outside your borders",
 			"Excluded from map editor"
@@ -329,7 +340,7 @@
 	//Civilization unique improvements
 	// Unbuildable improvements
 	{
-		"name": "Ancient ruins",
+		"name": "Survivor Holdout",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
@@ -365,47 +376,6 @@
 			"Unpillagable",
 			"Irremovable",
 			"Unbuildable",
-			"Provides [1] [Housing] <within [1] tiles of a [Fresh water]> <in this city>",
-			"Consumes [1] [Housing] <in cities with at least [1] [Population]> <in this city>",
-			"Comment [Every 5 Population costs 1 Housing.]",
-			"Consumes [1] [Housing] <in cities with at least [2] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [3] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [4] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [5] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [6] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [7] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [8] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [9] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [10] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [11] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [12] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [13] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [14] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [15] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [16] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [17] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [18] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [20] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [21] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [22] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [23] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [24] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [25] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [26] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [27] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [28] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [29] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [30] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [31] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [32] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [33] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [34] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [35] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [36] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [37] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [38] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [39] [Population]><hidden from users><in this city>",
-			"Consumes [1] [Housing] <in cities with at least [40] [Population]><hidden from users><in this city>",
 			"Excluded from map editor"
 		],
 		"civilopediaText": [

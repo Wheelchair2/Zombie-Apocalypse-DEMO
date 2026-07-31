@@ -10,13 +10,18 @@
 				"name": "INDEV",
 				"row": 3,
 				"quote": "",
-				"uniques": ["Comment [INFDEV WHEN? NOTCH?]"]
+				"uniques": [
+					"Comment [INFDEV WHEN? NOTCH?]"
+				]
 			},
 			{
 				"name": "Humanity's Journey",
-				"row": 5,
+				"row": 7,
 				"quote": "'This is not a monument to loss. This is an ode to resilience that can only be seen in the wake of catastrophe.' ― Riley Black On Dinosaur's extinction.",
-				"uniques": ["Starting tech","Comment [So nice having a 6000 year continuous development of human civilization, would be a shame if something happens to it.]"]
+				"uniques": [
+					"Starting tech",
+					"Comment [So nice having a 6000 year continuous development of human civilization, would be a shame if something happens to it.]"
+				]
 			}
 		]
 	},
@@ -24,93 +29,117 @@
 		"columnNumber": 1,
 		"era": "Times of Survival",
 		"techCost": 10,
-		"buildingCost": 20,
-		"wonderCost": 100,
+		"buildingCost": 10,
+		"wonderCost": 10,
 		"techs": [
 			{
 				"name": "Urban Survivor",
 				"row": 4,
-				"prerequisites": ["Humanity's Journey"],
+				"prerequisites": [
+					"Humanity's Journey"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Rural Survivor",
 				"row": 7,
-				"prerequisites": ["Humanity's Journey"],
+				"prerequisites": [
+					"Humanity's Journey"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Military Survivor",
 				"row": 10,
-				"prerequisites": ["Humanity's Journey"],
+				"prerequisites": [
+					"Humanity's Journey"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
 		"columnNumber": 2,
 		"era": "Times of Survival",
 		"techCost": 15,
-		"buildingCost": 30,
-		"wonderCost": 200,
+		"buildingCost": 20,
+		"wonderCost": 20,
 		"techs": [
 			{
-				"name": "Scavenging Vehicle",
+				"name": "Vehicle Scraping",
 				"row": 3,
-				"prerequisites": ["Urban Survivor"],
+				"prerequisites": [
+					"Urban Survivor"
+				],
 				"quote": ""
 			},
 			{
-				"name": "Scavenging Building",
+				"name": "Clean Scavenge",
 				"row": 5,
-				"prerequisites": ["Urban Survivor"],
+				"prerequisites": [
+					"Urban Survivor"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Foraging",
 				"row": 7,
-				"prerequisites": ["Rural Survivor"],
+				"prerequisites": [
+					"Rural Survivor"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Total Mobilization",
-				"prerequisites": ["Military Survivor"],
+				"prerequisites": [
+					"Military Survivor"
+				],
 				"row": 10,
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
 		"columnNumber": 3,
 		"era": "Times of Survival",
-		"techCost": 15,
+		"techCost": 20,
 		"buildingCost": 30,
-		"wonderCost": 200,
+		"wonderCost": 30,
 		"techs": [
 			{
-				"name": "Search Party",
+				"name": "Scavenge Expertise",
 				"row": 4,
-				"prerequisites": ["Scavenging Vehicle","Scavenging Building"],
+				"prerequisites": [
+					"Vehicle Scraping",
+					"Clean Scavenge"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Fishing",
 				"row": 6,
-				"prerequisites": ["Foraging"],
+				"prerequisites": [
+					"Foraging"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Hunting Party",
 				"row": 8,
-				"prerequisites": ["Total Mobilization","Foraging"],
+				"prerequisites": [
+					"Total Mobilization",
+					"Foraging"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Militia Organization",
 				"row": 10,
-				"prerequisites": ["Total Mobilization"],
+				"prerequisites": [
+					"Total Mobilization"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -118,33 +147,44 @@
 		"era": "Times of Survival",
 		"techCost": 30,
 		"buildingCost": 50,
-		"wonderCost": 250,
+		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Basic Structure",
+				"name": "Engineering",
 				"row": 4,
-				"prerequisites": ["Search Party"],
+				"prerequisites": [
+					"Scavenge Expertise"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Agriculture",
 				"row": 7,
-				"prerequisites": ["Hunting Party","Fishing"],
-				"uniques":["Only available <when above [3] [Seeds]>"],
+				"prerequisites": [
+					"Hunting Party",
+					"Fishing"
+				],
+				"uniques": [
+					"Only available <when above [3] [Seeds]>"
+				],
 				"quote": ""
 			},
 			{
-				"name": "Makeshift Weapons",
+				"name": "Improvised Weapons",
 				"row": 9,
-				"prerequisites": ["Militia Organization"],
+				"prerequisites": [
+					"Militia Organization"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Scent Research",
 				"row": 11,
-				"prerequisites": ["Militia Organization"],
+				"prerequisites": [
+					"Militia Organization"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -152,26 +192,33 @@
 		"era": "Times of Strive",
 		"techCost": 50,
 		"buildingCost": 55,
-		"wonderCost": 300,
+		"wonderCost": 160,
 		"techs": [
 			{
-				"name": "Back to the Job",
+				"name": "Reconstruction",
 				"row": 4,
-				"prerequisites": ["Basic Structure"],
+				"prerequisites": [
+					"Engineering"
+				],
 				"quote": ""
 			},
 			{
-				"name": "Food Preseravtion",
-				"row": 7,
-				"prerequisites": ["Agriculture"],
+				"name": "Food Preservation",
+				"row": 6,
+				"prerequisites": [
+					"Agriculture"
+				],
 				"quote": ""
 			},
 			{
-				"name": "Basic Army",
-				"row": 9,
-				"prerequisites": ["Makeshift Weapons","Scent Research"],
+				"name": "The First Founding",
+				"row": 10,
+				"prerequisites": [
+					"Improvised Weapons",
+					"Scent Research"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -179,38 +226,48 @@
 		"era": "Times of Strive",
 		"techCost": 70,
 		"buildingCost": 55,
-		"wonderCost": 350,
+		"wonderCost": 240,
 		"techs": [
 			{
 				"name": "Welding",
 				"row": 3,
-				"prerequisites": ["Back to the Job"],
+				"prerequisites": [
+					"Reconstruction"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Carpentry",
 				"row": 5,
-				"prerequisites": ["Back to the Job"],
+				"prerequisites": [
+					"Reconstruction"
+				],
 				"quote": ""
 			},
 			{
-				"name": "River Patrol",
+				"name": "Marine Trades",
 				"row": 7,
-				"prerequisites": ["Food Preseravtion"],
+				"prerequisites": [
+					"Food Preservation"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Pike and Shot",
-				"row": 8,
-				"prerequisites": ["Basic Army"],
+				"row": 9,
+				"prerequisites": [
+					"The First Founding"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Target Priority",
 				"row": 11,
-				"prerequisites": ["Scent Research"],
+				"prerequisites": [
+					"Scent Research"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -221,29 +278,40 @@
 		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Wiring",
+				"name": "Electricity",
 				"row": 4,
-				"prerequisites": ["Welding","Carpentry"],
+				"prerequisites": [
+					"Welding",
+					"Carpentry"
+				],
 				"quote": ""
 			},
 			{
-				"name": "Cement",
+				"name": "Concrete",
 				"row": 6,
-				"prerequisites": ["Welding","Carpentry"],
+				"prerequisites": [
+					"Welding",
+					"Carpentry"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Signaling",
 				"row": 8,
-				"prerequisites": ["Pike and Shot","River Patrol"],
+				"prerequisites": [
+					"Pike and Shot",
+					"Marine Trades"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Trapping",
 				"row": 10,
-				"prerequisites": ["Scent Research"],
+				"prerequisites": [
+					"Scent Research"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -256,60 +324,403 @@
 			{
 				"name": "Chemistry",
 				"row": 4,
-				"prerequisites": ["Wiring"],
+				"prerequisites": [
+					"Electricity",
+					"Concrete"
+				],
 				"quote": ""
 			},
 			{
-				"name": "Permanent Structure",
-				"row": 6,
-				"prerequisites": ["Cement"],
+				"name": "Architecture",
+				"row": 7,
+				"prerequisites": [
+					"Trapping",
+					"Concrete"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Radio",
-				"row": 8,
-				"prerequisites": ["Wiring","Signaling"],
+				"row": 9,
+				"prerequisites": [
+					"Electricity",
+					"Signaling"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Vehicle Modification",
-				"row": 10,
-				"prerequisites": ["Wiring","Target Priority"],
+				"row": 11,
+				"prerequisites": [
+					"Electricity",
+					"Target Priority"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
 		"columnNumber": 9,
-		"era": "Times of Reclaimation",
+		"era": "Times of Reclamation",
 		"techCost": 90,
 		"buildingCost": 70,
 		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Water Pump",
+				"name": "Generator",
+				"row": 3,
+				"prerequisites": [
+					"Chemistry",
+					"Architecture"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Refrigiation",
 				"row": 4,
-				"prerequisites": ["Chemistry","Permanent Structure"],
+				"prerequisites": [
+					"Chemistry",
+					"Architecture"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Water Pump",
+				"row": 5,
+				"prerequisites": [
+					"Chemistry",
+					"Architecture"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Makeshift Vehicle",
 				"row": 6,
-				"prerequisites": ["Chemistry","Radio","Vehicle Modification"],
+				"prerequisites": [
+					"Chemistry",
+					"Architecture",
+					"Radio"
+				],
 				"quote": ""
 			},
 			{
-				"name": "Construction Vehicle",
+				"name": "Stamping",
 				"row": 8,
-				"prerequisites": ["Permanent Structure","Vehicle Modification"],
+				"prerequisites": [
+					"Architecture",
+					"Radio"
+				],
 				"quote": ""
 			},
 			{
-				"name": "Vehicle Patrol",
-				"row": 10,
-				"prerequisites": ["Vehicle Modification"],
+				"name": "Makeshift Ammunition",
+				"row": 9,
+				"prerequisites": [
+					"Radio"
+				],
 				"quote": ""
 			},
+			{
+				"name": "Drones",
+				"row": 11,
+				"prerequisites": [
+					"Chemistry",
+					"Vehicle Modification"
+				],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Times of Reclamation",
+		"techCost": 90,
+		"buildingCost": 70,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Grid Rebuild",
+				"row": 4,
+				"prerequisites": [
+					"Generator",
+					"Refrigiation",
+					"Water Pump"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Recycled Materials",
+				"row": 5,
+				"prerequisites": [
+					"Generator",
+					"Refrigiation",
+					"Water Pump"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Mechanised Construction",
+				"row": 6,
+				"prerequisites": [
+					"Makeshift Vehicle",
+					"Stamping"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Makeshift Firearm",
+				"row": 9,
+				"prerequisites": [
+					"Makeshift Ammunition",
+					"Stamping"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Vehicle Engineering",
+				"row": 10,
+				"prerequisites": [
+					"Makeshift Vehicle",
+					"Stamping",
+					"Drones"
+				],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Times of Reclamation",
+		"techCost": 100,
+		"buildingCost": 80,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "New Administration",
+				"row": 7,
+				"prerequisites": [
+					"Grid Rebuild",
+					"Recycled Materials",
+					"Mechanised Construction",
+					"Makeshift Firearm",
+					"Vehicle Engineering"
+				],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Times of Reclamation",
+		"techCost": 120,
+		"buildingCost": 100,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Reinforced Structure",
+				"row": 4,
+				"prerequisites": [
+					"New Administration"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Renovation",
+				"row": 6,
+				"prerequisites": [
+					"New Administration"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Demolition",
+				"row": 8,
+				"prerequisites": [
+					"New Administration"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Slaying Horde",
+				"row": 10,
+				"prerequisites": [
+					"New Administration"
+				],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Times of Unity",
+		"techCost": 150,
+		"buildingCost": 120,
+		"wonderCost": 600,
+		"techs": [
+			{
+				"name": "Standardization",
+				"row": 3,
+				"prerequisites": [
+					"Reinforced Structure",
+					"Renovation"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Railroads",
+				"row": 5,
+				"prerequisites": [
+					"Reinforced Structure",
+					"Renovation"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Mass Production",
+				"row": 7,
+				"prerequisites": [
+					"Demolition",
+					"Renovation"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Makeshift Artillery",
+				"row": 9,
+				"prerequisites": [
+					"Demolition",
+					"Slaying Horde"
+				],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Times of Unity",
+		"techCost": 200,
+		"buildingCost": 150,
+		"wonderCost": 800,
+		"techs": [
+			{
+				"name": "Re-Industrialisation",
+				"row": 5,
+				"prerequisites": [
+					"Standardization",
+					"Railroads",
+					"Mass Production"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Flight",
+				"row": 8,
+				"prerequisites": [
+					"Makeshift Artillery",
+					"Mass Production"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Heavy Vehicles",
+				"row": 10,
+				"prerequisites": [
+					"Standardization",
+					"Railroads",
+					"Mass Production",
+					"Makeshift Artillery"
+				],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Times of Unity",
+		"techCost": 250,
+		"buildingCost": 180,
+		"wonderCost": 1000,
+		"techs": [
+			{
+				"name": "Long Range Logistic",
+				"row": 5,
+				"prerequisites": [
+					"Re-Industrialisation",
+					"Heavy Vehicles"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Internet",
+				"row": 7,
+				"prerequisites": [
+					"Re-Industrialisation"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Airship",
+				"row": 9,
+				"prerequisites": [
+					"Re-Industrialisation",
+					"Flight"
+				],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Times of Unity",
+		"techCost": 300,
+		"buildingCost": 200,
+		"wonderCost": 1200,
+		"techs": [
+			{
+				"name": "Outward Reclamation",
+				"row": 4,
+				"prerequisites": [
+					"Long Range Logistic"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Telecommunication",
+				"row": 7,
+				"prerequisites": [
+					"Long Range Logistic",
+					"Internet"
+				],
+				"quote": ""
+			},
+			{
+				"name": "Combined Arms",
+				"row": 10,
+				"prerequisites": [
+					"Internet",
+					"Airship"
+				],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Times of Unity",
+		"techCost": 400,
+		"buildingCost": 250,
+		"wonderCost": 1500,
+		"techs": [
+			{
+				"name": "Post-apocalypse Tech",
+				"row": 7,
+				"prerequisites": [
+					"Outward Reclamation",
+					"Telecommunication",
+					"Combined Arms"
+				],
+				"quote": ""
+			}
 		]
 	}
 ]

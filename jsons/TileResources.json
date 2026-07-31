@@ -1,250 +1,163 @@
 [
-	//Original Buildings
 	{
-		"name": "Suburb",
+		"name": "Perishable Food",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
+			"Coast",
 			"Plains",
-			"Grassland"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"prodcution": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Generated with weight [20] <in [{Featureless} {Plains}] tiles>",
-			"Generated with weight [20] <in [{Featureless} {Grassland}] tiles>",
-			"Guaranteed with Strategic Balance resource option",
-			"Deposits in [Facility] tiles always provide [1] resources"
-		]
-	},
-	{
-		"name": "Apartment",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": [
-			"House",
-			"Broken House"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"prodcution": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Generated with weight [20] <in [{Featureless} {House}] tiles>",
-			"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
-			"Deposits in [Facility] tiles always provide [1] resources"
-		]
-	},
-	{
-		"name": "Parking Lot",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": [
 			"Street"
+		], 
+		"food": 1,
+		"improvedBy": [
+			"Camp",
+			"Work Boats"
 		],
-		"improvement": "Scrapyard",
+		"improvementStats": {
+			"food": 1
+		},
+		"uniques": [
+			"Generated on every [10] tiles <in [Plains] tiles>"
+		]
+	},
+	{
+		"name": "Water Source",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Lakes",
+			"Single Story Building",
+			"Warehouse"
+		], 
+		"food": 1,
+		"improvedBy": [
+			"Small Outpost"
+		],
+		"improvementStats": {
+			"gold": 1
+		},
+		"uniques": [
+			"Generated on every [10] tiles <in [Lakes] tiles>"
+		]
+	},
+	{
+		"name": "Materials",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Coast",
+			"Single Story Building",
+			"Multi Story Building",
+			"Warehouse",
+			"Highrise",
+			"Forest"
+		], 
+		"production": 1,
+		"improvedBy": [
+			"Small Outpost"
+		],
 		"improvementStats": {
 			"production": 1
 		},
 		"uniques": [
-			"'Structure'",
-			"Generated on every [18] tiles <in [{Featureless} {Street}] tiles>",
-			"Generated on every [22] tiles <in [{Featureless} {Street}] tiles> <in [Hill] Regions>",
-			"Generated on every [14] tiles <in [House] tiles>",
-			"Generated on every [14] tiles <in [House] tiles> <in [Hill] Regions>",
-			"Generated on every [10] tiles <in [Broken House] tiles>",
-			"Generated on every [10] tiles <in [Broken House] tiles> <in [Hill] Regions>",
-			"Generated on every [8] tiles <in [Facility] tiles>",
-			"Deposits in [Facility] tiles always provide [1] resources"
+			"Generated on every [10] tiles <in [Warehouse] tiles>"
 		]
 	},
 	{
-		"name": "Supermarket",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": [
-			"Facility"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"prodcution": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Generated with weight [40] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [Facility] tiles always provide [1] resources"
-		]
-	},
-	{
-		"name": "Restaurant",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": [
-			"House",
-			"Broken House",
-			"Street"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"prodcution": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Generated with weight [10] <in [{Featureless} {Street}] tiles>",
-			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
-			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
-			"Guaranteed with Strategic Balance resource option",
-			"Deposits in [All] tiles always provide [1] resources"
-		]
-	},
-	{
-		"name": "Ruined Factory",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [
-			"Street",
-			"Facility",
-			"House",
-			"Broken House"
-		],
-		"improvement": "Scrapyard",
-		"improvementStats": {
-			"production": 2
-		},
-		"uniques": [
-			"'Structure'",
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Generated on every [30] tiles <in [{Featureless} {Street}] tiles>",
-			"Generated on every [14] tiles <in [House] tiles>",
-			"Generated on every [8] tiles <in [Facility] tiles>"
-		]
-	},
-	{
-		"name": "Police Station",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [
-			"Facility"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"prodcution": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Cannot be traded",
-			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [All] tiles always provide [1] resources"
-		]
-	},
-	{
-		"name": "Military Safezone Ruin",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [
-			"Street",
-			"Facility",
-			"House",
-			"Broken House"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"prodcution": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Generated with weight [5] <in [Street] tiles>",
-			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [All] tiles always provide [1] resources"
-		]
-	},
-	{
-		"name": "Clinic",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [
-			"House",
-			"Broken House"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"prodcution": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Generated with weight [20] <in [{Featureless} {House}] tiles>",
-			"Generated with weight [20] <in [{Featureless} {Broken House}] tiles>",
-			"Guaranteed with Strategic Balance resource option",
-			"Deposits in [All] tiles always provide [1] resources"
-		]
-	},
-	{
-		"name": "Hospital",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [
-			"Facility"
-		],
-		"production": 1,
-		"improvement": "Small Outpost",
-		"improvementStats": {
-			"prodcution": 1
-		},
-		"uniques": [
-			"'Structure'",
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Generated with weight [10] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [All] tiles always provide [1] resources"
-		]
-	},
-	{
-		"name": "Cold Storage",
+		"name": "Books",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Facility"
+			"Single Story Building",
+			"Multi Story Building"
+		], 
+		"science": 1,
+		"improvedBy": [
+			"Small Outpost"
 		],
-		"production": 1,
-		"improvement": "Small Outpost",
 		"improvementStats": {
-			"food": 2
+			"culture": 1,
+			"gold":1
 		},
 		"uniques": [
-			"'Structure'",
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Generated with weight [5] <in [{Featureless} {Facility}] tiles>",
-			"Deposits in [All] tiles always provide [1] resources"
+			"Generated with weight [50] <in [Street] Regions>"
 		]
 	},
 	{
-		"name": "Bar",
+		"name": "Recreation",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"House",
-			"Broken House"
+			"Single Story Building",
+			"Multi Story Building"
+		], 
+		"science": 1,
+		"improvedBy": [
+			"Small Outpost"
 		],
-		"gold": 1,
-		"improvement": "Small Outpost",
 		"improvementStats": {
-			"food": 2
+			"culture": 1,
+			"gold":1
 		},
 		"uniques": [
-			"'Structure'",
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Generated with weight [8] <in [{Featureless} {House}] tiles>",
-			"Generated with weight [8] <in [{Featureless} {Broken House}] tiles>",
-			"Deposits in [All] tiles always provide [1] resources"
+			"Generated with weight [50] <in [Multi Story Building] Regions>"
 		]
 	},
-
+	{
+		"name": "Weaponry",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [
+			"Single Story Building",
+			"Warehouse",
+			"Highrise"
+		], 
+		"production": 1,
+		"improvedBy": [
+			"Small Outpost"
+		],
+		"improvementStats": {
+			"culture": 1,
+			"science":1
+		},
+		"uniques": [
+			"Generated with weight [10] <in [Single Story Building] Regions>"
+		]
+	},
+	{
+		"name": "Fuel",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [
+			"Coast",
+			"Single Story Building",
+			"Warehouse"
+		], 
+		"production": 1,
+		"improvedBy": [
+			"Small Outpost"
+		],
+		"improvementStats": {
+			"culture": 1,
+			"science":1
+		},
+		"uniques": [
+			"Generated with weight [10] <in [Single Story Building] Regions>"
+		]
+	},
+	{
+		"name": "Medicines",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [
+			"Forest",
+			"Single Story Building",
+			"Highrise"
+		], 
+		"happiness": 1,
+		"improvedBy": [
+			"Small Outpost"
+		],
+		"improvementStats": {
+			"culture": 1,
+			"science":1
+		},
+		"uniques": [
+			"Generated with weight [10] <in [Single Story Building] Regions>"
+		]
+	},
 	///Materials
 	{
 		"name": "Scraps",
@@ -280,12 +193,15 @@
 	},
 	{
 		"name": "Seeds",
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Stockpiled"
+		]
 	},
-
 	///Products
 	{
-		"name": "Makeshift Weapons",
+		"name": "Improvised Weapons",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
@@ -330,6 +246,13 @@
 		]
 	},
 	{
+		"name": "Electronics",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
 		"name": "High Quality Food",
 		"resourceType": "Luxury",
 		"uniques": [
@@ -368,144 +291,160 @@
 		"name": "Spring1",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Spring2",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Spring3",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Spring4",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Summer1",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Summer2",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Summer3",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Summer4",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Autumn1",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Autumn2",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Autumn3",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Autumn4",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Winter1",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Winter2",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Winter3",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{
 		"name": "Winter4",
 		"resourceType": "Strategic",
 		"uniques": [
-			
-		"Stockpiled",
-			"Cannot be traded"
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	}
 ]
