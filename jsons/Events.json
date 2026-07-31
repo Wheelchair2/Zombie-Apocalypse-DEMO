@@ -10,12 +10,6 @@
                 ]
             },
             {
-                "text": "Initiate the search for refugees",
-                "uniques": [
-                    "Triggers a [Search for Survivors] event"
-                ]
-            },
-            {
                 "text": "Initiate the search for generator",
                 "uniques": [
                     "Only available <after discovering [Scavenge Expertise]> <without [Generator]>",

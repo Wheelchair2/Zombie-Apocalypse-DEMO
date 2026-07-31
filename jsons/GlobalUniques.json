@@ -7,7 +7,6 @@
         "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
-
         "[-1] Sight <for [Embarked] units>",
         ///Opening
         "Instantly provides [50] [Ammunition] <before turn number [2]>",
@@ -16,6 +15,7 @@
         ///City Mechanics
         "[-100]% Unhappiness from [Population] [in all cities]",
         "Gain a free [Birthrate Crisis] [in capital] <for [1] turns>",
+        "Gain a free [City Marker] [in all cities]"
         ///Government Force
         "[+10]% Strength <when above [3] [Trust in Government]> <for [Government Force] Civilizations>",
         "[-33]% [Happiness] [in all cities] <when below [0] [Trust in Government]>",

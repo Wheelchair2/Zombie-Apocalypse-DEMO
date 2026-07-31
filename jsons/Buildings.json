@@ -8,7 +8,7 @@
 			"Triggers a [Enact Decision] event",
 			"Remove [Enact Decision] [in this city]"
 		],
-		"requiredTech":"Military Survivor"
+		"requiredTech": "Military Survivor"
 	},
 	{
 		"name": "Check Calendar",
@@ -17,7 +17,17 @@
 			"Triggers a [Present Current Time] event",
 			"Remove [Check Calendar] [in this city]"
 		],
-		"requiredTech":"Humanity's Journey"
+		"requiredTech": "Humanity's Journey"
+	},
+	{
+		"name": "Search for Survivors",
+		"cost": 20,
+		"uniques": [
+			"Only available <if [Birthrate Crisis] is constructed> <when above [0] [Housing]>",
+			"Triggers a [Search for Survivors] event",
+			"Remove [Search for Survivors] [in this city]"
+		],
+		"requiredTech": "Total Mobilization"
 	},
 	///Line 0
 	{
@@ -25,7 +35,7 @@
 		"uniques": [
 			"'Housing'",
 			"[+5]% growth [in this city]",
-			"Provides [2] [Housing]",
+			"Provides [2] [Housing] <in this city>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
@@ -34,13 +44,13 @@
 	},
 	{
 		"name": "Commune",
-		"uniqueTo":"State Worker's Union",
-		"replaces":"Shelter",
-		"production":1,
+		"uniqueTo": "State Worker's Union",
+		"replaces": "Shelter",
+		"production": 1,
 		"uniques": [
 			"'Housing'",
 			"[+5]% growth [in this city]",
-			"Provides [3] [Housing]",
+			"Provides [3] [Housing] <in this city>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
@@ -49,8 +59,8 @@
 	},
 	{
 		"name": "Camp Fire",
-		"food":1,
-		"culture":1,
+		"food": 1,
+		"culture": 1,
 		"uniques": [
 			"'Cultural'",
 			"Cannot be purchased <if [Market] is not constructed>",
@@ -59,7 +69,6 @@
 		"requiredTech": "Humanity's Journey",
 		"hurryCostModifier": 0
 	},
-
 	///Line 1
 	{
 		"name": "First Scavenge",
@@ -90,13 +99,13 @@
 	},
 	{
 		"name": "First Census",
-		"happiness":2,
+		"happiness": 2,
 		"uniques": [
 			"Limited to [1] per Civilization",
 			"Unsellable",
 			"'Event'",
 			"'Institution'",
-			"Provides [1] [Housing]",
+			"Provides [1] [Housing] <in this city>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
@@ -106,7 +115,7 @@
 	///Line 2
 	{
 		"name": "Car Graveyard",
-		"production":1,
+		"production": 1,
 		"uniques": [
 			"'Industry'",
 			"Provides [2] [Fuels] <for [4] turns>",
@@ -118,7 +127,7 @@
 	},
 	{
 		"name": "Scrap Workshop",
-		"production":2,
+		"production": 2,
 		"uniques": [
 			"'Industry'",
 			"Creates a [Small Outpost] improvement on a specific tile",
@@ -129,10 +138,10 @@
 	},
 	{
 		"name": "Swordsmith's Quarter",
-		"uniqueTo":"Zeds Cutting Club",
-		"replaces":"Chop Shop",
-		"production":1,
-		"cityStrength":3,
+		"uniqueTo": "Zeds Cutting Club",
+		"replaces": "Chop Shop",
+		"production": 1,
+		"cityStrength": 3,
 		"uniques": [
 			"'Industry'",
 			"Provides [1] [Improvised Weapons]",
@@ -144,7 +153,7 @@
 	},
 	{
 		"name": "Seed Collection",
-		"science":1,
+		"science": 1,
 		"uniques": [
 			"'Research'",
 			"Provides [1] [Seeds]",
@@ -181,8 +190,8 @@
 	},
 	{
 		"name": "Barrack",
-		"culture":1,
-		"cityHealth":5,
+		"culture": 1,
+		"cityHealth": 5,
 		"uniques": [
 			"'Military Building'",
 			"[+10]% Production when constructing [Military] units [in this city]",
@@ -195,8 +204,8 @@
 	},
 	{
 		"name": "Settlement Patrol",
-		"happiness":1,
-		"cityStrength":5,
+		"happiness": 1,
+		"cityStrength": 5,
 		"uniques": [
 			"'Static Defense'",
 			"[-1] population [in this city]",
@@ -206,10 +215,10 @@
 		"requiredTech": "Militia Organization",
 		"hurryCostModifier": 25
 	},
-		{
+	{
 		"name": "Junk Walls",
-		"cityStrength":1,
-		"cityHealth":10,
+		"cityStrength": 1,
+		"cityHealth": 10,
 		"uniques": [
 			"'Static Defense'",
 			"Cannot be purchased <if [Market] is not constructed>",
@@ -224,17 +233,17 @@
 		"uniques": [
 			"'Housing'",
 			"[+5]% growth [in this city]",
-			"Provides [3] [Housing]",
+			"Provides [3] [Housing] <in this city>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Engineering",
 		"hurryCostModifier": 25
 	},
-		{
+	{
 		"name": "Irrigation System",
-		"percentStatBonus":{
-			"food":10
+		"percentStatBonus": {
+			"food": 10
 		},
 		"uniques": [
 			"'Infrastructure'",
@@ -247,8 +256,10 @@
 	},
 	{
 		"name": "Market",
-		"percentStatBonus": {"gold": 25},
-		"culture":1,
+		"percentStatBonus": {
+			"gold": 25
+		},
+		"culture": 1,
 		"uniques": [
 			"'Infrastructure'",
 			"Only available <in cities with at least [5] [Population]>",
@@ -259,12 +270,11 @@
 		"requiredTech": "Reconstruction",
 		"hurryCostModifier": 25
 	},
-	
 	{
 		"name": "Chop Shop",
 		"maintenance": 1,
-		"production":1,
-		"cityStrength":2,
+		"production": 1,
+		"cityStrength": 2,
 		"uniques": [
 			"'Infrastructure'",
 			"Provides [1] [Improvised Weapons]",
@@ -276,23 +286,22 @@
 	},
 	{
 		"name": "Wooden Barricade",
-		"cityStrength":2,
-		"cityHealth":20,
+		"cityStrength": 2,
+		"cityHealth": 20,
 		"uniques": [
 			"'Static Defense'",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
-		"requiredBuilding":"Junk Walls",
+		"requiredBuilding": "Junk Walls",
 		"requiredTech": "Improvised Weapons",
 		"hurryCostModifier": 0
 	},
 	///Line 6
-
 	{
 		"name": "Smeltry",
-		"production":1,
-		"gold":1,
+		"production": 1,
+		"gold": 1,
 		"uniques": [
 			"'Industry'",
 			"Provides [1] [Refined Metals] <when above [1] [Scraps]>",
@@ -304,8 +313,8 @@
 	},
 	{
 		"name": "Carpentry House",
-		"production":2,
-		"gold":1,
+		"production": 2,
+		"gold": 1,
 		"uniques": [
 			"'Industry'",
 			"[+15]% Production when constructing [All] buildings [in this city]",
@@ -317,7 +326,7 @@
 	///Civ Specific non-replacement
 	{
 		"name": "Public Ownership",
-		"uniqueTo":"State Worker's Union",
+		"uniqueTo": "State Worker's Union",
 		"percentStatBonus": {
 			"food": 5,
 			"production": 5
@@ -332,7 +341,7 @@
 	},
 	{
 		"name": "Rationing System",
-		"uniqueTo":"Government Force",
+		"uniqueTo": "Government Force",
 		"percentStatBonus": {
 			"food": -10
 		},
@@ -347,11 +356,11 @@
 	},
 	{
 		"name": "Dave's Farm",
-		"uniqueTo":"Neo Confederacy",
-		"cost":1,
-		"isNationalWonder":true,
+		"uniqueTo": "Neo Confederacy",
+		"cost": 1,
+		"isNationalWonder": true,
 		"uniques": [
-			"Provides [1] [Housing]",
+			"Provides [1] [Housing] <in this city>",
 			"Creates a [Dave's Little Farm] improvement on a specific tile",
 			"Destroyed when the city is captured"
 		],
@@ -368,8 +377,10 @@
 		"culture": 2,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Provides [1] [Housing]",
-					"Indicates the capital city"]
+		"uniques": [
+			"Provides [1] [Housing] <in this city>",
+			"Indicates the capital city"
+		]
 	},
 	{
 		"name": "Birthrate Crisis",
@@ -380,6 +391,35 @@
 			"'Flag'",
 			"Nullifies Growth [in all cities]",
 			"Cannot build [Settler] units"
+		]
+	},
+	{
+		"name": "City Marker",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Consumes [1] [Housing] <in this city> <in cities with [1] [Population]>",
+			"Consumes [2] [Housing] <in this city> <in cities with [2] [Population]>",
+			"Consumes [3] [Housing] <in this city> <in cities with [3] [Population]>",
+			"Consumes [4] [Housing] <in this city> <in cities with [4] [Population]>",
+			"Consumes [5] [Housing] <in this city> <in cities with [5] [Population]>",
+			"Consumes [6] [Housing] <in this city> <in cities with [6] [Population]>",
+			"Consumes [7] [Housing] <in this city> <in cities with [7] [Population]>",
+			"Consumes [8] [Housing] <in this city> <in cities with [8] [Population]>",
+			"Consumes [9] [Housing] <in this city> <in cities with [9] [Population]>",
+			"Consumes [10] [Housing] <in this city> <in cities with [10] [Population]>",
+			"Consumes [11] [Housing] <in this city> <in cities with [11] [Population]>",
+			"Consumes [12] [Housing] <in this city> <in cities with [12] [Population]>",
+			"Consumes [13] [Housing] <in this city> <in cities with [13] [Population]>",
+			"Consumes [14] [Housing] <in this city> <in cities with [14] [Population]>",
+			"Consumes [15] [Housing] <in this city> <in cities with [15] [Population]>",
+			"Consumes [16] [Housing] <in this city> <in cities with [16] [Population]>",
+			"Consumes [17] [Housing] <in this city> <in cities with [17] [Population]>",
+			"Consumes [18] [Housing] <in this city> <in cities with [18] [Population]>",
+			"Consumes [19] [Housing] <in this city> <in cities with [19] [Population]>",
+			"Consumes [20] [Housing] <in this city> <in cities with [20] [Population]>",
 		]
 	},
 	{
