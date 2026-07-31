@@ -13,9 +13,9 @@
         "maxRiverLength": 64,
         "religionLimitBase": 10,
         "religionLimitMultiplier": 1},
-    "uniques":{
+    "uniques":[
         "Suppress warning [*may cause translation problems*]"//Thx Lodo the bear
-    },
+    ],
     "unitset": "fantasyHex",
     "tileset": "Minimal"
 }
