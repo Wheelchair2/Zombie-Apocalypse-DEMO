@@ -64,8 +64,8 @@
 		"name": "Ranger Squad",
 		"unitType": "Ranged Combat",
 		"movement": 2,
-		"strength": 15,
-		"rangedStrength":24,
+		"strength": 38,
+		"rangedStrength": 45,
 		"uniques": [
 			"Unbuildable",
 			"[+1] Sight",
@@ -82,7 +82,7 @@
 		"name": "Armed Civilian",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 24,
+		"strength": 35,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
@@ -99,8 +99,8 @@
 		"name": "Armed Farmer",
 		"unitType": "Ranged Combat",
 		"movement": 2,
-		"strength": 18,
-		"rangedStrength":23,
+		"strength": 30,
+		"rangedStrength": 34,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
@@ -116,8 +116,8 @@
 		"name": "Police Patrol",
 		"unitType": "Ranged Combat",
 		"movement": 2,
-		"strength": 18,
-		"rangedStrength":23,
+		"strength": 40,
+		"rangedStrength": 35,
 		"uniques": [
 			"Unbuildable",
 			"[+1] Sight",
@@ -126,14 +126,14 @@
 			"'Firearms'",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ammo User"],
+		"promotions": ["Tactical Squads","Ammo User"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Mechanized Infantry",
 		"unitType": "Assault",
 		"movement": 4,
-		"strength": 30,
+		"strength": 50,
 		"uniques": [
 			"Unbuildable",
 			"'Motorized'",
@@ -148,8 +148,8 @@
 		"name": "Mortar Squad",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 20,
-		"rangedStrength": 32,
+		"strength": 40,
+		"rangedStrength": 45,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
@@ -165,7 +165,7 @@
 		"name": "Coastal Guard",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 28,
+		"strength": 40,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",

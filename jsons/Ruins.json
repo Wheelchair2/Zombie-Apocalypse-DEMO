@@ -1,8 +1,27 @@
 [
     {
-        "name": "discover cultural artifacts",
-        "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
-        "uniques": ["Gain [20] [Culture]"],
-        "color": "#cf8ff7"
+        "name": "Discovered Military Camp",
+        "notification": "We have discovered A Squad of Soldiers",
+        "uniques": ["[This Unit] gains [20] XP",
+                    "Triggers a [Military Survivors: Stories of the Camp] event"],
+        "color": "#00420f"
+    },
+    {
+        "name": "Discovered Lone Survivors",
+        "notification": "We have discovered A Squad of Survivors",
+        "uniques": ["Triggers a [Lone Survivors: Left for Dead] event"],
+        "color": "#00420f"
+    },
+    {
+        "name": "Discovered Lost Equipments",
+        "notification": "We have discovered crates of weaponries",
+        "uniques": ["Instantly provides [10] [Ammunition]","Triggers a [Discarded Weapons] event"],
+        "color": "#00420f"
+    },
+    {
+        "name": "Discovered Angry Farmers",
+        "notification": "We have discovered a group of disgruntled red necks",
+        "uniques": ["[This Unit] gains [10] XP","Triggers a [Rural Survivors: Anger Issues] event"],
+        "color": "#00420f"
     },
 ]

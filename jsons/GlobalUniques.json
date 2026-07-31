@@ -12,6 +12,7 @@
         ///Opening
         "Instantly provides [50] [Ammunition] <before turn number [2]>",
         "Triggers a [Our Escape] event <before turn number [2]> <upon turn start>",
+        "Triggers a [Refugees?] event <after turn number [4]> <before turn number [5]> <upon turn start>",
         ///City Mechanics
         "[-100]% Unhappiness from [Population] [in all cities]",
         "Gain a free [Birthrate Crisis] [in capital] <for [1] turns>",
