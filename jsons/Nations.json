@@ -36,7 +36,10 @@
 			"Starts with [Military Survivor]",
 			"Starts with [Rural Survivor]",
 			"Starts with [Urban Survivor]",
-			"Comment [People trusts you, Senator. But [Trust in Government] is a pricy thing to uphold. You will need to spend your resource wisely to keep the everyone happy... Or else people might devolve into something even more aggressive than zombies.]"
+			"Comment [People trusts you, Senator. But [Trust in Government] is a pricy thing to uphold. You will need to spend your resource wisely to keep the everyone happy... Or else people might devolve into something even more aggressive than zombies.]",
+			///Government Force
+        	"[+10]% Strength <when above [3] [Trust in Government]>",
+        	"[-33]% [Happiness] [in all cities] <when below [0] [Trust in Government]>"
 		],
 		"cities": ["Headquarter","Outpost Alfa","Outpost Bravo","Outpost Charlie","Outpost Delta","Outpost Echo","Outpost Foxtrot","Outpost Golf","Outpost Hotel","Outpost India","Outpost Juliett","Outpost Kilo"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]

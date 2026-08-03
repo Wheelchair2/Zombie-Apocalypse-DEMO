@@ -23,18 +23,30 @@
 		"name": "Search for Survivors",
 		"cost": 20,
 		"uniques": [
-			"Only available <if [Birthrate Crisis] is constructed> <when above [0] [Housing]>",
+			"Only available <if [Birthrate Crisis] is constructed> <when above [0] [Housing]> <when above [4] [Operational Power]>",
 			"Triggers a [Search for Survivors] event",
 			"Remove [Search for Survivors] [in this city]"
 		],
 		"requiredTech": "Total Mobilization"
 	},
+	{
+		"name": "Resettlement",
+		"cost": 0,
+		"uniques": [
+			"Unbuildable <for [AI player] Civilizations> <hidden from users>",
+			"Only available <in cities connected to the capital> <when above [0] [Migrating Population]> <when above [0] [Housing]>",
+			"[+1] population [in this city]",
+			"Instantly consumes [1] [Migrating Population]",
+			"Instantly provides [1] [Operational Power] <after adopting []>",
+			"Remove [Resettlement] [in this city] <hidden from users>",
+			"Comment [Each [Migrating Population] costs [2] [Happiness] to maintain if you dont resettle them immediately in a single turn.]"
+		]
+	},
 	///Line 0
 	{
 		"name": "Shelter",
 		"uniques": [
-			"'Housing'",
-			"[+5]% growth [in this city]",
+			"'Residential'",
 			"Provides [2] [Housing] <in this city>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
@@ -48,8 +60,7 @@
 		"replaces": "Shelter",
 		"production": 1,
 		"uniques": [
-			"'Housing'",
-			"[+5]% growth [in this city]",
+			"'Residential'",
 			"Provides [3] [Housing] <in this city>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
@@ -58,7 +69,7 @@
 		"hurryCostModifier": 0
 	},
 	{
-		"name": "Camp Fire",
+		"name": "Campfire",
 		"food": 1,
 		"culture": 1,
 		"uniques": [
@@ -71,42 +82,42 @@
 	},
 	///Line 1
 	{
-		"name": "First Scavenge",
+		"name": "Scavenge Operation",
 		"uniques": [
 			"Limited to [1] per Civilization",
 			"Unsellable",
 			"'Event'",
-			"[+1 Production, +1 Gold] from ['Urban'] tiles [in this city] <before the [Times of Reclamation]>",
-			"Cannot be purchased <if [Market] is not constructed>",
+			"Triggers a [Scavenge Focus] event",
+			"Cannot be purchased",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Urban Survivor",
 		"hurryCostModifier": 0
 	},
 	{
-		"name": "First Foraging",
+		"name": "Foraging Operation",
 		"uniques": [
 			"Limited to [1] per Civilization",
 			"Unsellable",
 			"'Event'",
-			"[+1 Food] from [Plains] tiles [in all cities] <before the [Times of Reclamation]>",
-			"[+1 Food] from [Forest] tiles [in all cities] <before the [Times of Reclamation]>",
-			"Cannot be purchased <if [Market] is not constructed>",
+			"Triggers a [Foraging Focus] event",
+			"Cannot be purchased",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Rural Survivor",
 		"hurryCostModifier": 0
 	},
 	{
-		"name": "First Census",
+		"name": "Census Operation",
 		"happiness": 2,
 		"uniques": [
 			"Limited to [1] per Civilization",
 			"Unsellable",
 			"'Event'",
 			"'Institution'",
-			"Provides [1] [Housing] <in this city>",
-			"Cannot be purchased <if [Market] is not constructed>",
+			"Triggers a [Our Society] event",
+			"Provides [1] [Housing]",
+			"Cannot be purchased",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Military Survivor",
@@ -118,7 +129,7 @@
 		"production": 1,
 		"uniques": [
 			"'Industry'",
-			"Provides [2] [Fuels] <for [4] turns>",
+			"Provides [2] [Fuels] <for [4] turns> <(modified by game speed)>",
 			"[+2 Production] from [Fuels] tiles [in this city]",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
@@ -130,7 +141,7 @@
 		"production": 2,
 		"uniques": [
 			"'Industry'",
-			"Creates a [Small Outpost] improvement on a specific tile",
+			"Provides [1] [Scraps] <with [Materials]>",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
 		"requiredTech": "Clean Scavenge",
@@ -140,10 +151,11 @@
 		"name": "Swordsmith's Quarter",
 		"uniqueTo": "Zeds Cutting Club",
 		"replaces": "Chop Shop",
-		"production": 1,
+		"production": 2,
 		"cityStrength": 3,
 		"uniques": [
 			"'Industry'",
+			"Provides [1] [Scraps] <with [Materials]>",
 			"Provides [1] [Improvised Weapons]",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
@@ -155,20 +167,19 @@
 		"name": "Seed Collection",
 		"science": 1,
 		"uniques": [
+			"Must have an owned [Plains] within [3] tiles",
 			"'Research'",
 			"Provides [1] [Seeds]",
-			"Destroyed when the city is captured",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
 		"requiredTech": "Foraging",
+		"requiredNearbyImprovedResources": ["Perishable Food"],
 		"hurryCostModifier": 25
 	},
 	///Line 3
 	{
 		"name": "Road Network",
-		"maintenance": 2,
-		"production": 1,
-		"gold": 1,
+		"maintenance": 3,
 		"uniques": [
 			"'Infrastructure'",
 			"[+25]% Yield from every ['Makeshift']"
@@ -181,7 +192,6 @@
 		"gold": 1,
 		"uniques": [
 			"'Agriculture'",
-			"Creates a [Fishing Boats] improvement on a specific tile",
 			"Comment [When will we be able to get those big fish?]",
 			"Must be next to [Coast]"
 		],
@@ -190,7 +200,8 @@
 	},
 	{
 		"name": "Barrack",
-		"culture": 1,
+		"maintenance": 3,
+		"food": -1,
 		"cityHealth": 5,
 		"uniques": [
 			"'Military Building'",
@@ -212,6 +223,7 @@
 			"Destroyed when the city is captured",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
+		"requiredBuilding":"Barrack",
 		"requiredTech": "Militia Organization",
 		"hurryCostModifier": 25
 	},
@@ -231,9 +243,8 @@
 	{
 		"name": "Wooden Shack",
 		"uniques": [
-			"'Housing'",
-			"[+5]% growth [in this city]",
-			"Provides [3] [Housing] <in this city>",
+			"'Residential'",
+			"Provides [2] [Housing] <in this city>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
@@ -247,7 +258,21 @@
 		},
 		"uniques": [
 			"'Infrastructure'",
-			"[+1 Food] from [Farm] tiles [in this city]",
+			"[+1 Food] from [Farm] tiles [in this city] <when below [2] [Winter]>",
+			"Destroyed when the city is captured",
+			"Cannot be purchased <if [Market] is not constructed>"
+		],
+		"requiredTech": "Reconstruction",
+		"hurryCostModifier": 25
+	},
+	{
+		"name": "Irrigation System",
+		"percentStatBonus": {
+			"food": 10
+		},
+		"uniques": [
+			"'Infrastructure'",
+			"[+1 Food] from [Farm] tiles [in this city] <when below [2] [Winter]>",
 			"Destroyed when the city is captured",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
@@ -277,6 +302,7 @@
 		"cityStrength": 2,
 		"uniques": [
 			"'Infrastructure'",
+			"Consumes [1] [Scraps]",
 			"Provides [1] [Improvised Weapons]",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
@@ -304,8 +330,8 @@
 		"gold": 1,
 		"uniques": [
 			"'Industry'",
-			"Provides [1] [Refined Metals] <when above [1] [Scraps]>",
-			"Consumes [2] [Scraps] <when above [1] [Scraps]>",
+			"Provides [1] [Refined Metals]",
+			"Consumes [3] [Scraps]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Welding",
@@ -317,7 +343,7 @@
 		"gold": 1,
 		"uniques": [
 			"'Industry'",
-			"[+15]% Production when constructing [All] buildings [in this city]",
+			"[+15]% Production when constructing [{non-[Wonder]} {non-[National Wonder]}] buildings [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Carpentry",
@@ -369,7 +395,7 @@
 	},
 	///Special
 	{
-		"name": "Operation Base",
+		"name": "Headquarter",
 		"isNationalWonder": true,
 		"production": 3,
 		"science": 2,
@@ -378,6 +404,7 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
+			"Provides [1] [Operational Power]",
 			"Provides [1] [Housing] <in this city>",
 			"Indicates the capital city"
 		]
@@ -430,6 +457,7 @@
 			"Unsellable",
 			"'Flag'",
 			"Comment [Happiness]",
+			"Comment [Faith]",
 			"Comment [Barbarian]",
 			"Will not be displayed in Civilopedia",
 			"Moves to new capital when capital changes <hidden from users>"

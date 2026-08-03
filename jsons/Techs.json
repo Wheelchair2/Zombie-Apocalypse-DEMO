@@ -113,6 +113,7 @@
 					"Vehicle Scraping",
 					"Clean Scavenge"
 				],
+				"uniques" :["Comment [Unlock [Initiate the search for Generator] option in [Enact Policies]]"],
 				"quote": ""
 			},
 			{
@@ -130,6 +131,7 @@
 					"Total Mobilization",
 					"Foraging"
 				],
+				"uniques" :["Comment [Unlock [Initiate the search for Seed] option in [Enact Policies]]"],
 				"quote": ""
 			},
 			{

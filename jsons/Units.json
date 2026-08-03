@@ -271,8 +271,11 @@
 		"strength": 10,
 		"uniques": [
 			"'Infantry'",
-			"'Dense Formation'",
-			"'Claws'"
+			"'Swarmer'",
+			"'Claws'",
+			"[This Unit] is destroyed <upon gaining the [Hording] promotion>",
+			"Free [Infected Horde] appears <upon gaining the [Hording] promotion>",
+			"[This Unit] gains the [Hording] promotion <when adjacent to a [Common Infected] unit> <upon turn start> <with [50]% chance>"
 		],
 		"promotions": ["ZEDS Virus"],
 		"attackSound": "nonmetalhit"
@@ -282,12 +285,12 @@
 		"unitType": "Ranged Combat",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
-		"strength": 12,
-		"rangedStrength":16,
+		"strength": 15,
+		"rangedStrength":18,
 		"uniques": [
 			"'Infantry'",
 			"'Skirmisher'",
-			"'Claws'"
+			"'Acid'"
 		],
 		"promotions": ["ZEDS Virus"],
 		"attackSound": "nonmetalhit"
@@ -297,10 +300,10 @@
 		"unitType": "Close Combat",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
-		"strength": 20,
+		"strength": 25,
 		"uniques": [
 			"'Infantry'",
-			"'Dense Formation'",
+			"'Swarmer'",
 			"'Claws'"
 		],
 		"promotions": ["ZEDS Virus"],
