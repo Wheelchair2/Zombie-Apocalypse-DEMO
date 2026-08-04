@@ -118,13 +118,13 @@
                 "uniques": [
                     "Comment [Thank you for playing.]",
                     "Instantly provides [5] [Medical Supply] <hidden from users>",
-                    "Set [Zombie Risk] to [20]"
+                    "Set [Zombie Risk] to [20] <hidden from users>"
                 ]
             },
             {
                 "text": "Shut the fuck up.",
                 "uniques": [
-                    "Set [Zombie Risk] to [20]"
+                    "Set [Zombie Risk] to [20] <hidden from users>"
                 ]
             }
         ]
@@ -138,7 +138,7 @@
                 "text": "More people more strength.",
                 "uniques": [
                     "Comment [Accept all of their people to live in our settlement. Including the ill and the elderly.]",
-                    "Comment [This might have consequences]",
+                    "Comment [This might have bad consequences]",
                     "Instantly provides [3] [Migrating Population]",
                     "Triggers a [Sick Refugees] event <with [25]% chance> <hidden from users>",
                     "Triggers a [Infected Refugees] event <with [25]% chance> <hidden from users>"
@@ -152,9 +152,17 @@
                 ]
             },
             {
+                "text": "On second thoughts, we could estabilish a new settlement for them.",
+                "uniques": [
+                    "Only available <when above [4] [Operational Power]>",
+                    "Instantly consumes [5] [Operational Power]",
+                    "Free [Settler] appears"
+                ]
+            },
+            {
                 "text": "Rob them.",
                 "uniques": [
-                    "Comment [This might have consequences]",
+                    "Comment [This might have bad consequences]",
                     "[1] [Armed Civilian]s rebel <hidden from users>",
                     "Instantly provides [5] [Fuels]",
                     "Gain [200] [Gold]"
@@ -183,7 +191,7 @@
                 "uniques": [
                     "Comment [This might have severe consequences]",
                     "Gain a free [Focus: Aggresive Scavenge] [in capital]",
-                    "Instantly provides [10] [Zombie Risk]"
+                    "Instantly provides [10] [Zombie Risk] <hidden from users>"
                 ]
             }
         ]
@@ -207,7 +215,7 @@
             {
                 "text": "Losers cant be choosers, Winner wins all",
                 "uniques": ["Gain a free [Focus: ] [in capital]",
-                    "Instantly provides [13] [Zombie Risk]"]
+                    "Instantly provides [13] [Zombie Risk] <hidden from users>"]
             }
         ]
     },
@@ -320,6 +328,28 @@
                 "text": "It seems like we are stretched too thin",
                 "uniques": []
             },
+        ]
+    },
+    {
+        "name": "Endless Possibilities!",
+        "text": "We were cautious about having new borns in our settlements because not only babies are fragile. They are also noisy. However, we knew that not having babies is civilizational suicide. Letting this future of extinction come to pass is unbearable.",
+        "choices": [
+            {
+                "text": "Proceed.",
+                "uniques": [
+                    "Comment [This might have bad consequences]",
+                    "Comment [But we must do it.]",
+                ]
+            },
+            {
+                "text": "Proceed. With caution.",
+                "uniques": [
+                    "Comment [More patrols around the settlement, Noise barriers, All that we could use...]",
+                    "Only available <when above [9] [Operational Power]>",
+                    "Instantly consumes [10] [Operational Power]",
+                    "Remove [Birthrate Crisis] [in all cities]"
+                ]
+            }
         ]
     },
     ///Negative Event

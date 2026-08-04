@@ -119,7 +119,7 @@
             {
                 "name": "Stand the Storm Complete",
                 "uniques": [
-                    "[+1 Culture] from all ['Static Defence'] buildings",
+                    "[+1 Culture] from all ['Static Defense'] buildings",
                     "[+1 Production] from all ['Infrastructure'] buildings"
                 ]
             }

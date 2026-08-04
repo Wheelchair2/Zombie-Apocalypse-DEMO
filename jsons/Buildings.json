@@ -37,7 +37,7 @@
 			"Only available <in cities connected to the capital> <when above [0] [Migrating Population]> <when above [0] [Housing]>",
 			"[+1] population [in this city]",
 			"Instantly consumes [1] [Migrating Population]",
-			"Instantly provides [1] [Operational Power] <after adopting []>",
+			"Instantly provides [1] [Operational Power] <after adopting [Revenge to the Damned]>",
 			"Remove [Resettlement] [in this city] <hidden from users>",
 			"Comment [Each [Migrating Population] costs [2] [Happiness] to maintain if you dont resettle them immediately in a single turn.]"
 		]
@@ -459,6 +459,9 @@
 			"Comment [Happiness]",
 			"Comment [Faith]",
 			"Comment [Barbarian]",
+			"Comment [Religion]",
+			"Comment [Pantheon]",
+			"Comment [Enhancer]",
 			"Will not be displayed in Civilopedia",
 			"Moves to new capital when capital changes <hidden from users>"
 		]
