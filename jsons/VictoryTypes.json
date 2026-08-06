@@ -1,5 +1,12 @@
 [
     {
+        "name": "Agriculture",
+        "victoryScreenHeader": "Re-discover [Agriculture] to win!",
+        "milestones": [],
+        "victoryString": "Lets be honest here, this is a test victory.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
         "name": "Domination",
         "victoryScreenHeader": "Capture all enemy Capitals\nto win!",
         "milestones": ["Capture all capitals"],

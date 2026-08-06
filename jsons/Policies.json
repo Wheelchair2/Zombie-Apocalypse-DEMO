@@ -5,14 +5,16 @@
         "uniques": [
             "Only available <before adopting [Stand the Storm]>",
             "[Armed Civilian] units gain the [Defense Doctrine] promotion",
-            "[Armed Farmer] units gain the [Accuracy Doctrine] promotion"
+            "[Armed Farmer] units gain the [Accuracy Doctrine] promotion",
+            "[Ranger Squad] units gain the [Accuracy Doctrine] promotion"
         ],
         "policies": [
             {
                 "name": "Retreat from the Horde",
                 "uniques": [
                     "Notified of new Barbarian encampments",
-                    "[+5] HP when healing"
+                    "Comment [Lower the possibility of future attacks by a little. Might need multiple endavors.]",
+                    "Instantly consumes [3] [Zombie Risk]"
                 ],
                 "row": 1,
                 "column": 3
@@ -20,8 +22,8 @@
             {
                 "name": "Regrouping",
                 "uniques": [
-                    "[+10]% growth [in all cities]",
-                    "[+25]% Production when constructing ['Static Defense'] buildings [in all cities]"
+                    "[+25]% [Operational Power] resource production",
+                    "[+50]% Production when constructing [{'Static Defense'} {Times of Survival}] buildings [in all cities]"
                 ],
                 "requires": [
                     "Retreat from the Horde"
@@ -32,8 +34,8 @@
             {
                 "name": "Forage from the Wild",
                 "uniques": [
-                    "[+1 Food] from [improved] tiles [in all cities] <for [15] turns>",
-                    "Provides [1] [Seeds]"
+                    "[+1 Food] from [Forest] tiles [in all cities] <when below [1] [Winter]>",
+                    "[+1 Faith] [in all cities]"
                 ],
                 "requires": [
                     "Regrouping"
@@ -68,13 +70,14 @@
         "uniques": [
             "Only available <before adopting [Escape and Hide]>",
             "[Armed Civilian] units gain the [CQB Doctrine] promotion",
-            "[Armed Farmer] units gain the [Initiative in Hand] promotion"
+            "[Armed Farmer] units gain the [Initiative in Hand] promotion",
+            "[Ranger Squad] units gain the [Initiative in Hand] promotion"
         ],
         "policies": [
             {
                 "name": "Maintain the Morale",
                 "uniques": [
-                    "[+3 Happiness] from all [Operation Base] buildings",
+                    "[+3 Happiness, +2 Faith] from all [Headquarter] buildings",
                     "[+33]% Production when constructing ['Institution'] buildings [in all cities]"
                 ],
                 "row": 1,
@@ -83,7 +86,6 @@
             {
                 "name": "Trap Engineering",
                 "uniques": [
-                    "Enemy [Barbarian] units must spend [1] extra movement points when inside your territory",
                     "[Armed Civilian] units gain the [Area Denial] promotion"
                 ],
                 "row": 1,
@@ -92,7 +94,7 @@
             {
                 "name": "New Tactics",
                 "uniques": [
-                    "[-5]% XP required for promotions",
+                    "[-10]% XP required for promotions",
                     "Provides [1] [Ammunition]"
                 ],
                 "requires": [
@@ -106,7 +108,7 @@
                 "name": "Revenge to the Damned",
                 "uniques": [
                     "Free [Great Tactician] appears",
-                    "[+10]% Strength <vs [Barbarian] units>"
+                    "Comment [[Resettlement] refunds [1] [Operational Power] back to your hand.]"
                 ],
                 "requires": [
                     "New Tactics"
@@ -117,6 +119,7 @@
             {
                 "name": "Stand the Storm Complete",
                 "uniques": [
+                    "[+1 Culture] from all ['Static Defense'] buildings",
                     "[+1 Production] from all ['Infrastructure'] buildings"
                 ]
             }

@@ -8,12 +8,13 @@
 		],
 		"turnsToBuild": 6,
 		"uniques": [
+			"'Outpost'",
 			"'Makeshift'",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
-		"techRequired":"Humanity's Journey",
-		"shortcutKey": "M" 
+		"techRequired": "Humanity's Journey",
+		"shortcutKey": "M"
 	},
 	{
 		"name": "Safehouse",
@@ -25,12 +26,13 @@
 		"turnsToBuild": 4,
 		"uniques": [
 			"'Makeshift'",
-			"Provides [1] [Housing]",
+			"Provides [1] [Housing] <in this city>",
+			"Provides [1] [Housing] <in this city> <after discovering [Engineering]>",
 			"Gives a defensive bonus of [15]%",
 			"Pillaging this improvement yields approximately [+15 Gold]"
 		],
-		"techRequired":"Scavenge Expertise",
-		"shortcutKey": "M" 
+		"techRequired": "Scavenge Expertise",
+		"shortcutKey": "M"
 	},
 	{
 		"name": "Scrapyard",
@@ -53,15 +55,11 @@
 			"Plains",
 			"Forest"
 		],
-		"food":1,
 		"turnsToBuild": 6,
 		"uniques": [
 			"'Makeshift'",
 			"Comment [Harvest 1 extra [Food] in Summer]",
-			"[+1 Food] <when above [0] [Summer1]> <hidden from users>",
-			"[+1 Food] <when above [0] [Summer2]> <hidden from users>",
-			"[+1 Food] <when above [0] [Summer3]> <hidden from users>",
-			"[+1 Food] <when above [0] [Summer4]> <hidden from users>",
+			"[+1 Food] <when above [0] [Summer]> <hidden from users>",
 			"[+1 Food] <every [2] turns> <after discovering [Foraging]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
@@ -87,22 +85,17 @@
 		"turnsToBuild": 8,
 		"uniques": [
 			"Comment [Harvest 5 [Food]s in Autumn]",
-
-			"[+5 Food] <when above [0] [Autumn1]> <for [non-[AI player]] Civilizations> <hidden from users>",
-			"[+5 Food] <when above [0] [Autumn2]> <for [non-[AI player]] Civilizations> <hidden from users>",
-			"[+5 Food] <when above [0] [Autumn3]> <for [non-[AI player]] Civilizations> <hidden from users>",
-			"[+5 Food] <when above [0] [Autumn4]> <for [non-[AI player]] Civilizations> <hidden from users>",
-
+			"[+5 Food] <when above [0] [Autumn]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+1 Food] <for [AI player] Civilizations>",
 			"Can also be built on tiles adjacent to fresh water",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
-		"techRequired":"Agriculture",
+		"techRequired": "Agriculture",
 		"shortcutKey": "F"
 	},
 	{
 		"name": "Dave's Little Farm",
-		"uniqueTo":"Neo Confederacy",
+		"uniqueTo": "Neo Confederacy",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
 			"Hill"
@@ -112,10 +105,7 @@
 		"uniques": [
 			"Irremovable",
 			"Comment [Harvest 7 [Food]s in Autumn.]",
-			"[+7 Food] <when above [0] [Autumn1]> <for [non-[AI player]] Civilizations> <hidden from users>",
-			"[+7 Food] <when above [0] [Autumn2]> <for [non-[AI player]] Civilizations> <hidden from users>",
-			"[+7 Food] <when above [0] [Autumn3]> <for [non-[AI player]] Civilizations> <hidden from users>",
-			"[+7 Food] <when above [0] [Autumn4]> <for [non-[AI player]] Civilizations> <hidden from users>",
+			"[+7 Food] <when above [0] [Autumn]> <for [non-[AI player]] Civilizations> <hidden from users>",
 			"[+3 Food] <for [AI player] Civilizations>",
 			"Removes removable features when built",
 			"Great Improvement",
@@ -388,14 +378,20 @@
 		]
 	},
 	{
-		"name": "Barbarian encampment",
+		"name": "Biomass Contamination",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
 		"uniques": [
 			"Unpillagable",
 			"Unbuildable",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Marks a barbarian camp"
+		],
+		"civilopediaText": [
+			{
+				"text": "Cursed Flesh."
+			}
 		]
 	}
 ]

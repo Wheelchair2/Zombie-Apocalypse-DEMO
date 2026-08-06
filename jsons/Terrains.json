@@ -30,6 +30,8 @@
 		"movementCost": 1,
 		"RGB": [153, 180, 51],
 		"uniques": [
+			"Becomes [Forest] when adjacent to [Multi Story Building] <with [50]% chance>",
+			"Becomes [Forest] when adjacent to [Lakes] <with [50]% chance>",
             "[+4] to Fertility for Map Generation",
 			"Becomes [Single Story Building] when adjacent to [Street] <with [33]% chance>",
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
@@ -55,6 +57,7 @@
 		"uniques": ["[+4] to Fertility for Map Generation",
 			"Becomes [Single Story Building] when adjacent to [Street] <with [75]% chance> <with [2] to [5] neighboring [Street] tiles> ",
 			"Becomes [Multi Story Building] when adjacent to [Street] <with [2] to [5] neighboring [Single Story Building] tiles>",
+			"Becomes [Plains] when adjacent to [Plains] <with [3] to [6] neighboring [Plains] tiles>",
 			"Occurs at temperature between [-0.6] and [0.1] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
 			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",

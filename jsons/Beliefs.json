@@ -1,3 +1,195 @@
 
 [
+    {
+        "name": "Sprit of Endurance",
+        "type": "Pantheon",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Sprit of Adaptation",
+        "type": "Pantheon",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Sprit of Justice",
+        "type": "Pantheon",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Sprit of Ingenuity",
+        "type": "Pantheon",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Sprit of Progress",
+        "type": "Pantheon",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Sprit of Bravery",
+        "type": "Pantheon",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Sprit of Hatred",
+        "type": "Pantheon",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Sprit of Hopefulness",
+        "type": "Pantheon",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Sprit of Promises",
+        "type": "Pantheon",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Inspirators",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Brotherhood",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Inquesition",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Undertaker",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Musical Journey",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Rebuildism",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Pastoralism",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "New World Awaits",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Manifest Destiney",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Expression in Pain",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Expression in Joy",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Expression in Sadness",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Expression in Numbness",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Expression in Anger",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Expression in Rememberance",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Expression in Forgiveness",
+        "type": "Follower",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Political Theory",
+        "type": "Enhancer",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Advanced Theology",
+        "type": "Enhancer",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Dies Irae",
+        "type": "Enhancer",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Art of Speeches",
+        "type": "Enhancer",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Propaganda Warfare",
+        "type": "Enhancer",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Zombieism Research",
+        "type": "Enhancer",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Surpreme Science",
+        "type": "Enhancer",
+        "uniques": [
+        ]
+    },
 ]

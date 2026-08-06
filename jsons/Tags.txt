@@ -1,6 +1,6 @@
 Tags:
 Building{
-'Housing',
+'Residential',
 'Agriculture',
 'Industry',
 'Infrastructure',

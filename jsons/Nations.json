@@ -29,14 +29,17 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [255, 255, 255],
-		"favoredReligion": "Evangelical Christianity",
+		"favoredReligion": "Vengence to the Damned",
 		"uniqueName": "The Hopeful Residue",
 		"uniques": [
 			"Reveals the entire map",
 			"Starts with [Military Survivor]",
 			"Starts with [Rural Survivor]",
 			"Starts with [Urban Survivor]",
-			"Comment [People trusts you, Senator. But [Trust in Government] is a pricy thing to uphold. You will need to spend your resource wisely to keep the everyone happy... Or else people might devolve into something even more aggressive than zombies.]"
+			"Comment [People trusts you, Senator. But [Trust in Government] is a pricy thing to uphold. You will need to spend your resource wisely to keep the everyone happy... Or else people might devolve into something even more aggressive than zombies.]",
+			///Government Force
+        	"[+10]% Strength <when above [3] [Trust in Government]>",
+        	"[-33]% [Happiness] [in all cities] <when below [0] [Trust in Government]>"
 		],
 		"cities": ["Headquarter","Outpost Alfa","Outpost Bravo","Outpost Charlie","Outpost Delta","Outpost Echo","Outpost Foxtrot","Outpost Golf","Outpost Hotel","Outpost India","Outpost Juliett","Outpost Kilo"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
@@ -63,7 +66,7 @@
 
 		"outerColor": [183, 77, 51],
 		"innerColor": [210, 206, 205],
-		"favoredReligion": "Catholic Christianity",
+		"favoredReligion": "Neo Paganism",
 		"uniqueName": "Old School Fighter",
 		"uniques": ["Reveals the entire map","Starts with [Urban Survivor]"],
 		"cities": ["Oathsworn","Camp Augustus","Camp Bruno","Camp Camelot","Camp Deez","Camp Elegace","Camp Florence","Camp George","Camp Hasting","Camp Invicible"],
@@ -91,7 +94,7 @@
 
 		"outerColor": [255, 28, 28],
 		"innerColor": [255, 230, 0],
-		"favoredReligion": "Lutheran Christianity",
+		"favoredReligion": "Materialism",
 		"uniqueName": "Everyman Has Their Moment",
 		"uniques": ["Reveals the entire map","Starts with [Urban Survivor]"],
 		"cities": ["Head Commune","Commune Alpha","Commune Beta","Commune Carpenter","Commune Delta","Commune Engles","Commune Freedom","Commune Guvara","Commune Harry"],
@@ -119,7 +122,7 @@
 
 		"outerColor": [3, 57, 121],
 		"innerColor": [255, 51, 51],
-		"favoredReligion": "Evangelical Christianity",
+		"favoredReligion": "New Christianity",
 		"uniqueName": "Living Off the Land.",
 		"uniques": ["Reveals the entire map","Starts with [Rural Survivor]"],
 		"cities": ["Dave's House","Hank's Place","Julian's Place","Jack's Pub","Ana's Hut","Jimmy's Barn","John's Church","George's Garden","Betty's Place","Kent's Camp"],

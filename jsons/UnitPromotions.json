@@ -1444,7 +1444,13 @@
 			"Heals [50] damage if it kills a unit",
 			"No damage penalty for wounded units",
 			"No movement cost to pillage",
-			"Free [Common Infected] appears <with [75]% chance> <upon defeating a [Land] unit>"
+			"Free [Common Infected] appears <upon defeating a [Land] unit>",
+			"[+1000]% Strength <when fighting in [Biomass Contamination] tiles> <when defending>"
+		]
+	},
+	{
+		"name": "Hording",
+		"uniques": [
 		]
 	}
 ]

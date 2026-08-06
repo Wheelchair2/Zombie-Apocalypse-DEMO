@@ -1,126 +1,54 @@
 {
     "name": "Global uniques",
     "uniques": [
-
-        "[-25]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
-        "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
-        "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
-        "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
-        "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "[-1] Sight <for [Embarked] units>",
         ///Opening
-        "Instantly provides [50] [Ammunition] <before turn number [2]>",
         "Triggers a [Our Escape] event <before turn number [2]> <upon turn start>",
         "Triggers a [Refugees?] event <after turn number [4]> <before turn number [5]> <upon turn start>",
         ///City Mechanics
         "[-100]% Unhappiness from [Population] [in all cities]",
         "Gain a free [Birthrate Crisis] [in capital] <for [1] turns>",
-        "Gain a free [City Marker] [in all cities]"
-        ///Government Force
-        "[+10]% Strength <when above [3] [Trust in Government]> <for [Government Force] Civilizations>",
-        "[-33]% [Happiness] [in all cities] <when below [0] [Trust in Government]>",
+        "Gain a free [City Marker] [in all cities]",
+        ///Zed Aggro
+        "Instantly provides [10] [Zombie Risk] <upon entering a new era>",
+        "Triggers a [Waves of Zombies!] event <with [10]% chance> <when number of [Zombie Risk] is between [0] and [10]> <upon turn start>",
+        "Triggers a [Special Infected Infiltration!] event <with [10]% chance> <when number of [Zombie Risk] is between [0] and [10]> <upon turn start>",
+        "Triggers a [Waves of Zombies!] event <with [25]% chance> <when number of [Zombie Risk] is between [11] and [25]> <upon turn start>",
+        "Triggers a [Special Infected Infiltration!] event <with [20]% chance> <when number of [Zombie Risk] is between [11] and [25]> <upon turn start>",
+        "Triggers a [Waves of Zombies!] event <with [33]% chance> <when number of [Zombie Risk] is between [26] and [50]> <upon turn start>",
+        "Triggers a [Special Infected Infiltration!] event <with [25]% chance> <when number of [Zombie Risk] is between [25] and [50]> <upon turn start>",
+        "Instantly provides [2] [Spring] <before turn number [2]> <on [Quick] game speed> <upon turn start>",
+        "Instantly provides [3] [Spring] <before turn number [2]> <on [Standard] game speed> <upon turn start>",
+        "Instantly provides [4] [Spring] <before turn number [2]> <on [Epic] game speed> <upon turn start>",
+        "Instantly provides [5] [Spring] <before turn number [2]> <on [Marathon] game speed> <upon turn start>",
 
-        // TODO: Implement the uniques below
-        // "[+20]% [Culture] [in all cities] <during a golden age>",
-        // "[+20]% [Production] [in all cities] <during a golden age>",
+        "Instantly provides [2] [Summer] <after turn number [2]> <when number of [Spring] is equal to [1]> <on [Quick] game speed> <upon turn start>",
+        "Instantly provides [3] [Summer] <after turn number [2]> <when number of [Spring] is equal to [1]> <on [Standard] game speed> <upon turn start>",
+        "Instantly provides [4] [Summer] <after turn number [2]> <when number of [Spring] is equal to [1]> <on [Epic] game speed> <upon turn start>",
+        "Instantly provides [5] [Summer] <after turn number [2]> <when number of [Spring] is equal to [1]> <on [Marathon] game speed> <upon turn start>",
 
-        // "[+10]% growth [in all cities] <during We Love The King Day>",
-
-        // "Nullifies All Yield <while is in resistance>",
-
-        // "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
-        // "[-25]% [Culture] [in pupetted cities]"
-
-        // "[+20]% [Production] [in cities connected via railroad]"
-        // something something unit supply
+        "Instantly provides [2] [Autumn] <after turn number [2]> <when number of [Summer] is equal to [1]> <on [Quick] game speed> <upon turn start>",
+        "Instantly provides [3] [Autumn] <after turn number [2]> <when number of [Summer] is equal to [1]> <on [Standard] game speed> <upon turn start>",
+        "Instantly provides [4] [Autumn] <after turn number [2]> <when number of [Summer] is equal to [1]> <on [Epic] game speed> <upon turn start>",
+        "Instantly provides [5] [Autumn] <after turn number [2]> <when number of [Summer] is equal to [1]> <on [Marathon] game speed> <upon turn start>",
         
-        "Instantly provides [1] [Spring1] <upon entering the [Information Era]>",
-        // Spring1
-        "Instantly provides [1] [Spring2] <when above [0] [Spring1]> <on [Standard] game speed> <upon turn end>",
-        "Instantly provides [1] [Spring2] <when above [0] [Spring1]> <on [Epic] game speed> <upon turn end>",
-        "Instantly provides [1] [Spring2] <when above [0] [Spring1]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Summer1] <when above [0] [Spring1]> <on [Quick] game speed> <upon turn end>",
-        "Instantly consumes [1] [Spring1] <when above [0] [Spring1]> <upon turn end>",
+        "Instantly provides [2] [Winter] <after turn number [2]> <when number of [Autumn] is equal to [1]> <on [Quick] game speed> <upon turn start>",
+        "Instantly provides [3] [Winter] <after turn number [2]> <when number of [Autumn] is equal to [1]> <on [Standard] game speed> <upon turn start>",
+        "Instantly provides [4] [Winter] <after turn number [2]> <when number of [Autumn] is equal to [1]> <on [Epic] game speed> <upon turn start>",
+        "Instantly provides [5] [Winter] <after turn number [2]> <when number of [Autumn] is equal to [1]> <on [Marathon] game speed> <upon turn start>",
 
-        // Spring2
-        "Instantly provides [1] [Spring3] <when above [0] [Spring2]> <on [Epic] game speed> <upon turn end>",
-        "Instantly provides [1] [Spring3] <when above [0] [Spring2]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Summer1] <when above [0] [Spring2]> <on [Standard] game speed> <upon turn end>",
-        "Instantly consumes [1] [Spring2] <when above [0] [Spring2]> <upon turn end>",
-
-        // Spring3
-        "Instantly provides [1] [Spring4] <when above [0] [Spring3]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Summer1] <when above [0] [Spring3]> <on [Epic] game speed> <upon turn end>",
-        "Instantly consumes [1] [Spring3] <when above [0] [Spring3]> <upon turn end>",
-
-        // Spring4
-        "Instantly provides [1] [Summer1] <when above [0] [Spring4]> <upon turn end>",
-        "Instantly consumes [1] [Spring4] <when above [0] [Spring4]> <upon turn end>",
-
-        // Summer1
-        "Instantly provides [1] [Summer2] <when above [0] [Summer1]> <on [Standard] game speed> <upon turn end>",
-        "Instantly provides [1] [Summer2] <when above [0] [Summer1]> <on [Epic] game speed> <upon turn end>",
-        "Instantly provides [1] [Summer2] <when above [0] [Summer1]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Autumn1] <when above [0] [Summer1]> <on [Quick] game speed> <upon turn end>",
-        "Instantly consumes [1] [Summer1] <when above [0] [Summer1]> <upon turn end>",
-
-        // Summer2
-        "Instantly provides [1] [Summer3] <when above [0] [Summer2]> <on [Epic] game speed> <upon turn end>",
-        "Instantly provides [1] [Summer3] <when above [0] [Summer2]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Autumn1] <when above [0] [Summer2]> <on [Standard] game speed> <upon turn end>",
-        "Instantly consumes [1] [Summer2] <when above [0] [Summer2]> <upon turn end>",
-
-        // Summer3
-        "Instantly provides [1] [Summer4] <when above [0] [Summer3]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Autumn1] <when above [0] [Summer3]> <on [Epic] game speed> <upon turn end>",
-        "Instantly consumes [1] [Summer3] <when above [0] [Summer3]> <upon turn end>",
-
-        // Summer4
-        "Instantly provides [1] [Autumn1] <when above [0] [Summer4]> <upon turn end>",
-        "Instantly consumes [1] [Summer4] <when above [0] [Summer4]> <upon turn end>",
-
-        // Autumn1
-        "Instantly provides [1] [Autumn2] <when above [0] [Autumn1]> <on [Standard] game speed> <upon turn end>",
-        "Instantly provides [1] [Autumn2] <when above [0] [Autumn1]> <on [Epic] game speed> <upon turn end>",
-        "Instantly provides [1] [Autumn2] <when above [0] [Autumn1]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Winter1] <when above [0] [Autumn1]> <on [Quick] game speed> <upon turn end>",
-        "Instantly consumes [1] [Autumn1] <when above [0] [Autumn1]> <upon turn end>",
-
-        // Autumn2
-        "Instantly provides [1] [Autumn3] <when above [0] [Autumn2]> <on [Epic] game speed> <upon turn end>",
-        "Instantly provides [1] [Autumn3] <when above [0] [Autumn2]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Winter1] <when above [0] [Autumn2]> <on [Standard] game speed> <upon turn end>",
-        "Instantly consumes [1] [Autumn2] <when above [0] [Autumn2]> <upon turn end>",
-
-        // Autumn3
-        "Instantly provides [1] [Autumn4] <when above [0] [Autumn3]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Winter1] <when above [0] [Autumn3]> <on [Epic] game speed> <upon turn end>",
-        "Instantly consumes [1] [Autumn3] <when above [0] [Autumn3]> <upon turn end>",
-
-        // Autumn4
-        "Instantly provides [1] [Winter1] <when above [0] [Autumn4]> <upon turn end>",
-        "Instantly consumes [1] [Autumn4] <when above [0] [Autumn4]> <upon turn end>",
-
-        // Winter1
-        "Instantly provides [1] [Winter2] <when above [0] [Winter1]> <on [Standard] game speed> <upon turn end>",
-        "Instantly provides [1] [Winter2] <when above [0] [Winter1]> <on [Epic] game speed> <upon turn end>",
-        "Instantly provides [1] [Winter2] <when above [0] [Winter1]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Spring1] <when above [0] [Winter1]> <on [Quick] game speed> <upon turn end>",
-        "Instantly consumes [1] [Winter1] <when above [0] [Winter1]> <upon turn end>",
-
-        // Winter2
-        "Instantly provides [1] [Winter3] <when above [0] [Winter2]> <on [Epic] game speed> <upon turn end>",
-        "Instantly provides [1] [Winter3] <when above [0] [Winter2]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Spring1] <when above [0] [Winter2]> <on [Standard] game speed> <upon turn end>",
-        "Instantly consumes [1] [Winter2] <when above [0] [Winter2]> <upon turn end>",
-
-        // Winter3
-        "Instantly provides [1] [Winter4] <when above [0] [Winter3]> <on [Marathon] game speed> <upon turn end>",
-        "Instantly provides [1] [Spring1] <when above [0] [Winter3]> <on [Epic] game speed> <upon turn end>",
-        "Instantly consumes [1] [Winter3] <when above [0] [Winter3]> <upon turn end>",
-
-        // Winter4
-        "Instantly provides [1] [Spring1] <when above [0] [Winter4]> <upon turn end>",
-        "Instantly consumes [1] [Winter4] <when above [0] [Winter4]> <upon turn end>"
+        "Instantly provides [2] [Spring] <after turn number [2]> <when number of [Winter] is equal to [1]> <on [Quick] game speed> <upon turn start>",
+        "Instantly provides [3] [Spring] <after turn number [2]> <when number of [Winter] is equal to [1]> <on [Standard] game speed> <upon turn start>",
+        "Instantly provides [4] [Spring] <after turn number [2]> <when number of [Winter] is equal to [1]> <on [Epic] game speed> <upon turn start>",
+        "Instantly provides [5] [Spring] <after turn number [2]> <when number of [Winter] is equal to [1]> <on [Marathon] game speed> <upon turn start>",
+        
+        "Instantly consumes [1] [Spring] <when above [0] [Spring]> <upon turn end>",
+        "Instantly consumes [1] [Summer] <when above [0] [Summer]> <upon turn end>",
+        "Instantly consumes [1] [Autumn] <when above [0] [Autumn]> <upon turn end>",
+        "Instantly consumes [1] [Winter] <when above [0] [Winter]> <upon turn end>",
+        ///AI
+        "[-2 Happiness] <for every [Migrating Population]> <for [non-[AI player]] Civilizations> <hidden from users>",
+        "[+1] population in a random city <for [AI player] Civilizations> <when above [0] [Migrating Population]> <for every [Migrating Population]> <upon turn start>",
+        "Instantly consumes [1] [Migrating Population] <for [AI player] Civilizations> <when above [0] [Migrating Population]> <for every [Migrating Population]> <upon turn start>"
     ]
 }

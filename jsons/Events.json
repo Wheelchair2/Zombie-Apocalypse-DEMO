@@ -6,14 +6,147 @@
             {
                 "text": "Nothing special to do as of now",
                 "uniques": [
-                    "Comment [Yep.]"
+                    "Comment [Yep.]",
+                    "Comment [Increase your [Operational Power] to see some new options]"
                 ]
             },
             {
-                "text": "Initiate the search for generator",
+                "text": "Initiate the search for [Generator]",
                 "uniques": [
-                    "Only available <after discovering [Scavenge Expertise]> <without [Generator]>",
+                    "Only available <after discovering [Scavenge Expertise]> <without [Generator]> <when above [4] [Operational Power]>",
                     "Triggers a [The Search for the Generator] event"
+                ]
+            },
+            {
+                "text": "Initiate the search for [Seeds]",
+                "uniques": [
+                    "Only available <after discovering [Hunting Party]> <when above [4] [Operational Power]>",
+                    "Triggers a [The Search for the Seed] event"
+                ]
+            },
+            {
+                "text": "Initiate a Hunting Trip",
+                "uniques": [
+                    "Only available <if [Focus: Smoker and Tanner] is constructed> <after discovering [Hunting Party]> <when above [4] [Operational Power]>",
+                    "Triggers a [Hunting Trip] event"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hunting Trip",
+        "text": "We sets out for a hunting trip, lets see what happens.",
+        "choices": [
+            {
+                "text": "How did it go?",
+                "uniques": [
+                    "Instantly consumes [5] [Operational Power]",
+                    "Triggers a [Good Hunting] event <with [25]% chance> <hidden from users>",
+                    "Triggers a [Bounties are back] event <with [75]% chance> <hidden from users>",
+                    "Triggers a [Zombie Sightings] event <with [20]% chance> <hidden from users>",
+                    "Triggers a [Scouting Works] event <with [20]% chance> <hidden from users>",
+                    "Triggers a [Apacolyptic Zoo] event <with [20]% chance> <hidden from users>",
+                    "Triggers a [Minor Casuaties] event <with [5]% chance> <hidden from users>",
+                    "Triggers a [Huge Casuaties] event <with [1]% chance> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Good Hunting",
+        "text": "There is a lot of fresh gamey meat from a good hunt!",
+        "choices": [
+            {
+                "text": "Brilliant",
+                "uniques": [
+                    "Gain [150] [Gold] <(modified by game speed)>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [4] turns> <on [Quick] game speed>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [8] turns> <on [Standard] game speed>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [12] turns> <on [Epic] game speed>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [16] turns> <on [Epic] game speed>"
+                ]
+            }
+        ]
+    },    {
+        "name": "Bounties are back",
+        "text": "We have harvested a lot of raw material from the ruins we've encountered and the preys.",
+        "choices": [
+            {
+                "text": "Alright.",
+                "uniques": [
+                    "Gain [100] [Gold] <(modified by game speed)>",
+                    "Instantly provides [10] [Scraps]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zombie Sightings",
+        "text": "Unfortunately, we've attracted a lot of zombies in this trip.",
+        "choices": [
+            {
+                "text": "How careless.",
+                "uniques": [
+                    "[1] [Special Infected]s rebel <in cities with a [City Marker]> <hidden from users>",
+                    "Instantly provides [5] [Zombie Risk] <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Scouting Works",
+        "text": "We've discovered some prime spots to do scouting works",
+        "choices": [
+            {
+                "text": "Now that epic",
+                "uniques": [
+                    "Reveal up to [all] [Highrise] within a [12] tile radius",
+                    "Instantly consumes [5] [Zombie Risk] <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Apacolyptic Zoo",
+        "text": "We've discovered a zoo! Full of giftshops and exotic animals, although most of them are either dead or mutated.",
+        "choices": [
+            {
+                "text": "Terrifing, Does the Plague Affect the animals?",
+                "uniques": [
+                    "Gain [200] [Gold] <(modified by game speed)>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Minor Casuaties",
+        "text": "Unfortunately, we've been attacked by a horde or two.",
+        "choices": [
+            {
+                "text": "Bad.",
+                "uniques": [
+                    "[-10]% Strength <for [2] turns> <on [Quick] game speed>",
+                    "[-10]% Strength <for [4] turns> <on [Standard] game speed>",
+                    "[-10]% Strength <for [6] turns> <on [Epic] game speed>",
+                    "[-10]% Strength <for [8] turns> <on [Marathon] game speed>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Huge Casuaties",
+        "text": "Unfortunately, we had a absolutely terrible trip. Many died and only few return to tell the tale in terror.",
+        "choices": [
+            {
+                "text": "What in the sam hell is this?",
+                "uniques": [
+                    "[-1] population [in capital]",
+                    "Gain [100] [Culture] <(modified by game speed)>",
+                    "[-20]% Strength <for [3] turns> <on [Quick] game speed>",
+                    "[-20]% Strength <for [5] turns> <on [Standard] game speed>",
+                    "[-20]% Strength <for [7] turns> <on [Epic] game speed>",
+                    "[-20]% Strength <for [10] turns> <on [Marathon] game speed>",
+                    "Instantly consumes [5] [Operational Power]"
                 ]
             }
         ]
@@ -25,112 +158,28 @@
             {
                 "text": "Spring",
                 "uniques": [
-                    "Only available <when above [0] [Spring1]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Spring",
-                "uniques": [
-                    "Only available <when above [0] [Spring2]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Spring",
-                "uniques": [
-                    "Only available <when above [0] [Spring3]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Spring",
-                "uniques": [
-                    "Only available <when above [0] [Spring4]>",
+                    "Only available <when above [1] [Spring]>",
                     "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
                 ]
             },
             {
                 "text": "Summer",
                 "uniques": [
-                    "Only available <when above [0] [Summer1]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Summer",
-                "uniques": [
-                    "Only available <when above [0] [Summer2]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Summer",
-                "uniques": [
-                    "Only available <when above [0] [Summer3]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Summer",
-                "uniques": [
-                    "Only available <when above [0] [Summer4]>",
+                    "Only available <when above [1] [Summer]>",
                     "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
                 ]
             },
             {
                 "text": "Autumn",
                 "uniques": [
-                    "Only available <when above [0] [Autumn1]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Autumn",
-                "uniques": [
-                    "Only available <when above [0] [Autumn2]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Autumn",
-                "uniques": [
-                    "Only available <when above [0] [Autumn3]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Autumn",
-                "uniques": [
-                    "Only available <when above [0] [Autumn4]>",
+                    "Only available <when above [1] [Autumn]>",
                     "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
                 ]
             },
             {
                 "text": "Winter",
                 "uniques": [
-                    "Only available <when above [0] [Winter1]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Winter",
-                "uniques": [
-                    "Only available <when above [0] [Winter2]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Winter",
-                "uniques": [
-                    "Only available <when above [0] [Winter3]>",
-                    "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
-                ]
-            },
-            {
-                "text": "Winter",
-                "uniques": [
-                    "Only available <when above [0] [Winter4]>",
+                    "Only available <when above [1] [Winter]>",
                     "Triggers a [Present Current Time] event <for [Human player] Civilizations> <hidden from users>"
                 ]
             },
@@ -152,6 +201,7 @@
                     "Instantly provides [20] [Medical Supply]",
                     "Instantly provides [10] [Ammunition]",
                     "Instantly provides [10] [Fuels]",
+                    "Instantly provides [15] [Operational Power]",
                     "[2] free [Armed Civilian] units appear",
                     "Triggers a [Our Escape 2] event <hidden from users>"
                 ]
@@ -161,10 +211,11 @@
                 "uniques": [
                     "Only available <after discovering [Rural Survivor]>",
                     "Instantly provides [10] [Medical Supply]",
-                    "Instantly provides [20] [Ammunition]",
+                    "Instantly provides [30] [Ammunition]",
                     "Instantly provides [15] [Fuels]",
+                    "Instantly provides [5] [Operational Power]",
                     "Gain a free [Shelter] [in capital]",
-                    "Gain a free [Camp Fire] [in capital]",
+                    "Gain a free [Campfire] [in capital]",
                     "Free [Armed Farmer] appears",
                     "Triggers a [Our Escape 2] event <hidden from users>"
                 ]
@@ -174,9 +225,10 @@
                 "uniques": [
                     "Only available <after discovering [Military Survivor]>",
                     "Instantly provides [10] [Medical Supply]",
-                    "Instantly provides [35] [Ammunition]",
+                    "Instantly provides [30] [Ammunition]",
                     "Instantly provides [20] [Fuels]",
-                    "Free [Mechanized Infantry] appears",
+                    "Instantly provides [10] [Operational Power]",
+                    "Free [Ranger Squad] appears",
                     "Triggers a [Our Escape 2] event <hidden from users>"
                 ]
             }
@@ -184,18 +236,21 @@
     },
     {
         "name": "Our Escape 2",
-        "text": "That doesnt matter too much I guess, but I have to tell you something really quick. The zombies mutates. They grow faster stronger weirder and you have to keep up. Every year have 4 seasons and if you build a [Farm] right how its going to only bear fruit in autumn. Your only source of population growth will be the vagrants early on. Proper population growth asks for proper source of food and medical infrastructure. Good luck.",
+        "text": "That doesnt matter too much I guess, but I have to tell you something really quick. The zombies mutates. They grow faster stronger weirder and you have to keep up. Every year have 4 seasons and if you build a [Farm] right how its going to only bear fruit in [Autumn]. Your only source of population growth will be the [Migrating Population] early on. Proper population growth asks for proper source of food and safe environment. Good luck.",
         "choices": [
             {
                 "text": "It is weird you talk this much about common phenomeon, but thanks for the reminder.",
                 "uniques": [
                     "Comment [Thank you for playing.]",
-                    "Instantly provides [5] [Medical Supply] <hidden from users>"
+                    "Instantly provides [5] [Medical Supply] <hidden from users>",
+                    "Set [Zombie Risk] to [20] <hidden from users>"
                 ]
             },
             {
                 "text": "Shut the fuck up.",
-                "uniques": []
+                "uniques": [
+                    "Set [Zombie Risk] to [20] <hidden from users>"
+                ]
             }
         ]
     },
@@ -208,7 +263,8 @@
                 "text": "More people more strength.",
                 "uniques": [
                     "Comment [Accept all of their people to live in our settlement. Including the ill and the elderly.]",
-                    "[+4] population [in capital]",
+                    "Comment [This might have bad consequences]",
+                    "Instantly provides [3] [Migrating Population]",
                     "Triggers a [Sick Refugees] event <with [25]% chance> <hidden from users>",
                     "Triggers a [Infected Refugees] event <with [25]% chance> <hidden from users>"
                 ]
@@ -217,12 +273,21 @@
                 "text": "No way we are letting this many people in.",
                 "uniques": [
                     "Comment [Accept selected few people to live in our settlement.]",
-                    "[+2] population [in capital]"
+                    "Instantly provides [1] [Migrating Population]"
+                ]
+            },
+            {
+                "text": "On second thoughts, we could estabilish a new settlement for them.",
+                "uniques": [
+                    "Only available <when above [4] [Operational Power]>",
+                    "Instantly consumes [5] [Operational Power]",
+                    "Free [Settler] appears"
                 ]
             },
             {
                 "text": "Rob them.",
                 "uniques": [
+                    "Comment [This might have bad consequences]",
                     "[1] [Armed Civilian]s rebel <hidden from users>",
                     "Instantly provides [5] [Fuels]",
                     "Gain [200] [Gold]"
@@ -231,17 +296,80 @@
         ]
     },
     {
+        "name": "Scavenge Focus",
+        "text": "We need to carefully choose our target of scavenge. Or else we might end up with a mess.",
+        "choices": [
+            {
+                "text": "Focus on Scavenging Ammunitions and Military Equipments",
+                "uniques": [
+                    "Gain a free [Focus: Power from Arms] [in capital]"
+                ]
+            },
+            {
+                "text": "Focus on Scavenging Metals and Industrial Equipments.",
+                "uniques": [
+                    "Gain a free [Focus: Power from Hammer] [in capital]"
+                ]
+            },
+            {
+                "text": "Losers cant be choosers, Winner wins all",
+                "uniques": [
+                    "Comment [This might have severe consequences]",
+                    "Gain a free [Focus: Aggresive Scavenge] [in capital]",
+                    "Instantly provides [10] [Zombie Risk] <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Foraging Focus",
+        "text": "We need to carefully choose our target of foraging or hunting. Or else we might end up with empty stomaches.",
+        "choices": [
+            {
+                "text": "Focus on the fields and gardens",
+                "uniques": ["Gain a free [Focus: Leftover] [in capital]"]
+            },
+            {
+                "text": "Focus on Hunting",
+                "uniques": ["Gain a free [Focus: Smoker and Tanner] [in capital]"]
+            },
+            {
+                "text": "Focus on alternatively sourced foods",
+                "uniques": ["Gain a free [Focus: Delicacies Unknown] [in capital]"]
+            }
+        ]
+    },
+    {
+        "name": "Our Society",
+        "text": "The Zed virus left us with a broken world and a broken society. How should we reorganise it?",
+        "choices": [
+            {
+                "text": "Focus on making new communities",
+                "uniques": ["Gain a free [Focus: Communal Lives] [in capital]"]
+            },
+            {
+                "text": "Focus on the overall unity of our settlement",
+                "uniques": ["Gain a free [Focus: Unity] [in capital]"]
+            },
+            {
+                "text": "Focus on order and enforcement",
+                "uniques": ["Gain a free [Focus: Efficiency] [in capital]"]
+            }
+        ]
+    },
+    {
         "name": "The Search for the Generator",
-        "text": "What Plan do you have to get your hand on a generator?",
+        "text": "What Plan do you have to get your hand on a [Generator]?",
         "choices": [
             {
                 "text": "We need to initiate an expedition!",
                 "uniques": [
                     "Only available <when number of [Owned [Warehouse] Tiles] is less than [1]>",
+                    "Instantly consumes [5] [Operational Power]",
                     "Instantly consumes [2] [Fuels]",
                     "Instantly consumes [5] [Medical Supply]",
                     "Instantly consumes [10] [Ammunition]",
-                    "Instantly provides [1] [Generator] <with [25]% chance>",
+                    "Instantly provides [1] [Generator] <with [15]% chance>",
                     "Instantly provides [1] [Generator] <with [5]% chance>",
                     "Instantly provides [4] [Scraps] <with [10]% chance>",
                     "Instantly provides [2] [Refined Metals] <with [10]% chance>"
@@ -251,8 +379,39 @@
                 "text": "There are ruined industrial area in our control, I think we can just dig up some there.",
                 "uniques": [
                     "Only available <when number of [Owned [Warehouse] Tiles] is more than [0]>",
+                    "Instantly consumes [5] [Operational Power]",
                     "Instantly provides [1] [Generator] <with [33]% chance>",
                     "Instantly provides [1] [Generator] <with [5]% chance>",
+                    "Instantly provides [6] [Scraps] <with [25]% chance>",
+                    "Instantly provides [3] [Refined Metals] <with [25]% chance>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Search for the Seed",
+        "text": "What Plan do you have to get your hand on some [Seeds]s?",
+        "choices": [
+            {
+                "text": "We need to venture into the wild!",
+                "uniques": [
+                    "Only available <when above [4] [Operational Power]>",
+                    "Instantly consumes [5] [Operational Power]",
+                    "Instantly consumes [5] [Medical Supply]",
+                    "Instantly consumes [10] [Ammunition]",
+                    "Instantly provides [1] [Seeds] <with [15]% chance>",
+                    "Instantly provides [1] [Seeds] <with [5]% chance>",
+                    "Instantly provides [4] [Scraps] <with [10]% chance>",
+                    "Instantly provides [2] [Refined Metals] <with [10]% chance>"
+                ]
+            },
+            {
+                "text": "We can venture into the city center to find those hobbist shops.",
+                "uniques": [
+                    "Only available <when above [9] [Operational Power]>",
+                    "Instantly consumes [10] [Operational Power]",
+                    "Instantly provides [1] [Seeds] <with [33]% chance>",
+                    "Instantly provides [1] [Seeds] <with [5]% chance>",
                     "Instantly provides [6] [Scraps] <with [25]% chance>",
                     "Instantly provides [3] [Refined Metals] <with [25]% chance>"
                 ]
@@ -266,8 +425,10 @@
             {
                 "text": "We need to conduct a far and wide search.",
                 "uniques": [
+                    "Only available <when above [9] [Operational Power]>",
                     "Gain [-200] [Gold] <(modified by game speed)>",
-                    "[+4] population [in capital]",
+                    "Instantly consumes [10] [Operational Power]",
+                    "Instantly provides [3] [Migrating Population]",
                     "Triggers a [Sick Refugees] event <with [25]% chance> <hidden from users>",
                     "Triggers a [Infected Refugees] event <with [15]% chance> <hidden from users>"
                 ]
@@ -275,15 +436,80 @@
             {
                 "text": "We are only able to afford little resources.",
                 "uniques": [
+                    "Only available <when above [4] [Operational Power]>",
                     "Gain [-100] [Gold] <(modified by game speed)>",
-                    "[+2] population [in capital]",
+                    "Instantly consumes [5] [Operational Power]",
+                    "Instantly provides [3] [Migrating Population]",
                     "Triggers a [Sick Refugees] event <with [15]% chance> <hidden from users>",
                     "Triggers a [Infected Refugees] event <with [10]% chance> <hidden from users>"
                 ]
             },
+            {
+                "text": "It seems like we are stretched too thin",
+                "uniques": []
+            },
+        ]
+    },
+    {
+        "name": "Endless Possibilities",
+        "text": "We were cautious about having new borns in our settlements because not only babies are fragile. They are also noisy. However, we knew that not having babies is civilizational suicide. Letting this future of extinction come to pass is unbearable.",
+        "choices": [
+            {
+                "text": "Proceed.",
+                "uniques": [
+                    "Comment [This might have bad consequences]",
+                    "Comment [But we must do it.]",
+                ]
+            },
+            {
+                "text": "Proceed. With caution.",
+                "uniques": [
+                    "Comment [More patrols around the settlement, Noise barriers, All that we could use...]",
+                    "Only available <when above [9] [Operational Power]>",
+                    "Instantly consumes [10] [Operational Power]",
+                    "Remove [Birthrate Crisis] [in all cities]"
+                ]
+            }
         ]
     },
     ///Negative Event
+    {
+        "name": "Waves of Zombies!",
+        "text": "They never leave us alone, dont they?",
+        "choices": [
+            {
+                "text": "And so another fight begins!",
+                "uniques": [
+                    "Comment [Zombie Units Appear near all of your settlements.]",
+                    "[5] [Common Infected]s rebel <in cities with a [City Marker]><hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Special Infected Infiltration!",
+        "text": "These zombies seems to become smarter day by day...",
+        "choices": [
+            {
+                "text": "And so another fight begins!",
+                "uniques": [
+                    "Comment [Zombie Units Appear near all of your settlements.]",
+                    "[2] [Special Infected]s rebel <in cities with a [City Marker]><hidden from users>"
+                ]
+            },
+            {
+                "text": "We need to get to the bottom of this.",
+                "uniques": [
+                    "Comment [Zombie Units Appear near all of your settlements.]",
+                    "[2] [Special Infected]s rebel <in cities with a [City Marker]> <hidden from users>",
+                    "Comment [Lower the possibility of future attacks by a little. Might need multiple endavors.]",
+                    "Only available <when above [9] [Operational Power]>",
+                    "Instantly consumes [10] [Operational Power]",
+                    "Instantly consumes [3] [Zombie Risk] <hidden from users>"
+                ]
+            }
+        ]
+    },
     {
         "name": "Sick Refugees",
         "text": "Turns out there are other infections we need to worry about.",
@@ -292,10 +518,10 @@
                 "text": "We must contain the flu.",
                 "uniques": [
                     "[-1] population [in capital]",
-                    "[-10]% [Happiness] <for [6] turns> <on [Quick] game speed> <hidden from users>",
-                    "[-10]% [Happiness] <for [8] turns> <on [Standard] game speed> <hidden from users>",
-                    "[-10]% [Happiness] <for [10] turns> <on [Epic] game speed> <hidden from users>",
-                    "[-10]% [Happiness] <for [16] turns> <on [Marathon] game speed> <hidden from users>"
+                    "[-10]% [Happiness] <for [6] turns> <on [Quick] game speed>",
+                    "[-10]% [Happiness] <for [8] turns> <on [Standard] game speed>",
+                    "[-10]% [Happiness] <for [12] turns> <on [Epic] game speed>",
+                    "[-10]% [Happiness] <for [16] turns> <on [Marathon] game speed>"
                 ]
             },
             {
@@ -314,7 +540,7 @@
                 "text": "We must... Kill.",
                 "uniques": [
                     "[-1] population [in capital]",
-                    "A [Common Infected] rebels <hidden from users>"
+                    "[2] [Common Infected]s rebel <hidden from users>"
                 ]
             }
         ]

@@ -158,6 +158,33 @@
 			"Generated with weight [10] <in [Single Story Building] Regions>"
 		]
 	},
+	//Mechanics
+	{
+		"name": "Operational Power",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Operational Power Limit",
+		"resourceType": "Strategic"
+	},
+	{
+		"name": "Zombie Risk",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <if [Debug Building] is not constructed>",
+			"Stockpiled"
+		]
+	},
+		{
+		"name": "Migrating Population",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled"
+		]
+	},
 	///Materials
 	{
 		"name": "Scraps",
@@ -288,7 +315,7 @@
 	},
 	///Season
 	{
-		"name": "Spring1",
+		"name": "Spring",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen <if [Debug Building] is not constructed>",
@@ -298,7 +325,7 @@
 		]
 	},
 	{
-		"name": "Spring2",
+		"name": "Summer",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen <if [Debug Building] is not constructed>",
@@ -308,7 +335,7 @@
 		]
 	},
 	{
-		"name": "Spring3",
+		"name": "Autumn",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen <if [Debug Building] is not constructed>",
@@ -318,7 +345,7 @@
 		]
 	},
 	{
-		"name": "Spring4",
+		"name": "Winter",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen <if [Debug Building] is not constructed>",
@@ -327,124 +354,4 @@
 			"Stockpiled"
 		]
 	},
-	{
-		"name": "Summer1",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Summer2",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Summer3",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Summer4",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Autumn1",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Autumn2",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Autumn3",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Autumn4",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Winter1",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Winter2",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Winter3",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Winter4",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen <if [Debug Building] is not constructed>",
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	}
 ]

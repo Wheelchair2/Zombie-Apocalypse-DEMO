@@ -113,6 +113,7 @@
 					"Vehicle Scraping",
 					"Clean Scavenge"
 				],
+				"uniques" :["Comment [Unlock [Initiate the search for Generator] option in [Enact Policies]]"],
 				"quote": ""
 			},
 			{
@@ -130,6 +131,7 @@
 					"Total Mobilization",
 					"Foraging"
 				],
+				"uniques" :["Comment [Unlock [Initiate the search for Seed] option in [Enact Policies]]"],
 				"quote": ""
 			},
 			{
@@ -165,7 +167,9 @@
 					"Fishing"
 				],
 				"uniques": [
-					"Only available <when above [3] [Seeds]>"
+					"Only available <when above [4] [Seeds]>",
+					"Triggers a [Endless Possibilities] event",
+					"Triggers victory <when [Agriculture] Victory is enabled>"
 				],
 				"quote": ""
 			},
@@ -183,6 +187,7 @@
 				"prerequisites": [
 					"Militia Organization"
 				],
+				"uniques":["[+10]% Strength <vs [Barbarian] units>"],
 				"quote": ""
 			}
 		]
