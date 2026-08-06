@@ -40,7 +40,8 @@
 			"Instantly provides [1] [Operational Power] <after adopting [Revenge to the Damned]>",
 			"Remove [Resettlement] [in this city] <hidden from users>",
 			"Comment [Each [Migrating Population] costs [2] [Happiness] to maintain if you dont resettle them immediately in a single turn.]"
-		]
+		],
+		"requiredTech": "Humanity's Journey"
 	},
 	///Line 0
 	{
@@ -74,6 +75,18 @@
 		"culture": 1,
 		"uniques": [
 			"'Cultural'",
+			"Cannot be purchased <if [Market] is not constructed>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Humanity's Journey",
+		"hurryCostModifier": 0
+	},
+		{
+		"name": "Junk Walls",
+		"cityStrength": 1,
+		"cityHealth": 10,
+		"uniques": [
+			"'Static Defense'",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
@@ -240,18 +253,7 @@
 		"requiredTech": "Militia Organization",
 		"hurryCostModifier": 25
 	},
-	{
-		"name": "Junk Walls",
-		"cityStrength": 1,
-		"cityHealth": 10,
-		"uniques": [
-			"'Static Defense'",
-			"Cannot be purchased <if [Market] is not constructed>",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Humanity's Journey",
-		"hurryCostModifier": 0
-	},
+
 	///Line 4
 	{
 		"name": "Wooden Shack",
@@ -439,6 +441,7 @@
 		"uniques": [
 			"Unavailable <hidden from users>",
 			"Unsellable",
+			"Consumes [1] [Fuel] <when above [1] [Winter]>",
 			"Consumes [1] [Housing] <in this city> <in cities with [1] [Population]>",
 			"Consumes [2] [Housing] <in this city> <in cities with [2] [Population]>",
 			"Consumes [3] [Housing] <in this city> <in cities with [3] [Population]>",

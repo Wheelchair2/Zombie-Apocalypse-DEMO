@@ -116,6 +116,7 @@
 			"science":1
 		},
 		"uniques": [
+			"Deposits in [all] tiles always provide [1] resources",
 			"Generated with weight [10] <in [Single Story Building] Regions>"
 		]
 	},
@@ -137,6 +138,7 @@
 			"science":1
 		},
 		"uniques": [
+			"Deposits in [all] tiles always provide [1] resources",
 			"Stockpiled",
 			"Generated with weight [10] <in [Single Story Building] Regions>"
 		]
@@ -158,6 +160,7 @@
 			"science":1
 		},
 		"uniques": [
+			"Deposits in [all] tiles always provide [1] resources",
 			"Generated with weight [10] <in [Single Story Building] Regions>"
 		]
 	},
@@ -273,7 +276,8 @@
 		"resourceType": "Strategic",
 		"uniques": [
 			"Stockpiled"
-		]
+		],
+		"revealedBy":"Electricity"
 	},
 	{
 		"name": "High Quality Food",

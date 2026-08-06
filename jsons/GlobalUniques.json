@@ -59,6 +59,8 @@
         "Instantly consumes [1] [Summer] <when above [0] [Summer]> <upon turn end>",
         "Instantly consumes [1] [Autumn] <when above [0] [Autumn]> <upon turn end>",
         "Instantly consumes [1] [Winter] <when above [0] [Winter]> <upon turn end>",
+
+
         ///AI
         "[-2 Happiness] <for every [Migrating Population]> <for [non-[AI player]] Civilizations> <hidden from users>",
         "[+1] population in a random city <for [AI player] Civilizations> <when above [0] [Migrating Population]> <for every [Migrating Population]> <upon turn start>",
