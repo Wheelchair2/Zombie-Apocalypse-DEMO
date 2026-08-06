@@ -1502,6 +1502,11 @@
 			"[+100]% Strength <when defending> <when [Embarked]>"
 		]
 	},
+	{
+		"name": "Zealotry",
+		"uniques": ["Earn [33]% of the damage done to [Military] units as [Faith]"
+		]
+	},
 	///Virus
 	{
 		"name": "ZEDS Virus",

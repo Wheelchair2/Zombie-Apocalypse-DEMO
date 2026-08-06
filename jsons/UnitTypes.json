@@ -28,7 +28,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Civilian Water",
+        "name": "Civilian Ship",
         "movementType": "Water"
     },
     {

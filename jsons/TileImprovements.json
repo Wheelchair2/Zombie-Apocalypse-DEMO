@@ -11,6 +11,10 @@
 			"'Outpost'",
 			"'Makeshift'",
 			"Can only be built to improve a resource",
+			"Instantly provides [1] [Small Firearms] <with [33]% chance> <in [Weaponry] tiles> <upon turn start>",
+			"Instantly provides [1] [Heavy Firearms] <with [5]% chance> <in [Weaponry] tiles> <upon turn start>",
+			"Instantly provides [1] [Ammunition] <with [66]% chance> <in [Weaponry] tiles> <upon turn start>",
+			"Instantly provides [1] [Medical Supply] <with [50]% chance> <in [Medicines] tiles> <upon turn start>",
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"techRequired": "Humanity's Journey",

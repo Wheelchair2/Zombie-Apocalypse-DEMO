@@ -1,13 +1,118 @@
 
 Units.png
-size: 128, 128
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 UnitIcons/Common Infected
   rotate: false
-  xy: 4, 4
+  xy: 1294, 856
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Assault
+  rotate: false
+  xy: 4, 706
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Bomber
+  rotate: false
+  xy: 4, 448
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Circle
+  rotate: false
+  xy: 4, 4
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Civil Ship
+  rotate: false
+  xy: 262, 706
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Civilian
+  rotate: false
+  xy: 4, 190
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Close Combat
+  rotate: false
+  xy: 262, 448
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Close Combat Ship
+  rotate: false
+  xy: 520, 706
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Fighter
+  rotate: false
+  xy: 262, 190
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Helicopter
+  rotate: false
+  xy: 520, 448
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Missile
+  rotate: false
+  xy: 778, 706
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Mounted
+  rotate: false
+  xy: 520, 190
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Ranged Combat
+  rotate: false
+  xy: 778, 448
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Ranged Combat Ship
+  rotate: false
+  xy: 1036, 706
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Scout
+  rotate: false
+  xy: 778, 190
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Siege
+  rotate: false
+  xy: 1036, 448
+  size: 250, 250
+  orig: 250, 250
   offset: 0, 0
   index: -1
