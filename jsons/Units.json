@@ -19,7 +19,7 @@
 		"name": "Armed Settler",
 		"unitType": "Close Combat",
 		"cost": 106,
-		"strength": 13,
+		"strength": 15,
 		"movement": 2,
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
@@ -64,17 +64,16 @@
 		"name": "Ranger Squad",
 		"unitType": "Ranged Combat",
 		"movement": 2,
-		"strength": 38,
-		"rangedStrength": 45,
+		"strength": 30,
+		"rangedStrength": 35,
 		"uniques": [
 			"Unbuildable",
 			"[+1] Sight",
 			"'Infantry'",
 			"'Skirmisher'",
-			"'Firearms'",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ammo User"],
+		"promotions": ["Sharpshooter Rifle"],
 		"attackSound": "shot",
 		"requiredTech":"Military Survivor"
 	},
@@ -83,17 +82,16 @@
 		"name": "Armed Civilian",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 35,
+		"strength": 30,
 		"uniques": [
 			"Unbuildable",
 			"'Infantry'",
 			"'Dense Formation'",
-			"'Firearms'",
 			"Can build [Small Outpost] improvements on tiles",
 			"[+25]% Strength <when defending>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ammo User"],
+		"promotions": ["6 Shot Revolvers"],
 		"attackSound": "shot",
 		"requiredTech":"Urban Survivor"
 	},
@@ -107,11 +105,10 @@
 			"Unbuildable",
 			"'Infantry'",
 			"'Dense Formation'",
-			"'Firearms'",
 			"Can build [Small Outpost] improvements on tiles",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ammo User"],
+		"promotions": ["Shovel","22 Hunting Rifles"],
 		"attackSound": "shot",
 		"requiredTech":"Rural Survivor"
 	},
@@ -126,10 +123,9 @@
 			"[+1] Sight",
 			"'Infantry'",
 			"'Skirmisher'",
-			"'Firearms'",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Tactical Squads","Ammo User"],
+		"promotions": ["Pump Actions","Tactical Squads"],
 		"attackSound": "shot"
 	},
 	{
@@ -141,10 +137,9 @@
 			"Unbuildable",
 			"'Motorized'",
 			"'Dense Formation'",
-			"'Firearms'",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ammo User","Fuels User"],
+		"promotions": ["Automatic Rifle","Fuel User"],
 		"attackSound": "shot"
 	},
 	{
@@ -157,11 +152,10 @@
 			"Unbuildable",
 			"'Infantry'",
 			"'Dense Formation'",
-			"'Firearms'",
 			"[-25]% Strength <vs ['Skirmisher'] units>",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ammo User"],
+		"promotions": ["Grenade Launcher"],
 		"attackSound": "cannon"
 	},
 	{
@@ -173,10 +167,9 @@
 			"Unbuildable",
 			"'Infantry'",
 			"'Dense Formation'",
-			"'Firearms'",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Ammo User","Marine Training"],
+		"promotions": ["Lever Actions","Marine Training"],
 		"attackSound": "shot"
 	},
 	///Line 2
@@ -184,14 +177,14 @@
 		"name": "Emergency Militia",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 8,
+		"strength": 17,
 		"uniques": [
 			"'Infantry'",
 			"'Dense Formation'",
 			"'Edged Weapons'",
-			"[+25]% Strength <when defending>",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions":["Shovel"],
 		"requiredTech":"Total Mobilization",
 		"attackSound": "metalhit",
 		"hurryCostModifier":0
@@ -202,23 +195,23 @@
 		"replaces":"Emergency Militia",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 10,
+		"strength": 20,
 		"uniques": [
 			"'Infantry'",
 			"'Dense Formation'",
 			"'Edged Weapons'",
-			"[+33]% Strength <when defending>",
+			"[+20]% XP gained from combat",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions":["Polearms"],
 		"requiredTech":"Total Mobilization",
-		"promotions": [],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Search Squad",
 		"unitType": "Scout",
 		"movement": 2,
-		"strength": 5,
+		"strength": 14,
 		"uniques": [
 			"'Infantry'",
 			"'Dense Formation'",
@@ -227,6 +220,7 @@
 			"Gain [1]-[3] [Gold] <upon ending a turn in a ['Urban'] tile>",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions":["Short Bow"],
 		"requiredTech":"Scavenge Expertise",
 		"attackSound": "metalhit",
 		"hurryCostModifier":0
@@ -235,16 +229,17 @@
 		"name": "Hunters",
 		"unitType": "Ranged Combat",
 		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 10,
+		"strength": 12,
+		"rangedStrength": 17,
 		"range":1,
 		"uniques": [
 			"'Infantry'",
 			"'Skirmisher'",
 			"'Edged Weapons'",
-			"Gain [1]-[3] [Gold] <upon ending a turn in a [Forest] tile>",
+			"Can build [Camp] improvements on tiles",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions":["Short Bow"],
 		"requiredTech":"Hunting Party",
 		"attackSound": "arrow",
 		"hurryCostModifier":0
@@ -253,14 +248,15 @@
 		"name": "Pike and shot Militia",
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 15,
+		"strength": 25,
 		"uniques": [
-			"Costs [5] [Improvised Weapons]",
+			"Costs [2] [Improvised Weapons]",
 			"'Infantry'",
 			"'Dense Formation'",
 			"'Edged Weapons'",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions":["Polearms"],
 		"requiredTech":"Pike and Shot",
 		"attackSound": "metalhit",
 		"hurryCostModifier":0
@@ -278,7 +274,7 @@
 			"'Claws'",
 			"[This Unit] is destroyed <upon gaining the [Hording] promotion>",
 			"Free [Infected Horde] appears <upon gaining the [Hording] promotion>",
-			"[This Unit] gains the [Hording] promotion <when adjacent to a [Common Infected] unit> <upon turn start> <with [50]% chance>"
+			"[This Unit] gains the [Hording] promotion <when adjacent to a [Common Infected] unit> <upon turn start> <with [20]% chance>"
 		],
 		"promotions": ["ZEDS Virus"],
 		"attackSound": "nonmetalhit"
@@ -314,12 +310,12 @@
 	},
 	{
 		"name": "The Brute",
-		"unitType": "Ranged Combat",
+		"unitType": "Close Combat",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 35,
 		"uniques": [
-			"'Infantry'",
+			"'Giant'",
 			"'Skirmisher'",
 			"'Smash'"
 		],

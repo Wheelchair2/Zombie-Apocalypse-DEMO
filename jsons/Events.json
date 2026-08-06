@@ -60,10 +60,10 @@
                 "text": "Brilliant",
                 "uniques": [
                     "Gain [150] [Gold] <(modified by game speed)>",
-                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [4] turns> <on [Quick] game speed>",
-                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [8] turns> <on [Standard] game speed>",
-                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [12] turns> <on [Epic] game speed>",
-                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [16] turns> <on [Epic] game speed>"
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [4] turns> <on [Season] game speed>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [8] turns> <on [Half Season] game speed>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [12] turns> <on [Month] game speed>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [16] turns> <on [Month] game speed>"
                 ]
             }
         ]
@@ -98,7 +98,7 @@
         "text": "We've discovered some prime spots to do scouting works",
         "choices": [
             {
-                "text": "Now that epic",
+                "text": "Now that Month",
                 "uniques": [
                     "Reveal up to [all] [Highrise] within a [12] tile radius",
                     "Instantly consumes [5] [Zombie Risk] <hidden from users>"
@@ -125,10 +125,10 @@
             {
                 "text": "Bad.",
                 "uniques": [
-                    "[-10]% Strength <for [2] turns> <on [Quick] game speed>",
-                    "[-10]% Strength <for [4] turns> <on [Standard] game speed>",
-                    "[-10]% Strength <for [6] turns> <on [Epic] game speed>",
-                    "[-10]% Strength <for [8] turns> <on [Marathon] game speed>"
+                    "[-10]% Strength <for [2] turns> <on [Season] game speed>",
+                    "[-10]% Strength <for [4] turns> <on [Half Season] game speed>",
+                    "[-10]% Strength <for [6] turns> <on [Month] game speed>",
+                    "[-10]% Strength <for [8] turns> <on [Quarter Season] game speed>"
                 ]
             }
         ]
@@ -142,10 +142,10 @@
                 "uniques": [
                     "[-1] population [in capital]",
                     "Gain [100] [Culture] <(modified by game speed)>",
-                    "[-20]% Strength <for [3] turns> <on [Quick] game speed>",
-                    "[-20]% Strength <for [5] turns> <on [Standard] game speed>",
-                    "[-20]% Strength <for [7] turns> <on [Epic] game speed>",
-                    "[-20]% Strength <for [10] turns> <on [Marathon] game speed>",
+                    "[-20]% Strength <for [3] turns> <on [Season] game speed>",
+                    "[-20]% Strength <for [5] turns> <on [Half Season] game speed>",
+                    "[-20]% Strength <for [7] turns> <on [Month] game speed>",
+                    "[-20]% Strength <for [10] turns> <on [Quarter Season] game speed>",
                     "Instantly consumes [5] [Operational Power]"
                 ]
             }
@@ -200,7 +200,7 @@
                     "Only available <after discovering [Urban Survivor]>",
                     "Instantly provides [20] [Medical Supply]",
                     "Instantly provides [10] [Ammunition]",
-                    "Instantly provides [10] [Fuels]",
+                    "Instantly provides [10] [Fuel]",
                     "Instantly provides [15] [Operational Power]",
                     "[2] free [Armed Civilian] units appear",
                     "Triggers a [Our Escape 2] event <hidden from users>"
@@ -212,7 +212,7 @@
                     "Only available <after discovering [Rural Survivor]>",
                     "Instantly provides [10] [Medical Supply]",
                     "Instantly provides [30] [Ammunition]",
-                    "Instantly provides [15] [Fuels]",
+                    "Instantly provides [15] [Fuel]",
                     "Instantly provides [5] [Operational Power]",
                     "Gain a free [Shelter] [in capital]",
                     "Gain a free [Campfire] [in capital]",
@@ -226,7 +226,7 @@
                     "Only available <after discovering [Military Survivor]>",
                     "Instantly provides [10] [Medical Supply]",
                     "Instantly provides [30] [Ammunition]",
-                    "Instantly provides [20] [Fuels]",
+                    "Instantly provides [20] [Fuel]",
                     "Instantly provides [10] [Operational Power]",
                     "Free [Ranger Squad] appears",
                     "Triggers a [Our Escape 2] event <hidden from users>"
@@ -236,7 +236,7 @@
     },
     {
         "name": "Our Escape 2",
-        "text": "That doesnt matter too much I guess, but I have to tell you something really quick. The zombies mutates. They grow faster stronger weirder and you have to keep up. Every year have 4 seasons and if you build a [Farm] right how its going to only bear fruit in [Autumn]. Your only source of population growth will be the [Migrating Population] early on. Proper population growth asks for proper source of food and safe environment. Good luck.",
+        "text": "That doesnt matter too much I guess, but I have to tell you something really Season. The zombies mutates. They grow faster stronger weirder and you have to keep up. Every year have 4 seasons and if you build a [Farm] right how its going to only bear fruit in [Autumn]. Your only source of population growth will be the [Migrating Population] early on. Proper population growth asks for proper source of food and safe environment. Good luck.",
         "choices": [
             {
                 "text": "It is weird you talk this much about common phenomeon, but thanks for the reminder.",
@@ -289,7 +289,7 @@
                 "uniques": [
                     "Comment [This might have bad consequences]",
                     "[1] [Armed Civilian]s rebel <hidden from users>",
-                    "Instantly provides [5] [Fuels]",
+                    "Instantly provides [5] [Fuel]",
                     "Gain [200] [Gold]"
                 ]
             }
@@ -366,7 +366,7 @@
                 "uniques": [
                     "Only available <when number of [Owned [Warehouse] Tiles] is less than [1]>",
                     "Instantly consumes [5] [Operational Power]",
-                    "Instantly consumes [2] [Fuels]",
+                    "Instantly consumes [2] [Fuel]",
                     "Instantly consumes [5] [Medical Supply]",
                     "Instantly consumes [10] [Ammunition]",
                     "Instantly provides [1] [Generator] <with [15]% chance>",
@@ -480,7 +480,6 @@
             {
                 "text": "And so another fight begins!",
                 "uniques": [
-                    "Comment [Zombie Units Appear near all of your settlements.]",
                     "[5] [Common Infected]s rebel <hidden from users>"
                 ]
             }
@@ -493,7 +492,6 @@
             {
                 "text": "And so another fight begins!",
                 "uniques": [
-                    "Comment [Zombie Units Appear near all of your settlements.]",
                     "[2] [Special Infected]s rebel <hidden from users>"
                 ]
             },
@@ -511,6 +509,18 @@
         ]
     },
     {
+        "name": "Brute Attack!",
+        "text": "Suddenly, the settlement is under attack by some big ugly brutes! These towering mutated monstrosities are formidable and destructive.",
+        "choices": [
+            {
+                "text": "And so another fight begins!",
+                "uniques": [
+                    "[1] [The Brute]s rebel <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Sick Refugees",
         "text": "Turns out there are other infections we need to worry about.",
         "choices": [
@@ -518,10 +528,10 @@
                 "text": "We must contain the flu.",
                 "uniques": [
                     "[-1] population [in capital]",
-                    "[-10]% [Happiness] <for [6] turns> <on [Quick] game speed>",
-                    "[-10]% [Happiness] <for [8] turns> <on [Standard] game speed>",
-                    "[-10]% [Happiness] <for [12] turns> <on [Epic] game speed>",
-                    "[-10]% [Happiness] <for [16] turns> <on [Marathon] game speed>"
+                    "[-10]% [Happiness] <for [6] turns> <on [Season] game speed>",
+                    "[-10]% [Happiness] <for [8] turns> <on [Half Season] game speed>",
+                    "[-10]% [Happiness] <for [12] turns> <on [Month] game speed>",
+                    "[-10]% [Happiness] <for [16] turns> <on [Quarter Season] game speed>"
                 ]
             },
             {
@@ -588,7 +598,7 @@
                 "uniques": [
                     "Gain [-100] [Gold] <(modified by game speed)>",
                     "[1] free [Armed Civilian] units appear <with [50]% chance>",
-                    "Instantly provides [10] [Fuels] <with [50]% chance>"
+                    "Instantly provides [10] [Fuel] <with [50]% chance>"
                 ]
             },
             {
@@ -596,24 +606,25 @@
                 "uniques": [
                     "Only available <for [Zeds Cutting Club] Civilizations>",
                     "[1] free [Armed Civilian] units appear",
-                    "Instantly provides [10] [Fuels]"
+                    "Instantly provides [10] [Fuel]"
                 ]
             }
         ]
     },
     {
         "name": "Discarded Weapons",
-        "text": "Lots of smoke, no people, just crate of weapon lying around.",
+        "text": "Lots of smoke, no people, just crates of weapon lying around.",
         "choices": [
             {
                 "text": "Too good to be true.",
-                "uniques": []
+                "uniques": ["Instantly provides [25] [Ammunition] <with [25]% chance>"]
             },
             {
                 "text": "Gotta have the guns for the fun",
                 "uniques": [
-                    "Instantly provides [5] [Small Firearms] <with [50]% chance>",
-                    "Instantly provides [1] [Heavy Firearms] <with [50]% chance>",
+                    "Instantly provides [20] [Small Firearms] <with [50]% chance>",
+                    "Instantly provides [10] [Heavy Firearms] <with [50]% chance>",
+                    "Instantly provides [50] [Ammunition] <with [50]% chance>",
                     "[This Unit] takes [100] damage <with [10]% chance>"
                 ]
             }
@@ -643,6 +654,34 @@
                     "Only available <for [Neo Confederacy] Civilizations>",
                     "[1] free [Armed Farmer] units appear",
                     "Instantly provides [10] [Medical Supply]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Urban Survior: Rogues",
+        "text": "We see a bunch of punk lads with nose rings, dyed hair and absolutly ridiculous outfits, raging their rides along the streets.",
+        "choices": [
+            {
+                "text": "I hate painted nails",
+                "uniques": [
+                    "Gain [33] [Culture] <(modified by game speed)>"
+                ]
+            },
+            {
+                "text": "Its rather dangerous to be in that situation.",
+                "uniques": [
+                    "Gain [-100] [Gold] <(modified by game speed)>",
+                    "[1] free [Armed Civilian] units appear <with [50]% chance>",
+                    "Instantly provides [10] [Fuel] <with [50]% chance>"
+                ]
+            },
+            {
+                "text": "Luckily, We've got that type of people here.",
+                "uniques": [
+                    "Only available <for [State Worker's Union] Civilizations>",
+                    "[1] free [Armed Civilian] units appear",
+                    "Instantly provides [10] [Fuel]"
                 ]
             }
         ]

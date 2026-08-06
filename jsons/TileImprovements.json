@@ -57,7 +57,6 @@
 		],
 		"turnsToBuild": 6,
 		"uniques": [
-			"'Makeshift'",
 			"Comment [Harvest 1 extra [Food] in Summer]",
 			"[+1 Food] <when above [0] [Summer]> <hidden from users>",
 			"[+1 Food] <every [2] turns> <after discovering [Foraging]>",
@@ -130,7 +129,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Coast"
 		],
-		"food": 1,
+		"gold": 1,
 		"uniques": [
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -147,6 +146,7 @@
 		"uniques": [
 			"'Traps'",
 			"Adjacent enemy units ending their turn take [5] damage",
+			"Adjacent enemy units ending their turn take [5] damage <after discovering [Trapping]>",
 			"Can be built outside your borders"
 		]
 	},
@@ -174,7 +174,8 @@
 		"turnsToBuild": 5,
 		"uniques": [
 			"Can be built outside your borders",
-			"Gives a defensive bonus of [33]%"
+			"Gives a defensive bonus of [33]%",
+			"Adjacent enemy units ending their turn take [5] damage"
 		],
 		"techRequired": "Concrete",
 		"shortcutKey": "O"

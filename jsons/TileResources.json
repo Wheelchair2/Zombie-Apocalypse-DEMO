@@ -10,7 +10,7 @@
 		"food": 1,
 		"improvedBy": [
 			"Camp",
-			"Work Boats"
+			"Fishing Boats"
 		],
 		"improvementStats": {
 			"food": 1
@@ -51,7 +51,8 @@
 		], 
 		"production": 1,
 		"improvedBy": [
-			"Small Outpost"
+			"Small Outpost",
+			"Work Boats"
 		],
 		"improvementStats": {
 			"production": 1
@@ -128,13 +129,15 @@
 		], 
 		"production": 1,
 		"improvedBy": [
-			"Small Outpost"
+			"Small Outpost",
+			"Work Boats"
 		],
 		"improvementStats": {
 			"culture": 1,
 			"science":1
 		},
 		"uniques": [
+			"Stockpiled",
 			"Generated with weight [10] <in [Single Story Building] Regions>"
 		]
 	},
@@ -260,13 +263,6 @@
 	},
 	{
 		"name": "Medical Supply",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "Fuels",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Stockpiled"
