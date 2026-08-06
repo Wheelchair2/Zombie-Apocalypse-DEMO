@@ -87,7 +87,7 @@
             {
                 "text": "How careless.",
                 "uniques": [
-                    "[1] [Special Infected]s rebel <in cities with a [City Marker]> <hidden from users>",
+                    "[1] [Special Infected]s rebel <hidden from users>",
                     "Instantly provides [5] [Zombie Risk] <hidden from users>"
                 ]
             }
@@ -481,7 +481,7 @@
                 "text": "And so another fight begins!",
                 "uniques": [
                     "Comment [Zombie Units Appear near all of your settlements.]",
-                    "[5] [Common Infected]s rebel <in cities with a [City Marker]><hidden from users>"
+                    "[5] [Common Infected]s rebel <hidden from users>"
                 ]
             }
         ]
@@ -494,14 +494,14 @@
                 "text": "And so another fight begins!",
                 "uniques": [
                     "Comment [Zombie Units Appear near all of your settlements.]",
-                    "[2] [Special Infected]s rebel <in cities with a [City Marker]><hidden from users>"
+                    "[2] [Special Infected]s rebel <hidden from users>"
                 ]
             },
             {
                 "text": "We need to get to the bottom of this.",
                 "uniques": [
                     "Comment [Zombie Units Appear near all of your settlements.]",
-                    "[2] [Special Infected]s rebel <in cities with a [City Marker]> <hidden from users>",
+                    "[2] [Special Infected]s rebel <hidden from users>",
                     "Comment [Lower the possibility of future attacks by a little. Might need multiple endavors.]",
                     "Only available <when above [9] [Operational Power]>",
                     "Instantly consumes [10] [Operational Power]",
