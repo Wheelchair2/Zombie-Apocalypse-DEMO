@@ -4,7 +4,6 @@
         "name": "Sprit of Endurance",
         "type": "Pantheon",
         "uniques": [
-            "[+10]% Strength <when defending>",
             "[+1 Faith] from all ['Static Defense'] buildings"
         ]
     },
@@ -12,7 +11,6 @@
         "name": "Sprit of Adaptation",
         "type": "Pantheon",
         "uniques": [
-            "[+1] XP gained from combat",
             "[+1 Faith] from all ['Agriculture'] buildings"
         ]
     },
@@ -20,7 +18,6 @@
         "name": "Sprit of Justice",
         "type": "Pantheon",
         "uniques": [
-			"Each city founded increases culture cost of policies [-25]% less than normal",
             "[+1 Faith] from all ['Infrastructure'] buildings"
 
         ]
@@ -29,7 +26,6 @@
         "name": "Sprit of Ingenuity",
         "type": "Pantheon",
         "uniques": [
-            "[Great Engineer] is earned [+25]% faster",
             "[+1 Faith] from all ['Industry'] buildings"
         ]
     },
@@ -37,14 +33,13 @@
         "name": "Sprit of Progress",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Science] from all ['Residential'] buildings",
             "[+1 Faith] from all ['Research'] buildings"
         ]
     },
     {
         "name": "Sprit of Bravery",
         "type": "Pantheon",
-        "uniques": ["Militaristic City-States grant units [positiveAmount] times as fast when you are at war with a common nation",
+        "uniques": [
             "[+1 Faith] from all ['Military Structure'] buildings"
         ]
     },
@@ -52,15 +47,13 @@
         "name": "Sprit of Hatred",
         "type": "Pantheon",
         "uniques": [
-            "[+25]% Production when constructing ['Military Structure'] buildings [in all cities]",
-            "Earn [33]% of the damage done to [Military] units as [Faith]"
+            "All newly-trained [Military] units [in this city] receive the [Zealotry] promotion"
         ]
     },
     {
         "name": "Sprit of Hopefulness",
         "type": "Pantheon",
         "uniques": [
-            "[100]% of excess happiness converted to [Culture]",
             "[+1 Faith] from all ['Cultural'] buildings"
         ]
     },
@@ -68,7 +61,6 @@
         "name": "Sprit of Promise Keeping",
         "type": "Pantheon",
         "uniques": [
-            "[+1] Happiness from each type of luxury resource",
             "[+2 Gold, +3 Faith] from all [Market] buildings"
         ]
     },
