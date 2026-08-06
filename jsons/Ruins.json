@@ -10,18 +10,24 @@
         "name": "Discovered Lone Survivors",
         "notification": "We have discovered A Squad of Survivors",
         "uniques": ["Triggers a [Lone Survivors: Left for Dead] event"],
-        "color": "#00420f"
+        "color": "#99cc00"
     },
     {
         "name": "Discovered Lost Equipments",
         "notification": "We have discovered crates of weaponries",
         "uniques": ["Instantly provides [10] [Ammunition]","Triggers a [Discarded Weapons] event"],
-        "color": "#00420f"
+        "color": "#006699"
     },
     {
         "name": "Discovered Angry Farmers",
         "notification": "We have discovered a group of disgruntled red necks",
         "uniques": ["[This Unit] gains [10] XP","Triggers a [Rural Survivors: Anger Issues] event"],
-        "color": "#00420f"
+        "color": "#ffcc00"
+    },
+    {
+        "name": "Discovered Rebelious Groups",
+        "notification": "We have discovered a group of social deviants",
+        "uniques": ["Instantly provides [5] [Operational Power]","Triggers a [Urban Survior: Rogues] event"],
+        "color": "#9966ff"
     },
 ]

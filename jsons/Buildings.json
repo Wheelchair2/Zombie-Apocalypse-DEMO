@@ -129,8 +129,8 @@
 		"production": 1,
 		"uniques": [
 			"'Industry'",
-			"Provides [1] [Fuels] <before the [Times of Strive]>",
-			"[+2 Production] from [Fuels] tiles [in this city]",
+			"Provides [1] [Fuel] <before the [Times of Strive]>",
+			"[+2 Production] from [Fuel] tiles [in this city]",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
 		"requiredTech": "Vehicle Scraping",
@@ -148,15 +148,15 @@
 		"hurryCostModifier": 25
 	},
 	{
-		"name": "Swordsmith's Quarter",
+		"name": "Bladesmith's Quarter",
 		"uniqueTo": "Zeds Cutting Club",
 		"replaces": "Chop Shop",
 		"production": 2,
-		"cityStrength": 3,
+		"cityStrength": 2,
 		"uniques": [
 			"'Industry'",
 			"Provides [1] [Scraps] <with [Materials]>",
-			"Provides [1] [Improvised Weapons]",
+			"Provides [1] [Improvised Weapons] <when below [10] [Improvised Weapons]>",
 			"Cannot be purchased <if [Market] is not constructed>",
 			"Destroyed when the city is captured"
 		],
@@ -216,7 +216,7 @@
 		"food": -1,
 		"cityHealth": 5,
 		"uniques": [
-			"'Military Building'",
+			"'Military Structure'",
 			"[+10]% Production when constructing [Military] units [in this city]",
 			"New [Military] units start with [10] XP [in this city]",
 			"Cannot be purchased <if [Market] is not constructed>",
@@ -314,7 +314,7 @@
 		"production": 1,
 		"cityStrength": 2,
 		"uniques": [
-			"'Military Building'",
+			"'Military Structure'",
 			"Consumes [1] [Scraps]",
 			"Provides [1] [Improvised Weapons]",
 			"Cannot be purchased <if [Market] is not constructed>",
@@ -411,14 +411,13 @@
 		"name": "Headquarter",
 		"isNationalWonder": true,
 		"production": 3,
-		"science": 2,
 		"gold": 3,
+		"science": 2,
 		"culture": 2,
-		"cityStrength": 2,
-		"cost": 1,
+		"cityStrength": 3,
+		"cost": 0,
 		"uniques": [
 			"Provides [20] [Operational Power Limit]",
-			"Provides [1] [Operational Power]",
 			"Provides [1] [Housing] <in this city>",
 			"Indicates the capital city"
 		]
@@ -469,7 +468,7 @@
 			"Unavailable <hidden from users>",
 			"Unsellable",
 			"'Flag'",
-			"Provides [1] [Fuels] <when number of [Operational Power] is more than [[Operational Power Limit]/2]>",
+			"Provides [1] [Fuel] <when number of [Operational Power] is more than [[Operational Power Limit]/2]>",
 			"Provides [1] [Ammunition] <when number of [Operational Power] is more than [[Operational Power Limit]/2]>",
 			"[+1 Production] from [{'Outpost'} {Strategic resource}] tiles [in all cities]"
 		]

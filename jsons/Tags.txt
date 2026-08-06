@@ -10,7 +10,7 @@ Building{
 'Religious',
 'Institution',
 'Static Defense',
-'Military Building'
+'Military Structure'
 
 'Event'
 }

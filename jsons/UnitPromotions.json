@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Heal Instantly",
+		"name": "Deploy Reinforcement",
 		"uniques": [
 			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion"
@@ -583,10 +583,7 @@
 			"Ranged Combat",
 			"Scout",
 			"Mounted",
-			"Assault",
-			"Siege",
-			"Close Combat Ship",
-			"Ranged Combat Ship"
+			"Assault"
 		],
 		"uniques": [
 			"This Promotion is free <if [Chop Shop] is constructed>"
@@ -598,63 +595,67 @@
 		"name": "Shovel",
 		"prerequisites": ["Melee Arms"],
 		"uniques": [
-			"[+5]% Strength <vs [Close Combat] units>",
+			"Only available <when above [1] [Improvised Weapons]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [1] [Improvised Weapons] <after turn number [1]> <for [non-[Emergency Militia]] units>",
+			"[+3] Strength <when defending>",
 			"Can build [Trench] improvements on tiles"
 		],
 		"unitTypes": [
 			"Close Combat",
-			"Ranged Combat"
+			"Scout",
+			"Mounted"
 		],
 		"column": 11,
 		"row": 1
 	},
 	{
-		"name": "Pike",
+		"name": "Polearms",
 		"prerequisites": ["Melee Arms"],
 		"uniques": [
-			"[+15]% Strength <when fighting in [Open terrain] tiles>",
-			"[+15]% Strength <when fighting in [Open terrain] tiles> <vs [Mounted] units>"
+			"Only available <when above [2] [Improvised Weapons]> <after discovering [Improvised Weapons]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [2] [Improvised Weapons] <after turn number [1]> <for [non-[{HEMA Disciple} {Pike and shot Militia}]] units>",
+
+			"[+5] Strength <for [non-['Firearms']] units>",
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <vs [Close Combat] units>"
 		],
 		"unitTypes": [
-			"Close Combat"
+			"Close Combat",
+			"Scout",
+			"Mounted"
 		],
 		"column": 11,
 		"row": 2
 	},
 	{
-		"name": "Halberd",
+		"name": "Javalin",
 		"prerequisites": ["Melee Arms"],
 		"uniques": [
-			"[+25]% Strength <when attacking>"
+			"Only available <when above [4] [Improvised Weapons]> <after discovering [Improvised Weapons]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [4] [Improvised Weapons] <after turn number [1]>",
+
+			"[+5] Strength <for [non-['Firearms']] units>",
+			"[+33]% Strength <vs ['Giant'] units> <when attacking>"
 		],
 		"unitTypes": [
 			"Close Combat",
-			"Ranged Combat",
-			"Scout"
+			"Scout",
+			"Mounted"
 		],
 		"column": 11,
 		"row": 3
 	},
 	{
-		"name": "Javalin",
-		"prerequisites": ["Melee Arms"],
-		"uniques": [
-			"[+15]% Strength <vs [non-[Wounded]] units> <when attacking>",
-			"[+20]% Strength <vs ['Dense Formation'] units> <when attacking>"
-		],
-		"unitTypes": [
-			"Close Combat",
-			"Assault"
-		],
-		"column": 11,
-		"row": 4
-	},
-	{
 		"name": "Scrap Armor",
 		"prerequisites": ["Melee Arms"],
 		"uniques": [
-			"Instantly consumes [1] [Scraps]",
-			"[+5]% Strength <when defending> <vs [Close Combat] units>",
+			"Only available <when above [4] [Scraps]> <after discovering [Improvised Weapons]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [5] [Scraps] <after turn number [1]>",
+			"[+5] Strength <when defending> <vs ['Claws'] units>",
+			"[+5] Strength <when defending> <vs ['Edged Weapons'] units>",
 			"[+15]% Strength <vs [Barbarian] units>"
 		],
 		"unitTypes": [
@@ -671,9 +672,13 @@
 		"name": "Plate Armor",
 		"prerequisites": ["Melee Arms"],
 		"uniques": [
-			"Instantly consumes [1] [Refined Metals]",
-			"[+10]% Strength <when defending> <vs [Close Combat] units>",
-			"[+20]% Strength <vs [Barbarian] units>"
+			"Only available <when above [3] [Refined Metals]> <after discovering [Welding]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [4] [Refined Metals] <after turn number [1]>",
+			"[+7] Strength <when defending> <vs ['Claws'] units>",
+			"[+7] Strength <when defending> <vs ['Edged Weapons'] units>",
+			"[+2] Strength <when defending> <vs ['Firearms'] units>",
+			"[+25]% Strength <vs [Barbarian] units>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -708,8 +713,12 @@
 		"name": "Short Bow",
 		"prerequisites": ["Archery Weapons"],
 		"uniques": [
-			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
-			"[+10]% Strength <vs ['Dense Formation'] units>"
+			"Only available <when above [4] [Improvised Weapons]> <after discovering [Improvised Weapons]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [4] [Improvised Weapons] <after turn number [1]> <for [non-[{Search Squad} {Hunters}]] units>",
+			"[+3] Strength <when attacking> <for [non-['Firearms']] units>",
+			"[+1] Strength <when attacking> <for [non-['Firearms']] units>",
+			"[+10]% Strength <when fighting in [Rough terrain] tiles>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -724,8 +733,12 @@
 		"name": "Crossbow",
 		"prerequisites": ["Archery Weapons"],
 		"uniques": [
-			"[+7]% Strength",
-			"[+18]% Strength <vs [Close Combat] units>"
+			"Only available <when above [8] [Improvised Weapons]> <after discovering [Engineering]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [9] [Improvised Weapons] <after turn number [1]>",
+			"[+6] Strength <when attacking> <for [non-['Firearms']] units>",
+			"[+3] Strength <when attacking> <for ['Firearms'] units>",
+			"[+15]% Strength <vs [Ranged Combat] units>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -740,8 +753,12 @@
 		"name": "Composite Bow",
 		"prerequisites": ["Archery Weapons"],
 		"uniques": [
-			"Instantly consumes [1] [Refined Metals]",
-			"[+20]% Strength"
+			"Only available <when above [14] [Improvised Weapons]> <after discovering [Carpentry]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [15] [Improvised Weapons] <after turn number [1]>",
+			"[+10] Strength <when attacking> <for [non-['Firearms']] units>",
+			"[+5] Strength <when attacking> <for ['Firearms'] units>",
+			"[+25]% Strength <vs ['Skirmisher'] units>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -756,8 +773,11 @@
 		"name": "Zeds Arrow",
 		"prerequisites": ["Archery Weapons"],
 		"uniques": [
-			"[+15]% Strength <vs [Barbarian] units>",
-			"[+5]% Strength"
+			"Only available <when above [6] [Improvised Weapons]> <after discovering [Trapping]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [7] [Improvised Weapons] <after turn number [1]>",
+			"[+25]% Strength <when attacking> <vs [non-[Barbarian]] units>",
+			"[Target Unit] gains the [Infected] status for [2] turn(s) <with [25]% chance>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -772,8 +792,12 @@
 		"name": "Rocket Arrow",
 		"prerequisites": ["Archery Weapons"],
 		"uniques": [
-			"[+1] Range",
-			"[+20]% Strength <vs [Close Combat] units>"
+			"Only available <when above [9] [Improvised Weapons]> <after discovering [Chemistry]>",
+			"This Promotion is free <hidden from users>",
+			"Instantly consumes [10] [Improvised Weapons] <after turn number [1]>",
+			"[+3] Strength <when attacking>",
+			"[+25]% Strength <vs ['Swarmer'] units> <when attacking>",
+			"[+33]% Strength <vs ['Giant'] units> <when attacking>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -786,9 +810,9 @@
 	},
 	// ---------------------- Firearms ----------------------
 	{
-		"name": "Firearms",
+		"name": "Small Caliber Firearms",
 		"uniques": [
-			"This Promotion is free <if [Chop Shop] is constructed>"
+			"This Promotion is free <with [Small Firearms]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -805,30 +829,33 @@
 	},
 	{
 		"name": "\"Liberator\" ripoffs",
-		"prerequisites": ["Firearms"],
+		"prerequisites": ["Small Caliber Firearms"],
 		"uniques": [
-			"[+10]% Strength",
-			"[+5]% XP gained from combat"
+			"Only available <when above [0] [Small Firearms]> <after discovering [Engineering]>",
+			"This Promotion is free <hidden from users>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [1] [Small Firearms] <after turn number [1]>",
+			"[+3] Strength <when attacking> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
 			"Ranged Combat",
 			"Scout",
-			"Mounted",
-			"Assault",
-			"Siege",
-			"Close Combat Ship",
-			"Ranged Combat Ship"
+			"Mounted"
 		],
 		"column": 14,
 		"row": 1
 	},
 	{
 		"name": "8 Shot Revolvers",
-		"prerequisites": ["Firearms"],
+		"prerequisites": ["Small Caliber Firearms"],
 		"uniques": [
-			"[+10]% Strength <vs [Barbarian] units>",
-			"[+5]% Strength"
+			"Only available <when above [5] [Small Firearms]> <after discovering [Makeshift Ammunition]>",
+			"This Promotion is free <hidden from users>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [6] [Small Firearms] <after turn number [1]>",
+			"[+6] Strength <when defending> <when above [0] [Ammunition]>",
+			"[+25]% Strength <vs ['Swarmer'] units> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -845,10 +872,13 @@
 	},
 	{
 		"name": "22 Hunting Rifles",
-		"prerequisites": ["Firearms"],
+		"prerequisites": ["Small Caliber Firearms"],
 		"uniques": [
-			"[+1] Range",
-			"[+10]% Strength"
+			"This Promotion is free <when above [7] [Small Firearms]> <after discovering [Makeshift Ammunition]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [8] [Small Firearms] <after turn number [1]>",
+			"[+8] Strength <when above [0] [Ammunition]>",
+			"[+25]% Strength <vs [{Barbarian} {'Skirmisher'}] units> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -867,7 +897,7 @@
 	{
 		"name": "Common Firearms",
 		"uniques": [
-			"This Promotion is free <if [Chop Shop] is constructed>"
+			"Unavailable"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -886,7 +916,11 @@
 		"name": "Pipe Guns",
 		"prerequisites": ["Common Firearms"],
 		"uniques": [
-			"[+10]% Strength <when attacking> <vs [Barbarian] units>"
+			"Only available <after discovering [Engineering]>",
+			"This Promotion is free <when above [3] [Small Firearms]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [4] [Small Firearms] <after turn number [1]>",
+			"[+6] Strength <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -905,8 +939,11 @@
 		"name": "6 Shot Revolvers",
 		"prerequisites": ["Common Firearms"],
 		"uniques": [
-			"[+10]% Strength <when defending> <vs [Barbarian] units>",
-			"[+5]% Strength"
+			"This Promotion is free <when above [6] [Small Firearms]> <after discovering [Makeshift Ammunition]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [6] [Small Firearms] <after turn number [1]>",
+			"[+8] Strength <when defending> <when above [0] [Ammunition]>",
+			"[+33]% Strength <vs ['Skirmisher'] units> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -914,9 +951,7 @@
 			"Scout",
 			"Mounted",
 			"Assault",
-			"Siege",
-			"Close Combat Ship",
-			"Ranged Combat Ship"
+			"Siege"
 		],
 		"column": 15,
 		"row": 2
@@ -925,7 +960,11 @@
 		"name": "Machine Pistols",
 		"prerequisites": ["Common Firearms"],
 		"uniques": [
-			"[+15]% Strength <when attacking> <vs [Close Combat] units>"
+			"This Promotion is free <when above [5] [Small Firearms]> <after discovering [Makeshift Firearm]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [6] [Small Firearms] <after turn number [1]>",
+			"[+10] Strength <when defending> <when above [0] [Ammunition]>",
+			"[+25]% Strength <when fighting in [Rough terrain] tiles> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -944,7 +983,11 @@
 		"name": "Pump Actions",
 		"prerequisites": ["Common Firearms"],
 		"uniques": [
-			"[+20]% Strength <when attacking>"
+			"This Promotion is free <when above [5] [Heavy Firearms]> <after discovering [Makeshift Ammunition]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [6] [Heavy Firearms] <after turn number [1]>",
+			"[+12] Strength <when above [0] [Ammunition]>",
+			"[+25]% Strength <when fighting in [Rough terrain] tiles> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -963,8 +1006,11 @@
 		"name": "Lever Actions",
 		"prerequisites": ["Common Firearms"],
 		"uniques": [
-			"[+15]% Strength <when defending>",
-			"[+10]% Strength <vs [Ranged Combat] units>"
+			"This Promotion is free <when above [5] [Heavy Firearms]> <after discovering [Makeshift Ammunition]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [6] [Heavy Firearms] <after turn number [1]>",
+			"[+12] Strength <when above [0] [Ammunition]>",
+			"[+15]% Strength <vs [Ranged Combat] units> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -983,7 +1029,7 @@
 	{
 		"name": "Heavy Firearms",
 		"uniques": [
-			"This Promotion is free <if [Chop Shop] is constructed>"
+			"Unavailable"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -1002,8 +1048,10 @@
 		"name": "Automatic Rifle",
 		"prerequisites": ["Heavy Firearms"],
 		"uniques": [
-			"[+5]% Strength",
-			"[+10]% Strength <vs [Close Combat] units>"
+			"This Promotion is free <when above [9] [Heavy Firearms]> <after discovering [Makeshift Firearm]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [10] [Heavy Firearms] <after turn number [1]>",
+			"[+15] Strength <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -1022,8 +1070,12 @@
 		"name": "HMG",
 		"prerequisites": ["Heavy Firearms"],
 		"uniques": [
-			"[+15]% Strength <when defending> <vs [Barbarian] units>",
-			"[+10]% Strength"
+			"This Promotion is free <when above [14] [Heavy Firearms]> <after discovering [Makeshift Firearm]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [15] [Heavy Firearms] <after turn number [1]>",
+			"[+15] Strength <vs ['Infantry'] units> <when above [0] [Ammunition]>",
+			"[+10] Strength <when above [0] [Ammunition]>",
+			"[-5]% Strength <when fighting in [Rough terrain] tiles> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -1042,17 +1094,16 @@
 		"name": "Sharpshooter Rifle",
 		"prerequisites": ["Heavy Firearms"],
 		"uniques": [
-			"[+1] Range",
-			"[+15]% Strength <vs [Barbarian] units>"
+			"This Promotion is free <when above [9] [Heavy Firearms]> <after discovering [Makeshift Firearm]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [10] [Heavy Firearms] <after turn number [1]>",
+			"[+15] Strength <when fighting in [Open terrain] tiles> <when above [0] [Ammunition]>",
+			"[+10] Strength <when fighting in [Rough terrain] tiles> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
-			"Close Combat",
 			"Ranged Combat",
 			"Scout",
-			"Mounted",
 			"Assault",
-			"Siege",
-			"Close Combat Ship",
 			"Ranged Combat Ship"
 		],
 		"column": 16,
@@ -1062,8 +1113,13 @@
 		"name": "Grenade Launcher",
 		"prerequisites": ["Heavy Firearms"],
 		"uniques": [
-			"[+15]% Strength",
-			"[+15]% Strength <vs [non-[Wounded]] units> <when attacking>"
+			"This Promotion is free <when above [14] [Heavy Firearms]> <after discovering [Makeshift Firearm]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [15] [Heavy Firearms] <after turn number [1]>",
+
+			"[+25] Strength <vs [Barbarian] units> <when above [0] [Ammunition]>",
+			"[+25] Strength <vs cities> <when above [0] [Ammunition]>",
+			"[+25] Strength <when fighting in [Rough terrain] tiles> <when above [0] [Ammunition]>"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -1082,8 +1138,13 @@
 		"name": "Anti-Material Rifle",
 		"prerequisites": ["Heavy Firearms"],
 		"uniques": [
-			"[+25]% Strength <vs [Close Combat] units>",
-			"[+15]% Strength"
+			"This Promotion is free <when above [14] [Heavy Firearms]> <after discovering [Makeshift Firearm]>",
+			"[This Unit] gains the [Ammo User] promotion <for units without [Ammo User]> <hidden from users>",
+			"Instantly consumes [15] [Heavy Firearms] <after turn number [1]>",
+			"[+50] Strength <vs ['Giant'] units> <when above [0] [Ammunition]>",
+			"[+15] Strength <vs [Assault] units> <when above [0] [Ammunition]>",
+			"[+15] Strength <vs [Close Combat Ship] units> <when above [0] [Ammunition]>",
+			"[+15] Strength <vs [Ranged Combat Ship] units> <when above [0] [Ammunition]>",
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -1102,7 +1163,7 @@
 	{
 		"name": "Explosives",
 		"uniques": [
-			"This Promotion is free <if [Chop Shop] is constructed>"
+			"Unavailable"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -1219,7 +1280,7 @@
 	{
 		"name": "Gimmick Weapons",
 		"uniques": [
-			"This Promotion is free <if [Chop Shop] is constructed>"
+			"Unavailable"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -1318,7 +1379,7 @@
 	{
 		"name": "Vehicle Modification",
 		"uniques": [
-			"This Promotion is free <if [Chop Shop] is constructed>"
+			"Unavailable"
 		],
 		"unitTypes": [
 			"Close Combat",
@@ -1417,15 +1478,19 @@
 		"name": "Ammo User",
 		"uniques": [
 			"[-50]% Strength <when below [0] [Ammunition]>",
+			"'Firearms'",
 			"Instantly consumes [1] [Ammunition] <upon damaging a [Military] unit> <for units without [Ammo Conservasion]>",
-			"Instantly consumes [1] [Ammunition] <with [75]% chance> <upon damaging a [Military] unit> <for units with [Ammo Conservasion]>"
+			"Instantly consumes [1] [Ammunition] <with [75]% chance> <upon damaging a [Military] unit> <for units with [Ammo Conservasion]>",
+			"Instantly consumes [1] [Ammunition] <with [25]% chance> <upon damaging a [Military] unit> <for units with [Common Firearms]>",
+			"Instantly consumes [1] [Ammunition] <with [50]% chance> <upon damaging a [Military] unit> <for units with [Heavy Firearms]>",
+			"Instantly consumes [2] [Ammunition] <with [50]% chance> <upon damaging a [Military] unit> <for units with [Explosives]>"
 		]
 	},
 	{
-		"name": "Fuels User",
+		"name": "Fuel User",
 		"uniques": [
-			"[-1] Movement <when below [0] [Fuels]>",
-			"Instantly consumes [1] [Fuels] <upon ending a turn in a [non-[City center]] tile>"
+			"[-1] Movement <when below [0] [Fuel]>",
+			"Instantly consumes [1] [Fuel] <upon ending a turn in a [non-[City center]] tile>"
 		]
 	},
 	{
@@ -1445,12 +1510,20 @@
 			"No damage penalty for wounded units",
 			"No movement cost to pillage",
 			"Free [Common Infected] appears <upon defeating a [Land] unit>",
-			"[+1000]% Strength <when fighting in [Biomass Contamination] tiles> <when defending>"
+			"[+1000]% Strength <when fighting in [Biomass Contamination] tiles> <when defending>",
+			"[Target Unit] gains the [Infected] status for [2] turn(s) <with [15]% chance>",
+			"[This Unit] is destroyed <with [5]% chance> <upon turn start>"
 		]
 	},
 	{
 		"name": "Hording",
 		"uniques": [
+		]
+	},
+	{
+		"name": "Infected",
+		"uniques": [
+			"[This Unit] takes [5] damage <upon turn start>"
 		]
 	}
 ]
