@@ -11,17 +11,142 @@
                 ]
             },
             {
-                "text": "Initiate the search for generator",
+                "text": "Initiate the search for [Generator]",
                 "uniques": [
                     "Only available <after discovering [Scavenge Expertise]> <without [Generator]> <when above [4] [Operational Power]>",
                     "Triggers a [The Search for the Generator] event"
                 ]
             },
             {
-                "text": "Initiate the search for generator",
+                "text": "Initiate the search for [Seeds]",
                 "uniques": [
                     "Only available <after discovering [Hunting Party]> <when above [4] [Operational Power]>",
                     "Triggers a [The Search for the Seed] event"
+                ]
+            },
+            {
+                "text": "Initiate a Hunting Trip",
+                "uniques": [
+                    "Only available <if [Focus: Smoker and Tanner] is constructed> <after discovering [Hunting Party]> <when above [4] [Operational Power]>",
+                    "Triggers a [Hunting Trip] event"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hunting Trip",
+        "text": "We sets out for a hunting trip, lets see what happens.",
+        "choices": [
+            {
+                "text": "How did it go?",
+                "uniques": [
+                    "Instantly consumes [5] [Operational Power]",
+                    "Triggers a [Good Hunting] event <with [25]% chance> <hidden from users>",
+                    "Triggers a [Bounties are back] event <with [75]% chance> <hidden from users>",
+                    "Triggers a [Zombie Sightings] event <with [20]% chance> <hidden from users>",
+                    "Triggers a [Scouting Works] event <with [20]% chance> <hidden from users>",
+                    "Triggers a [Apacolyptic Zoo] event <with [20]% chance> <hidden from users>",
+                    "Triggers a [Minor Casuaties] event <with [5]% chance> <hidden from users>",
+                    "Triggers a [Huge Casuaties] event <with [1]% chance> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Good Hunting",
+        "text": "There is a lot of fresh gamey meat from a good hunt!",
+        "choices": [
+            {
+                "text": "Brilliant",
+                "uniques": [
+                    "Gain [150] [Gold] <(modified by game speed)>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [4] turns> <on [Quick] game speed>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [8] turns> <on [Standard] game speed>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [12] turns> <on [Epic] game speed>",
+                    "[+4 Food, +1 Happiness, +1 Faith] [in all cities] <for [16] turns> <on [Epic] game speed>"
+                ]
+            }
+        ]
+    },    {
+        "name": "Bounties are back",
+        "text": "We have harvested a lot of raw material from the ruins we've encountered and the preys.",
+        "choices": [
+            {
+                "text": "Alright.",
+                "uniques": [
+                    "Gain [100] [Gold] <(modified by game speed)>",
+                    "Instantly provides [10] [Scraps]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zombie Sightings",
+        "text": "Unfortunately, we've attracted a lot of zombies in this trip.",
+        "choices": [
+            {
+                "text": "How careless.",
+                "uniques": [
+                    "[1] [Special Infected]s rebel <in cities with a [City Marker]> <hidden from users>",
+                    "Instantly provides [5] [Zombie Risk] <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Scouting Works",
+        "text": "We've discovered some prime spots to do scouting works",
+        "choices": [
+            {
+                "text": "Now that epic",
+                "uniques": [
+                    "Reveal up to [all] [Highrise] within a [12] tile radius",
+                    "Instantly consumes [5] [Zombie Risk] <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Apacolyptic Zoo",
+        "text": "We've discovered a zoo! Full of giftshops and exotic animals, although most of them are either dead or mutated.",
+        "choices": [
+            {
+                "text": "Terrifing, Does the Plague Affect the animals?",
+                "uniques": [
+                    "Gain [200] [Gold] <(modified by game speed)>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Minor Casuaties",
+        "text": "Unfortunately, we've been attacked by a horde or two.",
+        "choices": [
+            {
+                "text": "Bad.",
+                "uniques": [
+                    "[-10]% Strength <for [2] turns> <on [Quick] game speed>",
+                    "[-10]% Strength <for [4] turns> <on [Standard] game speed>",
+                    "[-10]% Strength <for [6] turns> <on [Epic] game speed>",
+                    "[-10]% Strength <for [8] turns> <on [Marathon] game speed>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Huge Casuaties",
+        "text": "Unfortunately, we had a absolutely terrible trip. Many died and only few return to tell the tale in terror.",
+        "choices": [
+            {
+                "text": "What in the sam hell is this?",
+                "uniques": [
+                    "[-1] population [in capital]",
+                    "Gain [100] [Culture] <(modified by game speed)>",
+                    "[-20]% Strength <for [3] turns> <on [Quick] game speed>",
+                    "[-20]% Strength <for [5] turns> <on [Standard] game speed>",
+                    "[-20]% Strength <for [7] turns> <on [Epic] game speed>",
+                    "[-20]% Strength <for [10] turns> <on [Marathon] game speed>",
+                    "Instantly consumes [5] [Operational Power]"
                 ]
             }
         ]
@@ -211,11 +336,6 @@
             {
                 "text": "Focus on alternatively sourced foods",
                 "uniques": ["Gain a free [Focus: Delicacies Unknown] [in capital]"]
-            },
-            {
-                "text": "Losers cant be choosers, Winner wins all",
-                "uniques": ["Gain a free [Focus: ] [in capital]",
-                    "Instantly provides [13] [Zombie Risk] <hidden from users>"]
             }
         ]
     },
@@ -331,7 +451,7 @@
         ]
     },
     {
-        "name": "Endless Possibilities!",
+        "name": "Endless Possibilities",
         "text": "We were cautious about having new borns in our settlements because not only babies are fragile. They are also noisy. However, we knew that not having babies is civilizational suicide. Letting this future of extinction come to pass is unbearable.",
         "choices": [
             {
@@ -398,10 +518,10 @@
                 "text": "We must contain the flu.",
                 "uniques": [
                     "[-1] population [in capital]",
-                    "[-10]% [Happiness] <for [6] turns> <on [Quick] game speed> <hidden from users>",
-                    "[-10]% [Happiness] <for [8] turns> <on [Standard] game speed> <hidden from users>",
-                    "[-10]% [Happiness] <for [10] turns> <on [Epic] game speed> <hidden from users>",
-                    "[-10]% [Happiness] <for [16] turns> <on [Marathon] game speed> <hidden from users>"
+                    "[-10]% [Happiness] <for [6] turns> <on [Quick] game speed>",
+                    "[-10]% [Happiness] <for [8] turns> <on [Standard] game speed>",
+                    "[-10]% [Happiness] <for [12] turns> <on [Epic] game speed>",
+                    "[-10]% [Happiness] <for [16] turns> <on [Marathon] game speed>"
                 ]
             },
             {

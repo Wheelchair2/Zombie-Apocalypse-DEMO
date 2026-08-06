@@ -167,6 +167,10 @@
 		]
 	},
 	{
+		"name": "Operational Power Limit",
+		"resourceType": "Strategic"
+	},
+	{
 		"name": "Zombie Risk",
 		"resourceType": "Strategic",
 		"uniques": [

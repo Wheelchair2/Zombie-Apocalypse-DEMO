@@ -167,8 +167,9 @@
 					"Fishing"
 				],
 				"uniques": [
-					"Only available <when above [3] [Seeds]>",
-					"Trigger a [Endless Possibilities!] event"
+					"Only available <when above [4] [Seeds]>",
+					"Triggers a [Endless Possibilities] event",
+					"Triggers victory <when [Agriculture] Victory is enabled>"
 				],
 				"quote": ""
 			},
@@ -186,6 +187,7 @@
 				"prerequisites": [
 					"Militia Organization"
 				],
+				"uniques":["[+10]% Strength <vs [Barbarian] units>"],
 				"quote": ""
 			}
 		]

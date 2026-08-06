@@ -75,7 +75,8 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ammo User"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"requiredTech":"Military Survivor"
 	},
 
 	{
@@ -93,7 +94,8 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ammo User"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"requiredTech":"Urban Survivor"
 	},
 	{
 		"name": "Armed Farmer",
@@ -110,7 +112,8 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Ammo User"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"requiredTech":"Rural Survivor"
 	},
 	{
 		"name": "Police Patrol",
@@ -336,7 +339,7 @@
 		"movement": 2
 	},
 	{
-		"name": "Great Scientist",
+		"name": "Great Researcher",
 		"unitType": "Civilian",
 		"uniques": [
             "Can hurry technology research",
@@ -345,7 +348,7 @@
 		"movement": 2
 	},
 	{
-		"name": "Great Merchant",
+		"name": "Great Trader",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
            // "Can instantly construct a [Customs house] improvement <by consuming this unit>",
@@ -361,7 +364,7 @@
 		"movement": 2
 	},
 	{
-		"name": "Great Prophet",
+		"name": "Great Theorist",
 		"unitType": "Civilian",
 		"uniques": [
          //   "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",

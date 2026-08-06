@@ -129,7 +129,7 @@
 		"production": 1,
 		"uniques": [
 			"'Industry'",
-			"Provides [2] [Fuels] <for [4] turns> <(modified by game speed)>",
+			"Provides [1] [Fuels] <before the [Times of Strive]>",
 			"[+2 Production] from [Fuels] tiles [in this city]",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
@@ -176,6 +176,18 @@
 		"requiredNearbyImprovedResources": ["Perishable Food"],
 		"hurryCostModifier": 25
 	},
+	{
+		"name": "Pigeons Tower",
+		"food":2,
+		"uniques": [
+			"Only available <if [Focus: Delicacies Unknown] is constructed>",
+			"'Infrastructure'",
+			"[+2]% [Gold] from Trade Routes",
+			"Cannot be purchased <if [Market] is not constructed>"
+		],
+		"requiredTech": "Foraging",
+		"hurryCostModifier": 25
+	},
 	///Line 3
 	{
 		"name": "Road Network",
@@ -219,6 +231,7 @@
 		"cityStrength": 5,
 		"uniques": [
 			"'Static Defense'",
+			"Provides [5] [Operational Power Limit]",
 			"[-1] population [in this city]",
 			"Destroyed when the city is captured",
 			"Cannot be purchased <if [Market] is not constructed>"
@@ -254,7 +267,7 @@
 	{
 		"name": "Irrigation System",
 		"percentStatBonus": {
-			"food": 10
+			"food": 5
 		},
 		"uniques": [
 			"'Infrastructure'",
@@ -266,13 +279,13 @@
 		"hurryCostModifier": 25
 	},
 	{
-		"name": "Irrigation System",
+		"name": "Water Tower",
 		"percentStatBonus": {
-			"food": 10
+			"food": 5
 		},
 		"uniques": [
 			"'Infrastructure'",
-			"[+1 Food] from [Farm] tiles [in this city] <when below [2] [Winter]>",
+			"Provides [1] [Housing]",
 			"Destroyed when the city is captured",
 			"Cannot be purchased <if [Market] is not constructed>"
 		],
@@ -301,7 +314,7 @@
 		"production": 1,
 		"cityStrength": 2,
 		"uniques": [
-			"'Infrastructure'",
+			"'Military Building'",
 			"Consumes [1] [Scraps]",
 			"Provides [1] [Improvised Weapons]",
 			"Cannot be purchased <if [Market] is not constructed>",
@@ -404,6 +417,7 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
+			"Provides [20] [Operational Power Limit]",
 			"Provides [1] [Operational Power]",
 			"Provides [1] [Housing] <in this city>",
 			"Indicates the capital city"
@@ -426,7 +440,6 @@
 		"uniques": [
 			"Unavailable <hidden from users>",
 			"Unsellable",
-			"'Flag'",
 			"Consumes [1] [Housing] <in this city> <in cities with [1] [Population]>",
 			"Consumes [2] [Housing] <in this city> <in cities with [2] [Population]>",
 			"Consumes [3] [Housing] <in this city> <in cities with [3] [Population]>",
@@ -450,12 +463,118 @@
 		]
 	},
 	{
+		"name": "Focus: Power from Arms",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Provides [1] [Fuels] <when number of [Operational Power] is more than [[Operational Power Limit]/2]>",
+			"Provides [1] [Ammunition] <when number of [Operational Power] is more than [[Operational Power Limit]/2]>",
+			"[+1 Production] from [{'Outpost'} {Strategic resource}] tiles [in all cities]"
+		]
+	},
+	{
+		"name": "Focus: Power from Hammer",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Provides [1] [Scraps] <for every [Owned [Highrise] Tiles]>",
+			"[+1 Production] from all ['Industry'] buildings"
+		]
+	},
+	{
+		"name": "Focus: Aggresive Scavenge",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Provides [1] [Ammunition] <when number of [Operational Power] is more than [[Operational Power Limit]/2]>",
+			"Provides [1] [Scraps] <for every [Owned [Highrise] Tiles]>",
+			"[+1 Production] from ['Outpost'] tiles [in all cities]"
+		]
+	},
+	{
+		"name": "Focus: Leftover",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Instantly provides [1] [Seeds] <upon discovering [Hunting Party] technology>",
+			"[+1 Food] from [Perishable Food] tiles [in all cities]",
+			"Provides [1] [Housing] <in this city>",
+			"[+1] population [in this city]"
+		]
+	},
+	{
+		"name": "Focus: Smoker and Tanner",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Comment [Special Action: Can Organize Hunting Trips using [Operational Power] with varying results]",
+			"[+1 Food] from [Plains] tiles [in all cities]",
+			"[+10]% Production when constructing [Ranged Combat] units [in all cities]"
+		]
+	},
+	{
+		"name": "Focus: Delicacies Unknown",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Comment [Enable you to build [Pigeon Tower], an extra ['Infrastructure'] Building that provides [Food].] <Civilopedia link [Buildings/Pigeon Tower]>",
+			"[+1 Food] from [Scrapyard] tiles [in all cities]",
+			"[+3 Gold] from [Camp] tiles [in all cities] <when above [2] [Spring]>"
+		]
+	},
+	{
+		"name": "Focus: Communal Lives",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"[+33]% Production when constructing ['Cultural'] buildings [in all cities]",
+			"[+1 Happiness] per [3] population [in all cities]"
+		]
+	},
+	{
+		"name": "Focus: Unity",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Provides [1] [Operational Power]",
+			"[+1 Culture] from all ['Residential'] buildings"
+		]
+	},
+	{
+		"name": "Focus: Efficiency",
+		"cost": 0,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"[-50]% maintenance on road & railroads",
+			"Each city founded increases culture cost of policies [-25]% less than normal"
+		]
+	},
+	{
 		"name": "Placeholder",
 		"cost": 10,
 		"uniques": [
 			"Unavailable <hidden from users>",
 			"Unsellable",
 			"'Flag'",
+			"Comment [Gold]",
 			"Comment [Happiness]",
 			"Comment [Faith]",
 			"Comment [Barbarian]",
