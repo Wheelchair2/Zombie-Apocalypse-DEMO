@@ -14,11 +14,11 @@
 		"startBias": [""],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "The Matial Law has been decleared in awake of a zombie virus, you have to enforce it, and deal whatever the hell it has turned the world into.",
+		"startIntroPart1": "The Martial Law has been declared in wake of a zombie virus, you have to enforce it, and deal whatever the hell it has turned the world into.",
 		"startIntroPart2": "The People needs you.",
 
 		"declaringWar": "Dont mess with the senator!",
-		"attacked": "You are attcking the official force of the USA, this will not go under record.",
+		"attacked": "You are attacking the official force of the USA, this will not go unrecorded.",
 		"defeated": "Impossible!",
 		"introduction": "Dear Citizen, the Government is here to help! But the damn zombies are doing loads of work so we need your help too. We should band up and beat those suckers up!",
 
@@ -29,7 +29,7 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [255, 255, 255],
-		"favoredReligion": "Vengence to the Damned",
+		"favoredReligion": "Vengeance to the Damned",
 		"uniqueName": "The Hopeful Residue",
 		"uniques": [
 			"Reveals the entire map",
@@ -69,7 +69,7 @@
 		"favoredReligion": "Neo Paganism",
 		"uniqueName": "Old School Fighter",
 		"uniques": ["Reveals the entire map","Starts with [Urban Survivor]"],
-		"cities": ["Oathsworn","Camp Augustus","Camp Bruno","Camp Camelot","Camp Deez","Camp Elegace","Camp Florence","Camp George","Camp Hasting","Camp Invicible"],
+		"cities": ["Oathsworn","Camp Augustus","Camp Bruno","Camp Camelot","Camp Deez","Camp Elegance","Camp Florence","Camp George","Camp Hastings","Camp Invincible"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
