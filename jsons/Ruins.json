@@ -25,9 +25,9 @@
         "color": "#ffcc00"
     },
     {
-        "name": "Discovered Rebelious Groups",
+        "name": "Discovered Rebellious Groups",
         "notification": "We have discovered a group of social deviants",
-        "uniques": ["Instantly provides [5] [Operational Power]","Triggers a [Urban Survior: Rogues] event"],
+        "uniques": ["Instantly provides [5] [Operational Power]","Triggers a [Urban Survivor: Rogues] event"],
         "color": "#9966ff"
     },
 ]

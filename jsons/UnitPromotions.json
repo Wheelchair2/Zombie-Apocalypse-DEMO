@@ -247,7 +247,7 @@
 		"row": 2
 	},
 	{
-		"name": "Ammo Conservasion",
+		"name": "Ammo Conservation",
 		"uniques": [
 			"[1] XP gained from combat",
 			"Earn [25]% of killed [Ammo User] unit's [Strength] as [Ammunition]",
@@ -313,7 +313,7 @@
 			"Helicopter"
 		],
 		"prerequisites": [
-			"Ammo Conservasion",
+			"Ammo Conservation",
 			"Shield Wall",
 			"Fort Builder",
 			"Area Denial",
@@ -494,7 +494,7 @@
 		"row": 1
 	},
 	{
-		"name": "Aquiring Targets",
+		"name": "Acquiring Targets",
 		"uniques": [
 			"[+1] Sight",
 			"[+15]% Strength <vs ['Skirmisher'] units> <when attacking>"
@@ -522,7 +522,7 @@
 			"Ranged Combat Ship"
 		],
 		"prerequisites": [
-			"Aquiring Targets"
+			"Acquiring Targets"
 		],
 		"column": 9,
 		"row": 3
@@ -629,7 +629,7 @@
 		"row": 2
 	},
 	{
-		"name": "Javalin",
+		"name": "Javelin",
 		"prerequisites": ["Melee Arms"],
 		"uniques": [
 			"Only available <when above [4] [Improvised Weapons]> <after discovering [Improvised Weapons]>",
@@ -1479,8 +1479,8 @@
 		"uniques": [
 			"[-50]% Strength <when below [0] [Ammunition]>",
 			"'Firearms'",
-			"Instantly consumes [1] [Ammunition] <upon damaging a [Military] unit> <for units without [Ammo Conservasion]>",
-			"Instantly consumes [1] [Ammunition] <with [75]% chance> <upon damaging a [Military] unit> <for units with [Ammo Conservasion]>",
+			"Instantly consumes [1] [Ammunition] <upon damaging a [Military] unit> <for units without [Ammo Conservation]>",
+			"Instantly consumes [1] [Ammunition] <with [75]% chance> <upon damaging a [Military] unit> <for units with [Ammo Conservation]>",
 			"Instantly consumes [1] [Ammunition] <with [25]% chance> <upon damaging a [Military] unit> <for units with [Common Firearms]>",
 			"Instantly consumes [1] [Ammunition] <with [50]% chance> <upon damaging a [Military] unit> <for units with [Heavy Firearms]>",
 			"Instantly consumes [2] [Ammunition] <with [50]% chance> <upon damaging a [Military] unit> <for units with [Explosives]>"

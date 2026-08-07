@@ -129,7 +129,7 @@
         "name": "Anarchist Commune",
         "era": "Times of Strive",
         "uniques": [
-            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Worker's Council]>",
             "Only available <before adopting [Parliaments]>",
             "Only available <before adopting [Military Dictatorship]>",
             "Only available <before adopting [Theocracy]>",
@@ -179,7 +179,7 @@
         ]
     },
     {
-        "name": "Worker's Concil",
+        "name": "Worker's Council",
         "era": "Times of Strive",
         "uniques": [
             "Only available <before adopting [Anarchist Commune]>",
@@ -198,7 +198,7 @@
                 "column": 1
             },
             {
-                "name": "Size the Means of Production",
+                "name": "Seize the Means of Production",
                 "uniques": [],
                 "row": 1,
                 "column": 3
@@ -212,7 +212,7 @@
             {
                 "name": "Development Plans",
                 "uniques": [],
-                "requires": ["Enforce Public Ownership","Size the Means of Production","Commissars"],
+                "requires": ["Enforce Public Ownership","Seize the Means of Production","Commissars"],
                 "row": 2,
                 "column": 3
             },
@@ -224,7 +224,7 @@
                 "column": 3
             },
             {
-                "name": "Worker's Concil Complete",
+                "name": "Worker's Council Complete",
                 "uniques": []
             }
         ]
@@ -234,7 +234,7 @@
         "era": "Times of Strive",
         "uniques": [
             "Only available <before adopting [Anarchist Commune]>",
-            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Worker's Council]>",
             "Only available <before adopting [Military Dictatorship]>",
             "Only available <before adopting [Theocracy]>",
             "Only available <before adopting [Monarchy]>",
@@ -286,7 +286,7 @@
         "era": "Times of Strive",
         "uniques": [
             "Only available <before adopting [Anarchist Commune]>",
-            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Worker's Council]>",
             "Only available <before adopting [Parliaments]>",
             "Only available <before adopting [Theocracy]>",
             "Only available <before adopting [Monarchy]>",
@@ -339,7 +339,7 @@
         "era": "Times of Strive",
         "uniques": [
             "Only available <before adopting [Anarchist Commune]>",
-            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Worker's Council]>",
             "Only available <before adopting [Parliaments]>",
             "Only available <before adopting [Military Dictatorship]>",
             "Only available <before adopting [Monarchy]>",
@@ -392,7 +392,7 @@
         "era": "Times of Strive",
         "uniques": [
             "Only available <before adopting [Anarchist Commune]>",
-            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Worker's Council]>",
             "Only available <before adopting [Parliaments]>",
             "Only available <before adopting [Military Dictatorship]>",
             "Only available <before adopting [Theocracy]>",
@@ -445,7 +445,7 @@
         "era": "Times of Strive",
         "uniques": [
             "Only available <before adopting [Anarchist Commune]>",
-            "Only available <before adopting [Worker's Concil]>",
+            "Only available <before adopting [Worker's Council]>",
             "Only available <before adopting [Parliaments]>",
             "Only available <before adopting [Military Dictatorship]>",
             "Only available <before adopting [Theocracy]>",
@@ -460,7 +460,7 @@
                 "column": 1
             },
             {
-                "name": "Obligarchy",
+                "name": "Oligarchy",
                 "uniques": [],
                 "row": 1,
                 "column": 3
@@ -468,7 +468,7 @@
             {
                 "name": "Laissez-faire",
                 "uniques": [],
-                "requires": ["Monopoly Over Essentials","Obligarchy",],
+                "requires": ["Monopoly Over Essentials","Oligarchy",],
                 "row": 2,
                 "column": 3
             },

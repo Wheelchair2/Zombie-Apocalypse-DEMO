@@ -45,9 +45,9 @@
                     "Triggers a [Bounties are back] event <with [75]% chance> <hidden from users>",
                     "Triggers a [Zombie Sightings] event <with [20]% chance> <hidden from users>",
                     "Triggers a [Scouting Works] event <with [20]% chance> <hidden from users>",
-                    "Triggers a [Apacolyptic Zoo] event <with [20]% chance> <hidden from users>",
-                    "Triggers a [Minor Casuaties] event <with [5]% chance> <hidden from users>",
-                    "Triggers a [Huge Casuaties] event <with [1]% chance> <hidden from users>"
+                    "Triggers a [Apocalyptic Zoo] event <with [20]% chance> <hidden from users>",
+                    "Triggers a [Minor Casualties] event <with [5]% chance> <hidden from users>",
+                    "Triggers a [Huge Casualties] event <with [1]% chance> <hidden from users>"
                 ]
             }
         ]
@@ -107,7 +107,7 @@
         ]
     },
     {
-        "name": "Apacolyptic Zoo",
+        "name": "Apocalyptic Zoo",
         "text": "We've discovered a zoo! Full of giftshops and exotic animals, although most of them are either dead or mutated.",
         "choices": [
             {
@@ -119,7 +119,7 @@
         ]
     },
     {
-        "name": "Minor Casuaties",
+        "name": "Minor Casualties",
         "text": "Unfortunately, we've been attacked by a horde or two.",
         "choices": [
             {
@@ -134,7 +134,7 @@
         ]
     },
     {
-        "name": "Huge Casuaties",
+        "name": "Huge Casualties",
         "text": "Unfortunately, we had a absolutely terrible trip. Many died and only few return to tell the tale in terror.",
         "choices": [
             {
@@ -315,7 +315,7 @@
                 "text": "Losers cant be choosers, Winner wins all",
                 "uniques": [
                     "Comment [This might have severe consequences]",
-                    "Gain a free [Focus: Aggresive Scavenge] [in capital]",
+                    "Gain a free [Focus: Aggressive Scavenge] [in capital]",
                     "Instantly provides [10] [Zombie Risk] <hidden from users>"
                 ]
             }
@@ -659,7 +659,7 @@
         ]
     },
     {
-        "name": "Urban Survior: Rogues",
+        "name": "Urban Survivor: Rogues",
         "text": "We see a bunch of punk lads with nose rings, dyed hair and absolutly ridiculous outfits, raging their rides along the streets.",
         "choices": [
             {
