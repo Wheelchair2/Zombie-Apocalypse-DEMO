@@ -94,7 +94,7 @@
 				"prerequisites": [
 					"Military Survivor"
 				],
-				"uniques":[:"Comment [Unlock [Initiate the search for Ammunition] option in [Enact Policies]]"]
+				"uniques":["Comment [Unlock [Initiate the search for Ammunition] option in [Enact Policies]]"],
 				"row": 10,
 				"quote": ""
 			}
@@ -383,7 +383,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Refrigiation",
+				"name": "Refrigeration",
 				"row": 4,
 				"prerequisites": [
 					"Chemistry",
@@ -450,7 +450,7 @@
 				"row": 4,
 				"prerequisites": [
 					"Generator",
-					"Refrigiation",
+					"Refrigeration",
 					"Water Pump"
 				],
 				"quote": ""
@@ -460,7 +460,7 @@
 				"row": 5,
 				"prerequisites": [
 					"Generator",
-					"Refrigiation",
+					"Refrigeration",
 					"Water Pump"
 				],
 				"quote": ""

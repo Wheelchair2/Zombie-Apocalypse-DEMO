@@ -25,6 +25,13 @@
                 ]
             },
             {
+                "text": "Initiate the search for [Ammunition]",
+                "uniques": [
+                    "Only available <after discovering [Total Mobilization]> <when above [4] [Operational Power]>",
+                    "Triggers a [The Search for the Ammunition] event"
+                ]
+            },
+            {
                 "text": "Initiate a Hunting Trip",
                 "uniques": [
                     "Only available <if [Focus: Smoker and Tanner] is constructed> <after discovering [Hunting Party]> <when above [4] [Operational Power]>",
