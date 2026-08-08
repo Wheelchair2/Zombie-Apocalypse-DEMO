@@ -175,6 +175,7 @@
 	///Line 2
 	{
 		"name": "Emergency Militia",
+		"cost": 20,
 		"unitType": "Close Combat",
 		"movement": 2,
 		"strength": 17,
@@ -191,6 +192,7 @@
 	},
 	{
 		"name": "HEMA Disciple",
+		"cost": 25,
 		"uniqueTo":"Zeds Cutting Club",
 		"replaces":"Emergency Militia",
 		"unitType": "Close Combat",
@@ -209,6 +211,7 @@
 	},
 	{
 		"name": "Search Squad",
+		"cost": 30,
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 14,
@@ -227,6 +230,7 @@
 	},
 	{
 		"name": "Hunters",
+		"cost": 33,
 		"unitType": "Ranged Combat",
 		"movement": 2,
 		"strength": 12,
@@ -246,9 +250,10 @@
 	},
 	{
 		"name": "Pike and shot Militia",
+		"cost": 75,
 		"unitType": "Close Combat",
 		"movement": 2,
-		"strength": 25,
+		"strength": 27,
 		"uniques": [
 			"Costs [2] [Improvised Weapons]",
 			"'Infantry'",
