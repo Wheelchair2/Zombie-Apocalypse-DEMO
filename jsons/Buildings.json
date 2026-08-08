@@ -570,6 +570,17 @@
 		]
 	},
 	{
+		"name": "Agriculture",
+		"cost": 10,
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Unsellable",
+			"'Flag'",
+			"Will not be displayed in Civilopedia",
+			"Moves to new capital when capital changes <hidden from users>"
+		]
+	},
+	{
 		"name": "Placeholder",
 		"cost": 10,
 		"uniques": [

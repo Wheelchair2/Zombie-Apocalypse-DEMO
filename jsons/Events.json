@@ -25,6 +25,13 @@
                 ]
             },
             {
+                "text": "Initiate the search for [Ammunition]",
+                "uniques": [
+                    "Only available <after discovering [Total Mobilization]> <when above [4] [Operational Power]>",
+                    "Triggers a [The Search for the Ammunition] event"
+                ]
+            },
+            {
                 "text": "Initiate a Hunting Trip",
                 "uniques": [
                     "Only available <if [Focus: Smoker and Tanner] is constructed> <after discovering [Hunting Party]> <when above [4] [Operational Power]>",
@@ -98,7 +105,7 @@
         "text": "We've discovered some prime spots to do scouting works",
         "choices": [
             {
-                "text": "Now that Month",
+                "text": "Hows the weather up there?",
                 "uniques": [
                     "Reveal up to [all] [Highrise] within a [12] tile radius",
                     "Instantly consumes [5] [Zombie Risk] <hidden from users>"
@@ -263,7 +270,7 @@
                 "text": "More people more strength.",
                 "uniques": [
                     "Comment [Accept all of their people to live in our settlement. Including the ill and the elderly.]",
-                    "Comment [This might have bad consequences]",
+                    "Comment [This might have severe consequences.]",
                     "Instantly provides [3] [Migrating Population]",
                     "Triggers a [Sick Refugees] event <with [25]% chance> <hidden from users>",
                     "Triggers a [Infected Refugees] event <with [25]% chance> <hidden from users>"
@@ -287,7 +294,7 @@
             {
                 "text": "Rob them.",
                 "uniques": [
-                    "Comment [This might have bad consequences]",
+                    "Comment [This might have severe consequences.]",
                     "[1] [Armed Civilian]s rebel <hidden from users>",
                     "Instantly provides [5] [Fuel]",
                     "Gain [200] [Gold]"
@@ -314,7 +321,7 @@
             {
                 "text": "Losers cant be choosers, Winner wins all",
                 "uniques": [
-                    "Comment [This might have severe consequences]",
+                    "Comment [This might have severe consequences.]",
                     "Gain a free [Focus: Aggressive Scavenge] [in capital]",
                     "Instantly provides [10] [Zombie Risk] <hidden from users>"
                 ]
@@ -366,9 +373,6 @@
                 "uniques": [
                     "Only available <when number of [Owned [Warehouse] Tiles] is less than [1]>",
                     "Instantly consumes [5] [Operational Power]",
-                    "Instantly consumes [2] [Fuel]",
-                    "Instantly consumes [5] [Medical Supply]",
-                    "Instantly consumes [10] [Ammunition]",
                     "Instantly provides [1] [Generator] <with [15]% chance>",
                     "Instantly provides [1] [Generator] <with [5]% chance>",
                     "Instantly provides [4] [Scraps] <with [10]% chance>",
@@ -397,8 +401,6 @@
                 "uniques": [
                     "Only available <when above [4] [Operational Power]>",
                     "Instantly consumes [5] [Operational Power]",
-                    "Instantly consumes [5] [Medical Supply]",
-                    "Instantly consumes [10] [Ammunition]",
                     "Instantly provides [1] [Seeds] <with [15]% chance>",
                     "Instantly provides [1] [Seeds] <with [5]% chance>",
                     "Instantly provides [4] [Scraps] <with [10]% chance>",
@@ -412,6 +414,34 @@
                     "Instantly consumes [10] [Operational Power]",
                     "Instantly provides [1] [Seeds] <with [33]% chance>",
                     "Instantly provides [1] [Seeds] <with [5]% chance>",
+                    "Instantly provides [6] [Scraps] <with [25]% chance>",
+                    "Instantly provides [3] [Refined Metals] <with [25]% chance>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Search for the Ammunition",
+        "text": "What Plan do you have to get your hand on some [Ammunition]s?",
+        "choices": [
+            {
+                "text": "We need to find dead survivors!",
+                "uniques": [
+                    "Only available <when above [4] [Operational Power]>",
+                    "Instantly consumes [5] [Operational Power]",
+                    "Instantly provides [10] [Seeds] <with [15]% chance>",
+                    "Instantly provides [20] [Seeds] <with [5]% chance>",
+                    "Instantly provides [4] [Scraps] <with [10]% chance>",
+                    "Instantly provides [2] [Refined Metals] <with [10]% chance>"
+                ]
+            },
+            {
+                "text": "We can venture into the city center to find some military caches.",
+                "uniques": [
+                    "Only available <when above [9] [Operational Power]>",
+                    "Instantly consumes [10] [Operational Power]",
+                    "Instantly provides [10] [Ammunition] <with [33]% chance>",
+                    "Instantly provides [20] [Ammunition] <with [5]% chance>",
                     "Instantly provides [6] [Scraps] <with [25]% chance>",
                     "Instantly provides [3] [Refined Metals] <with [25]% chance>"
                 ]
@@ -457,8 +487,9 @@
             {
                 "text": "Proceed.",
                 "uniques": [
-                    "Comment [This might have bad consequences]",
+                    "Comment [This might have severe consequences.]",
                     "Comment [But we must do it.]",
+                    "Remove [Birthrate Crisis] [in all cities]"
                 ]
             },
             {

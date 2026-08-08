@@ -10,6 +10,7 @@
 		"food": 1,
 		"improvedBy": [
 			"Camp",
+			"Small Outpost",
 			"Fishing Boats"
 		],
 		"improvementStats": {
@@ -228,7 +229,7 @@
 		"name": "Seeds",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Not shown on world screen",
+			"Not shown on world screen <after discovering [Agriculture]>",
 			"Stockpiled"
 		]
 	},

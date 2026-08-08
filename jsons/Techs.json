@@ -94,6 +94,7 @@
 				"prerequisites": [
 					"Military Survivor"
 				],
+				"uniques":["Comment [Unlock [Initiate the search for Ammunition] option in [Enact Policies]]"],
 				"row": 10,
 				"quote": ""
 			}
@@ -169,7 +170,7 @@
 				"uniques": [
 					"Only available <when above [4] [Seeds]>",
 					"Triggers a [Endless Possibilities] event",
-					"Triggers victory <when [Agriculture] Victory is enabled>"
+					"Gain a free [Agriculture] [in capital] <when [Agriculture] Victory is enabled>"
 				],
 				"quote": ""
 			},
@@ -289,6 +290,7 @@
 					"Welding",
 					"Carpentry"
 				],
+				"uniques":["Only available <when above [1] [Generator]>"],
 				"quote": ""
 			},
 			{
@@ -381,7 +383,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Refrigiation",
+				"name": "Refrigeration",
 				"row": 4,
 				"prerequisites": [
 					"Chemistry",
@@ -448,7 +450,7 @@
 				"row": 4,
 				"prerequisites": [
 					"Generator",
-					"Refrigiation",
+					"Refrigeration",
 					"Water Pump"
 				],
 				"quote": ""
@@ -458,7 +460,7 @@
 				"row": 5,
 				"prerequisites": [
 					"Generator",
-					"Refrigiation",
+					"Refrigeration",
 					"Water Pump"
 				],
 				"quote": ""
